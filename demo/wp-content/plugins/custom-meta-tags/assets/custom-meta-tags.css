@@ -1,0 +1,11 @@
+div#custom-meta-box .inside label, div#custom_meta_tags_meta_box .inside label {
+    position: relative;
+    display: inline-block;
+    width: 18%;
+    margin-top: 10px;
+}
+div#custom-meta-box .inside input , div#custom_meta_tags_meta_box .inside input {
+    display: inline-block;
+    width: 80%;
+    margin-top: 10px;
+}

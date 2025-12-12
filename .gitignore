@@ -1,0 +1,55 @@
+/demo/wp-content/uploads/al_opt_content/
+/demo/wp-content/uploads/cache/
+/demo/wp-content/uploads/al_cache/
+/wp-content/cache/
+/wp-content/uploads/al_opt_content/
+/wp-content/uploads/cache/
+/wp-content/uploads/al_cache/
+/demo/wp-content/ai1wm-backups/
+/wp-content/ai1wm-backups/
+*.wpress
+
+
+wp-content/uploads/
+
+wp-content/backups/
+wp-content/updraft/
+
+# Logs and debug files
+*.log
+debug.log
+error_log
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+
+# Composer / Node
+vendor/
+node_modules/
+
+# Archives / temporary files
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Backup plugins
+*.sql
+*.sql.gz
+backup-*/
+backups/
+
+# Environment / config
+.env
+.env.*
+wp-config.php
+wp-config-sample.php
+
+# Sensitive files
+.htaccess
+
+# Misc developer stuff
+.idea/
+.vscode/

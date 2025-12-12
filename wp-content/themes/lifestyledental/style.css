@@ -1,0 +1,128 @@
+/*
+Theme Name: Lifestyle Dental
+Theme URI: http://www.popcreative.co.uk
+Author: Pop Creative
+Author URI: http://www.popcreative.co.uk
+Version: 1.0
+*/
+.wpcf7 input, textarea {width: 100%;} .wpcf7-submit {width: 100px!important;height: 50px!important;background-color: #ce4783;color: #ffffff;}.wpcf7-submit:hover {width: 100px!important;height: 50px!important;background-color: #f35015;color: #ffffff;}
+
+.main-body img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-dark-pink {
+    background: #BB025F;
+    color: #FFF;
+}
+
+.btn-dark-pink:hover,
+.btn-dark-pink:focus {
+    background: #D0237A;
+    color: #FFF;
+}
+
+.btn-turquoise {
+    background: #14A2B8;
+    color: #FFF;
+}
+
+.btn-turquoise:hover,
+.btn-turquoise:focus {
+    background: #36BED3;
+    color: #FFF;
+}
+
+@media(min-width: 1200px) {
+    .comp__top-address .main-cta > span {
+        transform: translateX(8px);
+        display: inline-block;
+    }
+}
+
+.main-cta {
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    border: 0;
+    padding: 8px 15px;
+    font-size: 18px;
+    height: 50px !important;
+    line-height: 35px;
+    overflow: hidden;
+}
+
+.main-cta .fa-arrow-right {
+    transform: translateX(120px);
+    transition: all 0.3s ease-in-out;
+}
+
+.main-cta:hover .fa-arrow-right {
+    transform: translateX(20px);
+}
+
+.main-cta:hover {
+    color: #ffffff;
+}
+
+@media (min-width: 992px) {
+    .gradient-form {
+        display: inline-block;
+        max-width: 350px;
+        padding: 1.5rem;
+    }
+}
+.gradient-form {
+		display: block;
+    position: relative;
+    padding: 30px;
+    max-width: 400px;
+    margin: 80px auto;
+    max-height: 650px;
+    overflow-y: auto;
+}
+.popup-finance-form .fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+.popup-finance-form .close-popup {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 30px;
+    color: #fff;
+    z-index: 10;
+}
+.popup-finance-form .wpcf7-form .form_title {
+    display: none;
+}
+.gradient-form {
+    background: #e95617;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #e95617), color-stop(99%, #ce4783));
+    background: linear-gradient(180deg, #e95617 1%, #ce4783 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e95617",endColorstr="#ce4783",GradientType=0);
+    padding: 1rem;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    transition: transform .5s ease, -webkit-transform .5s ease;
+}
+.popup-finance-form form {
+    display: block;
+    position: relative;
+    padding: 0 !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    max-height: unset !important;
+    overflow-y: unset !important;
+}
+.popup-finance-form .gradient-form {
+    max-width: 600px !important;
+    display: block  !important;
+}
+.popup-finance-form.show.open {
+	display: none;
+}

@@ -1,0 +1,2 @@
+<img src="https://www.chrysalisfinance.com/calc/images/calculator.gif" style="width: 420px; height: 100px;cursor:pointer;" onclick="callCalc()"><script>function callCalc()
+ { window.open('https://www.chrysalisfinance.com/calc/calc2.html?id=124037','_blank','width=780,height=622,location=0,location=0,menubar=0,status=0,scrollbars=0'); }</script>

@@ -1,0 +1,213 @@
+.container {
+  max-width: 1140px;
+  padding: 0 15px; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.text-yellow {
+  color: #ff9e16; }
+
+.text-grey {
+  color: #8a98a5; }
+
+.text-purple {
+  color: #6e0063; }
+
+.text-teal {
+  color: #0096ad; }
+
+.text-pink {
+  color: #a32862; }
+
+.bg-yellow {
+  background: #ff9e16; }
+  .bg-yellow:hover {
+    background: #fc9300; }
+
+.bg-grey {
+  background: #8a98a5; }
+  .bg-grey:hover {
+    background: #7c8b9a; }
+
+.bg-purple {
+  background: #6e0063; }
+  .bg-purple:hover {
+    background: #55004c; }
+
+.bg-teal {
+  background: #0096ad; }
+  .bg-teal:hover {
+    background: #008094; }
+
+.offers {
+  font-family: Roboto, sans-serif; }
+  .offers * {
+    font-family: inherit !important; }
+  .offers__offer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    border-bottom: 1px solid #ccc; }
+    @media screen and (max-width: 768px) {
+      .offers__offer {
+        flex-direction: column; } }
+    .offers__offer:last-child {
+      border-bottom: none; }
+    .offers__offer__body {
+      width: auto; }
+      @media screen and (max-width: 768px) {
+        .offers__offer__body {
+          text-align: center; } }
+      .offers__offer__body__header {
+        margin: 0 0 15px 0;
+        font-weight: 300;
+        line-height: 1.25;
+        font-size: 22px; }
+        .offers__offer__body__header strong {
+          font-size: 28px;
+          font-weight: 600; }
+      .offers__offer__body img {
+        display: none;
+        margin-bottom: 15px; }
+        @media screen and (max-width: 768px) {
+          .offers__offer__body img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            max-width: 350px; } }
+      .offers__offer__body p {
+        margin: 0 0 5px; }
+      .offers__offer__body ul {
+        margin: 0 0 15px; }
+        @media screen and (max-width: 768px) {
+          .offers__offer__body ul {
+            width: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left; } }
+      .offers__offer__body__button {
+        padding: 8px 50px;
+        text-transform: uppercase;
+        border-radius: 5px;
+        display: inline-block;
+        text-decoration: none;
+        color: white; }
+        .offers__offer__body__button:hover {
+          color: white; }
+    .offers__offer__img {
+      width: 360px;
+      margin-left: auto; }
+      @media screen and (max-width: 768px) {
+        .offers__offer__img {
+          display: none; } }
+      .offers__offer__img img {
+        width: 100%; }
+
+.our-promise {
+  font-family: Roboto, sans-serif !important;
+  background: #f2eeef;
+  padding: 30px;
+  text-align: center; }
+  .our-promise * {
+    font-family: inherit !important; }
+
+.offer-form {
+  position: relative;
+  font-family: Roboto, sans-serif;
+  padding: 96px 0;
+  background-color: #a32862; }
+  .offer-form:after {
+    content: ' ';
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(to bottom right, white 0%, white 50%, #a32862 50.1%, #a32862 100%); }
+  .offer-form:before {
+    content: ' ';
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    background: linear-gradient(to bottom left, white 0%, white 50%, #a32862 50.1%, #a32862 100%); }
+  .offer-form * {
+    font-family: inherit !important; }
+  .offer-form h2, .offer-form h3 {
+    text-align: center;
+    color: white;
+    margin: 0 0 20px;
+    font-weight: 400; }
+  .offer-form__options {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 0 0 40px; }
+    @media screen and (max-width: 768px) {
+      .offer-form__options {
+        flex-direction: column; } }
+    .offer-form__options__option {
+      border: 1px solid white;
+      color: white;
+      border-radius: 5px;
+      padding: 15px;
+      display: flex;
+      width: calc(25% - 45px);
+      cursor: pointer; }
+      .offer-form__options__option--active {
+        background: #6e0063; }
+      @media screen and (max-width: 768px) {
+        .offer-form__options__option {
+          width: 100%; } }
+      .offer-form__options__option__input {
+        width: 30px; }
+      .offer-form__options__option__label {
+        flex: 1; }
+  .offer-form__button {
+    color: white;
+    border-radius: 5px;
+    background: #ff9e16;
+    border: none;
+    padding: 6px 40px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: block; }
+    .offer-form__button:hover {
+      background: #fc9300; }
+  .offer-form__form {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    @media screen and (max-width: 768px) {
+      .offer-form__form {
+        flex-direction: column; } }
+    .offer-form__form__field {
+      width: calc(50% - 100px);
+      margin: 0 0 15px; }
+      @media screen and (max-width: 768px) {
+        .offer-form__form__field {
+          width: 100%;
+          margin-bottom: 15px; } }
+      .offer-form__form__field--checkbox {
+        font-weight: 400;
+        display: flex;
+        width: 75%;
+        text-align: center; }
+        @media screen and (max-width: 768px) {
+          .offer-form__form__field--checkbox {
+            width: 100%; } }
+        .offer-form__form__field--checkbox input {
+          margin-right: 10px; }
+      .offer-form__form__field label {
+        display: block;
+        color: white; }
+      .offer-form__form__field input[type='text'] {
+        padding: 5px 10px;
+        border: none;
+        width: 100%; }
+
+/*# sourceMappingURL=app.css.map */
