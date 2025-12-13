@@ -164,6 +164,182 @@ if (is_page(4679)) {
 		color: #ffffff;
 	}
 
+	/* ===== Finance Checklist Enhanced Panel ===== */
+	.finance-image {
+	flex: 0 0 42%;
+	text-align: center;
+}
+
+.finance-image img {
+	width: 100%;
+	max-width: 420px;
+	border-radius: 16px;
+	box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+
+.finance-checklist {
+	display: flex;
+	align-items: center;
+	gap: 48px;
+
+	margin: 4rem auto;
+	padding: 3rem;
+	max-width: 1100px;
+
+	background: linear-gradient(180deg, #ffffff 0%, #faf7f9 100%);
+	border-radius: 18px;
+
+	box-shadow:
+		0 18px 40px rgba(0, 0, 0, 0.08),
+		inset 0 1px 0 rgba(255, 255, 255, 0.9);
+
+	position: relative;
+}
+
+.finance-checklist-section {
+	background: #f3f1f2;
+	padding: 80px 0;
+}
+.finance-checklist-section .container {
+	max-width: 1000px;
+}
+
+/* Accent bar */
+.finance-checklist::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 6px;
+	background: linear-gradient(
+		90deg,
+		#8a1544 0%,
+		#c2185b 100%
+	);
+	border-radius: 18px 18px 0 0;
+}
+
+/* ===== Typography ===== */
+
+.finance-title {
+	font-size: 44px;
+	font-weight: 700;
+	color: #1f1f1f;
+	margin-bottom: 1.2rem;
+}
+
+.finance-intro {
+	font-size: 18px;
+	color: #555;
+	margin-bottom: 2.8rem;
+	line-height: 1.7;
+	max-width: 850px;
+}
+
+/* ===== Checklist ===== */
+
+.finance-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.finance-list li {
+	display: flex;
+	align-items: flex-start;
+	gap: 18px;
+	margin-bottom: 26px;
+}
+
+/* Embossed icon */
+.finance-list .icon {
+	width: 38px;
+	height: 38px;
+	min-width: 38px;
+	border-radius: 50%;
+	background: linear-gradient(145deg, #9c1a52, #78113a);
+
+	box-shadow:
+		0 6px 14px rgba(138, 21, 68, 0.35),
+		inset 0 2px 3px rgba(255, 255, 255, 0.35);
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	color: #fff;
+	font-size: 16px;
+	margin-top: 4px;
+}
+
+/* Text clarity */
+.finance-list .text {
+	font-size: 18px;
+	color: #2f2f2f;
+	line-height: 1.7;
+}
+
+.finance-content {
+	flex: 1;
+}
+
+
+/* ===== Hover polish (desktop only) ===== */
+
+@media (hover: hover) {
+	.finance-list li:hover .icon {
+		transform: translateY(-2px);
+		box-shadow:
+			0 10px 18px rgba(138, 21, 68, 0.45),
+			inset 0 2px 3px rgba(255, 255, 255, 0.35);
+	}
+}
+
+/* ===== Mobile optimisation ===== */
+
+@media (max-width: 768px) {
+
+	
+	.finance-checklist {
+		flex-direction: column;
+		padding: 2.5rem 1.6rem;
+		margin: 3rem 1rem;
+		border-radius: 14px;
+	}
+
+	.finance-image {
+		flex: none;
+	}
+
+	.finance-title {
+		font-size: 30px;
+	}
+
+	.finance-intro {
+		font-size: 16px;
+		margin-bottom: 2rem;
+	}
+
+	.finance-list li {
+		gap: 14px;
+		margin-bottom: 20px;
+	}
+
+	.finance-list .icon {
+		width: 30px;
+		height: 30px;
+		min-width: 30px;
+		font-size: 14px;
+	}
+
+	.finance-list .text {
+		font-size: 16px;
+	}
+}
+
+
 	.guarantee-banner {
 		background-attachment: fixed;
 		background-position: center;
@@ -646,6 +822,7 @@ if (is_page(4679)) {
 	}
 
 	@media (max-width: 1200px) {
+		
 
 		.icon-links {
 			margin-top: 1rem;
@@ -1408,6 +1585,9 @@ if (is_page(4679)) {
 				</div>
 			<?php endif; ?>
 
+		
+
+
 		<?php elseif (get_row_layout() == 'content_left_media_right') :
 			$header        		= get_sub_field('header');
 			$main_content       = get_sub_field('main_content');
@@ -1676,7 +1856,70 @@ if (is_page(4679)) {
 					<?php endif; ?>
 				</div>
 			</section>
+<?php if (is_page(3536)) : ?>
+<section class="custom_page_section">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
 
+				<div class="finance-checklist">
+
+					<!-- LEFT IMAGE -->
+					<div class="finance-image">
+						<img src="/image/about/finance.jpg" alt="Finance">
+					</div>
+
+					<!-- RIGHT CONTENT -->
+					<div class="finance-content">
+
+						<h2 class="finance-title">
+							Is Dental Finance Right for You?
+						</h2>
+
+						<p class="finance-intro">
+							Dental finance can be an excellent choice for many patients considering their dental care.
+							Here are some reasons why it might be right for you:
+						</p>
+
+						<ul class="finance-list">
+							<li>
+								<span class="icon"><i class="fas fa-check"></i></span>
+								<span class="text">
+									It’s ideal for larger dental treatments, such as implants, Invisalign, or cosmetic dentistry
+								</span>
+							</li>
+
+							<li>
+								<span class="icon"><i class="fas fa-check"></i></span>
+								<span class="text">
+									It helps you spread the cost of dental treatment over time, without having to delay care
+								</span>
+							</li>
+
+							<li>
+								<span class="icon"><i class="fas fa-check"></i></span>
+								<span class="text">
+									It’s a good option if you want to manage your financial commitment more effectively
+								</span>
+							</li>
+
+							<li>
+								<span class="icon"><i class="fas fa-check"></i></span>
+								<span class="text">
+									There’s no obligation to proceed with treatment – you can decide if it’s right for you
+								</span>
+							</li>
+						</ul>
+
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+<?php endif; ?>
 		<?php elseif (get_row_layout() == 'service_cards') :
 			$header  	= get_sub_field('header');
 			$bg_color  	= get_sub_field('bg_color');
