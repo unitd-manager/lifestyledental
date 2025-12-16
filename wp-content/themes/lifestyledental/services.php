@@ -164,6 +164,226 @@ if (is_page(4679)) {
 		color: #ffffff;
 	}
 
+	.finance-upgrades-panel {
+	background: #f7f9fa;
+	padding: 70px 20px;
+}
+
+.finance-upgrades-panel .container {
+	max-width: 1200px;
+	background: #ffffff;
+	padding: 45px 50px;
+	border-radius: 16px;
+	box-shadow: 0 16px 35px rgba(0,0,0,0.08);
+}
+
+.finance-upgrades-panel h3 {
+	font-size: 28px;
+	font-weight: 700;
+	margin-bottom: 16px;
+	color: #1f1f1f;
+}
+
+.finance-upgrades-panel p {
+	font-size: 16px;
+	line-height: 1.7;
+	color: #555;
+	margin-bottom: 18px;
+}
+
+.finance-upgrades-list {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 20px;
+}
+
+.finance-upgrades-list li {
+	padding-left: 28px;
+	margin-bottom: 12px;
+	position: relative;
+	font-size: 16px;
+	color: #2f2f2f;
+}
+
+.finance-upgrades-list li::before {
+	content: "➜";
+	position: absolute;
+	left: 0;
+	color: #8a1544;
+	font-weight: 700;
+}
+
+.finance-upgrades-note {
+	font-size: 15px;
+	color: #666;
+	font-style: italic;
+}
+
+
+	/* ===== Dental Finance Experience Panel ===== */
+
+.finance-experience-panel {
+	background: #ffffff;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 90px;
+}
+
+/* HEADER (less height, smoother curve) */
+.finance-panel-header {
+	background: linear-gradient(180deg, #143241 0%, #0f2834 100%);
+	padding: 60px 20px 90px;
+	text-align: center;
+	border-bottom-left-radius: 100% 50px;
+	border-bottom-right-radius: 100% 50px;
+}
+
+.finance-panel-header h2 {
+	color: #ffffff;
+	font-size: 40px;
+	font-weight: 700;
+	margin: 0;
+}
+
+/* BODY */
+.finance-panel-body {
+	max-width: 1100px;
+	margin: -30px auto 0;
+	padding: 0 20px;
+	display: flex;
+	align-items: center;
+	gap: 70px;
+	
+	transform: translateY(40px);
+	transition: all 0.8s ease;
+}
+
+
+.finance-panel-body.is-visible {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+
+/* IMAGE */
+.finance-image-wrap {
+	flex: 0 0 380px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+.finance-image-wrap::before {
+	content: "";
+	position: absolute;
+	width: 320px;
+	height: 320px;
+	border-radius: 50%;
+	background: rgba(0, 168, 162, 0.18);
+	filter: blur(28px);
+}
+
+.finance-image-wrap img {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 6px solid #00a8a2;
+	background: #fff;
+	position: relative;
+	z-index: 1;
+	box-shadow: 0 22px 45px rgba(0,0,0,0.22);
+}
+
+/* CONTENT */
+.finance-panel-content {
+	flex: 1;
+	padding-top: 20px;
+}
+
+.finance-panel-content h3 {
+	font-size: 28px;
+	font-weight: 700;
+	margin-bottom: 18px;
+	color: #1e1e1e;
+}
+
+/* BENEFITS */
+.finance-benefits {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 22px;
+}
+
+.finance-benefits li {
+	position: relative;
+	padding-left: 30px;
+	margin-bottom: 12px;
+	font-size: 16px;
+	color: #2f2f2f;
+}
+
+.finance-benefits li::before {
+	content: "✓";
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #00a8a2;
+	font-weight: 700;
+}
+
+/* TEXT */
+.finance-description {
+	font-size: 16px;
+	color: #555;
+	line-height: 1.7;
+	margin-bottom: 28px;
+	max-width: 520px;
+}
+
+/* CTA */
+.finance-cta {
+	display: inline-block;
+	background: linear-gradient(180deg, #00a8a2, #008f8a);
+	color: #ffffff;
+	padding: 14px 34px;
+	border-radius: 30px;
+	font-weight: 600;
+	text-decoration: none;
+	box-shadow: 0 12px 26px rgba(0,168,162,0.4);
+	transition: all 0.25s ease;
+}
+
+.finance-cta:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 18px 32px rgba(0,168,162,0.55);
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 900px) {
+
+	.finance-panel-header h2 {
+		font-size: 30px;
+	}
+
+	.finance-panel-body {
+		flex-direction: column;
+		text-align: center;
+		margin-top: -50px;
+		gap: 40px;
+	}
+
+	.finance-panel-content {
+		padding-top: 0;
+	}
+
+	.finance-description {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+
 	/* ===== Finance Checklist Enhanced Panel ===== */
 	.finance-image {
 	flex: 0 0 42%;
@@ -185,7 +405,7 @@ if (is_page(4679)) {
 
 	margin: 4rem auto;
 	padding: 3rem;
-	max-width: 1100px;
+	max-width: 1200px;
 
 	background: linear-gradient(180deg, #ffffff 0%, #faf7f9 100%);
 	border-radius: 18px;
@@ -1919,6 +2139,70 @@ if (is_page(4679)) {
 		</div>
 	</div>
 </section>
+<section class="finance-experience-panel">
+
+	<div class="finance-panel-header">
+		<h2>Experience Stress-Free Dental Finance</h2>
+	</div>
+
+	<div class="finance-panel-body">
+
+		<div class="finance-image-wrap">
+			<img src="/image/about/dental-implants.jpg" alt="Dental Finance Options">
+		</div>
+
+		<div class="finance-panel-content">
+
+			<h3>Our Commitment to Affordable Care</h3>
+
+			<ul class="finance-benefits">
+				<li>Flexible Monthly Payments</li>
+				<li>No Upfront Financial Pressure</li>
+				<li>Clear, Transparent Pricing</li>
+				<li>Plans Tailored to Your Needs</li>
+			</ul>
+
+			<p class="finance-description">
+				At Lifestyle Dental, we believe financial concerns should never prevent you from
+				receiving the care you deserve. Our dental finance solutions allow you to spread
+				the cost comfortably, with full clarity and no obligation to proceed.
+			</p>
+
+			<a href="https://onlineappointment.carestack.uk/?dn=lifestyledental&ln=1#/home" class="finance-cta">
+				Book Your Appointments
+			</a>
+
+		</div>
+
+	</div>
+
+</section>
+<section class="finance-upgrades-panel">
+	<div class="container">
+
+		<h3>Optional Upgrades & Flexible Enhancements</h3>
+
+		<p>
+			Dental finance isn’t just about spreading the cost – it’s about giving you choice.
+			With our flexible finance options, you can include additional treatments or upgrades
+			to enhance your smile without increasing financial pressure.
+		</p>
+
+		<ul class="finance-upgrades-list">
+			<li>Upgrade to premium materials or advanced technology</li>
+			<li>Add cosmetic enhancements alongside essential treatment</li>
+			<li>Adjust repayment terms to suit your budget</li>
+			<li>No obligation to proceed until you’re completely comfortable</li>
+		</ul>
+
+		<p class="finance-upgrades-note">
+			Our team will clearly explain all options, so you remain in control at every stage.
+		</p>
+
+	</div>
+</section>
+
+
 <?php endif; ?>
 		<?php elseif (get_row_layout() == 'service_cards') :
 			$header  	= get_sub_field('header');
