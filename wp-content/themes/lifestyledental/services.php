@@ -164,6 +164,8 @@ if (is_page(4679)) {
 		color: #ffffff;
 	}
 
+	/* =====  Finance Experience Panel ===== */
+
 	.finance-upgrades-panel {
 	background: #f7f9fa;
 	padding: 70px 20px;
@@ -218,6 +220,109 @@ if (is_page(4679)) {
 	color: #666;
 	font-style: italic;
 }
+/* =====white filling Experience Panel ===== */
+
+.white-fillings-embossed {
+  padding: 60px 20px;
+  background: #f5f5f5;
+}
+
+.embossed-card {
+  max-width: 1200px;
+  margin: auto;
+  background: linear-gradient(145deg, #f8efe4, #e7dccb);
+  border-radius: 18px;
+  padding: 40px;
+  box-shadow:
+    inset 2px 2px 6px rgba(255,255,255,0.8),
+    inset -3px -3px 8px rgba(0,0,0,0.15),
+    0 20px 40px rgba(0,0,0,0.15);
+  border: 3px solid #d4b27a;
+}
+
+.embossed-header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.tooth-icon {
+  font-size: 42px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.embossed-header h4 {
+  font-size: 28px;
+  color: #6a3d1c;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.intro-text {
+  text-align: center;
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.feature-item {
+  background: rgba(255,255,255,0.7);
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow:
+    inset 1px 1px 4px rgba(255,255,255,0.9),
+    inset -2px -2px 6px rgba(0,0,0,0.12);
+}
+
+.feature-item h5 {
+  font-size: 18px;
+  color: #a1457b;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.feature-item p {
+  font-size: 14.5px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.embossed-footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.embossed-footer p {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 18px;
+}
+
+.embossed-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background: linear-gradient(145deg, #f49b3f, #d8781f);
+  color: #fff;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow:
+    inset 1px 1px 2px rgba(255,255,255,0.6),
+    0 6px 14px rgba(0,0,0,0.25);
+  transition: all 0.3s ease;
+}
+
+.embossed-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
 
 
 	/* ===== Dental Finance Experience Panel ===== */
@@ -1828,11 +1933,18 @@ if (is_page(4679)) {
 					<div class="row">
 						<div class="col-12 col-lg-8 <?php echo ($media == 'none') ? 'col-lg-12' : ''; ?>">
 
-							<?php if ($header) : ?>
+					<?php 
+						if ($header) : 
+							if (is_page(4528) || is_page(3110)) : ?>
+								<h4>
+									<?php echo esc_html($header); ?>wsww
+								</h4>
+							<?php else : ?>
 								<h3>
-									<?php echo esc_html($header); ?>
+									<?php echo esc_html($header); ?>aaa
 								</h3>
 							<?php endif; ?>
+						<?php endif; ?>
 
 							<?php if ($main_content) : ?>
 								<p>
@@ -2204,6 +2316,7 @@ if (is_page(4679)) {
 
 
 <?php endif; ?>
+
 		<?php elseif (get_row_layout() == 'service_cards') :
 			$header  	= get_sub_field('header');
 			$bg_color  	= get_sub_field('bg_color');
@@ -2339,6 +2452,57 @@ if (is_page(4679)) {
 				</section>
 
 			<?php endif ?>
+
+			<?php if (is_page(3756)) : ?>
+<section class="white-fillings-embossed">
+  <div class="embossed-card">
+
+    <div class="embossed-header">
+      <span class="tooth-icon">🦷</span>
+      <h4>Brighten Your Smile with White Fillings</h4>
+    </div>
+
+    <p class="intro-text">
+      At Lifestyle Dental and Implant Clinic, our white fillings restore your teeth
+      naturally while protecting long-term oral health.
+    </p>
+
+    <div class="features">
+      <div class="feature-item">
+        <h5>Natural Appearance</h5>
+        <p>
+          Tooth-coloured composite fillings blend seamlessly with your natural teeth,
+          creating a discreet and confident smile.
+        </p>
+      </div>
+
+      <div class="feature-item">
+        <h5>Safe & Durable</h5>
+        <p>
+          Mercury-free materials provide strength, safety, and long-lasting protection
+          for everyday chewing.
+        </p>
+      </div>
+
+      <div class="feature-item">
+        <h5>Quick & Comfortable</h5>
+        <p>
+          Gentle techniques ensure a relaxed, pain-free experience with minimal downtime.
+        </p>
+      </div>
+    </div>
+
+    <div class="embossed-footer">
+      <p>
+        Say goodbye to metal fillings and enjoy a healthier,
+        natural-looking smile today.
+      </p>
+      <a href="#" class="embossed-btn">Learn More</a>
+    </div>
+
+  </div>
+</section>
+<?php endif; ?>
 
 		<?php elseif (get_row_layout() == 'team_block') :
 			$members  	= get_sub_field('team_blocks'); ?>
