@@ -1937,11 +1937,11 @@ if (is_page(4679)) {
 						if ($header) : 
 							if (is_page(4528) || is_page(3110)) : ?>
 								<h4>
-									<?php echo esc_html($header); ?>wsww
+									<?php echo esc_html($header); ?>
 								</h4>
 							<?php else : ?>
 								<h3>
-									<?php echo esc_html($header); ?>aaa
+									<?php echo esc_html($header); ?>
 								</h3>
 							<?php endif; ?>
 						<?php endif; ?>
