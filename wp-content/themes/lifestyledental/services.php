@@ -1650,6 +1650,11 @@ if (is_page(4679)) {
 </style>
 
 <?php if (have_rows('flexible_content')) : ?>
+	<?php $row_count = 0;?>
+	<?php while (have_rows('flexible_content')) : the_row();
+	$row_count ++;
+	 ?>
+
 	<?php while (have_rows('flexible_content')) : the_row(); ?>
 
 		<?php if (get_row_layout() == 'hero_banner') :
@@ -1926,8 +1931,13 @@ if (is_page(4679)) {
 			$before2       		= get_sub_field('before_image_2');
 			$after1       		= get_sub_field('after_image_1');
 			$after2       		= get_sub_field('after_image_2');
-			$aos       			= get_sub_field('aos'); ?>
-
+			$aos       			= get_sub_field('aos'); 
+			?>
+			<?php if (is_page(3632)) : 	
+				if($row_count== 3){
+				$bg_color = "#efefef";}
+				?>
+			<?php endif; ?>
 			<section class="content-left-media-right <?php echo esc_html($link_style); ?> " style="background-color: <?php echo esc_html($bg_color); ?>;" <?php echo ($aos == 'yes') ? 'data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"' : ''; ?>>
 				<div class="container py-5">
 					<div class="row">
