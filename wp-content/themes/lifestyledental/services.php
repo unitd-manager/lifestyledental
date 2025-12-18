@@ -2157,11 +2157,18 @@ if (is_page(4679)) {
 
 			<section class="accordion-section pb-5" style="background-color: <?php echo esc_html($bg_color); ?>;">
 				<div class="container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-					<?php if ($header) : ?>
-						<h2>
-							<?php echo esc_html($header); ?>
-						</h2>
-					<?php endif; ?>
+					<?php 
+						if ($header) : 
+							if (is_page(3110)) : ?>
+								<h3>
+									<?php echo esc_html($header); ?>
+								</h3>
+							<?php else : ?>
+								<h2>
+									<?php echo esc_html($header); ?>
+								</h2>
+							<?php endif; ?>
+						<?php endif; ?>
 					<div class="row py-5">
 						<div class="col-12 col-lg-6">
 							<?php while (have_rows('faqs_left')) : the_row(); ?>
