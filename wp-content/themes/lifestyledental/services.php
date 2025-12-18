@@ -164,6 +164,52 @@ if (is_page(4679)) {
 		color: #ffffff;
 	}
 
+		/* =====  why choose gums Panel ===== */
+
+	.unique-smile-panel {
+  background: linear-gradient(135deg, #f06aa3, #c73779);
+  padding: 60px 20px;
+}
+
+.panel-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.panel-container h4 {
+  font-size: 26px;
+  color: #c73779;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.panel-container p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #444;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .panel-container {
+    padding: 25px;
+  }
+
+  .panel-container h4 {
+    font-size: 22px;
+  }
+
+  .panel-container p {
+    font-size: 15px;
+  }
+}
+
+
 	/* =====  Finance Experience Panel ===== */
 
 	.finance-upgrades-panel {
@@ -1935,7 +1981,7 @@ if (is_page(4679)) {
 
 					<?php 
 						if ($header) : 
-							if (is_page(4528) || is_page(3110)) : ?>
+							if (is_page(4528) || is_page(3110) || is_page(3446)) : ?>
 								<h4>
 									<?php echo esc_html($header); ?>
 								</h4>
@@ -2324,6 +2370,7 @@ if (is_page(4679)) {
 
 <?php endif; ?>
 
+
 		<?php elseif (get_row_layout() == 'service_cards') :
 			$header  	= get_sub_field('header');
 			$bg_color  	= get_sub_field('bg_color');
@@ -2459,6 +2506,7 @@ if (is_page(4679)) {
 				</section>
 
 			<?php endif ?>
+			
 
 			<?php if (is_page(3756)) : ?>
 <section class="white-fillings-embossed">
@@ -2510,6 +2558,24 @@ if (is_page(4679)) {
   </div>
 </section>
 <?php endif; ?>
+<?php if (is_page(3414)) : ?>
+	<section class="unique-smile-panel">
+  <div class="panel-container">
+    <h4>Why Choose Gum & Teeth Contouring at Lifestyle Dental?</h4>
+    <p>
+      Every smile is unique, which is why our gum and teeth contouring treatments
+      are carefully personalised to your needs. Using advanced digital planning
+      and minimally invasive techniques, we gently reshape gums and refine tooth
+      edges to create balance, symmetry, and a natural-looking smile. Our focus
+      is on preserving healthy tooth structure while delivering precise, comfortable
+      treatment. Whether you’re seeking subtle refinement or a visible transformation,
+      our experienced clinicians ensure results that enhance confidence in a calm,
+      professional environment.
+    </p>
+  </div>
+</section>
+
+	<?php endif; ?>
 
 		<?php elseif (get_row_layout() == 'team_block') :
 			$members  	= get_sub_field('team_blocks'); ?>
