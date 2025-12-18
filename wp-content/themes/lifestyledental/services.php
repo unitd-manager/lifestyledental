@@ -1650,11 +1650,6 @@ if (is_page(4679)) {
 </style>
 
 <?php if (have_rows('flexible_content')) : ?>
-	<?php $row_count = 0;?>
-	<?php while (have_rows('flexible_content')) : the_row();
-	$row_count ++;
-	 ?>
-
 	<?php while (have_rows('flexible_content')) : the_row(); ?>
 
 		<?php if (get_row_layout() == 'hero_banner') :
@@ -1931,13 +1926,8 @@ if (is_page(4679)) {
 			$before2       		= get_sub_field('before_image_2');
 			$after1       		= get_sub_field('after_image_1');
 			$after2       		= get_sub_field('after_image_2');
-			$aos       			= get_sub_field('aos'); 
-			?>
-			<?php if (is_page(3632)) : 	
-				if($row_count== 3){
-				$bg_color = "#efefef";}
-				?>
-			<?php endif; ?>
+			$aos       			= get_sub_field('aos'); ?>
+
 			<section class="content-left-media-right <?php echo esc_html($link_style); ?> " style="background-color: <?php echo esc_html($bg_color); ?>;" <?php echo ($aos == 'yes') ? 'data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"' : ''; ?>>
 				<div class="container py-5">
 					<div class="row">
@@ -2167,11 +2157,18 @@ if (is_page(4679)) {
 
 			<section class="accordion-section pb-5" style="background-color: <?php echo esc_html($bg_color); ?>;">
 				<div class="container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-					<?php if ($header) : ?>
-						<h2>
-							<?php echo esc_html($header); ?>
-						</h2>
-					<?php endif; ?>
+					<?php 
+						if ($header) : 
+							if (is_page(3110)) : ?>
+								<h3>
+									<?php echo esc_html($header); ?>
+								</h3>
+							<?php else : ?>
+								<h2>
+									<?php echo esc_html($header); ?>
+								</h2>
+							<?php endif; ?>
+						<?php endif; ?>
 					<div class="row py-5">
 						<div class="col-12 col-lg-6">
 							<?php while (have_rows('faqs_left')) : the_row(); ?>
@@ -2629,6 +2626,76 @@ if (is_page(4679)) {
 	<?php endwhile; ?>
 <?php endif; ?>
 
+<!--<div class="popup-finance-form" id="popup-finance-form">
+
+	<?php //if (!isset($_GET['dengro'])) : ?>
+
+		<form class="infusion-form gradient-form">
+
+			<a class="close-popup" href="#" onclick="toggleForm()">
+				<i class="fa fa-times" aria-hidden="true"></i>
+			</a>
+
+			<h3 class="h4 plain inverted text-center mt-0">Request your FREE<br /> consultation and visit</h3>
+
+			<div data-dengro-hosted="cb4b3b93-cdea-46fc-b921-b991d41266bb"></div>
+
+		</form>
+
+	<?php //else : ?>
+		<form accept-charset="UTF-8" action="#" class="infusion-form gradient-form" id="finance-popup-form" method="POST">
+			<a class="close-popup" onclick="toggleForm()">
+				<i class="fa fa-times" aria-hidden="true"></i>
+			</a>
+
+			<input name="inf_form_xid" type="hidden" value="4d1df02562f3f1a28fc3f4a72528e7e5" />
+			<input name="inf_form_name" type="hidden" value="Web Form submitted" />
+			<input name="infusionsoft_version" type="hidden" value="1.70.0.75009" />
+			<input type="text" id="sirname" name="sirname" class="d-none">
+
+			<h3 class="h4 plain inverted text-center mt-0 mb-3">Request your FREE consultation and visit</h3>
+
+			<div class="row">
+				<div class="col-sm-6 col-lg-12">
+					<div class="infusion-field field-row">
+						<label for="inf_field_FirstName" class="d-none">First Name *</label>
+						<input class="infusion-field-input-container" id="inf_field_FirstName" name="inf_field_FirstName" placeholder="First Name *" type="text" required>
+					</div>
+					<div class="infusion-field field-row">
+						<label for="inf_field_LastName" class="d-none">Last Name *</label>
+						<input class="infusion-field-input-container" id="inf_field_LastName" name="inf_field_LastName" placeholder="Last Name *" type="text" required>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-lg-12">
+					<div class="infusion-field field-row">
+						<label for="inf_field_Email" class="d-none">Email *</label>
+						<input class="infusion-field-input-container" id="inf_field_Email" name="inf_field_Email" placeholder="Email *" type="text" required>
+					</div>
+					<div class="infusion-field field-row">
+						<label for="inf_field_Phone1" class="d-none">Phone *</label>
+						<input class="infusion-field-input-container" id="inf_field_Phone1" name="inf_field_Phone1" placeholder="Phone *" type="text" required>
+					</div>
+
+					<label style="width: auto;" for="inf_option_YesIwouldliketobekeptuptodatewithfuturetreatmentsoffersthatLifestyleDentalmayoffer" class="checkbox-label">
+						<input style="width: 15px; height: 15px;" id="inf_option_YesIwouldliketobekeptuptodatewithfuturetreatmentsoffersthatLifestyleDentalmayoffer" name="inf_option_YesIwouldliketobekeptuptodatewithfuturetreatmentsoffersthatLifestyleDentalmayoffer" type="checkbox" value="1397" /> Yes, I would like to be kept up-to-date with future treatments/offers that Lifestyle Dental may offer
+					</label>
+
+					<input name="inf_custom_GaSource" value="null" type="hidden">
+					<input name="_GaReferurl" value="null" type="hidden">
+					<input name="_GaTerm" value="null" type="hidden">
+					<input name="_GaMedium" value="null" type="hidden">
+					<input name="_GaContent" value="null" type="hidden">
+					<input name="_GaCampaign" value="null" type="hidden">
+
+					<div class="infusion-submit mt-3">
+						<button class="infusion-recaptcha" id="recaptcha_4d1df02562f3f1a28fc3f4a72528e7e5" type="submit">Send</button>
+					</div>
+				</div>
+			</div>
+		</form>
+	<?php //endif; ?>
+</div>-->
 
 <script src="https://unpkg.com/scrollreveal"></script>
 
