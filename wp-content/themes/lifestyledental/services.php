@@ -164,6 +164,52 @@ if (is_page(4679)) {
 		color: #ffffff;
 	}
 
+		/* =====  why choose gums Panel ===== */
+
+	.unique-smile-panel {
+  background: linear-gradient(135deg, #f06aa3, #c73779);
+  padding: 60px 20px;
+}
+
+.panel-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.panel-container h4 {
+  font-size: 26px;
+  color: #c73779;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.panel-container p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #444;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .panel-container {
+    padding: 25px;
+  }
+
+  .panel-container h4 {
+    font-size: 22px;
+  }
+
+  .panel-container p {
+    font-size: 15px;
+  }
+}
+
+
 	/* =====  Finance Experience Panel ===== */
 
 	.finance-upgrades-panel {
@@ -700,7 +746,7 @@ if (is_page(4679)) {
 		justify-content: center;
 	}
 
-	.info-links h3 {
+	.info-links h4 {
 		color: #434343;
 		text-align: center;
 	}
@@ -1305,7 +1351,7 @@ if (is_page(4679)) {
 			width: 100%;
 		}
 
-		.info-links h3 {
+		.info-links h4 {
 			text-align: left;
 		}
 
@@ -1933,18 +1979,12 @@ if (is_page(4679)) {
 					<div class="row">
 						<div class="col-12 col-lg-8 <?php echo ($media == 'none') ? 'col-lg-12' : ''; ?>">
 
-					<?php 
-						if ($header) : 
-							if (is_page(4528) || is_page(3110)) : ?>
-								<h4>
-									<?php echo esc_html($header); ?>
-								</h4>
-							<?php else : ?>
-								<h3>
-									<?php echo esc_html($header); ?>
-								</h3>
-							<?php endif; ?>
-						<?php endif; ?>
+					<?php if ($header) : ?>
+						<h3>
+							<?php echo esc_html($header); ?>
+						</h3>
+					<?php endif; ?>
+
 
 							<?php if ($main_content) : ?>
 								<p>
@@ -2157,18 +2197,12 @@ if (is_page(4679)) {
 
 			<section class="accordion-section pb-5" style="background-color: <?php echo esc_html($bg_color); ?>;">
 				<div class="container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-					<?php 
-						if ($header) : 
-							if (is_page(3110)) : ?>
-								<h3>
-									<?php echo esc_html($header); ?>
-								</h3>
-							<?php else : ?>
-								<h2>
-									<?php echo esc_html($header); ?>
-								</h2>
-							<?php endif; ?>
-						<?php endif; ?>
+				<?php if ($header) : ?>
+					<h2>
+						<?php echo esc_html($header); ?>
+					</h2>
+				<?php endif; ?>
+
 					<div class="row py-5">
 						<div class="col-12 col-lg-6">
 							<?php while (have_rows('faqs_left')) : the_row(); ?>
@@ -2324,6 +2358,7 @@ if (is_page(4679)) {
 
 <?php endif; ?>
 
+
 		<?php elseif (get_row_layout() == 'service_cards') :
 			$header  	= get_sub_field('header');
 			$bg_color  	= get_sub_field('bg_color');
@@ -2426,9 +2461,9 @@ if (is_page(4679)) {
 
 				<section>
 					<div class="container py-5 info-links">
-						<h3 class="mb-4">
+						<h4 class="mb-4">
 							Want to find out more?
-						</h3>
+						</h4>
 						<div class="row">
 							<div class="col-12 col-md-4 info-link-images">
 								<a href="https://www.lifestyledental.co.uk/preston-dental-fees-fulwood/">
@@ -2459,8 +2494,9 @@ if (is_page(4679)) {
 				</section>
 
 			<?php endif ?>
+			
 
-			<?php if (is_page(3756)) : ?>
+<?php if (is_page(3756)) : ?>
 <section class="white-fillings-embossed">
   <div class="embossed-card">
 
@@ -2510,6 +2546,24 @@ if (is_page(4679)) {
   </div>
 </section>
 <?php endif; ?>
+<?php if (is_page(3414)) : ?>
+	<section class="unique-smile-panel">
+  <div class="panel-container">
+    <h4>Why Choose Gum & Teeth Contouring at Lifestyle Dental?</h4>
+    <p>
+      Every smile is unique, which is why our gum and teeth contouring treatments
+      are carefully personalised to your needs. Using advanced digital planning
+      and minimally invasive techniques, we gently reshape gums and refine tooth
+      edges to create balance, symmetry, and a natural-looking smile. Our focus
+      is on preserving healthy tooth structure while delivering precise, comfortable
+      treatment. Whether you’re seeking subtle refinement or a visible transformation,
+      our experienced clinicians ensure results that enhance confidence in a calm,
+      professional environment.
+    </p>
+  </div>
+</section>
+
+	<?php endif; ?>
 
 		<?php elseif (get_row_layout() == 'team_block') :
 			$members  	= get_sub_field('team_blocks'); ?>
