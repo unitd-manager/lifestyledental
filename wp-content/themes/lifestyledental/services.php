@@ -1935,7 +1935,7 @@ if (is_page(4679)) {
 
 					<?php 
 						if ($header) : 
-							if (is_page(4528) || is_page(3110)) : ?>
+							if (is_page(4528) || is_page(3110) ) : ?>
 								<h4>
 									<?php echo esc_html($header); ?>
 								</h4>
@@ -2158,10 +2158,11 @@ if (is_page(4679)) {
 			<section class="accordion-section pb-5" style="background-color: <?php echo esc_html($bg_color); ?>;">
 				<div class="container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
 					<?php if ($header) : ?>
-						<h2>
-							<?php echo esc_html($header); ?>
-						</h2>
-					<?php endif; ?>
+    <p style="font-size:1.9rem; font-weight:700;">
+        <?php echo esc_html($header); ?>
+    </p>
+<?php endif; ?>
+					
 					<div class="row py-5">
 						<div class="col-12 col-lg-6">
 							<?php while (have_rows('faqs_left')) : the_row(); ?>
@@ -2689,6 +2690,33 @@ if (is_page(4679)) {
 		</form>
 	<?php //endif; ?>
 </div>-->
+<?php if (is_page(3606)) : ?>
+<section class="dummy-panel">
+    <div class="dummy-container">
+
+        <div class="dummy-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/veneers.jpg" alt="Porcelain Veneers">
+        </div>
+
+        <div class="dummy-content">
+            <p class="dummy-title">Porcelain Veneers – A Confident Smile Solution</p>
+
+            <p>
+                Porcelain veneers are thin, custom-made shells designed to cover the front surface of teeth.
+                They improve the appearance of stained, chipped, uneven, or gapped teeth, creating a natural
+                and confident smile.
+            </p>
+
+            <p>
+                At Lifestyle Dental, our dentists carefully plan each veneer treatment to ensure long-lasting,
+                comfortable, and aesthetically pleasing results tailored to your smile.
+            </p>
+        </div>
+
+    </div>
+</section>
+<?php endif; ?>
+
 
 <script src="https://unpkg.com/scrollreveal"></script>
 
