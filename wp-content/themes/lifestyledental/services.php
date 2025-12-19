@@ -2690,7 +2690,7 @@ if (is_page(4679)) {
 				<i class="fa fa-times" aria-hidden="true"></i>
 			</a>
 
-			<h3 class="h4 plain inverted text-center mt-0">Request your FREE<br /> consultation and visit</h3>
+			<h5 class="h4 plain inverted text-center mt-0">Request your FREE<br /> consultation and visit</h5>
 
 			<div data-dengro-hosted="cb4b3b93-cdea-46fc-b921-b991d41266bb"></div>
 
@@ -2707,7 +2707,7 @@ if (is_page(4679)) {
 			<input name="infusionsoft_version" type="hidden" value="1.70.0.75009" />
 			<input type="text" id="sirname" name="sirname" class="d-none">
 
-			<h3 class="h4 plain inverted text-center mt-0 mb-3">Request your FREE consultation and visit</h3>
+			<h5 class="h4 plain inverted text-center mt-0 mb-3">Request your FREE consultation and visit</h5>
 
 			<div class="row">
 				<div class="col-sm-6 col-lg-12">
