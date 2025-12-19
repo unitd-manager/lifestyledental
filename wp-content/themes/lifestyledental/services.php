@@ -2461,9 +2461,9 @@ if (is_page(4679)) {
 
 				<section>
 					<div class="container py-5 info-links">
-						<h3 class="mb-4">
+						<h4 class="mb-4">
 							Want to find out more?
-						</h3>
+						</h4>
 						<div class="row">
 							<div class="col-12 col-md-4 info-link-images">
 								<a href="https://www.lifestyledental.co.uk/preston-dental-fees-fulwood/">
@@ -2496,7 +2496,7 @@ if (is_page(4679)) {
 			<?php endif ?>
 			
 
-			<?php if (is_page(3756)) : ?>
+<?php if (is_page(3756)) : ?>
 <section class="white-fillings-embossed">
   <div class="embossed-card">
 
