@@ -746,7 +746,7 @@ if (is_page(4679)) {
 		justify-content: center;
 	}
 
-	.info-links h3 {
+	.info-links h4 {
 		color: #434343;
 		text-align: center;
 	}
@@ -1351,7 +1351,7 @@ if (is_page(4679)) {
 			width: 100%;
 		}
 
-		.info-links h3 {
+		.info-links h4 {
 			text-align: left;
 		}
 
