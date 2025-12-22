@@ -79,7 +79,6 @@ if (is_page(4679)) {
 
 	.core__slider.big .wrapper .slide h1 {
 		margin-bottom: 2rem;
-		font-size: 32px;
 	}
 
 	.core__slider .wrapper .text {
@@ -483,7 +482,6 @@ if (is_page(4679)) {
 
 .finance-panel-header h2 {
 	color: #ffffff;
-	font-size: 40px;
 	font-weight: 700;
 	margin: 0;
 }
@@ -545,7 +543,7 @@ if (is_page(4679)) {
 }
 
 .finance-panel-content h3 {
-	font-size: 28px;
+
 	font-weight: 700;
 	margin-bottom: 18px;
 	color: #1e1e1e;
@@ -605,9 +603,9 @@ if (is_page(4679)) {
 /* ===== MOBILE ===== */
 @media (max-width: 900px) {
 
-	.finance-panel-header h2 {
+	/* .finance-panel-header h2 {
 		font-size: 30px;
-	}
+	} */
 
 	.finance-panel-body {
 		flex-direction: column;
@@ -736,14 +734,12 @@ if (is_page(4679)) {
 /* ===== Typography ===== */
 
 .finance-title {
-	font-size: 44px;
-	font-weight: 700;
 	color: #1f1f1f;
 	margin-bottom: 1.2rem;
 }
 
 .finance-intro {
-	font-size: 18px;
+	
 	color: #555;
 	margin-bottom: 2.8rem;
 	line-height: 1.7;
@@ -830,7 +826,7 @@ if (is_page(4679)) {
 	}
 
 	.finance-intro {
-		font-size: 16px;
+		
 		margin-bottom: 2rem;
 	}
 
@@ -1115,6 +1111,7 @@ if (is_page(4679)) {
 		outline: none;
 		transition: 0.4s;
 		font-family: 'Roboto', sans-serif;
+		font-weight: bold;
 		padding-right: 38px;
 	}
 
@@ -1256,9 +1253,9 @@ if (is_page(4679)) {
 		padding: 2rem 0;
 	}
 
-	.meet_the_team_block .team_member h3 {
+	/* .meet_the_team_block .team_member h3 {
 		font-size: 24px;
-	}
+	} */
 
 	.meet_the_team_block .team_member h3 span {
 		color: #535353;
@@ -1282,7 +1279,6 @@ if (is_page(4679)) {
 
 	.meet_the_team_block .team_member .info-box h4 {
 		color: #ea5400;
-		font-size: 22px;
 		margin-bottom: 20px;
 	}
 
@@ -2339,17 +2335,17 @@ if (is_page(4679)) {
 			<section class="accordion-section pb-5" style="background-color: <?php echo esc_html($bg_color); ?>;">
 				<div class="container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
 				   <?php if ($header) : ?>
-					   <div style="font-weight: bold;font-size: 24px; text-align: center; margin-bottom: 2rem;">
+					   <h2>
 						   <?php echo esc_html($header); ?>
-					   </div>
+				   </h2>
 				   <?php endif; ?>
 
 					<div class="row py-5">
 						<div class="col-12 col-lg-6">
 							<?php while (have_rows('faqs_left')) : the_row(); ?>
-								<h5 class="accordion" style="border-color: <?php echo ($bg_color == '#ffffff') ? '#eeeeee' : '#ffffff'; ?>" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+								<div class="accordion" style="border-color: <?php echo ($bg_color == '#ffffff') ? '#eeeeee' : '#ffffff'; ?>" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
 									<?php echo get_sub_field('question_left'); ?>
-								</h5>
+				   </div>
 								<p class="panel" style="background-color: <?php echo ($bg_color == '#ffffff') ? '' : '#ffffff'; ?>">
 									<?php echo get_sub_field('answer_left'); ?>
 								</p>
