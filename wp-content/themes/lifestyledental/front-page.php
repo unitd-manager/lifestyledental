@@ -215,7 +215,6 @@
 	}
 
 	.meet-the-team .meet-the-team-main p {
-		font-size: 18px;
 		line-height: 1.55;
 		margin-bottom: 24px;
 	}
@@ -431,6 +430,266 @@
 		transform: translateY(0);
 	}
 
+    .about-section {
+        display: flex;
+        padding: 60px 8%;
+        gap: 50px;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: #fafafa;
+    }
+
+    /* Left Images */
+    .left-side {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .left-side img {
+        width: 100%;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+
+    /* Right Side Content */
+    .right-side {
+        flex: 1;
+    }
+
+    .right-side h5 {
+        color: #3a7bff;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+
+    .right-side p {
+        font-size: 16px;
+        color: #555;
+        line-height: 1.6;
+        margin-bottom: 25px;
+        max-width: 90%;
+    }
+
+    /* Features List */
+    .features {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px 25px;
+        margin-bottom: 30px;
+    }
+
+    .features div:before {
+        content: "✔";
+        color: #3a7bff;
+        margin-right: 10px;
+        font-size: 16px;
+    }
+
+    /* Experience Card */
+    .experience-box {
+        background: #e8f3ff;
+        padding: 40px;
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .experience-box h2 {
+        font-size: 50px;
+        margin: 0;
+        color: #222;
+    }
+
+    .experience-box p {
+        margin: 0;
+        margin-top: 10px;
+        font-size: 16px;
+        color: #555;
+    }
+
+    .hero {
+	    display: flex;
+	    gap: 60px;
+	    padding: 70px 8%;
+	    align-items: center;
+	    flex-wrap: wrap;
+	}
+
+	/* LEFT CONTENT */
+	.hero-left {
+	    flex: 1;
+	}
+
+	.hero-left h1 {
+	    font-size: 46px;
+	    line-height: 1.25;
+	    margin-bottom: 20px;
+	}
+
+	.hero-left p {
+	    color: #666;
+	    max-width: 520px;
+	    line-height: 1.6;
+	    margin-bottom: 35px;
+	}
+
+	/* FEATURE CARDS */
+	.features {
+	    display: flex;
+	    gap: 20px;
+	    margin-bottom: 35px;
+	    flex-wrap: wrap;
+	}
+
+	.feature-card {
+	    background: #eaf6ff;
+	    padding: 25px;
+	    border-radius: 18px;
+	    width: 240px;
+	}
+
+	.feature-card img {
+	    width: 36px;
+	    margin-bottom: 15px;
+	}
+
+	.feature-card h3 {
+	    font-size: 18px;
+	    margin-bottom: 10px;
+	}
+
+	.feature-card p {
+	    font-size: 14px;
+	    color: #666;
+	    margin: 0;
+	}
+
+	.hero-right {
+	    flex: 1;
+	    position: relative;
+	}
+
+	.image-box {
+	    background: linear-gradient(180deg, #89b7de, #cfeff5);
+	    border-radius: 24px;
+	    padding: 30px;
+	}
+
+	.image-box img {
+	    width: 100%;
+	    border-radius: 18px;
+	}
+
+	/* FLOATING REVIEW CARD */
+	.review-card {
+	    position: absolute;
+	    top: 30px;
+	    left: -40px;
+	    background: #eaf6ff;
+	    padding: 18px 22px;
+	    border-radius: 16px;
+	    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+	    max-width: 260px;
+	}
+
+	.review-avatars {
+	    display: flex;
+	    margin-bottom: 10px;
+	}
+
+	.review-avatars img {
+	    width: 36px;
+	    height: 36px;
+	    border-radius: 50%;
+	    border: 2px solid #fff;
+	    margin-left: -8px;
+	}
+
+	.review-avatars img:first-child {
+	    margin-left: 0;
+	}
+
+	.review-card p {
+	    font-size: 14px;
+	    margin: 8px 0;
+	}
+
+	.stars {
+	    color: #f4b400;
+	    font-size: 16px;
+	}
+
+	/* SECTION */
+	.services {
+	    padding: 70px 8%;
+	    background-color: #fafafa;
+	}
+
+	.services-header {
+	    text-align: center;
+	    color: #666;
+	    max-width: 800px;
+	    margin: 0 auto 50px;
+	    font-size: 16px;
+	    line-height: 1.6;
+	}
+
+	/* GRID */
+	.services-grid {
+	    display: grid;
+	    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	    gap: 25px;
+	}
+
+	/* CARD */
+	.service-card {
+	    background: #edf6fc;
+	    border-radius: 22px;
+	    padding: 30px;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: space-between;
+	    min-height: 260px;
+	    margin-bottom: 30px;
+	}
+
+	.service-card.gradient {
+	    background: linear-gradient(180deg, #7fb0d8, #bde9f0);
+	}
+
+	/* ICON */
+	.service-icon {
+	    width: 55px;
+	    margin-bottom: 20px;
+	}
+
+	/* TITLE */
+	.service-card h4 {
+	    margin: 0 0 12px;
+	}
+
+	/* TEXT */
+	.service-card p {
+	    color: #666;
+	    line-height: 1.6;
+	    margin-bottom: 25px;
+	}
+
+	/* LINK */
+	.service-card a {
+	    color: #2f7dd1;
+	    text-decoration: none;
+	    font-weight: 500;
+	    display: inline-flex;
+	    align-items: center;
+	    gap: 6px;
+	}
+
+	.service-card.gradient a {
+	    color: #0b3c5d;
+	}
 
 	@media (max-width: 1200px) {
 		.icon-links {
@@ -882,6 +1141,22 @@
 			height: 550px;
 		}
 	}
+
+	.home_hero_content_col {
+	    font-size: 1rem;
+	}
+	.home_hero_content_col h4{
+	    color: #fff;
+	    margin-bottom: 20px;
+	}
+
+	.home_hero_content_col h1 {
+    	font-size: 2.5rem;
+	}
+
+	.pr40 {
+		padding-right: 45px;
+	}
 </style>
 
 <!--<div class="core__slider big mb-0 mb-lg-5">
@@ -949,7 +1224,7 @@
 	<div class="home_hero_inner">
 		<div class="home_hero_content_col">
 			<h1>Trusted Dentists in Preston, Lancashire – Lifestyle Dental</h1>
-			<p class="subheadline">Gentle, modern care for the whole family.</p>
+			<h4 class="">Gentle, modern care for the whole family.</h4>
 			<p>The Lifestyle Dental team are dedicated to creating beautiful and healthy smiles for patients of all ages. We want you to have a smile that you are happy to show off.</p>
 			<p>We offer both cosmetic and general dentistry treatments to allow you to maintain, restore and improve your smile. The latest technology aids us to effectively diagnose and treat a wide variety of problems.</p>
 			<!-- <a href="tel:01772717316" class="btn btn-dark-pink">Secure Your No Obligation Consultation by Calling 01772 717316</a> -->
@@ -1148,6 +1423,145 @@
 	</div>
 </section>
 
+<section class="about-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-6">
+        		<img src="/image/image1.jpg" alt="Dentist Image 1">
+    		</div>
+			<div class="col-6">
+		        <h3>
+		            Dental Care with a Gentle Touch
+		        </h3>
+		        <p>
+		            At DentCare, we combine advanced dental technology with compassionate care to ensure every visit is comfortable and stress-free. Our team of experienced professionals is dedicated to helping you achieve a healthy, confident smile.
+		        </p>
+		        <p>
+		            At DentCare, we combine advanced dental technology with compassionate care to ensure every visit is comfortable and stress-free. Our team of experienced professionals is dedicated to helping you achieve a healthy, confident smile.
+		        </p>
+		        <div class="features">
+		            <div>Personalized Dental Care</div>
+		            <div>Experienced Professionals</div>
+		            <div>Comfort Focused Approach</div>
+		            <div>Modern Equipment</div>
+		        </div>
+    		</div>
+    	</div>
+    </div>
+</section>
+
+<section class="hero">
+	<div class="container">
+		<div class="row">
+			<div class="col-6 pr40">
+		        <h4>
+		            Dental care designed for your comfort
+		        </h4>
+		        <p>
+		            At Dencare, we believe that dental care should be more than just treatment it should be a comfortable, personalized experience. At Dencare, we believe that dental care should be more than just treatment it should be a comfortable, personalized experience. At Dencare, we believe that dental care should be more than just treatment it should be a comfortable, personalized experience.
+		        </p>
+		        <div class="features">
+		            <div class="feature-card">
+		                <img src="https://cdn-icons-png.flaticon.com/512/2462/2462719.png" alt="">
+		                <h3>Patient Centered</h3>
+		                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		            </div>
+		            <div class="feature-card">
+		                <img src="https://cdn-icons-png.flaticon.com/512/1827/1827392.png" alt="">
+		                <h3>On Time & Hassle</h3>
+		                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		            </div>
+		        </div>
+    		</div>
+			<div class="col-6">
+		        <div class="review-card">
+		            <div class="review-avatars">
+		                <img src="https://randomuser.me/api/portraits/women/1.jpg">
+		                <img src="https://randomuser.me/api/portraits/women/2.jpg">
+		                <img src="https://randomuser.me/api/portraits/men/3.jpg">
+		                <img src="https://randomuser.me/api/portraits/women/4.jpg">
+		            </div>
+		            <p><strong>20.9k</strong> Customer Happy Review</p>
+		            <div class="stars">★★★★★</div>
+		        </div>
+		        <div class="image-box">
+		            <img src="/image/image2.png" alt="Dentist">
+		        </div>
+    		</div>
+    	</div>
+    </div>
+</section>
+
+<section class="services">
+	<div class="container">
+	    <div class="services-header">
+	        We are committed to delivering the best possible results through a comfortable,
+	        safe, and personalized approach for each patient.
+	    </div>
+		<div class="row">
+			<div class="col-4">
+		        <div class="service-card">
+		            <img class="service-icon" src="https://cdn-icons-png.flaticon.com/512/833/833472.png">
+		            <h5>Dental Check Up & Cleaning</h5>
+		            <p>
+		                Keep your teeth healthy with regular check ups and professional cleanings
+		                for a fresh, confident.
+		            </p>
+		        </div>
+		    </div>
+			<div class="col-4">
+		        <div class="service-card">
+		            <img class="service-icon" src="https://cdn-icons-png.flaticon.com/512/3022/3022925.png">
+		            <h5>Pediatric Dentistry</h5>
+		            <p>
+		                Gentle and caring dental treatments designed to make every child's visit
+		                safe and fun.
+		            </p>
+		        </div>
+		    </div>
+			<div class="col-4">
+		        <div class="service-card">
+		            <img class="service-icon" src="https://cdn-icons-png.flaticon.com/512/2927/2927347.png">
+		            <h5>Cosmetic Dentistry</h5>
+		            <p>
+		                Enhance your smile with whitening and veneer treatments for a bright,
+		                natural-looking result.
+		            </p>
+		        </div>
+		    </div>
+			<div class="col-4">
+		        <div class="service-card">
+		            <img class="service-icon" src="https://cdn-icons-png.flaticon.com/512/833/833459.png">
+		            <h5>Fillings & Tooth Extraction</h5>
+		            <p>
+		                Restore or remove damaged teeth safely with minimal discomfort and modern
+		                techniques.
+		            </p>
+		        </div>
+		    </div>
+			<div class="col-4">
+		        <div class="service-card">
+		            <img class="service-icon" src="https://cdn-icons-png.flaticon.com/512/2784/2784459.png">
+		            <h5>Orthodontics (Braces & Aligners)</h5>
+		            <p>
+		                Straighten your teeth with braces or clear aligners tailored for comfort
+		                and aesthetics.
+		            </p>
+		        </div>
+		    </div>
+			<div class="col-4">
+		        <div class="service-card">
+		            <img class="service-icon" src="https://cdn-icons-png.flaticon.com/512/833/833497.png">
+		            <h5>Consultation & Dental Education</h5>
+		            <p>
+		                Personalized advice and guidance to help you maintain lifelong oral health.
+		            </p>
+		        </div>
+		    </div>
+    	</div>
+    </div>
+</section>
+
 <section>
 	<div class="container py-5 info-links">
 		<h3 class="mb-4">
@@ -1181,15 +1595,11 @@
 		</div>
 	</div>
 </section>
-
 <?php get_template_part('_components/footer-finance-form'); ?>
 <?php if (isset($_GET['dev2'])) {
 	get_template_part('_components/latest-news');
 } ?>
-
 <script src="https://unpkg.com/scrollreveal"></script>
-
-
 
 <a class="btn d-sm-none main-cta" id="floating-btn" onclick="toggleForm()">Arrange my consultation</a>
 
@@ -1215,7 +1625,7 @@
 
 		var $ = jQuery.noConflict()
 		$(window).scroll(function() {
-			var scroll = $(this).scrollTop() - 2100
+			var scroll = $(this).scrollTop() - 2350
 			$(".parallax").css({
 				"background-position": "0px " + scroll / 5 + "px"
 			})

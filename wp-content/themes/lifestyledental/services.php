@@ -64,8 +64,8 @@ if (is_page(4679)) {
 	}
 
 	.core__slider .wrapper .gradient-form {
-		margin: -32px;
-		right: 2rem;
+		margin: -100px;
+		right: 2rem !important;
 	}
 
 	.core__slider .wrapper {
@@ -370,6 +370,98 @@ if (is_page(4679)) {
 }
 
 
+.faq-section {
+  padding: 70px 5%;
+  background: linear-gradient(135deg, #fde7ef, #f9c5d1);
+}
+
+.faq-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4%;
+  border-radius: 22px;
+
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  box-shadow:
+    inset 0 2px 4px rgba(255, 255, 255, 0.9),
+    inset 0 -3px 6px rgba(0, 0, 0, 0.08),
+    0 18px 38px rgba(0, 0, 0, 0.15);
+
+  animation: fadeUp 0.9s ease-out both;
+}
+
+
+ 	/* ===== FAQ Section Panel ===== */
+
+.faq-title {
+  font-size: clamp(22px, 2.2vw, 28px);
+  font-weight: 700;
+  color: #b01257;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.faq-item {
+  margin-bottom: 22px;
+  padding-left: 18px;
+  border-left: 4px solid #e91e63;
+  animation: slideIn 0.8s ease both;
+}
+
+.faq-item h5 {
+  font-size: clamp(16px, 1.4vw, 18px);
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.faq-item p {
+  font-size: clamp(14px, 1.1vw, 16px);
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Animations */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+  .faq-container {
+    width: 100%;
+    padding: 28px;
+  }
+
+  .faq-item {
+    padding-left: 14px;
+  }
+}
+
+
+
 
 	/* ===== Dental Finance Experience Panel ===== */
 
@@ -533,6 +625,55 @@ if (is_page(4679)) {
 		margin-right: auto;
 	}
 }
+
+
+	/* ===== Meet The Team Glass Panel ===== */
+.team-seo-glass-panel {
+  padding: 65px 5%;
+  background: linear-gradient(135deg, #fde7ef, #f9c5d1);
+}
+
+.team-glass-inner {
+  width: 90%;              /* percentage-based width */
+  max-width: 1200px;       /* prevents over-stretching */
+  margin: 0 auto;
+  padding: 3%;
+  border-radius: 22px;
+
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  box-shadow:
+    inset 0 3px 6px rgba(255, 255, 255, 0.95),
+    inset 0 -4px 8px rgba(0, 0, 0, 0.08),
+    0 18px 38px rgba(0, 0, 0, 0.15);
+
+  border: 1px solid rgba(255, 255, 255, 0.55);
+}
+
+.team-glass-inner h4 {
+  font-size: clamp(22px, 2.2vw, 28px);
+  font-weight: 700;
+  color: #b01257;
+  margin-bottom: 20px;
+}
+
+.team-glass-inner p {
+  font-size: clamp(15px, 1.1vw, 16px);
+  line-height: 1.75;
+  color: #333;
+  margin-bottom: 14px;
+}
+
+/* Tablet & Mobile */
+@media (max-width: 768px) {
+  .team-glass-inner {
+    width: 100%;
+    padding: 26px;
+  }
+}
+
 
 
 	/* ===== Finance Checklist Enhanced Panel ===== */
@@ -1506,7 +1647,7 @@ if (is_page(4679)) {
 	@media (min-width: 992px) {
 		.core__slider .wrapper .gradient-form {
 			position: absolute;
-			top: 3rem;
+			top: 10rem;
 			right: 1rem;
 		}
 	}
@@ -2197,11 +2338,11 @@ if (is_page(4679)) {
 
 			<section class="accordion-section pb-5" style="background-color: <?php echo esc_html($bg_color); ?>;">
 				<div class="container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-				<?php if ($header) : ?>
-					<h2>
-						<?php echo esc_html($header); ?>
-					</h2>
-				<?php endif; ?>
+				   <?php if ($header) : ?>
+					   <div style="font-weight: bold;font-size: 24px; text-align: center; margin-bottom: 2rem;">
+						   <?php echo esc_html($header); ?>
+					   </div>
+				   <?php endif; ?>
 
 					<div class="row py-5">
 						<div class="col-12 col-lg-6">
@@ -2611,7 +2752,32 @@ if (is_page(4679)) {
 				</div>
 			</section>
 
-		<?php elseif (get_row_layout() == 'table_block') :
+	
+
+		 <section class="team-seo-glass-panel">
+			<div class="team-glass-inner">
+				<h4>A Dedicated Dental Team You Can Trust in Fulwood, Preston</h4>
+				<p>
+				At Lifestyle Dental Clinic, our reputation is built on the expertise, care,
+				and professionalism of our dedicated dental team in
+				<strong>Fulwood, Preston</strong>. Each member brings advanced training and
+				a shared commitment to outstanding patient care.
+				</p>
+				<p>
+				Our dentists, hygienists, therapists, and technicians work collaboratively
+				to deliver personalised, evidence-based treatments using modern dental
+				technology and proven techniques.
+				</p>
+				<p>
+				If you are looking for a trusted dental team in
+				<strong>Preston (PR2)</strong>, we proudly serve patients from Fulwood and
+				surrounding areas with friendly, professional care.
+				</p>
+			</div>
+			</section>
+
+
+		 <?php elseif (get_row_layout() == 'table_block') :
 			$col1Header  	= get_sub_field('column_1_header');
 			$col2Header  	= get_sub_field('column_2_header');
 			$col3Header  	= get_sub_field('column_3_header');
@@ -2666,7 +2832,7 @@ if (is_page(4679)) {
 			</section>
 
 
-		<?php elseif (get_row_layout() == 'contact_form_banner') :
+		 <?php elseif (get_row_layout() == 'contact_form_banner') :
 			$display_form  = get_sub_field('display_form'); ?>
 
 			<?php if ($display_form == 'yes') : ?>
@@ -2675,10 +2841,10 @@ if (is_page(4679)) {
 
 			<?php endif; ?>
 
-		<?php endif; ?>
+		  <?php endif; ?>
 
-	<?php endwhile; ?>
-<?php endif; ?>
+	    <?php endwhile; ?>
+   <?php endif; ?>
 
 <!--<div class="popup-finance-form" id="popup-finance-form">
 
