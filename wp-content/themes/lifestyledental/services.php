@@ -79,7 +79,6 @@ if (is_page(4679)) {
 
 	.core__slider.big .wrapper .slide h1 {
 		margin-bottom: 2rem;
-		font-size: 32px;
 	}
 
 	.core__slider .wrapper .text {
@@ -483,7 +482,6 @@ if (is_page(4679)) {
 
 .finance-panel-header h2 {
 	color: #ffffff;
-	font-size: 40px;
 	font-weight: 700;
 	margin: 0;
 }
@@ -545,7 +543,7 @@ if (is_page(4679)) {
 }
 
 .finance-panel-content h3 {
-	font-size: 28px;
+
 	font-weight: 700;
 	margin-bottom: 18px;
 	color: #1e1e1e;
@@ -605,9 +603,9 @@ if (is_page(4679)) {
 /* ===== MOBILE ===== */
 @media (max-width: 900px) {
 
-	.finance-panel-header h2 {
+	/* .finance-panel-header h2 {
 		font-size: 30px;
-	}
+	} */
 
 	.finance-panel-body {
 		flex-direction: column;
@@ -736,14 +734,12 @@ if (is_page(4679)) {
 /* ===== Typography ===== */
 
 .finance-title {
-	font-size: 44px;
-	font-weight: 700;
 	color: #1f1f1f;
 	margin-bottom: 1.2rem;
 }
 
 .finance-intro {
-	font-size: 18px;
+	
 	color: #555;
 	margin-bottom: 2.8rem;
 	line-height: 1.7;
@@ -830,7 +826,7 @@ if (is_page(4679)) {
 	}
 
 	.finance-intro {
-		font-size: 16px;
+		
 		margin-bottom: 2rem;
 	}
 
@@ -1115,6 +1111,7 @@ if (is_page(4679)) {
 		outline: none;
 		transition: 0.4s;
 		font-family: 'Roboto', sans-serif;
+		font-weight: bold;
 		padding-right: 38px;
 	}
 
@@ -1256,9 +1253,9 @@ if (is_page(4679)) {
 		padding: 2rem 0;
 	}
 
-	.meet_the_team_block .team_member h3 {
+	/* .meet_the_team_block .team_member h3 {
 		font-size: 24px;
-	}
+	} */
 
 	.meet_the_team_block .team_member h3 span {
 		color: #535353;
@@ -1282,7 +1279,6 @@ if (is_page(4679)) {
 
 	.meet_the_team_block .team_member .info-box h4 {
 		color: #ea5400;
-		font-size: 22px;
 		margin-bottom: 20px;
 	}
 
@@ -1834,6 +1830,7 @@ if (is_page(4679)) {
 		z-index: 100;
 		outline: 2px dashed red;
 	} */
+	 
 </style>
 
 <?php if (have_rows('flexible_content')) : ?>
@@ -1853,7 +1850,8 @@ if (is_page(4679)) {
 		<div class="home_hero_content_col">
 			<?php if ($header) : ?>
 												<h1>
-													Dental Implants in Preston – From £77/Month
+													Dental Implants 
+
 												</h1>
 											<?php endif; ?>
 							<?php if ($sub_header) : ?>
@@ -2537,17 +2535,17 @@ if (is_page(4679)) {
 			<section class="accordion-section pb-5" style="background-color: <?php echo esc_html($bg_color); ?>;">
 				<div class="container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
 				   <?php if ($header) : ?>
-					   <div style="font-weight: bold;font-size: 24px; text-align: center; margin-bottom: 2rem;">
+					   <h2>
 						   <?php echo esc_html($header); ?>
-					   </div>
+				   </h2>
 				   <?php endif; ?>
 
 					<div class="row py-5">
 						<div class="col-12 col-lg-6">
 							<?php while (have_rows('faqs_left')) : the_row(); ?>
-								<h5 class="accordion" style="border-color: <?php echo ($bg_color == '#ffffff') ? '#eeeeee' : '#ffffff'; ?>" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+								<div class="accordion" style="border-color: <?php echo ($bg_color == '#ffffff') ? '#eeeeee' : '#ffffff'; ?>" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
 									<?php echo get_sub_field('question_left'); ?>
-								</h5>
+				   </div>
 								<p class="panel" style="background-color: <?php echo ($bg_color == '#ffffff') ? '' : '#ffffff'; ?>">
 									<?php echo get_sub_field('answer_left'); ?>
 								</p>
@@ -3114,6 +3112,239 @@ if (is_page(4679)) {
 		</form>
 	<?php //endif; ?>
 </div>-->
+<?php if (is_page(3606)) : ?>
+<?php if (is_page(3606)) : ?>
+
+<section id="veneers-panel">
+	<style>
+		#veneers-panel {
+			padding: 80px 20px;
+			background: #f7f7f7;
+		}
+
+		#veneers-panel .container {
+			max-width: 1200px;
+			margin: 0 auto;
+			display: flex;
+			align-items: center;
+			gap: 40px;
+		}
+
+		#veneers-panel .image img {
+			width: 480px;
+			max-width: 100%;
+			border-radius: 12px;
+			box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+			display: block;
+		}
+
+		#veneers-panel .content {
+			max-width: 600px;
+		}
+
+		#veneers-panel .title {
+			font-size: 32px;
+			font-weight: 700;
+			color: #2A579A;
+			margin-bottom: 20px;
+		}
+
+		#veneers-panel p {
+			font-size: 16px;
+			line-height: 1.7;
+			color: #333;
+			margin-bottom: 16px;
+		}
+
+		@media (max-width: 768px) {
+			#veneers-panel .container {
+				flex-direction: column;
+				text-align: center;
+			}
+		}
+	</style>
+
+	<div class="container">
+		<div class="image">
+			<img src="https://www.lifestyledental.co.uk/wp-content/uploads/2021/04/Referral.jpg" alt="">
+		</div>
+
+		<div class="content">
+			<p class="title">Porcelain Veneers – A Confident Smile Solution</p>
+
+			<p>
+				Porcelain veneers are thin, custom-made shells designed to cover the front surface of teeth.
+				They improve the appearance of stained, chipped, uneven, or gapped teeth, creating a natural
+				and confident smile.
+			</p>
+
+			<p>
+				At Lifestyle Dental, our dentists carefully plan each veneer treatment to ensure long-lasting,
+				comfortable, and aesthetically pleasing results tailored to your smile.
+			</p>
+		</div>
+	</div>
+</section>
+<?php if (is_page(3606)) : ?>
+
+<section id="veneers-premium-panel">
+	<style>
+		#veneers-premium-panel {
+			padding: 100px 20px;
+			background: linear-gradient(135deg, #f9fafc, #eef3f8);
+		}
+
+		#veneers-premium-panel .wrapper {
+			max-width: 1200px;
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		#veneers-premium-panel h2 {
+			font-size: 42px;
+			color: #2A579A;
+			margin-bottom: 20px;
+			font-weight: 700;
+		}
+
+		#veneers-premium-panel .intro {
+			max-width: 800px;
+			margin: 0 auto 60px;
+			font-size: 18px;
+			line-height: 1.8;
+			color: #444;
+		}
+
+		#veneers-premium-panel .cards {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 30px;
+			margin-bottom: 60px;
+		}
+
+		#veneers-premium-panel .card {
+			background: #fff;
+			padding: 40px 30px;
+			border-radius: 16px;
+			box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+			text-align: left;
+		}
+
+		#veneers-premium-panel .card h3 {
+			font-size: 22px;
+			color: #2A579A;
+			margin-bottom: 15px;
+		}
+
+		#veneers-premium-panel .card p {
+			font-size: 16px;
+			color: #555;
+			line-height: 1.7;
+		}
+
+		#veneers-premium-panel .cta-box {
+			background: linear-gradient(135deg, #2A579A, #1e3f73);
+			color: #fff;
+			padding: 50px 40px;
+			border-radius: 20px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			gap: 30px;
+		}
+
+		#veneers-premium-panel .cta-box h3 {
+			font-size: 30px;
+			margin: 0 0 10px;
+		}
+
+		#veneers-premium-panel .cta-box p {
+			font-size: 16px;
+			opacity: 0.95;
+		}
+
+		#veneers-premium-panel .cta-btn {
+			background: #e6006e;
+			color: #fff;
+			padding: 16px 34px;
+			border-radius: 50px;
+			font-size: 16px;
+			font-weight: 600;
+			text-decoration: none;
+			white-space: nowrap;
+		}
+
+		#veneers-premium-panel .cta-btn:hover {
+			background: #c7005f;
+		}
+
+		@media (max-width: 900px) {
+			#veneers-premium-panel .cards {
+				grid-template-columns: 1fr;
+			}
+
+			#veneers-premium-panel .cta-box {
+				flex-direction: column;
+				text-align: center;
+			}
+		}
+	</style>
+
+	<div class="wrapper">
+		<h2>Why Choose Porcelain Veneers?</h2>
+
+		<p class="intro">
+			Porcelain veneers are one of the most advanced cosmetic dental treatments available today.
+			At Lifestyle Dental, we combine artistic precision with modern technology to create smiles
+			that look natural, feel comfortable, and last for years.
+		</p>
+
+		<div class="cards">
+			<div class="card">
+				<h3>Natural Aesthetic Results</h3>
+				<p>
+					Each veneer is colour-matched and shaped to blend seamlessly with your natural teeth,
+					delivering a smile that looks authentic—not artificial.
+				</p>
+			</div>
+
+			<div class="card">
+				<h3>Minimally Invasive Treatment</h3>
+				<p>
+					Our modern veneer techniques preserve as much of your natural tooth structure as possible,
+					ensuring comfort and long-term oral health.
+				</p>
+			</div>
+
+			<div class="card">
+				<h3>Long-Lasting Confidence</h3>
+				<p>
+					With proper care, porcelain veneers can last 10–15 years, making them a durable and
+					confidence-boosting investment in your smile.
+				</p>
+			</div>
+		</div>
+
+		<div class="cta-box">
+			<div>
+				<h3>Transform Your Smile with Confidence</h3>
+				<p>
+					Book a consultation with our experienced cosmetic dentists and discover how porcelain
+					veneers can completely transform your smile.
+				</p>
+			</div>
+
+			<a href="#contact" class="cta-btn">Book Your Consultation</a>
+		</div>
+	</div>
+</section>
+
+<?php endif; ?>
+
+<?php endif; ?>
+
+<?php endif; ?>
+
 
 <script src="https://unpkg.com/scrollreveal"></script>
 

@@ -1144,6 +1144,7 @@
 
 	.home_hero_content_col {
 	    font-size: 1rem;
+	    padding-right: 55px;
 	}
 	.home_hero_content_col h4{
 	    color: #fff;
@@ -1156,6 +1157,31 @@
 
 	.pr40 {
 		padding-right: 45px;
+	}
+
+	.home_hero_icon_links>div>h5 {
+	    display: flex;
+	    align-items: center;
+	    color: #434343;
+	    line-height: 28px;
+	    font-weight: 600;
+	    letter-spacing: 1px;
+	    background: #ffffff;
+	    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+	    padding: 20px 40px 20px 20px;
+	    margin-bottom: 0;
+	    gap: 20px;
+	    transition: .3s;
+	}
+
+	.home_hero_icon_links>div>h5 i {
+    	color: #17a2b8;
+    	font-size: 40px;
+	}
+
+	.home_hero_icon_links>div>h5 img {
+	    width: 48px;
+	    min-width: 48px;
 	}
 </style>
 
@@ -1238,16 +1264,16 @@
 	</div>
 	<div class="home_hero_icon_links">
 		<div>
-			<p><i class="far fa-star"></i>Google 5★ Rated</p>
+			<h5><i class="far fa-star"></i>Google 5★ Rated</h5>
 		</div>
 		<div>
-			<p><i class="far fa-credit-card"></i>Affordable Payment Plans</p>
+			<h5><i class="far fa-credit-card"></i>Affordable Payment Plans</h5>
 		</div>
 		<div>
-			<p><i class="far fa-clock"></i>Same-Day Appointments</p>
+			<h5><i class="far fa-clock"></i>Same-Day Appointments</h5>
 		</div>
 		<div>
-			<p><img src="/wp-content/uploads/2025/09/face-smile-beam-solid-full.svg">Gentle, Pain-Free Care</p>
+			<h5><img src="/wp-content/uploads/2025/09/face-smile-beam-solid-full.svg">Gentle, Pain-Free Care</h5>
 		</div>
 	</div>
 </section>
@@ -1374,8 +1400,7 @@
 					Meet our principle dentist
 				</h4>
 				<p>
-					<strong>Dr. Nadim Majid qualified from Liverpool Dental school in 2001 and since then has worked in Lancashire for a number of years. He decided to undertake a career in
-						dentistry as he found it was a good mix of science and art and also gave him the ability to help people and make a difference for them.</strong>
+					Dr. Nadim Majid qualified from Liverpool Dental school in 2001 and since then has worked in Lancashire for a number of years. He decided to undertake a career in dentistry as he found it was a good mix of science and art and also gave him the ability to help people and make a difference for them.
 					<a id="meet-the-team-read-more-btn" class="d-md-none" onclick="readMore()">More</a>
 				</p>
 
@@ -1495,6 +1520,10 @@
 <section class="services">
 	<div class="container">
 	    <div class="services-header">
+    		<h4>
+	            Advanced Dental Care Features
+	        </h4>
+
 	        We are committed to delivering the best possible results through a comfortable,
 	        safe, and personalized approach for each patient.
 	    </div>
