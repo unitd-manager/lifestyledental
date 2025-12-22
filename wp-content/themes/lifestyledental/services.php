@@ -64,8 +64,8 @@ if (is_page(4679)) {
 	}
 
 	.core__slider .wrapper .gradient-form {
-		margin: -32px;
-		right: 2rem;
+		margin: -100px;
+		right: 2rem !important;
 	}
 
 	.core__slider .wrapper {
@@ -163,6 +163,52 @@ if (is_page(4679)) {
 	.main-cta:hover {
 		color: #ffffff;
 	}
+
+		/* =====  why choose gums Panel ===== */
+
+	.unique-smile-panel {
+  background: linear-gradient(135deg, #f06aa3, #c73779);
+  padding: 60px 20px;
+}
+
+.panel-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.panel-container h4 {
+  font-size: 26px;
+  color: #c73779;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.panel-container p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #444;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .panel-container {
+    padding: 25px;
+  }
+
+  .panel-container h4 {
+    font-size: 22px;
+  }
+
+  .panel-container p {
+    font-size: 15px;
+  }
+}
+
 
 	/* =====  Finance Experience Panel ===== */
 
@@ -322,6 +368,98 @@ if (is_page(4679)) {
   transform: translateY(-2px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
+
+
+.faq-section {
+  padding: 70px 5%;
+  background: linear-gradient(135deg, #fde7ef, #f9c5d1);
+}
+
+.faq-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4%;
+  border-radius: 22px;
+
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  box-shadow:
+    inset 0 2px 4px rgba(255, 255, 255, 0.9),
+    inset 0 -3px 6px rgba(0, 0, 0, 0.08),
+    0 18px 38px rgba(0, 0, 0, 0.15);
+
+  animation: fadeUp 0.9s ease-out both;
+}
+
+
+ 	/* ===== FAQ Section Panel ===== */
+
+.faq-title {
+  font-size: clamp(22px, 2.2vw, 28px);
+  font-weight: 700;
+  color: #b01257;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.faq-item {
+  margin-bottom: 22px;
+  padding-left: 18px;
+  border-left: 4px solid #e91e63;
+  animation: slideIn 0.8s ease both;
+}
+
+.faq-item h5 {
+  font-size: clamp(16px, 1.4vw, 18px);
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.faq-item p {
+  font-size: clamp(14px, 1.1vw, 16px);
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Animations */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+  .faq-container {
+    width: 100%;
+    padding: 28px;
+  }
+
+  .faq-item {
+    padding-left: 14px;
+  }
+}
+
 
 
 
@@ -487,6 +625,55 @@ if (is_page(4679)) {
 		margin-right: auto;
 	}
 }
+
+
+	/* ===== Meet The Team Glass Panel ===== */
+.team-seo-glass-panel {
+  padding: 65px 5%;
+  background: linear-gradient(135deg, #fde7ef, #f9c5d1);
+}
+
+.team-glass-inner {
+  width: 90%;              /* percentage-based width */
+  max-width: 1200px;       /* prevents over-stretching */
+  margin: 0 auto;
+  padding: 3%;
+  border-radius: 22px;
+
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  box-shadow:
+    inset 0 3px 6px rgba(255, 255, 255, 0.95),
+    inset 0 -4px 8px rgba(0, 0, 0, 0.08),
+    0 18px 38px rgba(0, 0, 0, 0.15);
+
+  border: 1px solid rgba(255, 255, 255, 0.55);
+}
+
+.team-glass-inner h4 {
+  font-size: clamp(22px, 2.2vw, 28px);
+  font-weight: 700;
+  color: #b01257;
+  margin-bottom: 20px;
+}
+
+.team-glass-inner p {
+  font-size: clamp(15px, 1.1vw, 16px);
+  line-height: 1.75;
+  color: #333;
+  margin-bottom: 14px;
+}
+
+/* Tablet & Mobile */
+@media (max-width: 768px) {
+  .team-glass-inner {
+    width: 100%;
+    padding: 26px;
+  }
+}
+
 
 
 	/* ===== Finance Checklist Enhanced Panel ===== */
@@ -700,7 +887,7 @@ if (is_page(4679)) {
 		justify-content: center;
 	}
 
-	.info-links h3 {
+	.info-links h4 {
 		color: #434343;
 		text-align: center;
 	}
@@ -1305,7 +1492,7 @@ if (is_page(4679)) {
 			width: 100%;
 		}
 
-		.info-links h3 {
+		.info-links h4 {
 			text-align: left;
 		}
 
@@ -1460,7 +1647,7 @@ if (is_page(4679)) {
 	@media (min-width: 992px) {
 		.core__slider .wrapper .gradient-form {
 			position: absolute;
-			top: 3rem;
+			top: 10rem;
 			right: 1rem;
 		}
 	}
@@ -1935,18 +2122,12 @@ if (is_page(4679)) {
 					<div class="row">
 						<div class="col-12 col-lg-8 <?php echo ($media == 'none') ? 'col-lg-12' : ''; ?>">
 
-					<?php 
-						if ($header) : 
-							if (is_page(4528) || is_page(3110) ) : ?>
-								<h4>
-									<?php echo esc_html($header); ?>
-								</h4>
-							<?php else : ?>
-								<h3>
-									<?php echo esc_html($header); ?>
-								</h3>
-							<?php endif; ?>
-						<?php endif; ?>
+					<?php if ($header) : ?>
+						<h3>
+							<?php echo esc_html($header); ?>
+						</h3>
+					<?php endif; ?>
+
 
 							<?php if ($main_content) : ?>
 								<p>
@@ -2159,12 +2340,12 @@ if (is_page(4679)) {
 
 			<section class="accordion-section pb-5" style="background-color: <?php echo esc_html($bg_color); ?>;">
 				<div class="container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-					<?php if ($header) : ?>
-    <p style="font-size:1.9rem; font-weight:700;">
-        <?php echo esc_html($header); ?>
-    </p>
-<?php endif; ?>
-					
+				   <?php if ($header) : ?>
+					   <div style="font-weight: bold;font-size: 24px; text-align: center; margin-bottom: 2rem;">
+						   <?php echo esc_html($header); ?>
+					   </div>
+				   <?php endif; ?>
+
 					<div class="row py-5">
 						<div class="col-12 col-lg-6">
 							<?php while (have_rows('faqs_left')) : the_row(); ?>
@@ -2320,6 +2501,7 @@ if (is_page(4679)) {
 
 <?php endif; ?>
 
+
 		<?php elseif (get_row_layout() == 'service_cards') :
 			$header  	= get_sub_field('header');
 			$bg_color  	= get_sub_field('bg_color');
@@ -2422,9 +2604,9 @@ if (is_page(4679)) {
 
 				<section>
 					<div class="container py-5 info-links">
-						<h3 class="mb-4">
+						<h4 class="mb-4">
 							Want to find out more?
-						</h3>
+						</h4>
 						<div class="row">
 							<div class="col-12 col-md-4 info-link-images">
 								<a href="https://www.lifestyledental.co.uk/preston-dental-fees-fulwood/">
@@ -2455,8 +2637,9 @@ if (is_page(4679)) {
 				</section>
 
 			<?php endif ?>
+			
 
-			<?php if (is_page(3756)) : ?>
+<?php if (is_page(3756)) : ?>
 <section class="white-fillings-embossed">
   <div class="embossed-card">
 
@@ -2506,6 +2689,24 @@ if (is_page(4679)) {
   </div>
 </section>
 <?php endif; ?>
+<?php if (is_page(3414)) : ?>
+	<section class="unique-smile-panel">
+  <div class="panel-container">
+    <h4>Why Choose Gum & Teeth Contouring at Lifestyle Dental?</h4>
+    <p>
+      Every smile is unique, which is why our gum and teeth contouring treatments
+      are carefully personalised to your needs. Using advanced digital planning
+      and minimally invasive techniques, we gently reshape gums and refine tooth
+      edges to create balance, symmetry, and a natural-looking smile. Our focus
+      is on preserving healthy tooth structure while delivering precise, comfortable
+      treatment. Whether you’re seeking subtle refinement or a visible transformation,
+      our experienced clinicians ensure results that enhance confidence in a calm,
+      professional environment.
+    </p>
+  </div>
+</section>
+
+	<?php endif; ?>
 
 		<?php elseif (get_row_layout() == 'team_block') :
 			$members  	= get_sub_field('team_blocks'); ?>
@@ -2553,7 +2754,32 @@ if (is_page(4679)) {
 				</div>
 			</section>
 
-		<?php elseif (get_row_layout() == 'table_block') :
+	
+
+		 <section class="team-seo-glass-panel">
+			<div class="team-glass-inner">
+				<h4>A Dedicated Dental Team You Can Trust in Fulwood, Preston</h4>
+				<p>
+				At Lifestyle Dental Clinic, our reputation is built on the expertise, care,
+				and professionalism of our dedicated dental team in
+				<strong>Fulwood, Preston</strong>. Each member brings advanced training and
+				a shared commitment to outstanding patient care.
+				</p>
+				<p>
+				Our dentists, hygienists, therapists, and technicians work collaboratively
+				to deliver personalised, evidence-based treatments using modern dental
+				technology and proven techniques.
+				</p>
+				<p>
+				If you are looking for a trusted dental team in
+				<strong>Preston (PR2)</strong>, we proudly serve patients from Fulwood and
+				surrounding areas with friendly, professional care.
+				</p>
+			</div>
+			</section>
+
+
+		 <?php elseif (get_row_layout() == 'table_block') :
 			$col1Header  	= get_sub_field('column_1_header');
 			$col2Header  	= get_sub_field('column_2_header');
 			$col3Header  	= get_sub_field('column_3_header');
@@ -2608,7 +2834,7 @@ if (is_page(4679)) {
 			</section>
 
 
-		<?php elseif (get_row_layout() == 'contact_form_banner') :
+		 <?php elseif (get_row_layout() == 'contact_form_banner') :
 			$display_form  = get_sub_field('display_form'); ?>
 
 			<?php if ($display_form == 'yes') : ?>
@@ -2617,10 +2843,10 @@ if (is_page(4679)) {
 
 			<?php endif; ?>
 
-		<?php endif; ?>
+		  <?php endif; ?>
 
-	<?php endwhile; ?>
-<?php endif; ?>
+	    <?php endwhile; ?>
+   <?php endif; ?>
 
 <!--<div class="popup-finance-form" id="popup-finance-form">
 
@@ -2632,7 +2858,7 @@ if (is_page(4679)) {
 				<i class="fa fa-times" aria-hidden="true"></i>
 			</a>
 
-			<h3 class="h4 plain inverted text-center mt-0">Request your FREE<br /> consultation and visit</h3>
+			<h5 class="h4 plain inverted text-center mt-0">Request your FREE<br /> consultation and visit</h5>
 
 			<div data-dengro-hosted="cb4b3b93-cdea-46fc-b921-b991d41266bb"></div>
 
@@ -2649,7 +2875,7 @@ if (is_page(4679)) {
 			<input name="infusionsoft_version" type="hidden" value="1.70.0.75009" />
 			<input type="text" id="sirname" name="sirname" class="d-none">
 
-			<h3 class="h4 plain inverted text-center mt-0 mb-3">Request your FREE consultation and visit</h3>
+			<h5 class="h4 plain inverted text-center mt-0 mb-3">Request your FREE consultation and visit</h5>
 
 			<div class="row">
 				<div class="col-sm-6 col-lg-12">
@@ -2693,358 +2919,28 @@ if (is_page(4679)) {
 	<?php //endif; ?>
 </div>-->
 <?php if (is_page(3606)) : ?>
+<section class="dummy-panel">
+    <div class="dummy-container">
 
-<section id="veneers-panel">
-	<style>
-		#veneers-panel {
-			padding: 80px 20px;
-			background: #f7f7f7;
-		}
-
-		#veneers-panel .container {
-			max-width: 1200px;
-			margin: 0 auto;
-			display: flex;
-			align-items: center;
-			gap: 40px;
-		}
-
-		#veneers-panel .image img {
-			width: 480px;
-			max-width: 100%;
-			border-radius: 12px;
-			box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-			display: block;
-		}
-
-		#veneers-panel .content {
-			max-width: 600px;
-		}
-
-		#veneers-panel .title {
-			font-size: 32px;
-			font-weight: 700;
-			color: #2A579A;
-			margin-bottom: 20px;
-		}
-
-		#veneers-panel p {
-			font-size: 16px;
-			line-height: 1.7;
-			color: #333;
-			margin-bottom: 16px;
-		}
-
-		@media (max-width: 768px) {
-			#veneers-panel .container {
-				flex-direction: column;
-				text-align: center;
-			}
-		}
-	</style>
-
-	<div class="container">
-		<div class="image">
-<img src="https://www.lifestyledental.co.uk/wp-content/uploads/2021/04/Referral.jpg" alt="">		</div>
-
-		<div class="content">
-			<p class="title">Porcelain Veneers – A Confident Smile Solution</p>
-
-			<p>
-				Porcelain veneers are thin, custom-made shells designed to cover the front surface of teeth.
-				They improve the appearance of stained, chipped, uneven, or gapped teeth, creating a natural
-				and confident smile.
-			</p>
-
-			<p>
-				At Lifestyle Dental, our dentists carefully plan each veneer treatment to ensure long-lasting,
-				comfortable, and aesthetically pleasing results tailored to your smile.
-			</p>
-			<p>
-				Porcelain veneers are ultra-thin, durable ceramic shells that are bonded to the front surface of the teeth. They are carefully crafted to match the shape, size, and colour of your natural teeth, ensuring seamless integration with your smile.
-
-Unlike temporary cosmetic solutions, porcelain veneers provide a permanent enhancement that mimics the translucency and strength of natural enamel—making them one of the most popular cosmetic treatments in modern dentistry.
-			</p>
-		</div>
-	</div>
-</section>
-
-<section id="veneers-premium-panel">
-	<style>
-		#veneers-premium-panel {
-			padding: 100px 20px;
-			background: linear-gradient(135deg, #f9fafc, #eef3f8);
-		}
-
-		#veneers-premium-panel .wrapper {
-			max-width: 1200px;
-			margin: 0 auto;
-			text-align: center;
-		}
-
-		#veneers-premium-panel h2 {
-			font-size: 42px;
-			color: #2A579A;
-			margin-bottom: 20px;
-			font-weight: 700;
-		}
-
-		#veneers-premium-panel .intro {
-			max-width: 800px;
-			margin: 0 auto 60px;
-			font-size: 18px;
-			line-height: 1.8;
-			color: #444;
-		}
-
-		#veneers-premium-panel .cards {
-			display: grid;
-			grid-template-columns: repeat(3, 1fr);
-			gap: 30px;
-			margin-bottom: 60px;
-		}
-
-		#veneers-premium-panel .card {
-			background: #fff;
-			padding: 40px 30px;
-			border-radius: 16px;
-			box-shadow: 0 15px 40px rgba(0,0,0,0.08);
-			text-align: left;
-		}
-
-		#veneers-premium-panel .card h3 {
-			font-size: 22px;
-			color: #2A579A;
-			margin-bottom: 15px;
-		}
-
-		#veneers-premium-panel .card p {
-			font-size: 16px;
-			color: #555;
-			line-height: 1.7;
-		}
-
-		#veneers-premium-panel .cta-box {
-			background: linear-gradient(135deg, #2A579A, #1e3f73);
-			color: #fff;
-			padding: 50px 40px;
-			border-radius: 20px;
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			gap: 30px;
-		}
-
-		#veneers-premium-panel .cta-box h3 {
-			font-size: 30px;
-			margin: 0 0 10px;
-		}
-
-		#veneers-premium-panel .cta-box p {
-			font-size: 16px;
-			opacity: 0.95;
-		}
-
-		#veneers-premium-panel .cta-btn {
-			background: #e6006e;
-			color: #fff;
-			padding: 16px 34px;
-			border-radius: 50px;
-			font-size: 16px;
-			font-weight: 600;
-			text-decoration: none;
-			white-space: nowrap;
-		}
-
-		#veneers-premium-panel .cta-btn:hover {
-			background: #c7005f;
-		}
-
-		@media (max-width: 900px) {
-			#veneers-premium-panel .cards {
-				grid-template-columns: 1fr;
-			}
-
-			#veneers-premium-panel .cta-box {
-				flex-direction: column;
-				text-align: center;
-			}
-		}
-	</style>
-
-	<div class="wrapper">
-		<h3>Why Choose Porcelain Veneers?</h3>
-
-		<p class="intro">
-			Porcelain veneers are one of the most advanced cosmetic dental treatments available today.
-			At Lifestyle Dental, we combine artistic precision with modern technology to create smiles
-			that look natural, feel comfortable, and last for years.A confident smile can transform the way you look and feel. Porcelain veneers offer a highly effective cosmetic dental solution for patients looking to enhance the appearance of their teeth
-Whether you’re dealing with discolouration, worn enamel, gaps, or uneven teeth, porcelain veneers can deliver a long-lasting, natural result—helping you smile freely again.
-		</p>
-
-		<div class="cards">
-			<div class="card">
-				<h3>Natural Aesthetic Results</h3>
-				<p>
-					Each veneer is colour-matched and shaped to blend seamlessly with your natural teeth,
-					delivering a smile that looks authentic—not artificial.
-				</p>
-			</div>
-
-			<div class="card">
-				<h3>Minimally Invasive Treatment</h3>
-				<p>
-					Our modern veneer techniques preserve as much of your natural tooth structure as possible,
-					ensuring comfort and long-term oral health.
-				</p>
-			</div>
-
-			<div class="card">
-				<h3>Long-Lasting Confidence</h3>
-				<p>
-					With proper care, porcelain veneers can last 10–15 years, making them a durable and
-					confidence-boosting investment in your smile.
-				</p>
-			</div>
-		</div>
-
-		<div class="cta-box">
-			<div>
-				<h3>Transform Your Smile with Confidence</h3>
-				<p>
-					Book a consultation with our experienced cosmetic dentists and discover how porcelain
-					veneers can completely transform your smile.
-				</p>
-			</div>
-
-			<a href="#contact" class="cta-btn">Book Your Consultation</a>
-		</div>
-	</div>
-</section>
-
-<?php endif; ?>
-<?php if (is_page(3715)) : ?>
-<section class="gd-section">
-    <style>
-        .gd-section {
-            padding: 80px 0;
-            background: linear-gradient(135deg, #f7f9fc, #eef2f7);
-            font-family: Arial, sans-serif;
-        }
-
-        .gd-container {
-            width: 90%;
-            max-width: 1200px;
-            margin: auto;
-            text-align: center;
-        }
-
-        .gd-heading {
-            font-size: 36px;
-            font-weight: 700;
-            color: #2a579a;
-            margin-bottom: 15px;
-        }
-
-        .gd-subheading {
-            font-size: 18px;
-            color: #555;
-            max-width: 750px;
-            margin: 0 auto 50px;
-            line-height: 1.6;
-        }
-
-        .gd-cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-        }
-
-        .gd-card {
-            background: #ffffff;
-            padding: 35px 25px;
-            border-radius: 16px;
-            box-shadow: 0 15px 35px rgba(0,0,0,0.08);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .gd-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 22px 45px rgba(0,0,0,0.12);
-        }
-
-        .gd-icon {
-            font-size: 42px;
-            color: #d81b60;
-            margin-bottom: 20px;
-        }
-
-        .gd-card h3 {
-            font-size: 22px;
-            color: #222;
-            margin-bottom: 12px;
-        }
-
-        .gd-card p {
-            font-size: 15px;
-            color: #666;
-            line-height: 1.6;
-        }
-
-        @media (max-width: 768px) {
-            .gd-heading {
-                font-size: 28px;
-            }
-        }
-    </style>
-
-    <div class="gd-container">
-        <h2 class="gd-heading">Comprehensive General Dentistry for Healthy Smiles</h2>
-        <p class="gd-subheading">
-            Our general dentistry services focus on prevention, comfort, and long-term oral health.
-            We help patients of all ages maintain strong teeth and healthy gums with gentle,
-            personalised care.
-        </p>
-
-        <div class="gd-cards">
-
-            <div class="gd-card">
-                <div class="gd-icon">🦷</div>
-                <h3>Dental Check-Ups</h3>
-                <p>
-                    Routine examinations allow us to identify dental issues early and keep
-                    your smile healthy and pain-free.
-                </p>
-            </div>
-
-            <div class="gd-card">
-                <div class="gd-icon">✨</div>
-                <h3>Scale & Polish</h3>
-                <p>
-                    Professional cleaning removes plaque and tartar build-up, reducing the
-                    risk of gum disease and bad breath.
-                </p>
-            </div>
-
-            <div class="gd-card">
-                <div class="gd-icon">🛡️</div>
-                <h3>Preventive Treatments</h3>
-                <p>
-                    Fluoride treatments and protective sealants help strengthen enamel and
-                    prevent tooth decay.
-                </p>
-            </div>
-
-            <div class="gd-card">
-                <div class="gd-icon">🪥</div>
-                <h3>Fillings & Repairs</h3>
-                <p>
-                    Natural-looking fillings restore damaged teeth while preserving both
-                    strength and appearance.
-                </p>
-            </div>
-
+        <div class="dummy-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/veneers.jpg" alt="Porcelain Veneers">
         </div>
+
+        <div class="dummy-content">
+            <p class="dummy-title">Porcelain Veneers – A Confident Smile Solution</p>
+
+            <p>
+                Porcelain veneers are thin, custom-made shells designed to cover the front surface of teeth.
+                They improve the appearance of stained, chipped, uneven, or gapped teeth, creating a natural
+                and confident smile.
+            </p>
+
+            <p>
+                At Lifestyle Dental, our dentists carefully plan each veneer treatment to ensure long-lasting,
+                comfortable, and aesthetically pleasing results tailored to your smile.
+            </p>
+        </div>
+
     </div>
 </section>
 <?php endif; ?>
