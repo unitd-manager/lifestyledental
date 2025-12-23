@@ -1834,10 +1834,7 @@ if (is_page(4679)) {
 </style>
 
 <?php if (have_rows('flexible_content')) : ?>
-	<?php $row_count = 0;?>
-	<?php while (have_rows('flexible_content')) : the_row(); 
-	$row_count ++;
-	?>
+	<?php while (have_rows('flexible_content')) : the_row();?>
 
 		<?php if (get_row_layout() == 'hero_banner') :
 			$header        		= get_sub_field('header');
@@ -2116,14 +2113,7 @@ if (is_page(4679)) {
 			$after2       		= get_sub_field('after_image_2');
 			$aos       			= get_sub_field('aos'); ?>
 
-			<?php if (
-    		(is_page(3632) && $row_count == 3) ||
-   		 	(is_page(4740) && $row_count == 11)
-			) : ?>
-    		<?php $bg_color = "#efefef"; ?>
-			<?php endif; ?>
-
-
+			
 			<section class="content-left-media-right <?php echo esc_html($link_style); ?> " style="background-color: <?php echo esc_html($bg_color); ?>;" <?php echo ($aos == 'yes') ? 'data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"' : ''; ?>>
 				<div class="container py-5">
 					<div class="row">
@@ -2329,6 +2319,11 @@ if (is_page(4679)) {
 				</p>
 
 			</div>
+			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
+				<img
+					src="http://lifestyledental.localhost/wp-content/uploads/2025/12/removing_barriers.jpg">
+			</div>
+
 		</div>
 	</div>
 </section>
@@ -2338,7 +2333,7 @@ if (is_page(4679)) {
 		<div class="row">
 			<div class="col-12 col-lg-8">
 
-				<h3>
+				<h3 style="color: #8a97a5">
 					What Our Special Offers Are Designed to Support
 				</h3>
 
@@ -2378,7 +2373,7 @@ if (is_page(4679)) {
 			<div class="col-12 col-lg-8"
 				style="padding-left:25px;">
 
-				<h3 style="margin-bottom:20px;">
+				<h3 style="color: #683fa1";>
 					Guidance and Support You Can Rely On
 				</h3>
 
@@ -2413,17 +2408,13 @@ if (is_page(4679)) {
 </section>
 
 <section class="special_panel_4 content-left-media-right standard"
-	style="background-color:#efefef;">
+		style="background-color:#efefef;">
+>
 	<div class="container py-5">
 		<div class="row">
+			<div class="col-12 col-lg-8">
 
-			<!-- LEFT CONTENT -->
-			<div class="col-12 col-lg-6"
-				style="padding-left:25px;">
-
-				<h3>
-					A Patient-First Approach to Special Care
-				</h3>
+				<h3 style="color: #0096ad">A Patient-First Approach to Special Care</h3>
 
 				<p>
 					Every patient’s needs are different, which is why our special offers are
@@ -2432,12 +2423,6 @@ if (is_page(4679)) {
 					quality, safety, and transparency at every stage.
 				</p>
 
-			</div>
-
-			<!-- RIGHT CONTENT -->
-			<div class="col-12 col-lg-6"
-				style="padding-right:25px;">
-
 				<p>
 					Our team takes time to ensure you understand the purpose and benefits of each
 					option available, allowing you to move forward feeling informed and confident
@@ -2445,12 +2430,16 @@ if (is_page(4679)) {
 				</p>
 
 				<p style="margin-top:15px;">
-					<span style="color:#683fa1; font-weight:600;">
+					<span style="color: #0096ad; font-weight:600;">
 						If you have any questions or would like guidance on suitability, our team
 						is always happy to help.
 					</span>
 				</p>
 
+			</div>
+			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
+				<img
+					src="http://lifestyledental.localhost/wp-content/uploads/2025/12/first_approach.jpg">
 			</div>
 
 		</div>
@@ -2491,6 +2480,88 @@ if (is_page(4679)) {
 		</div>
 	</div>
 </section>
+<?php endif; ?>
+<?php if (is_page(3614)) : ?>
+<section class="root_canal_panel1 content-left-media-right standard aos-init aos-animate" style="background-color: #efefef;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+				<div class="container py-5">
+					<div class="row">
+						<div class="col-12 col-lg-8 ">
+
+
+				<h3>
+					Protecting Your Natural Tooth and Relieving Pain
+				</h3>
+
+				<p>
+					Root canal treatment is often the most effective way to relieve pain while
+					preserving your natural tooth. Instead of removing the tooth, treatment focuses
+					on eliminating infection from within and restoring the tooth’s strength and
+					function.
+				</p>
+
+				<p>
+					At Lifestyle Dental, we use modern techniques and careful planning to ensure
+					root canal treatment is carried out with precision and patient comfort in mind.
+					This approach helps reduce discomfort during treatment and supports long-term
+					success.
+				</p>
+
+				<p>
+					<span style="color:#683fa1; font-weight:600;">
+						Early treatment can prevent further infection and help you return to everyday
+						comfort with confidence.
+					</span>
+				</p>
+
+			</div>
+		</div>
+	</div>
+</section>
+<section class="content-left-media-right standard aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+
+	<div class="container py-5">
+		<div class="row">
+
+			<!-- CONTENT PANEL -->
+			<div class="col-12 col-lg-8">
+
+				<h3>
+					Why early treatment is important
+				</h3>
+
+				<p>
+					Root canal problems do not resolve on their own and can worsen quickly
+					if left untreated. When infection spreads inside the tooth, it can lead
+					to severe pain, swelling, and damage to surrounding bone and tissue.
+				</p>
+
+				<ul>
+					<li>Relieves persistent tooth pain and pressure</li>
+					<li>Prevents infection from spreading further</li>
+					<li>Helps save your natural tooth structure</li>
+					<li>Reduces the risk of abscess and facial swelling</li>
+					<li>Restores normal function for biting and chewing</li>
+				</ul>
+
+				<p>
+					Seeking timely root canal treatment can protect your oral health,
+					relieve discomfort, and help you avoid more complex dental procedures
+					in the future.
+				</p>
+
+			</div>
+
+			<!-- IMAGE PANEL -->
+			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
+				<img
+					src="http://lifestyledental.localhost/wp-content/uploads/2025/12/root_canal.jpg"
+					alt="Root canal pain symptoms">
+			</div>
+
+		</div>
+	</div>
+</section>
+
 <?php endif; ?>
 
 
