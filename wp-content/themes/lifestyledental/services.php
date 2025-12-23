@@ -75,6 +75,7 @@ if (is_page(4679)) {
 	.core__slider.big .wrapper .slide {
 		height: 469px;
 		padding-top: 3rem;
+		margin: -40px;
 	}
 
 	.core__slider.big .wrapper .slide h1 {
@@ -294,7 +295,7 @@ if (is_page(4679)) {
   transition: transform 0.6s ease-in-out;
 }
 
-.slide {
+.slide1 {
   min-width: 100%;
   padding: 40px;
   border-radius: 14px;
@@ -302,18 +303,18 @@ if (is_page(4679)) {
   box-sizing: border-box;
 }
 
-.slide h4 {
+.slide1 h4 {
  color: #fff;
   margin-bottom: 8px;
 }
 
-.slide h5 {
+.slide1 h5 {
  color: #09280f;
   margin-bottom: 18px;
   font-weight: 400;
 }
 
-.slide p {
+.slide1 p {
   
   line-height: 1.7;
 }
@@ -721,8 +722,7 @@ if (is_page(4679)) {
 }
 
 .team-glass-inner {
-  width: 90%;              /* percentage-based width */
-  max-width: 1200px;       /* prevents over-stretching */
+  
   margin: 0 auto;
   padding: 3%;
   border-radius: 22px;
@@ -2595,7 +2595,7 @@ if (is_page(4679)) {
     <div class="slider-track">
 
       <!-- Panel 1 -->
-      <div class="slide trust-panel">
+      <div class="slide1 trust-panel">
         <h4>Why Patients Trust Us</h4>
         <h5>Care built on honesty & experience</h5>
         <p>
@@ -2608,7 +2608,7 @@ if (is_page(4679)) {
       </div>
 
       <!-- Panel 2 -->
-      <div class="slide smile-panel">
+      <div class="slide1 smile-panel">
         <h4>Real Smiles, Real Results</h4>
         <h5>Transformations that speak for themselves</h5>
         <p>
@@ -2621,7 +2621,7 @@ if (is_page(4679)) {
       </div>
 
       <!-- Panel 3 -->
-      <div class="slide comfort-panel">
+      <div class="slide1 comfort-panel">
         <h4>Comfort & Anxiety-Free Dentistry</h4>
         <h5>We care for nervous patients</h5>
         <p>
@@ -2633,7 +2633,7 @@ if (is_page(4679)) {
       </div>
 
       <!-- Panel 4 -->
-      <div class="slide finance-panel">
+      <div class="slide1 finance-panel">
         <h4>Flexible Payment & Finance Options</h4>
         <h5>Quality care made affordable</h5>
         <p>
@@ -2722,7 +2722,7 @@ if (is_page(4679)) {
 			<section class="accordion-section pb-5" style="background-color: <?php echo esc_html($bg_color); ?>;">
 				<div class="container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
 				   <?php if ($header) : ?>
-					   <h2>
+					   <h2 style="text-align: center; margin-top: 2rem; margin-bottom: 2rem;">
 						   <?php echo esc_html($header); ?>
 				   </h2>
 				   <?php endif; ?>
@@ -3138,6 +3138,7 @@ if (is_page(4679)) {
 	
 
 		 <section class="team-seo-glass-panel">
+			<div class="container">
 			<div class="team-glass-inner">
 				<h4>A Dedicated Dental Team You Can Trust in Fulwood, Preston</h4>
 				<p>
@@ -3157,6 +3158,7 @@ if (is_page(4679)) {
 				surrounding areas with friendly, professional care.
 				</p>
 			</div>
+						</div>
 			</section>
 
 
