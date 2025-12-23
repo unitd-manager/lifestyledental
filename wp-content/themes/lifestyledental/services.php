@@ -3151,6 +3151,131 @@ if (is_page(4679)) {
 
 <?php endif; ?>
 
+<?php if (is_page(3715)) : ?>
+<section class="gd-section">
+    <style>
+        .gd-section {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #f7f9fc, #eef2f7);
+            font-family: Arial, sans-serif;
+        }
+
+        .gd-container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .gd-heading {
+            font-size: 36px;
+            font-weight: 700;
+            color: #2a579a;
+            margin-bottom: 15px;
+        }
+
+        .gd-subheading {
+            font-size: 18px;
+            color: #555;
+            max-width: 750px;
+            margin: 0 auto 50px;
+            line-height: 1.6;
+        }
+
+        .gd-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .gd-card {
+            background: #ffffff;
+            padding: 35px 25px;
+            border-radius: 16px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gd-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 22px 45px rgba(0,0,0,0.12);
+        }
+
+        .gd-icon {
+            font-size: 42px;
+            color: #d81b60;
+            margin-bottom: 20px;
+        }
+
+        .gd-card h3 {
+            font-size: 22px;
+            color: #222;
+            margin-bottom: 12px;
+        }
+
+        .gd-card p {
+            font-size: 15px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .gd-heading {
+                font-size: 28px;
+            }
+        }
+    </style>
+
+    <div class="gd-container">
+        <h2 class="gd-heading">Comprehensive General Dentistry for Healthy Smiles</h2>
+        <p class="gd-subheading">
+            Our general dentistry services focus on prevention, comfort, and long-term oral health.
+            We help patients of all ages maintain strong teeth and healthy gums with gentle,
+            personalised care.
+        </p>
+
+        <div class="gd-cards">
+
+            <div class="gd-card">
+                <div class="gd-icon">🦷</div>
+                <h3>Dental Check-Ups</h3>
+                <p>
+                    Routine examinations allow us to identify dental issues early and keep
+                    your smile healthy and pain-free.
+                </p>
+            </div>
+
+            <div class="gd-card">
+                <div class="gd-icon">✨</div>
+                <h3>Scale & Polish</h3>
+                <p>
+                    Professional cleaning removes plaque and tartar build-up, reducing the
+                    risk of gum disease and bad breath.
+                </p>
+            </div>
+
+            <div class="gd-card">
+                <div class="gd-icon">🛡️</div>
+                <h3>Preventive Treatments</h3>
+                <p>
+                    Fluoride treatments and protective sealants help strengthen enamel and
+                    prevent tooth decay.
+                </p>
+            </div>
+
+            <div class="gd-card">
+                <div class="gd-icon">🪥</div>
+                <h3>Fillings & Repairs</h3>
+                <p>
+                    Natural-looking fillings restore damaged teeth while preserving both
+                    strength and appearance.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+<?php endif; ?>
 
 <script src="https://unpkg.com/scrollreveal"></script>
 
