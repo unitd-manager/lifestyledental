@@ -2446,8 +2446,9 @@ if (is_page(4679)) {
 	</div>
 </section>
 <?php endif; ?>
+
 <?php if (is_page(3632)) : ?>
-<section class="sedation_panel_1 content-left-media-right standard aos-init aos-animate" style="background-color: #efefef;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+	<section class="sedation_panel_1 content-left-media-right standard aos-init aos-animate" style="background-color: #efefef;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
 	<div class="container py-5">
 		<div class="row">
 			<div class="col-12 col-lg-8 col-lg-12">
@@ -2480,9 +2481,60 @@ if (is_page(4679)) {
 		</div>
 	</div>
 </section>
+
+<section class="sedation_panel2" style="background-color:#ffffff;">
+	<div class="container py-5">
+		<div class="row align-items-center">
+
+			<div class="col-12 col-lg-8" style="font-size:18px; font-weight:400; text-align:left; border:1px solid #cfd8dc; border-top:5px solid #2b7a78; padding:30px;">
+
+				<h3 style="font-weight:400; color:#2b7a78; margin-bottom:15px;">
+					A Reassuring Approach for Anxious Dental Patients
+				</h3>
+
+				<p style="margin-bottom:15px;">
+					Feeling nervous about dental treatment is completely understandable.
+					At Lifestyle Dental, we offer sedation options that help patients remain calm
+					and comfortable while receiving the care they need.
+				</p>
+
+				<ul style="list-style:none; padding-left:0; margin-bottom:15px;">
+					<li style="margin-bottom:8px;">
+						<span style="color:#2b7a78; font-weight:500;">✔</span>
+						Gentle sedation options tailored for nervous patients
+					</li>
+					<li style="margin-bottom:8px;">
+						<span style="color:#2b7a78; font-weight:500;">✔</span>
+						Carefully monitored conscious sedation for safety and comfort
+					</li>
+					<li style="margin-bottom:8px;">
+						<span style="color:#2b7a78; font-weight:500;">✔</span>
+						Ideal support for longer or more complex dental procedures
+					</li>
+				</ul>
+
+				<p>
+					<span style="color:#2b7a78;">
+						Sedation dentistry supports a relaxed treatment experience,
+					</span>
+					helping you regain confidence and move forward with your dental care.
+				</p>
+
+			</div>
+			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
+				<img
+					src="http://lifestyledental.localhost/wp-content/uploads/2025/12/dental-anxiety.jpg"
+					alt="Dental anxiety and sedation care"
+					style="width:100%; height:auto; border-radius:6px;">
+			</div>
+
+		</div>
+	</div>
+</section>
+
 <?php endif; ?>
 <?php if (is_page(3614)) : ?>
-<section class="root_canal_panel1 content-left-media-right standard aos-init aos-animate" style="background-color: #efefef;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+<section class="root_canal_panel2 content-left-media-right standard aos-init aos-animate" style="background-color: #efefef;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
 				<div class="container py-5">
 					<div class="row">
 						<div class="col-12 col-lg-8 ">
@@ -2514,6 +2566,11 @@ if (is_page(4679)) {
 				</p>
 
 			</div>
+			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
+				<img
+					src="http://lifestyledental.localhost/wp-content/uploads/2025/12/dental-anxiety.jpg">
+			</div>
+
 		</div>
 	</div>
 </section>
