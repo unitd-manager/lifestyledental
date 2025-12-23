@@ -79,7 +79,6 @@ if (is_page(4679)) {
 
 	.core__slider.big .wrapper .slide h1 {
 		margin-bottom: 2rem;
-		font-size: 32px;
 	}
 
 	.core__slider .wrapper .text {
@@ -483,7 +482,6 @@ if (is_page(4679)) {
 
 .finance-panel-header h2 {
 	color: #ffffff;
-	font-size: 40px;
 	font-weight: 700;
 	margin: 0;
 }
@@ -545,7 +543,7 @@ if (is_page(4679)) {
 }
 
 .finance-panel-content h3 {
-	font-size: 28px;
+
 	font-weight: 700;
 	margin-bottom: 18px;
 	color: #1e1e1e;
@@ -605,9 +603,9 @@ if (is_page(4679)) {
 /* ===== MOBILE ===== */
 @media (max-width: 900px) {
 
-	.finance-panel-header h2 {
+	/* .finance-panel-header h2 {
 		font-size: 30px;
-	}
+	} */
 
 	.finance-panel-body {
 		flex-direction: column;
@@ -736,14 +734,12 @@ if (is_page(4679)) {
 /* ===== Typography ===== */
 
 .finance-title {
-	font-size: 44px;
-	font-weight: 700;
 	color: #1f1f1f;
 	margin-bottom: 1.2rem;
 }
 
 .finance-intro {
-	font-size: 18px;
+	
 	color: #555;
 	margin-bottom: 2.8rem;
 	line-height: 1.7;
@@ -830,7 +826,7 @@ if (is_page(4679)) {
 	}
 
 	.finance-intro {
-		font-size: 16px;
+		
 		margin-bottom: 2rem;
 	}
 
@@ -1115,6 +1111,7 @@ if (is_page(4679)) {
 		outline: none;
 		transition: 0.4s;
 		font-family: 'Roboto', sans-serif;
+		font-weight: bold;
 		padding-right: 38px;
 	}
 
@@ -1256,9 +1253,9 @@ if (is_page(4679)) {
 		padding: 2rem 0;
 	}
 
-	.meet_the_team_block .team_member h3 {
+	/* .meet_the_team_block .team_member h3 {
 		font-size: 24px;
-	}
+	} */
 
 	.meet_the_team_block .team_member h3 span {
 		color: #535353;
@@ -1282,7 +1279,6 @@ if (is_page(4679)) {
 
 	.meet_the_team_block .team_member .info-box h4 {
 		color: #ea5400;
-		font-size: 22px;
 		margin-bottom: 20px;
 	}
 
@@ -1838,7 +1834,10 @@ if (is_page(4679)) {
 </style>
 
 <?php if (have_rows('flexible_content')) : ?>
-	<?php while (have_rows('flexible_content')) : the_row(); ?>
+	<?php $row_count = 0;?>
+	<?php while (have_rows('flexible_content')) : the_row(); 
+	$row_count ++;
+	?>
 
 		<?php if (get_row_layout() == 'hero_banner') :
 			$header        		= get_sub_field('header');
@@ -2117,6 +2116,14 @@ if (is_page(4679)) {
 			$after2       		= get_sub_field('after_image_2');
 			$aos       			= get_sub_field('aos'); ?>
 
+			<?php if (
+    		(is_page(3632) && $row_count == 3) ||
+   		 	(is_page(4740) && $row_count == 11)
+			) : ?>
+    		<?php $bg_color = "#efefef"; ?>
+			<?php endif; ?>
+
+
 			<section class="content-left-media-right <?php echo esc_html($link_style); ?> " style="background-color: <?php echo esc_html($bg_color); ?>;" <?php echo ($aos == 'yes') ? 'data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"' : ''; ?>>
 				<div class="container py-5">
 					<div class="row">
@@ -2299,6 +2306,193 @@ if (is_page(4679)) {
 					content: none;
 				}
 			</style>
+<?php if (is_page(3775)) : ?>
+<section class="special_panel_1 content-left-media-right standard">
+	<div class="container py-5">
+		<div class="row">
+			<div class="col-12 col-lg-8">
+
+				<h3>Removing Barriers to Achieving a Healthy Smile</h3>
+
+				<p>
+					At Lifestyle Dental, we believe that cost, time, or uncertainty should never
+					be a barrier to achieving a healthy and confident smile. Our special offers
+					are designed to support patients at different stages of their dental journey,
+					while maintaining the same high clinical standards and personalised care.
+				</p>
+
+				<p>
+					From preventive and cosmetic treatments to restorative and orthodontic care,
+					our approach focuses on providing clear guidance and practical options that
+					align with your individual needs. Every recommendation is made with long-term
+					oral health, comfort, and predictable outcomes in mind.
+				</p>
+
+			</div>
+		</div>
+	</div>
+</section>
+<section class="special_panel_2 content-left-media-right standard"
+	style="background-color:#efefef;">
+	<div class="container py-5">
+		<div class="row">
+			<div class="col-12 col-lg-8">
+
+				<h3>
+					What Our Special Offers Are Designed to Support
+				</h3>
+
+				<ul>
+					<li>
+						Access to high-quality dental care without unnecessary financial pressure
+					</li>
+					<li>
+						Treatment options that complement cosmetic, orthodontic, and implant care
+					</li>
+					<li>
+						A structured approach focused on long-term oral health and stability
+					</li>
+					<li>
+						Clear explanations so you can make informed treatment decisions
+					</li>
+					<li>
+						Professional support throughout every stage of your dental journey
+					</li>
+				</ul>
+
+				<p style="margin-top:15px;">
+					Our team carefully reviews each offer to ensure it provides genuine value
+					while maintaining the same clinical standards and attention to detail that
+					our patients expect.
+				</p>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="special_panel_3 content-left-media-right standard"
+	style="background-color:#ffffff;">
+	<div class="container py-5">
+		<div class="row">
+			<div class="col-12 col-lg-8"
+				style="padding-left:25px;">
+
+				<h3 style="margin-bottom:20px;">
+					Guidance and Support You Can Rely On
+				</h3>
+
+				<p>
+					Choosing the right dental treatment is not always straightforward. Our team
+					takes the time to understand your concerns, explain available options clearly,
+					and guide you through each step of your care with honesty and professionalism.
+				</p>
+
+				<ul style="padding-left:18px; margin-top:15px;">
+					<li style="margin-bottom:10px;">
+						Clear treatment explanations with realistic expectations
+					</li>
+					<li style="margin-bottom:10px;">
+						Supportive planning tailored to your lifestyle and priorities
+					</li>
+					<li style="margin-bottom:10px;">
+						Consistent clinical care from consultation to completion
+					</li>
+				</ul>
+
+				<p style="margin-top:15px;">
+					<span style="color:#683fa1; font-weight:600;">
+						Our friendly team is always happy to answer your questions and help you
+						take the next step with confidence.
+					</span>
+				</p>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="special_panel_4 content-left-media-right standard"
+	style="background-color:#efefef;">
+	<div class="container py-5">
+		<div class="row">
+
+			<!-- LEFT CONTENT -->
+			<div class="col-12 col-lg-6"
+				style="padding-left:25px;">
+
+				<h3>
+					A Patient-First Approach to Special Care
+				</h3>
+
+				<p>
+					Every patient’s needs are different, which is why our special offers are
+					designed to complement personalised treatment planning rather than replace it.
+					We focus on providing options that enhance your care while maintaining clinical
+					quality, safety, and transparency at every stage.
+				</p>
+
+			</div>
+
+			<!-- RIGHT CONTENT -->
+			<div class="col-12 col-lg-6"
+				style="padding-right:25px;">
+
+				<p>
+					Our team takes time to ensure you understand the purpose and benefits of each
+					option available, allowing you to move forward feeling informed and confident
+					in your decisions.
+				</p>
+
+				<p style="margin-top:15px;">
+					<span style="color:#683fa1; font-weight:600;">
+						If you have any questions or would like guidance on suitability, our team
+						is always happy to help.
+					</span>
+				</p>
+
+			</div>
+
+		</div>
+	</div>
+</section>
+<?php endif; ?>
+<?php if (is_page(3632)) : ?>
+<section class="sedation_panel_1 content-left-media-right standard aos-init aos-animate" style="background-color: #efefef;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+	<div class="container py-5">
+		<div class="row">
+			<div class="col-12 col-lg-8 col-lg-12">
+
+				<h3>
+					Support for Nervous and Anxious Patients
+				</h3>
+
+				<p>
+					We understand that dental anxiety can prevent many people from seeking the care
+					they need. At Lifestyle Dental, our sedation service is designed to help nervous
+					patients feel calm, supported, and in control throughout their treatment.
+				</p>
+
+				<p>
+					By allowing extra appointment time, using proven relaxation techniques, and
+					offering intravenous sedation where appropriate, we create an environment where
+					you can feel reassured and comfortable. Sedation helps reduce anxiety and makes
+					longer or more complex treatments easier to manage.
+				</p>
+
+				<p>
+					<span style="color:#683fa1; font-weight:600;">
+						Our experienced team will guide you through every step, ensuring your safety,
+						comfort, and peace of mind at all times.
+					</span>
+				</p>
+
+			</div>
+		</div>
+	</div>
+</section>
+<?php endif; ?>
+
 
 			<section class="guarantee-banner <?php echo ($image == '') ? '' : 'plain-background'; ?>" style="<?php echo (!empty($image)) ? 'background-color:' . esc_html($bg_color) . ';' : 'background-image: url(' . esc_url($bg_image['url']) . ');'; ?>">
 				<div class="container py-5">
@@ -2341,17 +2535,17 @@ if (is_page(4679)) {
 			<section class="accordion-section pb-5" style="background-color: <?php echo esc_html($bg_color); ?>;">
 				<div class="container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
 				   <?php if ($header) : ?>
-					   <div style="font-weight: bold;font-size: 24px; text-align: center; margin-bottom: 2rem;">
+					   <h2>
 						   <?php echo esc_html($header); ?>
-					   </div>
+				   </h2>
 				   <?php endif; ?>
 
 					<div class="row py-5">
 						<div class="col-12 col-lg-6">
 							<?php while (have_rows('faqs_left')) : the_row(); ?>
-								<h5 class="accordion" style="border-color: <?php echo ($bg_color == '#ffffff') ? '#eeeeee' : '#ffffff'; ?>" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+								<div class="accordion" style="border-color: <?php echo ($bg_color == '#ffffff') ? '#eeeeee' : '#ffffff'; ?>" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
 									<?php echo get_sub_field('question_left'); ?>
-								</h5>
+				   </div>
 								<p class="panel" style="background-color: <?php echo ($bg_color == '#ffffff') ? '' : '#ffffff'; ?>">
 									<?php echo get_sub_field('answer_left'); ?>
 								</p>
