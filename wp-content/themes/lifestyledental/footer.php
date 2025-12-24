@@ -161,21 +161,6 @@
 					</li>
 				</ul>
 			</div>
-
-		</div>
-		<div>
-				<p class="disclosure" style="font-size: 10px">Lifestyle Dental and Implant Clinic, Unit E, 284 Garstang Road, Preston, PR2 9RX. Telephone 01772 717 316. Lifestyle Dental and Implant Clinic Ltd trading as Lifestyle Dental and Implant Clinic is a credit broker not a lender and is authorised and regulated by the Financial Conduct Authority, 923534. Registered in England & Wales 11916019. Registered Address: 107 Cleethorpe Road, Grimsby, N E Lincs, United Kingdom, DN31 3ER.</p>
-				<p class="disclosure" style="font-size: 10px">Registered in England & Wales 07360850. Registered Address: Unit B, Burlington Court, New Street, Birmingham, Warwickshire, B2 4JD.
-
-				Where required by law, loans will be regulated by the Financial Conduct Authority and the Consumer Credit Act 1974.
-
-				Medenta Finance Limited, authorised and regulated by the Financial Conduct Authority No: 715523. Registered in Scotland, No: SC276679. Registered address: 50 Lothian Road, Festival Square, Edinburgh, EH3 9WJ. Tel: 01691 684175. Medenta act as a credit broker, not the lender and will introduce businesses to V12 Retail Finance Limited for which they will receive a commission. The amount of commission will vary depending on the product chosen and amount borrowed.
-
-				V12 Retail Finance Limited is authorised and regulated by the Financial Conduct Authority. Registration number:679653. Registered office: Yorke House, Arleston Way, Solihull, B90 4LH. Correspondence address: 25-26 Neptune Court, Vanguard Way, Cardiff, CF24 5PJ. V12 Retail Finance Limited act as a credit broker, not a lender, and only offers credit products from Secure Trust Bank PLC for which they will receive a commission, the amount will vary depending on the amount of credit taken out but will not vary depending on the product chosen. Secure Trust Bank PLC trading as V12 Retail Finance is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority. Registration number: 204550. Registered office: Yorke House, Arleston Way, Solihull, B90 4LH.
-
-				Terms and conditions apply. Written quotations are available on request from Secure Trust Bank PLC. Credit facilities are subject to status and affordability checks and only available to UK residents over the age of 18. Secure Trust Bank PLC reserves the right to decline any application. APR and repayment details are correct at time of publish.
-
-				Telephone calls are recorded for training and compliance purposes.</p>
 		</div>
 	</div>
 </footer>
