@@ -65,7 +65,7 @@ if (is_page(4679)) {
 
 	.core__slider .wrapper .gradient-form {
 		margin: -100px;
-		right: 7rem !important;
+		right: 2rem !important;
 	}
 
 	.core__slider .wrapper {
@@ -75,7 +75,6 @@ if (is_page(4679)) {
 	.core__slider.big .wrapper .slide {
 		height: 469px;
 		padding-top: 3rem;
-		margin: -40px;
 	}
 
 	.core__slider.big .wrapper .slide h1 {
@@ -311,95 +310,6 @@ if (is_page(4679)) {
 	color: #666;
 	font-style: italic;
 }
-
-/* =====Slider Panel ===== */
-
-
-.unique-slider-section {
-  background: #f7f7f7;
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.section-title {
-  font-size: 32px;
-  margin-bottom: 40px;
-  color: #b0005a;
-}
-
-.slider-wrapper {
-	width: 90%;
-  max-width: 1200px;
-  margin: auto;
-  overflow: hidden;
-  position: relative;
-}
-
-.slider-track {
-  display: flex;
-  transition: transform 0.6s ease-in-out;
-}
-
-.slide1 {
-  min-width: 100%;
-  padding: 40px;
-  border-radius: 14px;
-  color: #fff;
-  box-sizing: border-box;
-}
-
-.slide1 h4 {
- color: #fff;
-  margin-bottom: 8px;
-}
-
-.slide1 h5 {
- color: #09280f;
-  margin-bottom: 18px;
-  font-weight: 400;
-}
-
-.slide1 p {
-  
-  line-height: 1.7;
-}
-
-/* Unique panel colors */
-.trust-panel {
-  background: linear-gradient(135deg, #b0005a, #e94a8a);
-}
-
-.smile-panel {
-  background: linear-gradient(135deg, #5a2d82, #8e44ad);
-}
-
-.comfort-panel {
-  background: linear-gradient(135deg, #007c91, #00a8a8);
-}
-
-.finance-panel {
-  background: linear-gradient(135deg, #d35400, #f39c12);
-}
-
-/* Dots */
-.slider-controls {
-  margin-top: 25px;
-}
-
-.slider-controls .dot {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  background: #ccc;
-  border-radius: 50%;
-  margin: 0 6px;
-  cursor: pointer;
-}
-
-.slider-controls .dot.active {
-  background: #b0005a;
-}
-
 /* =====white filling Experience Panel ===== */
 
 .white-fillings-embossed {
@@ -767,7 +677,8 @@ if (is_page(4679)) {
 }
 
 .team-glass-inner {
-  
+  width: 90%;              /* percentage-based width */
+  max-width: 1200px;       /* prevents over-stretching */
   margin: 0 auto;
   padding: 3%;
   border-radius: 22px;
@@ -1162,10 +1073,6 @@ if (is_page(4679)) {
 		background-color: #ea5400;
 		width: 350px;
 	}
-
-	.accordion-section.pb-5 {
-  margin: 33px;
-}
 
 	.content-left-media-right.alternative .btn.main-cta {
 		color: #b40963;
@@ -1972,10 +1879,7 @@ if (is_page(4679)) {
 </style>
 
 <?php if (have_rows('flexible_content')) : ?>
-	<?php $row_count = 0;?>
-	<?php while (have_rows('flexible_content')) : the_row(); 
-	$row_count ++;
-	?>
+	<?php while (have_rows('flexible_content')) : the_row();?>
 
 		<?php if (get_row_layout() == 'hero_banner') :
 			$header        		= get_sub_field('header');
@@ -2254,14 +2158,7 @@ if (is_page(4679)) {
 			$after2       		= get_sub_field('after_image_2');
 			$aos       			= get_sub_field('aos'); ?>
 
-			<?php if (
-    		(is_page(3632) && $row_count == 3) ||
-   		 	(is_page(4740) && $row_count == 11)
-			) : ?>
-    		<?php $bg_color = "#efefef"; ?>
-			<?php endif; ?>
-
-
+			
 			<section class="content-left-media-right <?php echo esc_html($link_style); ?> " style="background-color: <?php echo esc_html($bg_color); ?>;" <?php echo ($aos == 'yes') ? 'data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"' : ''; ?>>
 				<div class="container py-5">
 					<div class="row">
@@ -2357,9 +2254,7 @@ if (is_page(4679)) {
 				</div>
 			</section>
 
-			
-
-		 <?php elseif (get_row_layout() == 'scrolling_gallery') :
+		<?php elseif (get_row_layout() == 'scrolling_gallery') :
 			$header  	= get_sub_field('header'); ?>
 
 			<section class="scrolling-gallery text-center pb-5" style="background-color: #efefef;">
@@ -2435,7 +2330,7 @@ if (is_page(4679)) {
 				</div>
 			</section>
 
-		 <?php elseif (get_row_layout() == 'guarantee_banner') :
+		<?php elseif (get_row_layout() == 'guarantee_banner') :
 			$header  	= get_sub_field('header');
 			$image  	= get_sub_field('image');
 			$bg_image  	= get_sub_field('background_image');
@@ -2446,159 +2341,159 @@ if (is_page(4679)) {
 					content: none;
 				}
 			</style>
-		<?php if (is_page(3775)) : ?>
-		<section class="special_panel_1 content-left-media-right standard">
-			<div class="container py-5">
-				<div class="row">
-					<div class="col-12 col-lg-8">
+<?php if (is_page(3775)) : ?>
+<section class="special_panel_1 content-left-media-right standard">
+	<div class="container py-5">
+		<div class="row">
+			<div class="col-12 col-lg-8">
 
-						<h3>Removing Barriers to Achieving a Healthy Smile</h3>
+				<h3>Removing Barriers to Achieving a Healthy Smile</h3>
 
-						<p>
-							At Lifestyle Dental, we believe that cost, time, or uncertainty should never
-							be a barrier to achieving a healthy and confident smile. Our special offers
-							are designed to support patients at different stages of their dental journey,
-							while maintaining the same high clinical standards and personalised care.
-						</p>
+				<p>
+					At Lifestyle Dental, we believe that cost, time, or uncertainty should never
+					be a barrier to achieving a healthy and confident smile. Our special offers
+					are designed to support patients at different stages of their dental journey,
+					while maintaining the same high clinical standards and personalised care.
+				</p>
 
-						<p>
-							From preventive and cosmetic treatments to restorative and orthodontic care,
-							our approach focuses on providing clear guidance and practical options that
-							align with your individual needs. Every recommendation is made with long-term
-							oral health, comfort, and predictable outcomes in mind.
-						</p>
+				<p>
+					From preventive and cosmetic treatments to restorative and orthodontic care,
+					our approach focuses on providing clear guidance and practical options that
+					align with your individual needs. Every recommendation is made with long-term
+					oral health, comfort, and predictable outcomes in mind.
+				</p>
 
-					</div>
-				</div>
 			</div>
-		</section>
-		<section class="special_panel_2 content-left-media-right standard"
-			style="background-color:#efefef;">
-			<div class="container py-5">
-				<div class="row">
-					<div class="col-12 col-lg-8">
-
-						<h3>
-							What Our Special Offers Are Designed to Support
-						</h3>
-
-						<ul>
-							<li>
-								Access to high-quality dental care without unnecessary financial pressure
-							</li>
-							<li>
-								Treatment options that complement cosmetic, orthodontic, and implant care
-							</li>
-							<li>
-								A structured approach focused on long-term oral health and stability
-							</li>
-							<li>
-								Clear explanations so you can make informed treatment decisions
-							</li>
-							<li>
-								Professional support throughout every stage of your dental journey
-							</li>
-						</ul>
-
-						<p style="margin-top:15px;">
-							Our team carefully reviews each offer to ensure it provides genuine value
-							while maintaining the same clinical standards and attention to detail that
-							our patients expect.
-						</p>
-
-					</div>
-				</div>
+			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
+				<img
+					src="http://lifestyledental.localhost/wp-content/uploads/2025/12/removing_barriers.jpg">
 			</div>
-		</section>
 
-		<section class="special_panel_3 content-left-media-right standard"
-			style="background-color:#ffffff;">
-			<div class="container py-5">
-				<div class="row">
-					<div class="col-12 col-lg-8"
-						style="padding-left:25px;">
+		</div>
+	</div>
+</section>
+<section class="special_panel_2 content-left-media-right standard"
+	style="background-color:#efefef;">
+	<div class="container py-5">
+		<div class="row">
+			<div class="col-12 col-lg-8">
 
-						<h3 style="margin-bottom:20px;">
-							Guidance and Support You Can Rely On
-						</h3>
+				<h3 style="color: #8a97a5">
+					What Our Special Offers Are Designed to Support
+				</h3>
 
-						<p>
-							Choosing the right dental treatment is not always straightforward. Our team
-							takes the time to understand your concerns, explain available options clearly,
-							and guide you through each step of your care with honesty and professionalism.
-						</p>
+				<ul>
+					<li>
+						Access to high-quality dental care without unnecessary financial pressure
+					</li>
+					<li>
+						Treatment options that complement cosmetic, orthodontic, and implant care
+					</li>
+					<li>
+						A structured approach focused on long-term oral health and stability
+					</li>
+					<li>
+						Clear explanations so you can make informed treatment decisions
+					</li>
+					<li>
+						Professional support throughout every stage of your dental journey
+					</li>
+				</ul>
 
-						<ul style="padding-left:18px; margin-top:15px;">
-							<li style="margin-bottom:10px;">
-								Clear treatment explanations with realistic expectations
-							</li>
-							<li style="margin-bottom:10px;">
-								Supportive planning tailored to your lifestyle and priorities
-							</li>
-							<li style="margin-bottom:10px;">
-								Consistent clinical care from consultation to completion
-							</li>
-						</ul>
+				<p style="margin-top:15px;">
+					Our team carefully reviews each offer to ensure it provides genuine value
+					while maintaining the same clinical standards and attention to detail that
+					our patients expect.
+				</p>
 
-						<p style="margin-top:15px;">
-							<span style="color:#683fa1; font-weight:600;">
-								Our friendly team is always happy to answer your questions and help you
-								take the next step with confidence.
-							</span>
-						</p>
-
-					</div>
-				</div>
 			</div>
-		</section>
+		</div>
+	</div>
+</section>
 
-		<section class="special_panel_4 content-left-media-right standard"
-			style="background-color:#efefef;">
-			<div class="container py-5">
-				<div class="row">
+<section class="special_panel_3 content-left-media-right standard"
+	style="background-color:#ffffff;">
+	<div class="container py-5">
+		<div class="row">
+			<div class="col-12 col-lg-8"
+				style="padding-left:25px;">
 
-					<!-- LEFT CONTENT -->
-					<div class="col-12 col-lg-6"
-						style="padding-left:25px;">
+				<h3 style="color: #683fa1";>
+					Guidance and Support You Can Rely On
+				</h3>
 
-						<h3>
-							A Patient-First Approach to Special Care
-						</h3>
+				<p>
+					Choosing the right dental treatment is not always straightforward. Our team
+					takes the time to understand your concerns, explain available options clearly,
+					and guide you through each step of your care with honesty and professionalism.
+				</p>
 
-						<p>
-							Every patient’s needs are different, which is why our special offers are
-							designed to complement personalised treatment planning rather than replace it.
-							We focus on providing options that enhance your care while maintaining clinical
-							quality, safety, and transparency at every stage.
-						</p>
+				<ul style="padding-left:18px; margin-top:15px;">
+					<li style="margin-bottom:10px;">
+						Clear treatment explanations with realistic expectations
+					</li>
+					<li style="margin-bottom:10px;">
+						Supportive planning tailored to your lifestyle and priorities
+					</li>
+					<li style="margin-bottom:10px;">
+						Consistent clinical care from consultation to completion
+					</li>
+				</ul>
 
-					</div>
+				<p style="margin-top:15px;">
+					<span style="color:#683fa1; font-weight:600;">
+						Our friendly team is always happy to answer your questions and help you
+						take the next step with confidence.
+					</span>
+				</p>
 
-					<!-- RIGHT CONTENT -->
-					<div class="col-12 col-lg-6"
-						style="padding-right:25px;">
-
-						<p>
-							Our team takes time to ensure you understand the purpose and benefits of each
-							option available, allowing you to move forward feeling informed and confident
-							in your decisions.
-						</p>
-
-						<p style="margin-top:15px;">
-							<span style="color:#683fa1; font-weight:600;">
-								If you have any questions or would like guidance on suitability, our team
-								is always happy to help.
-							</span>
-						</p>
-
-					</div>
-
-				</div>
 			</div>
-		</section>
-		<?php endif; ?>
+		</div>
+	</div>
+</section>
+
+<section class="special_panel_4 content-left-media-right standard"
+		style="background-color:#efefef;">
+>
+	<div class="container py-5">
+		<div class="row">
+			<div class="col-12 col-lg-8">
+
+				<h3 style="color: #0096ad">A Patient-First Approach to Special Care</h3>
+
+				<p>
+					Every patient’s needs are different, which is why our special offers are
+					designed to complement personalised treatment planning rather than replace it.
+					We focus on providing options that enhance your care while maintaining clinical
+					quality, safety, and transparency at every stage.
+				</p>
+
+				<p>
+					Our team takes time to ensure you understand the purpose and benefits of each
+					option available, allowing you to move forward feeling informed and confident
+					in your decisions.
+				</p>
+
+				<p style="margin-top:15px;">
+					<span style="color: #0096ad; font-weight:600;">
+						If you have any questions or would like guidance on suitability, our team
+						is always happy to help.
+					</span>
+				</p>
+
+			</div>
+			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
+				<img
+					src="http://lifestyledental.localhost/wp-content/uploads/2025/12/first_approach.jpg">
+			</div>
+
+		</div>
+	</div>
+</section>
+<?php endif; ?>
+
 <?php if (is_page(3632)) : ?>
-<section class="sedation_panel_1 content-left-media-right standard aos-init aos-animate" style="background-color: #efefef;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+	<section class="sedation_panel_1 content-left-media-right standard aos-init aos-animate" style="background-color: #efefef;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
 	<div class="container py-5">
 		<div class="row">
 			<div class="col-12 col-lg-8 col-lg-12">
@@ -2631,100 +2526,146 @@ if (is_page(4679)) {
 		</div>
 	</div>
 </section>
-<?php endif; ?>
-<?php if (is_page(3475)) : ?>
-<section class="unique-slider-section">
-  <h2>More Reasons Patients Choose Lifestyle Dental</h2>
 
-  <div class="slider-wrapper">
-    <div class="slider-track">
+<section class="sedation_panel2" style="background-color:#ffffff;">
+	<div class="container py-5">
+		<div class="row align-items-center">
 
-      <!-- Panel 1 -->
-      <div class="slide1 trust-panel">
-        <h4>Why Patients Trust Us</h4>
-        <h5>Care built on honesty & experience</h5>
-        <p>
-          Our patients choose Lifestyle Dental because we combine advanced
-          clinical expertise with a genuinely caring approach. From your first
-          consultation, we take time to listen, explain every option clearly,
-          and recommend only what is right for you. Transparency, consistency,
-          and long-term results are at the heart of everything we do.
-        </p>
-      </div>
+			<div class="col-12 col-lg-8" style="font-size:18px; font-weight:400; text-align:left; border:1px solid #cfd8dc; border-top:5px solid #2b7a78; padding:30px;">
 
-      <!-- Panel 2 -->
-      <div class="slide1 smile-panel">
-        <h4>Real Smiles, Real Results</h4>
-        <h5>Transformations that speak for themselves</h5>
-        <p>
-          Seeing real patient results builds confidence. Our smile
-          transformations are designed to look natural, feel comfortable, and
-          last for years. Whether it’s whitening, implants, or full smile
-          makeovers, every treatment plan is personalised to enhance your
-          natural smile without over-treatment.
-        </p>
-      </div>
+				<h3 style="font-weight:400; color:#2b7a78; margin-bottom:15px;">
+					A Reassuring Approach for Anxious Dental Patients
+				</h3>
 
-      <!-- Panel 3 -->
-      <div class="slide1 comfort-panel">
-        <h4>Comfort & Anxiety-Free Dentistry</h4>
-        <h5>We care for nervous patients</h5>
-        <p>
-          Dental anxiety is common, and we take it seriously. Our calm
-          environment, gentle techniques, and supportive team help even the
-          most nervous patients feel relaxed. Many patients tell us their fear
-          of dentists disappeared after just one visit.
-        </p>
-      </div>
+				<p style="margin-bottom:15px;">
+					Feeling nervous about dental treatment is completely understandable.
+					At Lifestyle Dental, we offer sedation options that help patients remain calm
+					and comfortable while receiving the care they need.
+				</p>
 
-      <!-- Panel 4 -->
-      <div class="slide1 finance-panel">
-        <h4>Flexible Payment & Finance Options</h4>
-        <h5>Quality care made affordable</h5>
-        <p>
-          We believe finances should never delay essential dental care.
-          Lifestyle Dental offers clear pricing, flexible payment plans, and
-          dental finance options to spread the cost comfortably. Everything is
-          explained upfront so you can proceed with confidence and peace of
-          mind.
-        </p>
-      </div>
+				<ul style="list-style:none; padding-left:0; margin-bottom:15px;">
+					<li style="margin-bottom:8px;">
+						<span style="color:#2b7a78; font-weight:500;">✔</span>
+						Gentle sedation options tailored for nervous patients
+					</li>
+					<li style="margin-bottom:8px;">
+						<span style="color:#2b7a78; font-weight:500;">✔</span>
+						Carefully monitored conscious sedation for safety and comfort
+					</li>
+					<li style="margin-bottom:8px;">
+						<span style="color:#2b7a78; font-weight:500;">✔</span>
+						Ideal support for longer or more complex dental procedures
+					</li>
+				</ul>
 
-    </div>
-  </div>
+				<p>
+					<span style="color:#2b7a78;">
+						Sedation dentistry supports a relaxed treatment experience,
+					</span>
+					helping you regain confidence and move forward with your dental care.
+				</p>
 
-  <!-- Navigation -->
-  <div class="slider-controls">
-    <span class="dot active"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-  </div>
+			</div>
+			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
+				<img
+					src="http://lifestyledental.localhost/wp-content/uploads/2025/12/dental-anxiety.jpg"
+					alt="Dental anxiety and sedation care"
+					style="width:100%; height:auto; border-radius:6px;">
+			</div>
+
+		</div>
+	</div>
 </section>
+
 <?php endif; ?>
-<script>
-  const track = document.querySelector('.slider-track');
-  const dots = document.querySelectorAll('.dot');
-  let index = 0;
+<?php if (is_page(3614)) : ?>
+<section class="root_canal_panel2 content-left-media-right standard aos-init aos-animate" style="background-color: #efefef;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+				<div class="container py-5">
+					<div class="row">
+						<div class="col-12 col-lg-8 ">
 
-  function showSlide(i) {
-    track.style.transform = `translateX(-${i * 100}%)`;
-    dots.forEach(dot => dot.classList.remove('active'));
-    dots[i].classList.add('active');
-  }
 
-  dots.forEach((dot, i) => {
-    dot.addEventListener('click', () => {
-      index = i;
-      showSlide(index);
-    });
-  });
+				<h3>
+					Protecting Your Natural Tooth and Relieving Pain
+				</h3>
 
-  setInterval(() => {
-    index = (index + 1) % dots.length;
-    showSlide(index);
-  }, 5000);
-</script>
+				<p>
+					Root canal treatment is often the most effective way to relieve pain while
+					preserving your natural tooth. Instead of removing the tooth, treatment focuses
+					on eliminating infection from within and restoring the tooth’s strength and
+					function.
+				</p>
+
+				<p>
+					At Lifestyle Dental, we use modern techniques and careful planning to ensure
+					root canal treatment is carried out with precision and patient comfort in mind.
+					This approach helps reduce discomfort during treatment and supports long-term
+					success.
+				</p>
+
+				<p>
+					<span style="color:#683fa1; font-weight:600;">
+						Early treatment can prevent further infection and help you return to everyday
+						comfort with confidence.
+					</span>
+				</p>
+
+			</div>
+			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
+				<img
+					src="http://lifestyledental.localhost/wp-content/uploads/2025/12/dental-anxiety.jpg">
+			</div>
+
+		</div>
+	</div>
+</section>
+<section class="content-left-media-right standard aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+
+	<div class="container py-5">
+		<div class="row">
+
+			<!-- CONTENT PANEL -->
+			<div class="col-12 col-lg-8">
+
+				<h3>
+					Why early treatment is important
+				</h3>
+
+				<p>
+					Root canal problems do not resolve on their own and can worsen quickly
+					if left untreated. When infection spreads inside the tooth, it can lead
+					to severe pain, swelling, and damage to surrounding bone and tissue.
+				</p>
+
+				<ul>
+					<li>Relieves persistent tooth pain and pressure</li>
+					<li>Prevents infection from spreading further</li>
+					<li>Helps save your natural tooth structure</li>
+					<li>Reduces the risk of abscess and facial swelling</li>
+					<li>Restores normal function for biting and chewing</li>
+				</ul>
+
+				<p>
+					Seeking timely root canal treatment can protect your oral health,
+					relieve discomfort, and help you avoid more complex dental procedures
+					in the future.
+				</p>
+
+			</div>
+
+			<!-- IMAGE PANEL -->
+			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
+				<img
+					src="http://lifestyledental.localhost/wp-content/uploads/2025/12/root_canal.jpg"
+					alt="Root canal pain symptoms">
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<?php endif; ?>
+
 
 			<section class="guarantee-banner <?php echo ($image == '') ? '' : 'plain-background'; ?>" style="<?php echo (!empty($image)) ? 'background-color:' . esc_html($bg_color) . ';' : 'background-image: url(' . esc_url($bg_image['url']) . ');'; ?>">
 				<div class="container py-5">
@@ -2767,7 +2708,7 @@ if (is_page(4679)) {
 			<section class="accordion-section pb-5" style="background-color: <?php echo esc_html($bg_color); ?>;">
 				<div class="container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
 				   <?php if ($header) : ?>
-					   <h2 style="text-align: center; margin-top: 2rem; margin-bottom: 2rem;">
+					   <h2>
 						   <?php echo esc_html($header); ?>
 				   </h2>
 				   <?php endif; ?>
@@ -3267,7 +3208,6 @@ if (is_page(4679)) {
 	
 
 		 <section class="team-seo-glass-panel">
-			<div class="container">
 			<div class="team-glass-inner">
 				<h4>A Dedicated Dental Team You Can Trust in Fulwood, Preston</h4>
 				<p>
@@ -3287,7 +3227,6 @@ if (is_page(4679)) {
 				surrounding areas with friendly, professional care.
 				</p>
 			</div>
-						</div>
 			</section>
 
 
@@ -3663,131 +3602,6 @@ if (is_page(4679)) {
 
 <?php endif; ?>
 
-<?php if (is_page(3715)) : ?>
-<section class="gd-section">
-    <style>
-        .gd-section {
-            padding: 80px 0;
-            background: linear-gradient(135deg, #f7f9fc, #eef2f7);
-            font-family: Arial, sans-serif;
-        }
-
-        .gd-container {
-            width: 90%;
-            max-width: 1200px;
-            margin: auto;
-            text-align: center;
-        }
-
-        .gd-heading {
-            font-size: 36px;
-            font-weight: 700;
-            color: #2a579a;
-            margin-bottom: 15px;
-        }
-
-        .gd-subheading {
-            font-size: 18px;
-            color: #555;
-            max-width: 750px;
-            margin: 0 auto 50px;
-            line-height: 1.6;
-        }
-
-        .gd-cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-        }
-
-        .gd-card {
-            background: #ffffff;
-            padding: 35px 25px;
-            border-radius: 16px;
-            box-shadow: 0 15px 35px rgba(0,0,0,0.08);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .gd-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 22px 45px rgba(0,0,0,0.12);
-        }
-
-        .gd-icon {
-            font-size: 42px;
-            color: #d81b60;
-            margin-bottom: 20px;
-        }
-
-        .gd-card h3 {
-            font-size: 22px;
-            color: #222;
-            margin-bottom: 12px;
-        }
-
-        .gd-card p {
-            font-size: 15px;
-            color: #666;
-            line-height: 1.6;
-        }
-
-        @media (max-width: 768px) {
-            .gd-heading {
-                font-size: 28px;
-            }
-        }
-    </style>
-
-    <div class="gd-container">
-        <h2 class="gd-heading">Comprehensive General Dentistry for Healthy Smiles</h2>
-        <p class="gd-subheading">
-            Our general dentistry services focus on prevention, comfort, and long-term oral health.
-            We help patients of all ages maintain strong teeth and healthy gums with gentle,
-            personalised care.
-        </p>
-
-        <div class="gd-cards">
-
-            <div class="gd-card">
-                <div class="gd-icon">🦷</div>
-                <h3>Dental Check-Ups</h3>
-                <p>
-                    Routine examinations allow us to identify dental issues early and keep
-                    your smile healthy and pain-free.
-                </p>
-            </div>
-
-            <div class="gd-card">
-                <div class="gd-icon">✨</div>
-                <h3>Scale & Polish</h3>
-                <p>
-                    Professional cleaning removes plaque and tartar build-up, reducing the
-                    risk of gum disease and bad breath.
-                </p>
-            </div>
-
-            <div class="gd-card">
-                <div class="gd-icon">🛡️</div>
-                <h3>Preventive Treatments</h3>
-                <p>
-                    Fluoride treatments and protective sealants help strengthen enamel and
-                    prevent tooth decay.
-                </p>
-            </div>
-
-            <div class="gd-card">
-                <div class="gd-icon">🪥</div>
-                <h3>Fillings & Repairs</h3>
-                <p>
-                    Natural-looking fillings restore damaged teeth while preserving both
-                    strength and appearance.
-                </p>
-            </div>
-
-        </div>
-    </div>
-</section>
-<?php endif; ?>
 
 <script src="https://unpkg.com/scrollreveal"></script>
 
