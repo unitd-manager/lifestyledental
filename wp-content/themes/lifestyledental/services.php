@@ -64,7 +64,7 @@ if (is_page(4679)) {
 	}
 
 	.core__slider .wrapper .gradient-form {
-		right: 2rem !important;
+		right: 0rem !important;
 		margin-top: 60px;
 	}
 
