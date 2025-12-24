@@ -164,6 +164,59 @@ if (is_page(4679)) {
 		color: #ffffff;
 	}
 
+	.panel-icons {
+  background: #fde8f1;
+  padding: 70px 8%;
+  text-align: center;
+}
+
+/* =====  icon Panel ===== */
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+.icon-box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+}
+.icon-box span {
+  font-size: 40px;
+}
+
+
+/* =====  splits Panel ===== */
+	.panel-split {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 70px 10%;
+  background: #fff;
+  max-width: 1180px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 16px 35px rgba(0,0,0,0.08);
+}
+.panel-image img {
+  width: 450px;
+  border-radius: 18px;
+}
+.panel-content h2 {
+  color: #c2186b;
+}
+.panel-content ul {
+  margin: 20px 0;
+}
+.panel-content li {
+  margin-bottom: 8px;
+}
+
+
 		/* =====  why choose gums Panel ===== */
 
 	.unique-smile-panel {
@@ -172,7 +225,7 @@ if (is_page(4679)) {
 }
 
 .panel-container {
-  max-width: 900px;
+  
   margin: 0 auto;
   background: #ffffff;
   padding: 40px;
@@ -182,14 +235,12 @@ if (is_page(4679)) {
 }
 
 .panel-container h4 {
-  font-size: 26px;
   color: #c73779;
   margin-bottom: 20px;
   font-weight: 700;
 }
 
 .panel-container p {
-  font-size: 16px;
   line-height: 1.8;
   color: #444;
   margin: 0;
@@ -200,13 +251,7 @@ if (is_page(4679)) {
     padding: 25px;
   }
 
-  .panel-container h4 {
-    font-size: 22px;
-  }
 
-  .panel-container p {
-    font-size: 15px;
-  }
 }
 
 
@@ -3071,7 +3116,10 @@ if (is_page(4679)) {
 </section>
 <?php endif; ?>
 <?php if (is_page(3414)) : ?>
+	
+
 	<section class="unique-smile-panel">
+		<div class="container">
   <div class="panel-container">
     <h4>Why Choose Gum & Teeth Contouring at Lifestyle Dental?</h4>
     <p>
@@ -3085,7 +3133,88 @@ if (is_page(4679)) {
       professional environment.
     </p>
   </div>
+</div>
 </section>
+<section class="gtc-panel panel-split">
+  <div class="panel-image">
+    <img src="/image/about/dental-implants.jpg" alt="Gum Contouring Results">
+  </div>
+  <div class="panel-content">
+    <h2>Precision Gum & Teeth Sculpting</h2>
+    <p>
+      Gum and teeth contouring is a minimally invasive cosmetic treatment designed to
+      refine the shape of your gums and teeth for a more balanced, confident smile.
+      Using advanced techniques and digital smile planning, our clinicians carefully
+      sculpt uneven gum lines or tooth edges to improve symmetry and proportion.
+      Treatment is gentle, precise, and focused on delivering natural-looking results
+      with minimal discomfort and fast recovery, helping you feel confident when you
+      smile, speak, and interact every day.
+    </p>
+    <ul>
+      <li>✔ Digital smile planning</li>
+      <li>✔ Minimal discomfort</li>
+      <li>✔ Immediate aesthetic results</li>
+    </ul>
+    
+  </div>
+ 
+</section>
+<section class="gtc-panel panel-icons">
+	<div class="container">
+  <h2>Your Smile Journey Explained</h2>
+  <div class="icon-grid">
+    
+    <div class="icon-box">
+      <span>🦷</span>
+      <h4>Assessment</h4>
+      <p>Detailed evaluation of your gum line and tooth proportions.</p>
+    </div>
+
+    <div class="icon-box">
+      <span>📐</span>
+      <h4>Smile Design</h4>
+      <p>Advanced digital planning to visualise your new smile.</p>
+    </div>
+
+    <div class="icon-box">
+      <span>✨</span>
+      <h4>Refinement</h4>
+      <p>Precise contouring for natural, balanced results.</p>
+    </div>
+
+    <div class="icon-box">
+      <span>🛡️</span>
+      <h4>Comfort Focused</h4>
+      <p>Gentle techniques ensure a relaxed and stress-free experience.</p>
+    </div>
+
+    <div class="icon-box">
+      <span>⏱️</span>
+      <h4>Quick Recovery</h4>
+      <p>Most patients return to normal activities the same day.</p>
+    </div>
+
+    <div class="icon-box">
+      <span>😊</span>
+      <h4>Confidence Boost</h4>
+      <p>Enjoy a naturally enhanced smile you’ll love to show.</p>
+    </div>
+
+	 <div class="icon-box">
+      <span>🔬</span>
+      <h4>Advanced Technology</h4>
+      <p>Modern tools deliver precise, predictable treatment outcomes.</p>
+    </div>
+
+    <div class="icon-box">
+      <span>👩‍⚕️</span>
+      <h4>Expert Care</h4>
+      <p>Experienced clinicians focused on quality and safety.</p>
+    </div>
+  </div>
+</div>
+</section>
+
 
 	<?php endif; ?>
 
