@@ -388,7 +388,7 @@ if (is_page(4679)) {
 }
 
 .panel-container {
-  
+  max-width: 900px;
   margin: 0 auto;
   background: #ffffff;
   padding: 40px;
@@ -398,12 +398,14 @@ if (is_page(4679)) {
 }
 
 .panel-container h4 {
+  font-size: 26px;
   color: #c73779;
   margin-bottom: 20px;
   font-weight: 700;
 }
 
 .panel-container p {
+  font-size: 16px;
   line-height: 1.8;
   color: #444;
   margin: 0;
@@ -414,7 +416,13 @@ if (is_page(4679)) {
     padding: 25px;
   }
 
+  .panel-container h4 {
+    font-size: 22px;
+  }
 
+  .panel-container p {
+    font-size: 15px;
+  }
 }
 
 
@@ -2601,7 +2609,7 @@ if (is_page(4679)) {
 			</div>
 			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
 				<img
-					src="http://lifestyledental.localhost/wp-content/uploads/2025/12/removing_barriers.jpg">
+					src="http://lifestyledental.localhost/image/about/removing_barriers.jpg">
 			</div>
 
 		</div>
@@ -2689,7 +2697,6 @@ if (is_page(4679)) {
 
 <section class="special_panel_4 content-left-media-right standard"
 		style="background-color:#efefef;">
->
 	<div class="container py-5">
 		<div class="row">
 			<div class="col-12 col-lg-8">
@@ -2719,7 +2726,7 @@ if (is_page(4679)) {
 			</div>
 			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
 				<img
-					src="http://lifestyledental.localhost/wp-content/uploads/2025/12/first_approach.jpg">
+					src="http://lifestyledental.localhost/image/about/first_approach.jpg">
 			</div>
 
 		</div>
@@ -2728,41 +2735,7 @@ if (is_page(4679)) {
 <?php endif; ?>
 
 <?php if (is_page(3632)) : ?>
-	<section class="sedation_panel_1 content-left-media-right standard aos-init aos-animate" style="background-color: #efefef;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-	<div class="container py-5">
-		<div class="row">
-			<div class="col-12 col-lg-8 col-lg-12">
-
-				<h3>
-					Support for Nervous and Anxious Patients
-				</h3>
-
-				<p>
-					We understand that dental anxiety can prevent many people from seeking the care
-					they need. At Lifestyle Dental, our sedation service is designed to help nervous
-					patients feel calm, supported, and in control throughout their treatment.
-				</p>
-
-				<p>
-					By allowing extra appointment time, using proven relaxation techniques, and
-					offering intravenous sedation where appropriate, we create an environment where
-					you can feel reassured and comfortable. Sedation helps reduce anxiety and makes
-					longer or more complex treatments easier to manage.
-				</p>
-
-				<p>
-					<span style="color:#683fa1; font-weight:600;">
-						Our experienced team will guide you through every step, ensuring your safety,
-						comfort, and peace of mind at all times.
-					</span>
-				</p>
-
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="sedation_panel2" style="background-color:#ffffff;">
+	<section class="sedation_panel1" style="background-color: #efefef;" >
 	<div class="container py-5">
 		<div class="row align-items-center">
 
@@ -2803,7 +2776,7 @@ if (is_page(4679)) {
 			</div>
 			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
 				<img
-					src="http://lifestyledental.localhost/wp-content/uploads/2025/12/dental-anxiety.jpg"
+					src="http://lifestyledental.localhost/image/about/dental-anxiety.jpg"
 					alt="Dental anxiety and sedation care"
 					style="width:100%; height:auto; border-radius:6px;">
 			</div>
@@ -2811,7 +2784,39 @@ if (is_page(4679)) {
 		</div>
 	</div>
 </section>
+<section class="sedation_panel_2 content-left-media-right standard aos-init aos-animate" style="background-color:#ffffff;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+	<div class="container py-5">
+		<div class="row">
+			<div class="col-12 col-lg-8 col-lg-12">
 
+				<h3 style="color: #683fa1">
+					Support for Nervous and Anxious Patients
+				</h3>
+
+				<p>
+					We understand that dental anxiety can prevent many people from seeking the care
+					they need. At Lifestyle Dental, our sedation service is designed to help nervous
+					patients feel calm, supported, and in control throughout their treatment.
+				</p>
+
+				<p>
+					By allowing extra appointment time, using proven relaxation techniques, and
+					offering intravenous sedation where appropriate, we create an environment where
+					you can feel reassured and comfortable. Sedation helps reduce anxiety and makes
+					longer or more complex treatments easier to manage.
+				</p>
+
+				<p>
+					<span style="color:#683fa1; font-weight:600;">
+						Our experienced team will guide you through every step, ensuring your safety,
+						comfort, and peace of mind at all times.
+					</span>
+				</p>
+
+			</div>
+		</div>
+	</div>
+</section>
 <?php endif; ?>
 <?php if (is_page(3614)) : ?>
 <section class="root_canal_panel2 content-left-media-right standard aos-init aos-animate" style="background-color: #efefef;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
@@ -2848,7 +2853,7 @@ if (is_page(4679)) {
 			</div>
 			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
 				<img
-					src="http://lifestyledental.localhost/wp-content/uploads/2025/12/dental-anxiety.jpg">
+					src="http://lifestyledental.localhost/image/about/dental-anxiety.jpg">
 			</div>
 
 		</div>
@@ -3292,109 +3297,9 @@ if (is_page(4679)) {
 </section>
 <?php endif; ?>
 <?php if (is_page(3414)) : ?>
-	<section class="gtc-panel panel-story gtc-animate">
-
-  <div class="story-text">
-    <h2>Redefining the Balance of Your Smile</h2>
-    <p>
-      Gum and teeth contouring focuses on subtle refinements that make a powerful
-      difference. By carefully reshaping uneven gums or smoothing irregular tooth
-      edges, we help restore natural balance and proportion to your smile.
-      Using digital smile planning, every adjustment is guided by precision,
-      ensuring results that look harmonious, confident, and completely natural.
-      The procedure is minimally invasive, comfortable, and often completed in a
-      single visit with visible improvements straight away.
-    </p>
-  </div>
-</section>
-<section class="gtc-impact-panel gtc-animate">
-	<div class="container">
-  <div class="impact-wrapper">
-   <div class="impact-visual">
-     
-       
-        <img src="/image/about/OIP.jpg" alt="Before Smile">
-      
-    </div>
-    <div class="impact-text">
-      <span class="impact-label">The Difference That Matters</span>
-      <h2>From Subtle Imperfections to Confident Smiles</h2>
-      <p>
-        Even minor irregularities in gum lines or tooth edges can affect how you
-        feel about your smile. Precision gum and teeth contouring focuses on small,
-        controlled refinements that create balance, harmony, and natural symmetry.
-        The result isn’t an artificial change, but a confident smile that feels
-        effortless, proportionate, and authentically yours.
-      </p>
-
-      <ul class="impact-points">
-        <li>✔ Natural-looking improvements</li>
-        <li>✔ Immediate visible enhancement</li>
-        <li>✔ Confidence in photos and conversations</li>
-      </ul>
-    </div>
-
- 
- </div>
-  </div>
-</section>
-
-<section class="gtc-enhanced-panel gtc-animate">
-    <div class="container">
-  <h2 class="panel-title">How Your Treatment Works</h2>
-
-  <div class="enhanced-timeline">
-
-    <div class="timeline-card">
-      <span class="step-no">01</span>
-      <h4>Consultation</h4>
-      <p>We assess your gum line, tooth shape, and aesthetic goals.</p>
-    </div>
-
-    <div class="timeline-card">
-      <span class="step-no">02</span>
-      <h4>Smile Planning</h4>
-      <p>Advanced digital tools preview your enhanced smile.</p>
-    </div>
-
-    <div class="timeline-card">
-      <span class="step-no">03</span>
-      <h4>Contouring</h4>
-      <p>Gentle sculpting creates symmetry, balance, and flow.</p>
-    </div>
-
-    <div class="timeline-card">
-      <span class="step-no">04</span>
-      <h4>Aftercare</h4>
-      <p>Clear guidance ensures fast, smooth recovery.</p>
-    </div>
-</div>
-  </div>
-</section>
-
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const elements = document.querySelectorAll(".gtc-animate");
-
-  const observer = new IntersectionObserver(
-    entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("is-visible");
-        }
-      });
-    },
-    { threshold: 0.15 }
-  );
-
-  elements.forEach(el => observer.observe(el));
-});
-</script>
-
+	
 
 	<section class="unique-smile-panel">
-		<div class="container">
   <div class="panel-container">
     <h4>Why Choose Gum & Teeth Contouring at Lifestyle Dental?</h4>
     <p>
@@ -3408,9 +3313,8 @@ document.addEventListener("DOMContentLoaded", function () {
       professional environment.
     </p>
   </div>
-</div>
 </section>
-<section class="panel-split">
+<section class="gtc-panel panel-split">
   <div class="panel-image">
     <img src="/image/about/dental-implants.jpg" alt="Gum Contouring Results">
   </div>
@@ -3434,7 +3338,7 @@ document.addEventListener("DOMContentLoaded", function () {
   </div>
  
 </section>
-<section class="panel-icons">
+<section class="gtc-panel panel-icons">
 	<div class="container">
   <h2>Your Smile Journey Explained</h2>
   <div class="icon-grid">
