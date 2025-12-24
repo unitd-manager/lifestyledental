@@ -56,7 +56,7 @@ if (is_page(4679)) {
 		position: absolute;
 		top: 60px;
 		height: 520px;
-		right: 305px;
+		right: 335px;
 	}
 
 	.layer .slides .slide.services {
@@ -64,12 +64,13 @@ if (is_page(4679)) {
 	}
 
 	.core__slider .wrapper .gradient-form {
-		margin: -100px;
-		right: 2rem !important;
+		right: 0rem !important;
+		margin-top: 60px;
 	}
 
 	.core__slider .wrapper {
 		background-color: #eaeaea;
+		padding: 0;
 	}
 
 	.core__slider.big .wrapper .slide {
@@ -163,6 +164,222 @@ if (is_page(4679)) {
 		color: #ffffff;
 	}
 
+
+	/* =====  patient story Panel ===== */
+
+	.gtc-panel {
+ width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1180px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.gtc-panel h2 {
+  color: #c2186b;
+  
+  margin-bottom: 20px;
+}
+
+.gtc-panel p {
+  
+  line-height: 1.7;
+  color: #444;
+}
+
+
+/* Panel Wrapper */
+.gtc-enhanced-panel {
+  background: linear-gradient(180deg, #fff7fb, #ffffff);
+  border-radius: 40px;
+  max-width: 1200px;
+  margin: 90px auto;
+}
+
+/* Title */
+.panel-title {
+  text-align: center;
+  font-size: 36px;
+  color: #c2186b;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.panel-title::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: #e91e63;
+  display: block;
+  margin: 18px auto 0;
+  border-radius: 5px;
+}
+
+/* Timeline Grid */
+.enhanced-timeline {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 35px;
+}
+
+/* Card */
+.timeline-card {
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 25px;
+  position: relative;
+  box-shadow: 0 25px 45px rgba(194, 24, 107, 0.08);
+  transition: all 0.4s ease;
+}
+
+/* Hover lift */
+.timeline-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 35px 60px rgba(194, 24, 107, 0.15);
+}
+
+/* Step number */
+.step-no {
+  position: absolute;
+  top: -18px;
+  right: 25px;
+  background: linear-gradient(135deg, #c2186b, #e91e63);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+/* Card text */
+.timeline-card h4 {
+  color: #c2186b;
+ 
+  margin-bottom: 10px;
+}
+
+.timeline-card p {
+  color: #555;
+  
+  line-height: 1.6;
+}
+
+
+	.panel-benefit {
+  background: linear-gradient(135deg, #c2186b, #e91e63);
+  padding: 90px 20px;
+  border-radius: 35px;
+}
+
+.panel-benefit .benefit-card {
+  background: #ffffff;
+  max-width: 850px;
+  margin: auto;
+  padding: 55px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.panel-benefit h2 {
+  margin-bottom: 15px;
+}
+
+
+	@media (max-width: 768px) {
+  .panel-story,
+  .panel-timeline {
+    padding: 45px 25px;
+  }
+
+  .panel-benefit .benefit-card {
+    padding: 35px 25px;
+  }
+ .timeline-card {
+    padding: 35px 25px;
+  }
+
+}
+
+
+	/* Base animation state */
+.gtc-animate {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+/* When visible */
+.gtc-animate.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stagger support */
+.gtc-delay-1 { transition-delay: 0.2s; }
+.gtc-delay-2 { transition-delay: 0.4s; }
+.gtc-delay-3 { transition-delay: 0.6s; }
+
+
+	.panel-icons {
+  background: #fde8f1;
+  padding: 70px 8%;
+  text-align: center;
+}
+
+/* =====  icon Panel ===== */
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+.icon-box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+}
+.icon-box span {
+  font-size: 40px;
+}
+
+
+/* =====  splits Panel ===== */
+	.panel-split {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 70px 10%;
+  background: #fff;
+  max-width: 1180px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 16px 35px rgba(0,0,0,0.08);
+}
+.panel-image img {
+  width: 450px;
+  border-radius: 18px;
+}
+.panel-content h2 {
+  color: #c2186b;
+}
+.panel-content ul {
+  margin: 20px 0;
+}
+.panel-content li {
+  margin-bottom: 8px;
+}
+
+
 		/* =====  why choose gums Panel ===== */
 
 	.unique-smile-panel {
@@ -171,7 +388,6 @@ if (is_page(4679)) {
 }
 
 .panel-container {
-  max-width: 900px;
   margin: 0 auto;
   background: #ffffff;
   padding: 40px;
@@ -459,6 +675,78 @@ if (is_page(4679)) {
   }
 }
 
+.gtc-impact-panel {
+  padding: 100px 20px;
+  background: #ffffff;
+}
+
+.impact-wrapper {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 70px;
+  align-items: center;
+}
+
+/* Text side */
+.impact-label {
+  display: inline-block;
+  color: #c2186b;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.impact-text h2 {
+  
+  color: #c2186b;
+  margin-bottom: 25px;
+}
+
+.impact-text p {
+  ;
+  line-height: 1.8;
+  color: #444;
+}
+
+.impact-points {
+  margin-top: 25px;
+  padding: 0;
+  list-style: none;
+}
+
+.impact-points li {
+  margin-bottom: 10px;
+  font-size: 15.5px;
+}
+
+/* Visual side */
+
+
+.impact-visual div {
+  position: relative;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.12);
+}
+
+.impact-visual img {
+  width: 100%;
+  display: block;
+}
+
+
+
+@media (max-width: 768px) {
+  .impact-wrapper {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+ 
+}
 
 
 
@@ -1643,7 +1931,7 @@ if (is_page(4679)) {
 	@media (min-width: 992px) {
 		.core__slider .wrapper .gradient-form {
 			position: absolute;
-			top: 10rem;
+			top: 0rem;
 			right: 1rem;
 		}
 	}
@@ -1953,8 +2241,7 @@ if (is_page(4679)) {
 
 				</div>
 			<?php endif; ?>
-
-
+			
 			<?php if (is_page(4679)) : ?>
 				<div class="core__slider big mb-0 dental-emergancy_hero">
 					<div class="container">
@@ -3048,7 +3335,108 @@ if (is_page(4679)) {
 </section>
 <?php endif; ?>
 <?php if (is_page(3414)) : ?>
+	
+<section class="gtc-panel panel-story gtc-animate">
+
+  <div class="story-text">
+    <h3>Redefining the Balance of Your Smile</h3>
+    <p>
+      Gum and teeth contouring focuses on subtle refinements that make a powerful
+      difference. By carefully reshaping uneven gums or smoothing irregular tooth
+      edges, we help restore natural balance and proportion to your smile.
+      Using digital smile planning, every adjustment is guided by precision,
+      ensuring results that look harmonious, confident, and completely natural.
+      The procedure is minimally invasive, comfortable, and often completed in a
+      single visit with visible improvements straight away.
+    </p>
+  </div>
+</section>
+<section class="gtc-impact-panel gtc-animate">
+	<div class="container">
+  <div class="impact-wrapper">
+   <div class="impact-visual">
+     
+       
+        <img src="/image/about/OIP.jpg" alt="Before Smile">
+      
+    </div>
+    <div class="impact-text">
+      <span class="impact-label">The Difference That Matters</span>
+      <h3>From Subtle Imperfections to Confident Smiles</h3>
+      <p>
+        Even minor irregularities in gum lines or tooth edges can affect how you
+        feel about your smile. Precision gum and teeth contouring focuses on small,
+        controlled refinements that create balance, harmony, and natural symmetry.
+        The result isn’t an artificial change, but a confident smile that feels
+        effortless, proportionate, and authentically yours.
+      </p>
+
+      <ul class="impact-points">
+        <li>✔ Natural-looking improvements</li>
+        <li>✔ Immediate visible enhancement</li>
+        <li>✔ Confidence in photos and conversations</li>
+      </ul>
+    </div>
+
+ 
+ </div>
+  </div>
+</section>
+
+<section class="gtc-enhanced-panel gtc-animate">
+    <div class="container">
+  <h3 class="panel-title">How Your Treatment Works</h3>
+
+  <div class="enhanced-timeline">
+
+    <div class="timeline-card">
+      <span class="step-no">01</span>
+      <h4>Consultation</h4>
+      <p>We assess your gum line, tooth shape, and aesthetic goals.</p>
+    </div>
+
+    <div class="timeline-card">
+      <span class="step-no">02</span>
+      <h4>Smile Planning</h4>
+      <p>Advanced digital tools preview your enhanced smile.</p>
+    </div>
+
+    <div class="timeline-card">
+      <span class="step-no">03</span>
+      <h4>Contouring</h4>
+      <p>Gentle sculpting creates symmetry, balance, and flow.</p>
+    </div>
+
+    <div class="timeline-card">
+      <span class="step-no">04</span>
+      <h4>Aftercare</h4>
+      <p>Clear guidance ensures fast, smooth recovery.</p>
+    </div>
+</div>
+  </div>
+</section>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const elements = document.querySelectorAll(".gtc-animate");
+
+  const observer = new IntersectionObserver(
+    entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+        }
+      });
+    },
+    { threshold: 0.15 }
+  );
+
+  elements.forEach(el => observer.observe(el));
+});
+</script>
 	<section class="unique-smile-panel">
+		<div class="container">
   <div class="panel-container">
     <h4>Why Choose Gum & Teeth Contouring at Lifestyle Dental?</h4>
     <p>
@@ -3062,7 +3450,88 @@ if (is_page(4679)) {
       professional environment.
     </p>
   </div>
+</div>
 </section>
+<section class="panel-split">
+  <div class="panel-image">
+    <img src="/image/about/dental-implants.jpg" alt="Gum Contouring Results">
+  </div>
+  <div class="panel-content">
+    <h3>Precision Gum & Teeth Sculpting</h3>
+    <p>
+      Gum and teeth contouring is a minimally invasive cosmetic treatment designed to
+      refine the shape of your gums and teeth for a more balanced, confident smile.
+      Using advanced techniques and digital smile planning, our clinicians carefully
+      sculpt uneven gum lines or tooth edges to improve symmetry and proportion.
+      Treatment is gentle, precise, and focused on delivering natural-looking results
+      with minimal discomfort and fast recovery, helping you feel confident when you
+      smile, speak, and interact every day.
+    </p>
+    <ul>
+      <li>✔ Digital smile planning</li>
+      <li>✔ Minimal discomfort</li>
+      <li>✔ Immediate aesthetic results</li>
+    </ul>
+    
+  </div>
+ 
+</section>
+<section class="panel-icons">
+	<div class="container">
+  <h2>Your Smile Journey Explained</h2>
+  <div class="icon-grid">
+    
+    <div class="icon-box">
+      <span>🦷</span>
+      <h4>Assessment</h4>
+      <p>Detailed evaluation of your gum line and tooth proportions.</p>
+    </div>
+
+    <div class="icon-box">
+      <span>📐</span>
+      <h4>Smile Design</h4>
+      <p>Advanced digital planning to visualise your new smile.</p>
+    </div>
+
+    <div class="icon-box">
+      <span>✨</span>
+      <h4>Refinement</h4>
+      <p>Precise contouring for natural, balanced results.</p>
+    </div>
+
+    <div class="icon-box">
+      <span>🛡️</span>
+      <h4>Comfort Focused</h4>
+      <p>Gentle techniques ensure a relaxed and stress-free experience.</p>
+    </div>
+
+    <div class="icon-box">
+      <span>⏱️</span>
+      <h4>Quick Recovery</h4>
+      <p>Most patients return to normal activities the same day.</p>
+    </div>
+
+    <div class="icon-box">
+      <span>😊</span>
+      <h4>Confidence Boost</h4>
+      <p>Enjoy a naturally enhanced smile you’ll love to show.</p>
+    </div>
+
+	 <div class="icon-box">
+      <span>🔬</span>
+      <h4>Advanced Technology</h4>
+      <p>Modern tools deliver precise, predictable treatment outcomes.</p>
+    </div>
+
+    <div class="icon-box">
+      <span>👩‍⚕️</span>
+      <h4>Expert Care</h4>
+      <p>Experienced clinicians focused on quality and safety.</p>
+    </div>
+  </div>
+</div>
+</section>
+
 
 	<?php endif; ?>
 
