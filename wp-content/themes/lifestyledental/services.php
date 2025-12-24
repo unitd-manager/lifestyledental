@@ -1949,9 +1949,9 @@ if (is_page(4679)) {
 											<?php endif; ?>
 							<?php if ($sub_header) : ?>
 
-												<p class="subheadline">
+												<h4>
 													Eat, smile, and live with confidence again – with affordable dental implants.
-												</p>
+							</h4>
 											<?php endif; ?>
 			<p>Struggling with missing teeth or loose dentures? At Lifestyle Dental in Preston, our dental implants provide a permanent solution that looks, feels, and works just like real teeth. With flexible monthly payment plans starting from only £77, you can restore your bite and smile without compromise.</p>
 			<!-- <a href="tel:01772717316" class="btn btn-dark-pink">Secure Your No Obligation Consultation by Calling 01772 717316</a> -->
