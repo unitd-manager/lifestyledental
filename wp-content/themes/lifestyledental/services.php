@@ -64,8 +64,8 @@ if (is_page(4679)) {
 	}
 
 	.core__slider .wrapper .gradient-form {
-		margin: -100px;
-		right: 2rem !important;
+		margin: -70px;
+		right: 4rem !important;
 	}
 
 	.core__slider .wrapper {
@@ -388,7 +388,6 @@ if (is_page(4679)) {
 }
 
 .panel-container {
-  max-width: 900px;
   margin: 0 auto;
   background: #ffffff;
   padding: 40px;
@@ -3298,8 +3297,107 @@ if (is_page(4679)) {
 <?php endif; ?>
 <?php if (is_page(3414)) : ?>
 	
+<section class="gtc-panel panel-story gtc-animate">
 
+  <div class="story-text">
+    <h3>Redefining the Balance of Your Smile</h3>
+    <p>
+      Gum and teeth contouring focuses on subtle refinements that make a powerful
+      difference. By carefully reshaping uneven gums or smoothing irregular tooth
+      edges, we help restore natural balance and proportion to your smile.
+      Using digital smile planning, every adjustment is guided by precision,
+      ensuring results that look harmonious, confident, and completely natural.
+      The procedure is minimally invasive, comfortable, and often completed in a
+      single visit with visible improvements straight away.
+    </p>
+  </div>
+</section>
+<section class="gtc-impact-panel gtc-animate">
+	<div class="container">
+  <div class="impact-wrapper">
+   <div class="impact-visual">
+     
+       
+        <img src="/image/about/OIP.jpg" alt="Before Smile">
+      
+    </div>
+    <div class="impact-text">
+      <span class="impact-label">The Difference That Matters</span>
+      <h3>From Subtle Imperfections to Confident Smiles</h3>
+      <p>
+        Even minor irregularities in gum lines or tooth edges can affect how you
+        feel about your smile. Precision gum and teeth contouring focuses on small,
+        controlled refinements that create balance, harmony, and natural symmetry.
+        The result isn’t an artificial change, but a confident smile that feels
+        effortless, proportionate, and authentically yours.
+      </p>
+
+      <ul class="impact-points">
+        <li>✔ Natural-looking improvements</li>
+        <li>✔ Immediate visible enhancement</li>
+        <li>✔ Confidence in photos and conversations</li>
+      </ul>
+    </div>
+
+ 
+ </div>
+  </div>
+</section>
+
+<section class="gtc-enhanced-panel gtc-animate">
+    <div class="container">
+  <h3 class="panel-title">How Your Treatment Works</h3>
+
+  <div class="enhanced-timeline">
+
+    <div class="timeline-card">
+      <span class="step-no">01</span>
+      <h4>Consultation</h4>
+      <p>We assess your gum line, tooth shape, and aesthetic goals.</p>
+    </div>
+
+    <div class="timeline-card">
+      <span class="step-no">02</span>
+      <h4>Smile Planning</h4>
+      <p>Advanced digital tools preview your enhanced smile.</p>
+    </div>
+
+    <div class="timeline-card">
+      <span class="step-no">03</span>
+      <h4>Contouring</h4>
+      <p>Gentle sculpting creates symmetry, balance, and flow.</p>
+    </div>
+
+    <div class="timeline-card">
+      <span class="step-no">04</span>
+      <h4>Aftercare</h4>
+      <p>Clear guidance ensures fast, smooth recovery.</p>
+    </div>
+</div>
+  </div>
+</section>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const elements = document.querySelectorAll(".gtc-animate");
+
+  const observer = new IntersectionObserver(
+    entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+        }
+      });
+    },
+    { threshold: 0.15 }
+  );
+
+  elements.forEach(el => observer.observe(el));
+});
+</script>
 	<section class="unique-smile-panel">
+		<div class="container">
   <div class="panel-container">
     <h4>Why Choose Gum & Teeth Contouring at Lifestyle Dental?</h4>
     <p>
@@ -3313,13 +3411,14 @@ if (is_page(4679)) {
       professional environment.
     </p>
   </div>
+</div>
 </section>
 <section class="panel-split">
   <div class="panel-image">
     <img src="/image/about/dental-implants.jpg" alt="Gum Contouring Results">
   </div>
   <div class="panel-content">
-    <h2>Precision Gum & Teeth Sculpting</h2>
+    <h3>Precision Gum & Teeth Sculpting</h3>
     <p>
       Gum and teeth contouring is a minimally invasive cosmetic treatment designed to
       refine the shape of your gums and teeth for a more balanced, confident smile.
