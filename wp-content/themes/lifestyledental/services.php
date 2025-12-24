@@ -3314,7 +3314,7 @@ if (is_page(4679)) {
     </p>
   </div>
 </section>
-<section class="gtc-panel panel-split">
+<section class="panel-split">
   <div class="panel-image">
     <img src="/image/about/dental-implants.jpg" alt="Gum Contouring Results">
   </div>
@@ -3338,7 +3338,7 @@ if (is_page(4679)) {
   </div>
  
 </section>
-<section class="gtc-panel panel-icons">
+<section class="panel-icons">
 	<div class="container">
   <h2>Your Smile Journey Explained</h2>
   <div class="icon-grid">
