@@ -56,7 +56,7 @@ if (is_page(4679)) {
 		position: absolute;
 		top: 60px;
 		height: 520px;
-		right: 305px;
+		right: 335px;
 	}
 
 	.layer .slides .slide.services {
@@ -64,18 +64,18 @@ if (is_page(4679)) {
 	}
 
 	.core__slider .wrapper .gradient-form {
-		margin: -100px;
 		right: 2rem !important;
+		margin-top: 60px;
 	}
 
 	.core__slider .wrapper {
 		background-color: #eaeaea;
+		padding: 0;
 	}
 
 	.core__slider.big .wrapper .slide {
 		height: 469px;
 		padding-top: 3rem;
-		margin: -40px;
 	}
 
 	.core__slider.big .wrapper .slide h1 {
@@ -1932,7 +1932,7 @@ if (is_page(4679)) {
 	@media (min-width: 992px) {
 		.core__slider .wrapper .gradient-form {
 			position: absolute;
-			top: 10rem;
+			top: 0rem;
 			right: 1rem;
 		}
 	}
