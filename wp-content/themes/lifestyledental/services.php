@@ -2321,7 +2321,7 @@ if (is_page(4679)) {
 			</div>
 			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
 				<img
-					src="http://lifestyledental.localhost/wp-content/uploads/2025/12/removing_barriers.jpg">
+					src="http://lifestyledental.localhost/image/about/removing_barriers.jpg">
 			</div>
 
 		</div>
@@ -2409,7 +2409,6 @@ if (is_page(4679)) {
 
 <section class="special_panel_4 content-left-media-right standard"
 		style="background-color:#efefef;">
->
 	<div class="container py-5">
 		<div class="row">
 			<div class="col-12 col-lg-8">
@@ -2439,7 +2438,7 @@ if (is_page(4679)) {
 			</div>
 			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
 				<img
-					src="http://lifestyledental.localhost/wp-content/uploads/2025/12/first_approach.jpg">
+					src="http://lifestyledental.localhost/image/about/first_approach.jpg">
 			</div>
 
 		</div>
@@ -2448,41 +2447,7 @@ if (is_page(4679)) {
 <?php endif; ?>
 
 <?php if (is_page(3632)) : ?>
-	<section class="sedation_panel_1 content-left-media-right standard aos-init aos-animate" style="background-color: #efefef;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-	<div class="container py-5">
-		<div class="row">
-			<div class="col-12 col-lg-8 col-lg-12">
-
-				<h3>
-					Support for Nervous and Anxious Patients
-				</h3>
-
-				<p>
-					We understand that dental anxiety can prevent many people from seeking the care
-					they need. At Lifestyle Dental, our sedation service is designed to help nervous
-					patients feel calm, supported, and in control throughout their treatment.
-				</p>
-
-				<p>
-					By allowing extra appointment time, using proven relaxation techniques, and
-					offering intravenous sedation where appropriate, we create an environment where
-					you can feel reassured and comfortable. Sedation helps reduce anxiety and makes
-					longer or more complex treatments easier to manage.
-				</p>
-
-				<p>
-					<span style="color:#683fa1; font-weight:600;">
-						Our experienced team will guide you through every step, ensuring your safety,
-						comfort, and peace of mind at all times.
-					</span>
-				</p>
-
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="sedation_panel2" style="background-color:#ffffff;">
+	<section class="sedation_panel1" style="background-color: #efefef;" >
 	<div class="container py-5">
 		<div class="row align-items-center">
 
@@ -2523,7 +2488,7 @@ if (is_page(4679)) {
 			</div>
 			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
 				<img
-					src="http://lifestyledental.localhost/wp-content/uploads/2025/12/dental-anxiety.jpg"
+					src="http://lifestyledental.localhost/image/about/dental-anxiety.jpg"
 					alt="Dental anxiety and sedation care"
 					style="width:100%; height:auto; border-radius:6px;">
 			</div>
@@ -2531,7 +2496,39 @@ if (is_page(4679)) {
 		</div>
 	</div>
 </section>
+<section class="sedation_panel_2 content-left-media-right standard aos-init aos-animate" style="background-color:#ffffff;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+	<div class="container py-5">
+		<div class="row">
+			<div class="col-12 col-lg-8 col-lg-12">
 
+				<h3 style="color: #683fa1">
+					Support for Nervous and Anxious Patients
+				</h3>
+
+				<p>
+					We understand that dental anxiety can prevent many people from seeking the care
+					they need. At Lifestyle Dental, our sedation service is designed to help nervous
+					patients feel calm, supported, and in control throughout their treatment.
+				</p>
+
+				<p>
+					By allowing extra appointment time, using proven relaxation techniques, and
+					offering intravenous sedation where appropriate, we create an environment where
+					you can feel reassured and comfortable. Sedation helps reduce anxiety and makes
+					longer or more complex treatments easier to manage.
+				</p>
+
+				<p>
+					<span style="color:#683fa1; font-weight:600;">
+						Our experienced team will guide you through every step, ensuring your safety,
+						comfort, and peace of mind at all times.
+					</span>
+				</p>
+
+			</div>
+		</div>
+	</div>
+</section>
 <?php endif; ?>
 <?php if (is_page(3614)) : ?>
 <section class="root_canal_panel2 content-left-media-right standard aos-init aos-animate" style="background-color: #efefef;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
@@ -2568,7 +2565,7 @@ if (is_page(4679)) {
 			</div>
 			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
 				<img
-					src="http://lifestyledental.localhost/wp-content/uploads/2025/12/dental-anxiety.jpg">
+					src="http://lifestyledental.localhost/image/about/dental-anxiety.jpg">
 			</div>
 
 		</div>
