@@ -3089,29 +3089,34 @@ if (is_page(4679)) {
 <?php if (is_page(3775)) : ?>
 <section class="special_panel_1 content-left-media-right standard">
 	<div class="container py-5">
-		<div class="row">
+		<div class="row align-items-center">
+
+			<div class="col-12 col-lg-4 d-flex mb-4 mb-lg-0">
+				<img
+					src="/image/about/removing_barriers.jpg"
+					alt="Removing barriers to achieving a healthy smile"
+					style="width:100%; height:auto;">
+			</div>
+
 			<div class="col-12 col-lg-8">
 
 				<h3>Removing Barriers to Achieving a Healthy Smile</h3>
 
 				<p>
 					At Lifestyle Dental, we believe that cost, time, or uncertainty should never
-					be a barrier to achieving a healthy and confident smile. Our special offers
-					are designed to support patients at different stages of their dental journey,
-					while maintaining the same high clinical standards and personalised care.
+					stand in the way of achieving a healthy and confident smile. Our special offers
+					are thoughtfully designed to support patients at different stages of their
+					dental journey, while maintaining the same high clinical standards and
+					personalised care.
 				</p>
 
 				<p>
 					From preventive and cosmetic treatments to restorative and orthodontic care,
 					our approach focuses on providing clear guidance and practical options that
 					align with your individual needs. Every recommendation is made with long-term
-					oral health, comfort, and predictable outcomes in mind.
+					oral health, comfort, and predictable results in mind.
 				</p>
 
-			</div>
-			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
-				<img
-					src="http://lifestyledental.localhost/image/about/removing_barriers.jpg">
 			</div>
 
 		</div>
@@ -3152,83 +3157,9 @@ if (is_page(4679)) {
 				</p>
 
 			</div>
-		</div>
-	</div>
-</section>
-
-<section class="special_panel_3 content-left-media-right standard"
-	style="background-color:#ffffff;">
-	<div class="container py-5">
-		<div class="row">
-			<div class="col-12 col-lg-8"
-				style="padding-left:25px;">
-
-				<h3 style="color: #683fa1";>
-					Guidance and Support You Can Rely On
-				</h3>
-
-				<p>
-					Choosing the right dental treatment is not always straightforward. Our team
-					takes the time to understand your concerns, explain available options clearly,
-					and guide you through each step of your care with honesty and professionalism.
-				</p>
-
-				<ul style="padding-left:18px; margin-top:15px;">
-					<li style="margin-bottom:10px;">
-						Clear treatment explanations with realistic expectations
-					</li>
-					<li style="margin-bottom:10px;">
-						Supportive planning tailored to your lifestyle and priorities
-					</li>
-					<li style="margin-bottom:10px;">
-						Consistent clinical care from consultation to completion
-					</li>
-				</ul>
-
-				<p style="margin-top:15px;">
-					<span style="color:#683fa1; font-weight:600;">
-						Our friendly team is always happy to answer your questions and help you
-						take the next step with confidence.
-					</span>
-				</p>
-
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="special_panel_4 content-left-media-right standard"
-		style="background-color:#efefef;">
-	<div class="container py-5">
-		<div class="row">
-			<div class="col-12 col-lg-8">
-
-				<h3 style="color: #0096ad">A Patient-First Approach to Special Care</h3>
-
-				<p>
-					Every patient’s needs are different, which is why our special offers are
-					designed to complement personalised treatment planning rather than replace it.
-					We focus on providing options that enhance your care while maintaining clinical
-					quality, safety, and transparency at every stage.
-				</p>
-
-				<p>
-					Our team takes time to ensure you understand the purpose and benefits of each
-					option available, allowing you to move forward feeling informed and confident
-					in your decisions.
-				</p>
-
-				<p style="margin-top:15px;">
-					<span style="color: #0096ad; font-weight:600;">
-						If you have any questions or would like guidance on suitability, our team
-						is always happy to help.
-					</span>
-				</p>
-
-			</div>
 			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
 				<img
-					src="http://lifestyledental.localhost/image/about/first_approach.jpg">
+					src="/image/about/dental_support.jpg">
 			</div>
 
 		</div>
@@ -3278,7 +3209,7 @@ if (is_page(4679)) {
 			</div>
 			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
 				<img
-					src="http://lifestyledental.localhost/image/about/dental-anxiety.jpg"
+					src="/image/about/dental-anxiety.jpg"
 					alt="Dental anxiety and sedation care"
 					style="width:100%; height:auto; border-radius:6px;">
 			</div>
@@ -3321,7 +3252,7 @@ if (is_page(4679)) {
 </section>
 <?php endif; ?>
 <?php if (is_page(3614)) : ?>
-<section class="root_canal_panel2 content-left-media-right standard aos-init aos-animate" style="background-color: #efefef;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+<section class="root_canal_panel1 content-left-media-right standard aos-init aos-animate" style="background-color: #efefef;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
 				<div class="container py-5">
 					<div class="row">
 						<div class="col-12 col-lg-8 ">
@@ -3346,7 +3277,7 @@ if (is_page(4679)) {
 				</p>
 
 				<p>
-					<span style="color:#683fa1; font-weight:600;">
+					<span style="color:#bb005e; font-weight:600;">
 						Early treatment can prevent further infection and help you return to everyday
 						comfort with confidence.
 					</span>
@@ -3361,51 +3292,67 @@ if (is_page(4679)) {
 		</div>
 	</div>
 </section>
-<section class="content-left-media-right standard aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-
+<section class="root_canal_panel2" style="background-color:#f5f7f8;">
 	<div class="container py-5">
-		<div class="row">
+		<div class="row align-items-center">
 
-			<!-- CONTENT PANEL -->
-			<div class="col-12 col-lg-8">
+			<div class="col-12 col-lg-8"
+				style="font-size:18px; font-weight:400; text-align:left;
+				border:1px solid #e0e0e0; border-top:5px solid #683fa1;
+				padding:30px; background-color:#ffffff;">
 
-				<h3>
-					Why early treatment is important
+				<h3 style="font-weight:400; color:#683fa1; margin-bottom:15px;">
+					Why Early Root Canal Treatment Is Important
 				</h3>
 
-				<p>
+				<p style="margin-bottom:15px;">
 					Root canal problems do not resolve on their own and can worsen quickly
 					if left untreated. When infection spreads inside the tooth, it can lead
 					to severe pain, swelling, and damage to surrounding bone and tissue.
 				</p>
 
-				<ul>
-					<li>Relieves persistent tooth pain and pressure</li>
-					<li>Prevents infection from spreading further</li>
-					<li>Helps save your natural tooth structure</li>
-					<li>Reduces the risk of abscess and facial swelling</li>
-					<li>Restores normal function for biting and chewing</li>
+				<ul style="list-style:none; padding-left:0; margin-bottom:15px;">
+					<li style="margin-bottom:8px;">
+						<span style="color:#683fa1; font-weight:500;">✔</span>
+						Relieves persistent tooth pain and pressure
+					</li>
+					<li style="margin-bottom:8px;">
+						<span style="color:#683fa1; font-weight:500;">✔</span>
+						Prevents infection from spreading further
+					</li>
+					<li style="margin-bottom:8px;">
+						<span style="color:#683fa1; font-weight:500;">✔</span>
+						Helps save your natural tooth structure
+					</li>
+					<li style="margin-bottom:8px;">
+						<span style="color:#683fa1; font-weight:500;">✔</span>
+						Reduces the risk of abscess and facial swelling
+					</li>
+					<li>
+						<span style="color:#683fa1; font-weight:500;">✔</span>
+						Restores normal function for biting and chewing
+					</li>
 				</ul>
 
 				<p>
-					Seeking timely root canal treatment can protect your oral health,
-					relieve discomfort, and help you avoid more complex dental procedures
-					in the future.
+					<span style="color:#683fa1;">
+						Seeking timely root canal treatment can protect your oral health,
+					</span>
+					relieve discomfort, and help you avoid more complex dental procedures in the future.
 				</p>
 
 			</div>
 
-			<!-- IMAGE PANEL -->
 			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
 				<img
-					src="http://lifestyledental.localhost/wp-content/uploads/2025/12/root_canal.jpg"
-					alt="Root canal pain symptoms">
+					src="http://lifestyledental.localhost/image/about/root_canal.jpg"
+					alt="Importance of early root canal treatment"
+					style="width:100%; height:auto; border-radius:6px;">
 			</div>
 
 		</div>
 	</div>
 </section>
-
 <?php endif; ?>
 <?php if (is_page(3475)) : ?>
 
@@ -3534,6 +3481,98 @@ if (is_page(4679)) {
 					</div>
 				</div>
 			</section>
+<?php if (is_page(3775)) : ?>
+<section class="special_panel_3 content-left-media-right standard"
+	style="background-color:#ffffff;">
+	<div class="container py-5">
+		<div class="row align-items-center">
+
+
+			<div class="col-12 col-lg-4 d-flex mb-4 mb-lg-0">
+				<img
+					src="/image/about/guidance.jpg"
+					alt="Dental guidance and treatment support"
+					style="width:100%; height:auto;">
+			</div>
+			
+			<div class="col-12 col-lg-8"
+				style="padding-left:25px;">
+
+				<h3 style="color:#683fa1;">
+					Guidance and Support You Can Rely On
+				</h3>
+
+				<p>
+					Choosing the right dental treatment is not always straightforward. Our team
+					takes the time to understand your concerns, explain the available options
+					clearly, and guide you through each step of your care with honesty and
+					professionalism.
+				</p>
+
+				<ul style="padding-left:18px; margin-top:15px;">
+					<li style="margin-bottom:10px;">
+						Clear treatment explanations with realistic expectations
+					</li>
+					<li style="margin-bottom:10px;">
+						Supportive planning tailored to your lifestyle and priorities
+					</li>
+					<li style="margin-bottom:10px;">
+						Consistent clinical care from consultation through to completion
+					</li>
+				</ul>
+
+				<p style="margin-top:15px;">
+					<span style="color:#683fa1; font-weight:600;">
+						Our friendly team is always happy to answer your questions and help you
+						take the next step with confidence.
+					</span>
+				</p>
+
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<section class="special_panel_4 content-left-media-right standard"
+		style="background-color:#efefef;">
+	<div class="container py-5">
+		<div class="row">
+			<div class="col-12 col-lg-8">
+
+				<h3 style="color: #0096ad">A Patient-First Approach to Special Care</h3>
+
+				<p>
+					Every patient’s needs are different, which is why our special offers are
+					designed to complement personalised treatment planning rather than replace it.
+					We focus on providing options that enhance your care while maintaining clinical
+					quality, safety, and transparency at every stage.
+				</p>
+
+				<p>
+					Our team takes time to ensure you understand the purpose and benefits of each
+					option available, allowing you to move forward feeling informed and confident
+					in your decisions.
+				</p>
+
+				<p style="margin-top:15px;">
+					<span style="color: #0096ad; font-weight:600;">
+						If you have any questions or would like guidance on suitability, our team
+						is always happy to help.
+					</span>
+				</p>
+
+			</div>
+			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
+				<img
+					src="/image/about/first_approach.jpg">
+			</div>
+
+		</div>
+	</div>
+</section>
+<?php endif; ?>
+
 
 		<?php elseif (get_row_layout() == 'accordion_section') :
 			$header  	= get_sub_field('header');
