@@ -3086,6 +3086,510 @@ if (is_page(4679)) {
 </section>
 
 <?php endif; ?>
+<?php if ( is_page(3520) ) : ?>
+
+<style>
+/* ===== Correcting Bite Panels ===== */
+.bite-panel {
+  padding: 70px 0;
+}
+.bite-panel.bg-light {
+  background:#f8f9fb;
+}
+.bite-panel h3 {
+  color:#b01257;
+  font-weight:600;
+  margin-bottom:20px;
+}
+.bite-panel p {
+  font-size:16px;
+  line-height:1.75;
+  color:#555;
+}
+.bite-img {
+  width:100%;
+  max-width:420px;
+  height:260px;
+  object-fit:cover;
+  border-radius:10px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+@media(max-width:768px){
+  .bite-img{
+    margin-top:30px;
+    height:auto;
+  }
+}
+</style>
+
+<!-- PANEL 1 -->
+<section class="bite-panel">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <h3>Correcting Your Bite</h3>
+        <p>
+A balanced bite plays a vital role in long-term oral health, comfort, and jaw stability.
+When teeth do not align or meet evenly, excess pressure can develop on specific teeth,
+muscles, and jaw joints. Over time, this may lead to headaches, facial pain, tooth wear,
+cracks, or difficulty chewing. At Lifestyle Dental, we carefully assess how your teeth
+come together and move during function. By identifying bite imbalances early, we can
+provide personalised solutions that restore balance, protect your teeth, and improve
+overall comfort and confidence.
+        </p>
+      </div>
+      <div class="col-lg-5 text-center">
+        <img class="bite-img" src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95" alt="Correcting your bite">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PANEL 2 -->
+<section class="bite-panel bg-light">
+  <div class="container">
+    <div class="row align-items-center flex-row-reverse">
+      <div class="col-lg-7">
+        <h3>Jaw Joint & Muscle Health</h3>
+        <p>
+Your jaw joints and muscles work continuously throughout the day when speaking,
+chewing, and swallowing. Bite imbalances can overload these structures, causing
+clicking, stiffness, restricted movement, and facial discomfort. If left untreated,
+this strain may worsen over time. Using advanced bite analysis, we assess how your
+jaw moves and how forces are distributed. This allows us to reduce unnecessary stress,
+support joint health, and help restore smooth, comfortable jaw movement for everyday
+function.
+        </p>
+      </div>
+      <div class="col-lg-5 text-center">
+        <img class="bite-img" src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5" alt="Jaw joint health">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PANEL 3 -->
+<section class="bite-panel">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <h3>Personalised Bite Treatment Planning</h3>
+        <p>
+No two bites are the same. That is why we use detailed digital data to create
+fully personalised bite treatment plans. By analysing jaw movement, tooth contact,
+and pressure points, we can predict how treatments will perform before they begin.
+This approach improves accuracy and long-term results for restorations, orthodontics,
+and implants. Personalised planning ensures your bite feels natural, functions
+efficiently, and supports lasting oral health with predictable outcomes.
+        </p>
+      </div>
+      <div class="col-lg-5 text-center">
+        <img class="bite-img" src="https://images.unsplash.com/photo-1606811841732-9c6b6e2a8e3d" alt="Bite planning">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PANEL 4 -->
+<section class="bite-panel bg-light">
+  <div class="container">
+    <div class="row align-items-center flex-row-reverse">
+      <div class="col-lg-7">
+        <h3>New Patient Examination</h3>
+        <p>
+Your journey begins with a comprehensive one-hour examination designed to fully
+understand your oral health and bite function. This unhurried appointment allows
+our dentists to assess your teeth, jaw joints, muscles, and bite relationship.
+We listen carefully to your concerns and explain findings clearly. This thorough
+approach ensures any underlying bite issues are identified early, allowing us
+to recommend treatment options that are comfortable, effective, and tailored to
+your individual needs.
+        </p>
+      </div>
+      <div class="col-lg-5 text-center">
+        <img class="bite-img" src="https://images.unsplash.com/photo-1588776813677-77c66f59a0c2" alt="New patient exam">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PANEL 5 -->
+<section class="bite-panel">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <h3>55-Point Head & Neck Assessment</h3>
+        <p>
+Our detailed 55-point assessment examines the head, neck, jaw joints, and surrounding
+muscles to identify hidden sources of discomfort or imbalance. Many bite-related
+problems originate beyond the teeth alone. By assessing posture, muscle tension,
+and joint movement, we gain a complete understanding of your oral system. This
+holistic evaluation allows for early detection of issues and supports precise,
+well-informed treatment planning for long-term comfort and stability.
+        </p>
+      </div>
+      <div class="col-lg-5 text-center">
+        <img class="bite-img" src="https://images.unsplash.com/photo-1629909613654-28e377c37b09" alt="Head and neck assessment">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PANEL 6 -->
+<section class="bite-panel bg-light">
+  <div class="container">
+    <div class="row align-items-center flex-row-reverse">
+      <div class="col-lg-7">
+        <h3>Digital Bite Analysis & Charting</h3>
+        <p>
+Digital bite analysis allows us to measure how your teeth contact and how force is
+distributed when you bite. This advanced technology highlights pressure points that
+cannot be seen with the naked eye. Combined with full digital charting, it provides
+exceptional accuracy when diagnosing bite issues. This information guides precise
+adjustments and treatment decisions, improving comfort, protecting restorations,
+and supporting long-term oral health.
+        </p>
+      </div>
+      <div class="col-lg-5 text-center">
+        <img class="bite-img" src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95" alt="Digital bite analysis">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PANEL 7 -->
+<section class="bite-panel">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <h3>Long-Term Bite Stability & Protection</h3>
+        <p>
+Correcting your bite is not just about comfort today, but protecting your smile
+for the future. A balanced bite helps prevent excessive wear, fractures, implant
+failure, and joint strain. By addressing imbalances early, we support long-term
+stability for crowns, bridges, implants, and natural teeth. Our goal is to help
+you enjoy comfortable function, improved chewing efficiency, and lasting confidence
+in your oral health.
+        </p>
+      </div>
+      <div class="col-lg-5 text-center">
+        <img class="bite-img" src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5" alt="Bite stability">
+      </div>
+    </div>
+  </div>
+</section>
+
+<?php endif; ?>
+<?php if (is_page(3520)) : ?>
+
+<!-- PANEL 1 -->
+<section style="background:#ffffff;">
+	<div class="container py-5">
+		<div class="row align-items-center">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95" alt="Personalised bite treatment planning" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Personalised Bite Treatment Planning</h3>
+				<p>
+					No two bites are the same. That is why we use advanced digital data to create
+					fully personalised bite treatment plans. By analysing jaw movement, tooth
+					contact, and pressure points, we can predict how treatments will perform before
+					they begin. This improves accuracy and long-term results for restorations,
+					orthodontics, and implants. Personalised planning ensures your bite feels
+					natural, functions efficiently, and supports lasting oral health with
+					predictable outcomes.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- PANEL 2 -->
+<section style="background:#eaeaea;">
+	<div class="container py-5">
+		<div class="row align-items-center flex-lg-row-reverse">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5" alt="Digital bite analysis technology" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Advanced Digital Bite Analysis</h3>
+				<p>
+					Digital bite analysis allows us to measure how your teeth meet and move during
+					function. This technology detects imbalances that cannot be seen visually,
+					helping prevent uneven wear, jaw strain, and discomfort. By identifying pressure
+					points accurately, we can make precise adjustments to improve balance and
+					comfort. This approach reduces guesswork and supports long-term dental stability
+					and patient comfort.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- PANEL 3 -->
+<section style="background:#ffffff;">
+	<div class="container py-5">
+		<div class="row align-items-center">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1606813902917-dcd8f9bb9b39" alt="Jaw joint and muscle comfort" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Reducing Jaw Joint and Muscle Strain</h3>
+				<p>
+					An unbalanced bite can overload the jaw joints and muscles, leading to pain,
+					clicking, or limited movement. Correcting bite issues helps distribute forces
+					evenly, allowing muscles to relax and joints to function naturally. Patients
+					often experience reduced tension, improved jaw comfort, and better mobility.
+					This careful approach supports everyday comfort while protecting long-term jaw
+					health.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- PANEL 4 -->
+<section style="background:#eaeaea;">
+	<div class="container py-5">
+		<div class="row align-items-center flex-lg-row-reverse">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1606813902881-0f3d43d2b9a6" alt="Preventing uneven tooth wear" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Preventing Uneven Tooth Wear</h3>
+				<p>
+					When teeth do not meet evenly, certain areas experience excessive pressure,
+					causing wear, fractures, and sensitivity. Bite correction protects natural teeth
+					and restorations by ensuring forces are balanced across the bite. This reduces
+					the risk of long-term damage and helps preserve your smile. Early correction
+					also minimises the need for future dental repairs.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- PANEL 5 -->
+<section style="background:#ffffff;">
+	<div class="container py-5">
+		<div class="row align-items-center">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1588776814546-8b55b9c1d5b4" alt="Improved chewing efficiency" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Improved Chewing Efficiency</h3>
+				<p>
+					A balanced bite allows teeth to work together effectively, improving chewing
+					and digestion. Correcting bite issues reduces jaw fatigue and enhances comfort
+					when eating. Patients often notice improved function and less strain during
+					meals. Efficient chewing supports overall wellbeing by allowing proper
+					breakdown of food and better nutrient absorption.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- PANEL 6 -->
+<section style="background:#eaeaea;">
+	<div class="container py-5">
+		<div class="row align-items-center flex-lg-row-reverse">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1606813902642-9cbb18f18b16" alt="Protecting dental restorations" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Protecting Crowns, Bridges, and Implants</h3>
+				<p>
+					Dental restorations depend on a stable bite to perform correctly. An uneven bite
+					can overload crowns, bridges, and implants, leading to damage or failure. Bite
+					correction helps protect your dental work by ensuring even pressure
+					distribution. This increases longevity, reduces maintenance needs, and protects
+					your long-term dental investment.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- PANEL 7 -->
+<section style="background:#ffffff;">
+	<div class="container py-5">
+		<div class="row align-items-center">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1606813902707-2d6f9f8a45e9" alt="Long-term dental stability" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Supporting Long-Term Dental Stability</h3>
+				<p>
+					Correcting your bite supports long-term oral health by addressing the underlying
+					cause of imbalance. A stable bite helps maintain healthy tooth positions and
+					proper jaw function over time. This proactive approach reduces future
+					complications and ensures predictable outcomes. The result is a comfortable,
+					functional, and confident smile that lasts.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<?php endif; ?>
+<?php if (is_page(3520)) : ?>
+
+<!-- PANEL 1 -->
+<section style="background:#ffffff;">
+	<div class="container py-5">
+		<div class="row align-items-center">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95" alt="Personalised bite treatment planning" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Personalised Bite Treatment Planning</h3>
+				<p>
+					No two bites are the same. That is why we use advanced digital data to create
+					fully personalised bite treatment plans. By analysing jaw movement, tooth
+					contact, and pressure points, we can predict how treatments will perform before
+					they begin. This improves accuracy and long-term results for restorations,
+					orthodontics, and implants. Personalised planning ensures your bite feels
+					natural, functions efficiently, and supports lasting oral health with
+					predictable outcomes.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- PANEL 2 -->
+<section style="background:#eaeaea;">
+	<div class="container py-5">
+		<div class="row align-items-center flex-lg-row-reverse">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5" alt="Digital bite analysis technology" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Advanced Digital Bite Analysis</h3>
+				<p>
+					Digital bite analysis allows us to measure how your teeth meet and move during
+					function. This technology detects imbalances that cannot be seen visually,
+					helping prevent uneven wear, jaw strain, and discomfort. By identifying pressure
+					points accurately, we can make precise adjustments to improve balance and
+					comfort. This approach reduces guesswork and supports long-term dental stability
+					and patient comfort.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- PANEL 3 -->
+<section style="background:#ffffff;">
+	<div class="container py-5">
+		<div class="row align-items-center">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1606813902917-dcd8f9bb9b39" alt="Jaw joint and muscle comfort" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Reducing Jaw Joint and Muscle Strain</h3>
+				<p>
+					An unbalanced bite can overload the jaw joints and muscles, leading to pain,
+					clicking, or limited movement. Correcting bite issues helps distribute forces
+					evenly, allowing muscles to relax and joints to function naturally. Patients
+					often experience reduced tension, improved jaw comfort, and better mobility.
+					This careful approach supports everyday comfort while protecting long-term jaw
+					health.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- PANEL 4 -->
+<section style="background:#eaeaea;">
+	<div class="container py-5">
+		<div class="row align-items-center flex-lg-row-reverse">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1606813902881-0f3d43d2b9a6" alt="Preventing uneven tooth wear" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Preventing Uneven Tooth Wear</h3>
+				<p>
+					When teeth do not meet evenly, certain areas experience excessive pressure,
+					causing wear, fractures, and sensitivity. Bite correction protects natural teeth
+					and restorations by ensuring forces are balanced across the bite. This reduces
+					the risk of long-term damage and helps preserve your smile. Early correction
+					also minimises the need for future dental repairs.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- PANEL 5 -->
+<section style="background:#ffffff;">
+	<div class="container py-5">
+		<div class="row align-items-center">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1588776814546-8b55b9c1d5b4" alt="Improved chewing efficiency" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Improved Chewing Efficiency</h3>
+				<p>
+					A balanced bite allows teeth to work together effectively, improving chewing
+					and digestion. Correcting bite issues reduces jaw fatigue and enhances comfort
+					when eating. Patients often notice improved function and less strain during
+					meals. Efficient chewing supports overall wellbeing by allowing proper
+					breakdown of food and better nutrient absorption.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- PANEL 6 -->
+<section style="background:#eaeaea;">
+	<div class="container py-5">
+		<div class="row align-items-center flex-lg-row-reverse">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1606813902642-9cbb18f18b16" alt="Protecting dental restorations" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Protecting Crowns, Bridges, and Implants</h3>
+				<p>
+					Dental restorations depend on a stable bite to perform correctly. An uneven bite
+					can overload crowns, bridges, and implants, leading to damage or failure. Bite
+					correction helps protect your dental work by ensuring even pressure
+					distribution. This increases longevity, reduces maintenance needs, and protects
+					your long-term dental investment.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- PANEL 7 -->
+<section style="background:#ffffff;">
+	<div class="container py-5">
+		<div class="row align-items-center">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1606813902707-2d6f9f8a45e9" alt="Long-term dental stability" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Supporting Long-Term Dental Stability</h3>
+				<p>
+					Correcting your bite supports long-term oral health by addressing the underlying
+					cause of imbalance. A stable bite helps maintain healthy tooth positions and
+					proper jaw function over time. This proactive approach reduces future
+					complications and ensures predictable outcomes. The result is a comfortable,
+					functional, and confident smile that lasts.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<?php endif; ?>
+
+
 <?php if (is_page(3775)) : ?>
 <section class="special_panel_1 content-left-media-right standard">
 	<div class="container py-5">
