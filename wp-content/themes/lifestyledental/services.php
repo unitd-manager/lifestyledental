@@ -2946,6 +2946,79 @@ if (is_page(4679)) {
 			</style>
 			<?php if (is_page(3727)) : ?>
 				<style>
+					.dental-impact-section {
+  background: #b10f0f36; /* red background like image */
+  padding: 80px 20px;
+}
+
+.impact-container {
+  max-width: 1180px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.impact-header {
+  text-align: center;
+  margin-bottom: 50px;
+  color: #d73737;
+}
+
+.impact-subtitle {
+  
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+
+.impact-header h2 {
+ 
+  margin-top: 10px;
+}
+
+.impact-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.impact-card {
+  background: #1a1a1a;
+  border-radius: 12px;
+  padding: 35px 30px;
+  color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.impact-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+}
+
+.impact-icon {
+  font-size: 34px;
+  margin-bottom: 15px;
+}
+
+.impact-card h3 {
+ 
+  margin-bottom: 12px;
+}
+
+.impact-card p {
+ 
+  line-height: 1.6;
+  color: #d1d1d1;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .impact-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
 					.dental-bridge-panel {
   padding: 60px 20px;
   background: #f9f9f9;
@@ -2964,7 +3037,7 @@ if (is_page(4679)) {
 }
 
 .bridge-image img {
-  width: 100%;
+  width: 500px;
  
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
@@ -3033,6 +3106,49 @@ if (is_page(4679)) {
 
   </div>
 </section>
+<section class="dental-impact-section">
+  <div class="impact-container">
+
+    <div class="impact-header">
+      <span class="impact-subtitle">Smile Restoration Solutions</span>
+      <h2>Why Choose Dental Bridges</h2>
+    </div>
+
+    <div class="impact-cards">
+
+      <div class="impact-card">
+        <div class="impact-icon">🦷</div>
+        <h3>Natural Appearance</h3>
+        <p>
+		   Dental bridges are custom-designed to match your natural teeth,
+      restoring your smile seamlessly, enhancing facial aesthetics,
+      and boosting everyday confidence.
+        </p>
+      </div>
+
+      <div class="impact-card">
+        <div class="impact-icon">✔</div>
+        <h3>Improved Function</h3>
+        <p>
+        Bridges restore proper chewing and speech while evenly distributing
+      bite pressure, improving comfort, stability, and daily oral function.
+        </p>
+      </div>
+
+      <div class="impact-card">
+        <div class="impact-icon">🔒</div>
+        <h3>Long-Lasting Solution</h3>
+        <p>
+         With proper care, dental bridges provide a durable and secure tooth
+      replacement that supports long-term oral health and reliability.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
 <?php endif; ?>
 				<?php if (is_page(3641)) : ?>
 <section class="crown-slider-section">
