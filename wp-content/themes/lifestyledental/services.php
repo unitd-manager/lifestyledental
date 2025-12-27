@@ -441,6 +441,15 @@ if (is_page(4679)) {
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
+.bridge-process-images {
+  flex: 1;
+  text-align: right;
+}
+.bridge-process-images img {
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
 
 
 /* Mobile Responsive */
@@ -460,8 +469,42 @@ if (is_page(4679)) {
    .bridge-process-image {
     text-align: center;
   }
+   .bridge-process-images {
+    text-align: center;
+  }
 }
 
+.quick-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.quick-card {
+  background: #ffffff;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.quick-card h4 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #1e293b;
+}
+
+.quick-card p {
+  font-size: 14px;
+  color: #475569;
+  line-height: 1.6;
+}
+
+.quick-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
 
 
 	/* =====  patient story Panel ===== */
@@ -1152,6 +1195,130 @@ if (is_page(4679)) {
   }
 
  
+}
+
+
+	/* ===== White Filling Experience Panel ===== */
+.white-filling-mindmap {
+  padding: 90px 20px;
+  background: #fff5fa;
+  text-align: center;
+}
+
+.white-filling-mindmap h2 {
+  font-size: 34px;
+  color: #b0005c;
+  margin-bottom: 60px;
+}
+
+.mindmap-container {
+  position: relative;
+  max-width: 900px;
+  margin: auto;
+  height: 400px;
+}
+
+/* Center */
+.mindmap-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+  background: #b0005c;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+  z-index: 2;
+}
+
+/* Nodes */
+.mindmap-node {
+  position: absolute;
+  width: 260px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.mindmap-node h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.mindmap-node p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Positioning */
+.node-left {
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.node-top {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.node-right {
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.mindmap-node h3 i {
+  color: #b0005c;
+  margin-right: 8px;
+}
+
+.mindmap-center i {
+  font-size: 28px;
+  margin-bottom: 6px;
+}
+
+.mindmap-note {
+  margin-top: 40px;
+  font-size: 15px;
+  color: #444;
+}
+
+.mindmap-note i {
+  color: #b0005c;
+  margin-right: 6px;
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+  .mindmap-container {
+    height: auto;
+  }
+
+  .mindmap-center {
+    position: static;
+    transform: none;
+    margin: 0 auto 30px;
+  }
+
+  .mindmap-node {
+    position: static;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 320px;
+  }
 }
 
 
@@ -3457,6 +3624,122 @@ During the procedure, your dentist takes precise measurements to ensure a proper
 </section>
 
 <?php endif; ?>
+<?php if ( is_page(3756) ) : ?>
+<section class="white-filling-mindmap">
+  <h2>White Fillings at a Glance</h2>
+
+  <div class="mindmap-container">
+
+    <!-- Center Node -->
+    <div class="mindmap-center">
+      <i class="fas fa-tooth"></i>
+      <span>White<br>Fillings</span>
+    </div>
+
+   
+
+    <!-- Panel 2 -->
+    <div class="mindmap-node node-left">
+      <h3><i class="fas fa-shield-heart"></i> Safe & Mercury-Free</h3>
+      <p>
+       Made without mercury, these fillings offer a safer, biocompatible option suitable for adults and children alike and healthier alternative for modern dental care. 
+      </p>
+    </div>
+
+	 <!-- Panel 1 -->
+    <div class="mindmap-node node-top">
+      <h3><i class="fas fa-smile"></i> Natural Aesthetics</h3>
+      <p>
+        Tooth-coloured fillings blend seamlessly with natural teeth for a
+        confident, natural-looking smile.
+      </p>
+    </div>
+
+    <!-- Panel 3 -->
+    <div class="mindmap-node node-right">
+      <h3><i class="fas fa-gem"></i> Strong & Long-Lasting</h3>
+      <p>
+        Durable materials restore strength,reinforce tooth structure,helping prevent further decay while withstanding everyday chewing forces.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- Extra content (short & impactful) -->
+  <p class="mindmap-note">
+    <i class="fas fa-check-circle"></i>
+    A discreet, durable solution designed to protect your teeth and enhance your smile.
+  </p>
+</section>
+<section class="dental-bridge-typesss">
+  <div class="bridge-types-container">
+
+    <!-- Left Content -->
+    <div class="bridge-types-content">
+      <h3>Thermal Comfort</h3>
+      <p>
+      White fillings help minimise sensitivity to hot and cold foods by providing effective insulation within the tooth. Unlike metal fillings, which conduct temperature changes quickly, tooth-coloured materials reduce sudden thermal shocks that can cause discomfort or pain. This allows you to enjoy hot drinks, cold desserts, and everyday meals with greater confidence and comfort. By sealing the tooth securely, white fillings also help protect the inner nerve from temperature fluctuations. The result is a more comfortable eating experience, fewer sensitivity issues over time, and improved overall oral comfort, making white fillings an ideal choice for patients seeking both function and long-term comfort.  
+      </p>
+   
+    </div>
+
+    <!-- Right Image -->
+    <div class="bridge-process-images">
+      <img src="/image/about/thermal.avif" alt="How Dental Bridges Work">
+    </div>
+
+  </div>
+</section>
+
+<section class="dental-bridge-types">
+  <div class="bridge-types-container">
+
+    <!-- Right Image -->
+    <div class="bridge-process-image">
+      <img src="/image/about/quick.webp" alt="How Dental Bridges Work">
+    </div>
+
+    <!-- Left Content -->
+    <div class="bridge-types-content">
+      <h3>Quick & Efficient</h3>
+
+      <p>
+        White fillings offer a fast and convenient solution for repairing decayed or damaged teeth,
+        with most treatments completed in a single visit. The procedure is straightforward and
+        minimally disruptive, allowing patients to return to their normal routine the same day.
+		Modern techniques enable precise placement and immediate bonding to the tooth, reducing chair time while ensuring reliable results. There is no need for temporary fillings or multiple appointments in most cases.
+      </p>
+
+      <!-- Cards Section -->
+      <div class="quick-cards">
+        <div class="quick-card">
+          <h4>⏱ Single Visit</h4>
+          <p>Most treatments are completed in just one appointment.</p>
+        </div>
+
+        <div class="quick-card">
+          <h4>😌 Comfortable</h4>
+          <p>Minimally invasive procedure with little to no discomfort.</p>
+        </div>
+
+        <div class="quick-card">
+          <h4>🦷 Natural Look</h4>
+          <p>Tooth-colored material blends perfectly with natural teeth.</p>
+        </div>
+
+        <div class="quick-card">
+          <h4>⚡ Immediate Results</h4>
+          <p>Instant bonding allows you to resume daily activities quickly.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+	<?php endif; ?>
 <?php if ( is_page(3520) ) : ?>
 
 <style>
@@ -4095,8 +4378,6 @@ in your oral health.
 <?php endif; ?>
 <?php if (is_page(3475)) : ?>
 
-<<<<<<< HEAD
-=======
 <section class="unique-slider-section">
   <h2>More Reasons Patients Choose Lifestyle Dental</h2>
 
@@ -4190,7 +4471,6 @@ in your oral health.
   }, 5000);
 </script>
 
->>>>>>> 6e52a1f7018c9fad7ae8eb66063a7fddaf876394
 			<section class="guarantee-banner <?php echo ($image == '') ? '' : 'plain-background'; ?>" style="<?php echo (!empty($image)) ? 'background-color:' . esc_html($bg_color) . ';' : 'background-image: url(' . esc_url($bg_image['url']) . ');'; ?>">
 				<div class="container py-5">
 					<div class="row <?php echo ($image == '') ? 'centered-content' : ''; ?>">
@@ -4662,10 +4942,10 @@ in your oral health.
 			</ul>
 
 			<p class="finance-description">
-				At Lifestyle Dental, we believe financial concerns should never prevent you from
-				receiving the care you deserve. Our dental finance solutions allow you to spread
-				the cost comfortably, with full clarity and no obligation to proceed.
-			</p>
+	At Lifestyle Dental, we believe financial concerns should never prevent you from
+	receiving the care you deserve. Our dental finance solutions allow you to spread
+	the cost comfortably, with full clarity and no obligation to proceed. Our friendly team is always available to explain options, answer questions, and support you in choosing a plan that fits your lifestyle.
+</p>
 
 			<a href="https://onlineappointment.carestack.uk/?dn=lifestyledental&ln=1#/home" class="finance-cta">
 				Book Your Appointments
