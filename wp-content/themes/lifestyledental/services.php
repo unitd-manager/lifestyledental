@@ -423,7 +423,114 @@ if (is_page(4679)) {
     font-size: 15px;
   }
 }
+/* ==== root canal panel3 === */
+.root-canal-comfort {
+    background: linear-gradient(135deg, #f9f6f8, #ffffff);
+    padding: 80px 0;
+}
+.root-canal-comfort img {
+    width: 100%;
+    border-radius: 18px;
+    box-shadow: 0 18px 40px rgba(0,0,0,0.08);
+}
+.root-canal-comfort .features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    margin-top: 30px;
+}
 
+.root-canal-comfort .features div {
+    background: #ffffff;
+    border-left: 4px solid #d48cb6;
+    padding: 14px 16px;
+    font-size: 15px;
+    color: #444;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+@media (max-width: 768px) {
+    .root-canal-comfort .features {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ===== ROOT CANAL CARE PANEL – STYLE ===== */
+
+.root-canal-care-style-panel {
+	background: #f4f8fb;
+}
+
+/* Main unified card */
+.root-canal-unified-card {
+	background: #ffffff;
+	padding: 36px;
+	border-radius: 14px;
+	border: 1px solid #dbe6ee;
+	border-top: 6px solid #2f8fbf;
+	box-shadow: 0 12px 32px rgba(0, 0, 0, 0.06);
+	font-size: 18px;
+	font-weight: 400;
+}
+
+/* Image frame (encircled look) */
+.root-canal-image-frame {
+	padding: 10px;
+	border-radius: 14px;
+	border: 1px solid #dbe6ee;
+	background: #f9fcff;
+	box-shadow: inset 0 0 0 2px rgba(47, 143, 191, 0.08);
+}
+
+.root-canal-image-frame img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	display: block;
+}
+
+/* Heading */
+.root-canal-unified-card h3 {
+	color: #2f8fbf;
+	font-weight: 400;
+	margin-bottom: 18px;
+}
+
+/* Benefits list */
+.root-canal-benefits {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 18px;
+}
+
+.root-canal-benefits li {
+	position: relative;
+	padding-left: 22px;
+	margin-bottom: 10px;
+}
+
+.root-canal-benefits li::before {
+	content: "✓";
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #2f8fbf;
+	font-weight: 600;
+}
+
+/* Paragraph */
+.root-canal-unified-card p {
+	margin: 0;
+	line-height: 1.6;
+	color: #333;
+}
+
+/* Mobile spacing */
+@media (max-width: 991px) {
+	.root-canal-unified-card {
+		padding: 28px;
+	}
+}
 
 	/* =====  Finance Experience Panel ===== */
 
@@ -2665,109 +2772,56 @@ if (is_page(4679)) {
 <?php endif; ?>
 
 <?php if (is_page(3614)) : ?>
-<section class="root_canal_panel1 content-left-media-right standard aos-init aos-animate" style="background-color: #efefef;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-				<div class="container py-5">
-					<div class="row">
-						<div class="col-12 col-lg-8 ">
+<section class="root_canal_panel1 content-left-media-right standard aos-init aos-animate"
+    style="background-color:#efefef;"
+    data-aos="fade-up"
+    data-aos-delay="100"
+    data-aos-duration="800">
 
+    <div class="container py-5">
+        <div class="row align-items-center">
 
-				<h3>
-					Protecting Your Natural Tooth and Relieving Pain
-				</h3>
+            <div class="col-12 col-lg-4 d-flex mb-4 mb-lg-0">
+                <img
+                    src="http://lifestyledental.localhost/image/about/dental-anxiety.jpg"
+                    alt="Root canal pain relief and tooth preservation"
+                    style="width:100%; height:auto; border-radius:6px;">
+            </div>
 
-				<p>
-					Root canal treatment is often the most effective way to relieve pain while
-					preserving your natural tooth. Instead of removing the tooth, treatment focuses
-					on eliminating infection from within and restoring the tooth’s strength and
-					function.
-				</p>
+            <div class="col-12 col-lg-8">
 
-				<p>
-					At Lifestyle Dental, we use modern techniques and careful planning to ensure
-					root canal treatment is carried out with precision and patient comfort in mind.
-					This approach helps reduce discomfort during treatment and supports long-term
-					success.
-				</p>
+                <h3>
+                    Protecting Your Natural Tooth and Relieving Pain
+                </h3>
 
-				<p>
-					<span style="color:#bb005e; font-weight:600;">
-						Early treatment can prevent further infection and help you return to everyday
-						comfort with confidence.
-					</span>
-				</p>
+                <p>
+                    Root canal treatment is often the most effective way to relieve pain while
+                    preserving your natural tooth. Instead of removing the tooth, treatment focuses
+                    on eliminating infection from within and restoring the tooth’s strength and
+                    function.
+                </p>
 
-			</div>
-			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
-				<img
-					src="http://lifestyledental.localhost/image/about/dental-anxiety.jpg">
-			</div>
+                <p>
+                    At Lifestyle Dental, we use modern techniques and careful planning to ensure
+                    root canal treatment is carried out with precision and patient comfort in mind.
+                    This approach helps reduce discomfort during treatment and supports long-term
+                    success.
+                </p>
 
-		</div>
-	</div>
-</section>
-<section class="root_canal_panel2" style="background-color:#f5f7f8;">
-	<div class="container py-5">
-		<div class="row align-items-center">
+                <p>
+                    <span style="color:#bb005e; font-weight:600;">
+                        Early treatment can prevent further infection and help you return to everyday
+                        comfort with confidence.
+                    </span>
+                </p>
 
-			<div class="col-12 col-lg-8"
-				style="font-size:18px; font-weight:400; text-align:left;
-				border:1px solid #e0e0e0; border-top:5px solid #683fa1;
-				padding:30px; background-color:#ffffff;">
+            </div>
 
-				<h3 style="font-weight:400; color:#683fa1; margin-bottom:15px;">
-					Why Early Root Canal Treatment Is Important
-				</h3>
+        </div>
+    </div>
 
-				<p style="margin-bottom:15px;">
-					Root canal problems do not resolve on their own and can worsen quickly
-					if left untreated. When infection spreads inside the tooth, it can lead
-					to severe pain, swelling, and damage to surrounding bone and tissue.
-				</p>
-
-				<ul style="list-style:none; padding-left:0; margin-bottom:15px;">
-					<li style="margin-bottom:8px;">
-						<span style="color:#683fa1; font-weight:500;">✔</span>
-						Relieves persistent tooth pain and pressure
-					</li>
-					<li style="margin-bottom:8px;">
-						<span style="color:#683fa1; font-weight:500;">✔</span>
-						Prevents infection from spreading further
-					</li>
-					<li style="margin-bottom:8px;">
-						<span style="color:#683fa1; font-weight:500;">✔</span>
-						Helps save your natural tooth structure
-					</li>
-					<li style="margin-bottom:8px;">
-						<span style="color:#683fa1; font-weight:500;">✔</span>
-						Reduces the risk of abscess and facial swelling
-					</li>
-					<li>
-						<span style="color:#683fa1; font-weight:500;">✔</span>
-						Restores normal function for biting and chewing
-					</li>
-				</ul>
-
-				<p>
-					<span style="color:#683fa1;">
-						Seeking timely root canal treatment can protect your oral health,
-					</span>
-					relieve discomfort, and help you avoid more complex dental procedures in the future.
-				</p>
-
-			</div>
-
-			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
-				<img
-					src="http://lifestyledental.localhost/image/about/root_canal.jpg"
-					alt="Importance of early root canal treatment"
-					style="width:100%; height:auto; border-radius:6px;">
-			</div>
-
-		</div>
-	</div>
 </section>
 <?php endif; ?>
-
 
 			<section class="guarantee-banner <?php echo ($image == '') ? '' : 'plain-background'; ?>" style="<?php echo (!empty($image)) ? 'background-color:' . esc_html($bg_color) . ';' : 'background-image: url(' . esc_url($bg_image['url']) . ');'; ?>">
 				<div class="container py-5">
@@ -3011,6 +3065,107 @@ if (is_page(4679)) {
 
 
 <?php endif; ?>
+<?php if (is_page(3614)) : ?>
+<section class="root_canal_panel2" style="background-color:#f5f7f8;">
+	<div class="container py-5">
+		<div class="row align-items-center">
+
+			<div class="col-12 col-lg-8"
+				style="font-size:18px; font-weight:400; text-align:left;
+				border:1px solid #e0e0e0; border-top:5px solid #683fa1;
+				padding:30px; background-color:#ffffff;">
+
+				<h3 style="font-weight:400; color:#683fa1; margin-bottom:15px;">
+					Why Early Root Canal Treatment Is Important
+				</h3>
+
+				<p style="margin-bottom:15px;">
+					Root canal problems do not resolve on their own and can worsen quickly
+					if left untreated. When infection spreads inside the tooth, it can lead
+					to severe pain, swelling, and damage to surrounding bone and tissue.
+				</p>
+
+				<ul style="list-style:none; padding-left:0; margin-bottom:15px;">
+					<li style="margin-bottom:8px;">
+						<span style="color:#683fa1; font-weight:500;">✔</span>
+						Relieves persistent tooth pain and pressure
+					</li>
+					<li style="margin-bottom:8px;">
+						<span style="color:#683fa1; font-weight:500;">✔</span>
+						Prevents infection from spreading further
+					</li>
+					<li style="margin-bottom:8px;">
+						<span style="color:#683fa1; font-weight:500;">✔</span>
+						Helps save your natural tooth structure
+					</li>
+					<li style="margin-bottom:8px;">
+						<span style="color:#683fa1; font-weight:500;">✔</span>
+						Reduces the risk of abscess and facial swelling
+					</li>
+					<li>
+						<span style="color:#683fa1; font-weight:500;">✔</span>
+						Restores normal function for biting and chewing
+					</li>
+				</ul>
+
+				<p>
+					<span style="color:#683fa1;">
+						Seeking timely root canal treatment can protect your oral health,
+					</span>
+					relieve discomfort, and help you avoid more complex dental procedures in the future.
+				</p>
+
+			</div>
+
+			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
+				<img
+					src="http://lifestyledental.localhost/image/about/root_canal.jpg"
+					alt="Importance of early root canal treatment"
+					style="width:100%; height:auto; border-radius:6px;">
+			</div>
+
+		</div>
+	</div>
+</section>
+<section class="root_canal_panel3 root-canal-comfort">
+	<div class="container">
+		<div class="row align-items-center">
+
+			<div class="col-12 col-lg-6">
+				<img src="/image/about/root_canal_comfort.jpg" alt="Comfortable root canal treatment" style="width:100%; border-radius:12px;">
+			</div>
+
+			<div class="col-12 col-lg-6">
+
+				<h3  style="font-weight:400; color:#683fa1; margin-bottom:15px;">Root Canal Treatment with Comfort in Mind</h3>
+
+				<p>
+					At Lifestyle Dental, root canal treatment is delivered with a strong focus on
+					patient comfort, precision, and long-term success. Our experienced clinicians
+					use modern techniques to remove infection while preserving your natural tooth
+					structure wherever possible.
+				</p>
+
+				<p>
+					We understand that root canal treatment can feel daunting, which is why we take
+					time to explain every step, manage discomfort carefully, and create a calm,
+					reassuring experience from start to finish.
+				</p>
+
+				<div class="features">
+					<div>Advanced pain-controlled techniques</div>
+					<div>Experienced clinical team</div>
+					<div>Focus on saving natural teeth</div>
+					<div>Clear guidance throughout treatment</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+</section>
+<?php endif; ?>
+
 
 		<?php elseif (get_row_layout() == 'accordion_section') :
 			$header  	= get_sub_field('header');
@@ -3051,6 +3206,7 @@ if (is_page(4679)) {
 					<?php endif; ?>
 				</div>
 			</section>
+
 <?php if (is_page(3536)) : ?>
 <section class="custom_page_section">
 	<div class="container">
@@ -3229,6 +3385,62 @@ if (is_page(4679)) {
 				</div>
 
 			<?php endif; ?>
+<?php if (is_page(3614)) : ?>
+<section class="root_canal_panel4 root-canal-care-style-panel">
+
+	<div class="container py-5">
+		<div class="row justify-content-center">
+
+			<div class="col-12 col-lg-10">
+
+				<div class="root-canal-unified-card">
+
+					<div class="row align-items-center">
+
+						<!-- IMAGE (LEFT, INSIDE CARD) -->
+						<div class="col-12 col-lg-4 mb-4 mb-lg-0">
+							<div class="root-canal-image-frame">
+								<img
+									src="/image/about/root_canal_care.jpg"
+									alt="Comfort-focused root canal treatment">
+							</div>
+						</div>
+
+						<!-- CONTENT (RIGHT, SAME CARD) -->
+						<div class="col-12 col-lg-8">
+
+							<h3>
+								Calm, Controlled Root Canal Treatment You Can Trust
+							</h3>
+
+							<ul class="root-canal-benefits">
+								<li>Advanced techniques focused on comfort and precision</li>
+								<li>Efficient treatment with no unnecessary delays</li>
+								<li>Honest guidance and clear explanations at every stage</li>
+								<li>Treatment aimed at preserving your natural tooth</li>
+							</ul>
+
+							<p>
+								At Lifestyle Dental, root canal care is delivered with clarity and confidence.
+								Using modern equipment and a gentle approach, we remove infection effectively
+								while minimising discomfort. Our focus is long-term tooth health, predictable
+								results, and a reassuring experience from start to finish.
+							</p>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+</section>
+<?php endif; ?>
+
 
 			<?php if ($reviews_option == 'custom') : ?>
 
