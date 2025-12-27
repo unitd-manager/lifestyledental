@@ -4778,7 +4778,7 @@ in your oral health.
 						<div class="col-12 col-lg-8">
 
 							<h3>
-								Calm, Controlled Root Canal Treatment You Can Trust
+								Calm, Root Canal Treatment You Can Trust
 							</h3>
 
 							<ul class="root-canal-benefits">
