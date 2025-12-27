@@ -4337,7 +4337,7 @@ in your oral health.
 
             <div class="col-12 col-lg-4 d-flex mb-4 mb-lg-0">
                 <img
-                    src="http://lifestyledental.localhost/image/about/dental-anxiety.jpg"
+                    src="/image/about/dental-anxiety.jpg"
                     alt="Root canal pain relief and tooth preservation"
                     style="width:100%; height:auto; border-radius:6px;">
             </div>
@@ -4767,7 +4767,7 @@ in your oral health.
 
 			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
 				<img
-					src="http://lifestyledental.localhost/image/about/root_canal.jpg"
+					src="/image/about/root_canal.jpg"
 					alt="Importance of early root canal treatment"
 					style="width:100%; height:auto; border-radius:6px;">
 			</div>
