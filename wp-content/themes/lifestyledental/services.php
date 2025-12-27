@@ -370,6 +370,100 @@ if (is_page(4679)) {
 	}
 
 
+	.dental-bridge-types {
+  padding: 70px 20px;
+  background: #f9f9f9;
+}
+
+.dental-bridge-typesss {
+  padding: 70px 20px;
+  background: #fff;
+}
+
+
+.bridge-types-container {
+    max-width: 1180px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.bridge-types-content {
+  flex: 1;
+}
+
+.bridge-types-content h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #bb005e;
+}
+
+.bridge-types-content p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.bridge-types-content ul {
+  padding-left: 20px;
+}
+
+.bridge-types-content li {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.bridge-types-image {
+  flex: 1;
+  text-align: right;
+}
+
+.bridge-types-image img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.bridge-process-image {
+  flex: 1;
+  text-align: right;
+}
+
+.bridge-process-image img {
+  width: 550px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .bridge-types-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .bridge-types-content ul {
+    text-align: left;
+  }
+
+  .bridge-types-image {
+    text-align: center;
+  }
+   .bridge-process-image {
+    text-align: center;
+  }
+}
+
+
+
 	/* =====  patient story Panel ===== */
 
 	.gtc-panel {
@@ -3255,6 +3349,60 @@ if (is_page(4679)) {
 
   </div>
 </section>
+
+<section class="dental-bridge-types">
+  <div class="bridge-types-container">
+  <!-- Right Image -->
+    <div class="bridge-types-image">
+      <img src="/image/about/dental-bridge-type.jpg" alt="Types of Dental Bridges">
+    </div>
+    <!-- Left Content -->
+    <div class="bridge-types-content">
+      <h2>Types of Dental Bridges</h2>
+      <p>
+        Dentists recommend different dental bridges based on oral health needs.
+        The four main types include:
+      </p>
+      <ul>
+        <li><strong>Traditional Bridge:</strong> The most common type, using crowns on both sides with artificial teeth in between.</li>
+        <li><strong>Cantilever Bridge:</strong> Supported by a crown on one side only, suitable when teeth exist on one side.</li>
+        <li><strong>Maryland Bridge:</strong> Uses metal wings bonded to nearby teeth, mainly for front teeth.</li>
+        <li><strong>Implant-Supported Bridge:</strong> Anchored to dental implants, ideal for replacing multiple missing teeth.</li>
+      </ul>
+    </div>
+
+  
+
+  </div>
+</section>
+<section class="dental-bridge-typesss">
+  <div class="bridge-types-container">
+
+    <!-- Left Content -->
+    <div class="bridge-types-content">
+      <h2>How Dental Bridges Work</h2>
+      <p>
+       Dental bridges replace missing teeth by anchoring artificial teeth to nearby natural teeth or dental implants. The supporting teeth are carefully prepared to hold crowns, while the bridge fills the gap securely and comfortably.
+
+During the procedure, your dentist takes precise measurements to ensure a proper fit and natural appearance. The bridge is custom-crafted to match the color, shape, and size of your surrounding teeth. Once placed, it restores normal chewing function, improves speech clarity, and helps maintain facial structure. Dental bridges also prevent neighboring teeth from shifting, protecting long-term oral health and ensuring a stable, confident smile.
+      </p>
+
+      <ul>
+        <li>Prepares supporting teeth for stability</li>
+        <li>Fills gaps with natural-looking teeth</li>
+        <li>Restores bite balance and comfort</li>
+        <li>Improves speech and chewing ability</li>
+      </ul>
+    </div>
+
+    <!-- Right Image -->
+    <div class="bridge-process-image">
+      <img src="/image/about/dental-work.jpg" alt="How Dental Bridges Work">
+    </div>
+
+  </div>
+</section>
+
 
 <?php endif; ?>
 				<?php if (is_page(3641)) : ?>
