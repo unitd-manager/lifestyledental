@@ -93,6 +93,211 @@ if (is_page(4679)) {
 		font-weight: 300;
 	}
 
+	.smile-day-wrapper {
+
+  margin: 60px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.section-title {
+  font-size: 30px;
+  color: #1a3c5b;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+/* =====Slider Panel ===== */
+
+
+/* Section */
+.unique-slider-section {
+  background: #ffffff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+/* Heading */
+.unique-slider-section h2 {
+  color: #b0005a;
+  margin-bottom: 35px;
+}
+
+/* Wrapper */
+.slider-wrapper {
+  max-width: 1180px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  padding: 0 1px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Track */
+.slider-track {
+  display: flex;
+  width: 100%;
+  transition: transform 0.6s ease-in-out;
+}
+
+/* Slide */
+.slidewing {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 50px 60px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+/* Headings inside slide */
+.slidewing h4 {
+  color:#fff;
+  margin-bottom: 10px;
+}
+
+.slidewing h5 {
+  color:#000;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+/* Text */
+.slidewing p {
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.7;
+  
+}
+
+/* Backgrounds */
+.trust-panel {
+  background: linear-gradient(135deg, #a80055, #e94a8a);
+}
+
+.smile-panel {
+  background: linear-gradient(135deg, #5a2d82, #8e44ad);
+}
+
+.comfort-panel {
+  background: linear-gradient(135deg, #007c91, #00a8a8);
+}
+
+.finance-panel {
+  background: linear-gradient(135deg, #d35400, #f39c12);
+}
+
+/* Dots */
+.slider-controls {
+  margin-top: 25px;
+}
+
+.slider-controls .dot {
+  width: 12px;
+  height: 12px;
+  background: #d6d6d6;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 6px;
+  cursor: pointer;
+}
+
+.slider-controls .dot.active {
+  background: #b0005a;
+}
+
+/* Mobile Fix */
+@media (max-width: 768px) {
+  .slidewing {
+    padding: 35px 25px;
+  }
+
+}
+
+/* testimonial slider */
+
+
+.smile-day-wrapper {
+  padding: 60px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Slider */
+.js-slider {
+ 
+  margin: 0 auto;
+}
+
+/* Viewport */
+.js-slider-viewport {
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Track */
+.js-slider-track {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+/* Slide */
+.js-slide {
+  min-width: 100%;
+  padding: 60px;
+  background: linear-gradient(135deg, #e9e2c7, #e94a8a);
+  border-radius: 20px;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.js-slide h3 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.js-slide p {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* Dots */
+.js-slider-dots {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.js-slider-dots button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background: #ccc;
+  margin: 0 6px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.js-slider-dots button.active {
+  background: #b0005a;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .js-slide {
+    padding: 35px 25px;
+  }
+
+  .js-slide h3 {
+    font-size: 22px;
+  }
+}
+
+
 	.icon-links {
 		display: flex;
 		justify-content: space-between;
@@ -784,7 +989,7 @@ if (is_page(4679)) {
 
 .gtc-impact-panel {
   padding: 100px 20px;
-  background: #ffffff;
+  background: #752f2f29;
 }
 
 .impact-wrapper {
@@ -1189,6 +1394,97 @@ if (is_page(4679)) {
 }
 
 
+/* SECTION */
+.crown-panel {
+  background: var(--bg);
+  padding: 40px 20px;
+  font-family: "Segoe UI", sans-serif;
+  color: var(--text);
+}
+
+
+
+/* GRID */
+.panel-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  max-width: 1180px;
+  margin: auto;
+}
+
+/* CARD */
+.panel-card {
+  background: var(--card);
+  border-radius: 18px;
+  padding: 25px;
+  box-shadow:
+    inset 6px 6px 12px #d1d9e6,
+    inset -6px -6px 12px #ffffff;
+}
+
+/* HEADER */
+.panel-header {
+  margin-bottom: 20px;
+}
+
+/* BADGES */
+.badge {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.badge-success {
+  background: rgba(46, 204, 113, 0.15);
+  color: var(--success);
+}
+
+.badge-warning {
+  background: rgba(243, 156, 18, 0.15);
+  color: var(--warning);
+}
+
+/* LIST */
+.panel-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.panel-list li {
+  display: flex;
+  align-items: center;
+  padding: 12px 14px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  background: #f8fafc;
+  box-shadow:
+    4px 4px 10px #dbe2ea,
+    -4px -4px 10px #ffffff;
+}
+
+.panel-list li:last-child {
+  margin-bottom: 0;
+}
+
+/* ICON */
+.icon {
+  font-size: 20px;
+  margin-right: 12px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .panel-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
 /* ===== Hover polish (desktop only) ===== */
 
 @media (hover: hover) {
@@ -1589,6 +1885,72 @@ if (is_page(4679)) {
 	#lightbox .lightbox-container p {
 		margin-top: 5px;
 	}
+
+/* ===== Crown Slider Section ===== */	
+.crown-slider-section {
+  background: var(--bg);
+  padding: 50px 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.slider-titless {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.slider-wrapperss {
+  overflow: hidden;
+  max-width: 1180px;
+  margin: auto;
+}
+
+.slider-trackss {
+  display: flex;
+  gap: 25px;
+  transition: transform 0.6s ease;
+}
+
+.crown-card {
+  min-width: 300px;
+  background: var(--card);
+  border-radius: 20px;
+  padding: 18px;
+  box-shadow:
+    inset 6px 6px 12px #d1d9e6,
+    inset -6px -6px 12px #ffffff;
+}
+
+.crown-card img {
+  width: 100%;
+  border-radius: 14px;
+  margin-bottom: 15px;
+}
+
+.crown-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: 600;
+  color: #555;
+}
+
+.crown-card .desc {
+  font-size: 14px;
+  color: #555;
+  margin: 6px 0 10px;
+  line-height: 1.4;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .crown-card {
+    min-width: 85%;
+  }
+}
+
 
 	.service-cards {
 		background-repeat: no-repeat;
@@ -2489,8 +2851,7 @@ if (is_page(4679)) {
 				</div>
 			<?php endif; ?>
 
-		
-
+	
 
 		<?php elseif (get_row_layout() == 'content_left_media_right') :
 			$header        		= get_sub_field('header');
@@ -2690,6 +3051,768 @@ if (is_page(4679)) {
 					content: none;
 				}
 			</style>
+			<?php if (is_page(3727)) : ?>
+				<style>
+					.dental-impact-section {
+  background: #b10f0f36; /* red background like image */
+  padding: 80px 20px;
+}
+
+.impact-container {
+  max-width: 1180px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.impact-header {
+  text-align: center;
+  margin-bottom: 50px;
+  color: #d73737;
+}
+
+.impact-subtitle {
+  
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+
+.impact-header h2 {
+ 
+  margin-top: 10px;
+}
+
+.impact-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.impact-card {
+  background: #1a1a1a;
+  border-radius: 12px;
+  padding: 35px 30px;
+  color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.impact-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+}
+
+.impact-icon {
+  font-size: 34px;
+  margin-bottom: 15px;
+}
+
+.impact-card h3 {
+ 
+  margin-bottom: 12px;
+}
+
+.impact-card p {
+ 
+  line-height: 1.6;
+  color: #d1d1d1;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .impact-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+					.dental-bridge-panel {
+  padding: 60px 20px;
+  background: #f9f9f9;
+}
+
+.bridge-container {
+  max-width: 1180px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.bridge-image img {
+  width: 500px;
+ 
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.bridge-content h2 {
+  
+  margin-bottom: 15px;
+  color: #1a1a1a;
+}
+
+.bridge-content p {
+  
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .bridge-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+				</style>
+			<section class="dental-bridge-panel">
+  <div class="bridge-container">
+
+    <!-- Left Image -->
+    <div class="bridge-image">
+      <img src="/image/about/dental-brid.jpeg" alt="Dental Bridge Treatment">
+    </div>
+
+    <!-- Right Content -->
+    <div class="bridge-content">
+      <h2>Dental Bridges – Restore Your Smile</h2>
+      <p class="bridge-intro">
+        Dental bridges replace missing teeth to restore function and appearance.
+        They improve chewing, speech, and prevent surrounding teeth from shifting.
+        Custom-made for a natural look, dental bridges offer durability, comfort,
+        and renewed confidence in your everyday smile.
+
+		In addition to enhancing aesthetics, dental bridges help maintain proper bite alignment and support facial structure. With proper care, they provide a long-lasting solution that blends seamlessly with your natural teeth, allowing you to eat, speak, and smile comfortably every day.
+      </p>
+
+      <ul class="bridge-points">
+        <li>
+          <span class="icon">✔</span>
+          Natural-looking tooth replacement
+        </li>
+        <li>
+          <span class="icon">✔</span>
+          Improves chewing and speech
+        </li>
+        <li>
+          <span class="icon">✔</span>
+          Prevents teeth shifting
+        </li>
+        <li>
+          <span class="icon">✔</span>
+          Durable and comfortable solution
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+<section class="dental-impact-section">
+  <div class="impact-container">
+
+    <div class="impact-header">
+      <span class="impact-subtitle">Smile Restoration Solutions</span>
+      <h2>Why Choose Dental Bridges</h2>
+    </div>
+
+    <div class="impact-cards">
+
+      <div class="impact-card">
+        <div class="impact-icon">🦷</div>
+        <h3>Natural Appearance</h3>
+        <p>
+		   Dental bridges are custom-designed to match your natural teeth,
+      restoring your smile seamlessly, enhancing facial aesthetics,
+      and boosting everyday confidence.
+        </p>
+      </div>
+
+      <div class="impact-card">
+        <div class="impact-icon">✔</div>
+        <h3>Improved Function</h3>
+        <p>
+        Bridges restore proper chewing and speech while evenly distributing
+      bite pressure, improving comfort, stability, and daily oral function.
+        </p>
+      </div>
+
+      <div class="impact-card">
+        <div class="impact-icon">🔒</div>
+        <h3>Long-Lasting Solution</h3>
+        <p>
+         With proper care, dental bridges provide a durable and secure tooth
+      replacement that supports long-term oral health and reliability.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<?php endif; ?>
+				<?php if (is_page(3641)) : ?>
+<section class="crown-slider-section">
+  <h3 class="slider-titless">Types of Dental Crowns</h3>
+
+  <div class="slider-wrapperss">
+    <div class="slider-trackss">
+
+      <!-- CARD 1 -->
+      <div class="crown-card">
+        <img src="/image/about/metal_crowns.jpg" alt="Metal Crown">
+        <h4>Metal Crown</h4>
+        <p class="desc">Strong and durable option ideal for back teeth and heavy chewing areas.</p>
+        <p class="price">Starting at Rs. 3,490</p>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="crown-card">
+        <img src="/image/about/pfm_crowns.jpg" alt="PFM Crown">
+        <h4>PFM Crowns (General)</h4>
+        <p class="desc">Combines metal strength with tooth coloured porcelain for a natural look.</p>
+        <p class="price">Starting at Rs. 4,690</p>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="crown-card">
+        <img src="/image/about/pfm_crowns_implants.jpg" alt="PFM Implant Crown">
+        <h4>PFM Crowns (For Implant Prosthesis)</h4>
+        <p class="desc">Designed specifically for implants, offering stability, function, and durability.</p>
+        <p class="price">Starting at Rs. 8,190</p>
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="crown-card">
+        <img src="/image/about/crowns_zirconia.jpg" alt="Zirconia Crown">
+        <h4>Zirconia (Metal Free)</h4>
+        <p class="desc">Highly aesthetic, metal free crowns that closely resemble natural teeth.</p>
+        <p class="price">Starting at Rs. 9,490</p>
+      </div>
+
+      <!-- CARD 5 -->
+      <div class="crown-card">
+        <img src="/image/about/crowns_zirconia_implants.jpg" alt="Zirconia Implant">
+        <h4>Zirconia (Implant Prosthesis)</h4>
+        <p class="desc">Premium implant crowns offering superior strength, aesthetics, and longevity.</p>
+        <p class="price">Starting at Rs. 10,800</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<?php endif; ?>
+<?php if ( is_page(3520) ) : ?>
+
+<style>
+/* ===== Correcting Bite Panels ===== */
+.bite-panel {
+  padding: 70px 0;
+}
+.bite-panel.bg-light {
+  background:#f8f9fb;
+}
+.bite-panel h3 {
+  color:#b01257;
+  font-weight:600;
+  margin-bottom:20px;
+}
+.bite-panel p {
+  font-size:16px;
+  line-height:1.75;
+  color:#555;
+}
+.bite-img {
+  width:100%;
+  max-width:420px;
+  height:260px;
+  object-fit:cover;
+  border-radius:10px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+@media(max-width:768px){
+  .bite-img{
+    margin-top:30px;
+    height:auto;
+  }
+}
+</style>
+
+<!-- PANEL 1 -->
+<section class="bite-panel">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <h3>Correcting Your Bite</h3>
+        <p>
+A balanced bite plays a vital role in long-term oral health, comfort, and jaw stability.
+When teeth do not align or meet evenly, excess pressure can develop on specific teeth,
+muscles, and jaw joints. Over time, this may lead to headaches, facial pain, tooth wear,
+cracks, or difficulty chewing. At Lifestyle Dental, we carefully assess how your teeth
+come together and move during function. By identifying bite imbalances early, we can
+provide personalised solutions that restore balance, protect your teeth, and improve
+overall comfort and confidence.
+        </p>
+      </div>
+      <div class="col-lg-5 text-center">
+        <img class="bite-img" src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95" alt="Correcting your bite">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PANEL 2 -->
+<section class="bite-panel bg-light">
+  <div class="container">
+    <div class="row align-items-center flex-row-reverse">
+      <div class="col-lg-7">
+        <h3>Jaw Joint & Muscle Health</h3>
+        <p>
+Your jaw joints and muscles work continuously throughout the day when speaking,
+chewing, and swallowing. Bite imbalances can overload these structures, causing
+clicking, stiffness, restricted movement, and facial discomfort. If left untreated,
+this strain may worsen over time. Using advanced bite analysis, we assess how your
+jaw moves and how forces are distributed. This allows us to reduce unnecessary stress,
+support joint health, and help restore smooth, comfortable jaw movement for everyday
+function.
+        </p>
+      </div>
+      <div class="col-lg-5 text-center">
+        <img class="bite-img" src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5" alt="Jaw joint health">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PANEL 3 -->
+<section class="bite-panel">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <h3>Personalised Bite Treatment Planning</h3>
+        <p>
+No two bites are the same. That is why we use detailed digital data to create
+fully personalised bite treatment plans. By analysing jaw movement, tooth contact,
+and pressure points, we can predict how treatments will perform before they begin.
+This approach improves accuracy and long-term results for restorations, orthodontics,
+and implants. Personalised planning ensures your bite feels natural, functions
+efficiently, and supports lasting oral health with predictable outcomes.
+        </p>
+      </div>
+      <div class="col-lg-5 text-center">
+        <img class="bite-img" src="https://images.unsplash.com/photo-1606811841732-9c6b6e2a8e3d" alt="Bite planning">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PANEL 4 -->
+<section class="bite-panel bg-light">
+  <div class="container">
+    <div class="row align-items-center flex-row-reverse">
+      <div class="col-lg-7">
+        <h3>New Patient Examination</h3>
+        <p>
+Your journey begins with a comprehensive one-hour examination designed to fully
+understand your oral health and bite function. This unhurried appointment allows
+our dentists to assess your teeth, jaw joints, muscles, and bite relationship.
+We listen carefully to your concerns and explain findings clearly. This thorough
+approach ensures any underlying bite issues are identified early, allowing us
+to recommend treatment options that are comfortable, effective, and tailored to
+your individual needs.
+        </p>
+      </div>
+      <div class="col-lg-5 text-center">
+        <img class="bite-img" src="https://images.unsplash.com/photo-1588776813677-77c66f59a0c2" alt="New patient exam">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PANEL 5 -->
+<section class="bite-panel">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <h3>55-Point Head & Neck Assessment</h3>
+        <p>
+Our detailed 55-point assessment examines the head, neck, jaw joints, and surrounding
+muscles to identify hidden sources of discomfort or imbalance. Many bite-related
+problems originate beyond the teeth alone. By assessing posture, muscle tension,
+and joint movement, we gain a complete understanding of your oral system. This
+holistic evaluation allows for early detection of issues and supports precise,
+well-informed treatment planning for long-term comfort and stability.
+        </p>
+      </div>
+      <div class="col-lg-5 text-center">
+        <img class="bite-img" src="https://images.unsplash.com/photo-1629909613654-28e377c37b09" alt="Head and neck assessment">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PANEL 6 -->
+<section class="bite-panel bg-light">
+  <div class="container">
+    <div class="row align-items-center flex-row-reverse">
+      <div class="col-lg-7">
+        <h3>Digital Bite Analysis & Charting</h3>
+        <p>
+Digital bite analysis allows us to measure how your teeth contact and how force is
+distributed when you bite. This advanced technology highlights pressure points that
+cannot be seen with the naked eye. Combined with full digital charting, it provides
+exceptional accuracy when diagnosing bite issues. This information guides precise
+adjustments and treatment decisions, improving comfort, protecting restorations,
+and supporting long-term oral health.
+        </p>
+      </div>
+      <div class="col-lg-5 text-center">
+        <img class="bite-img" src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95" alt="Digital bite analysis">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PANEL 7 -->
+<section class="bite-panel">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <h3>Long-Term Bite Stability & Protection</h3>
+        <p>
+Correcting your bite is not just about comfort today, but protecting your smile
+for the future. A balanced bite helps prevent excessive wear, fractures, implant
+failure, and joint strain. By addressing imbalances early, we support long-term
+stability for crowns, bridges, implants, and natural teeth. Our goal is to help
+you enjoy comfortable function, improved chewing efficiency, and lasting confidence
+in your oral health.
+        </p>
+      </div>
+      <div class="col-lg-5 text-center">
+        <img class="bite-img" src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5" alt="Bite stability">
+      </div>
+    </div>
+  </div>
+</section>
+
+<?php endif; ?>
+<?php if (is_page(3520)) : ?>
+
+<!-- PANEL 1 -->
+<section style="background:#ffffff;">
+	<div class="container py-5">
+		<div class="row align-items-center">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95" alt="Personalised bite treatment planning" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Personalised Bite Treatment Planning</h3>
+				<p>
+					No two bites are the same. That is why we use advanced digital data to create
+					fully personalised bite treatment plans. By analysing jaw movement, tooth
+					contact, and pressure points, we can predict how treatments will perform before
+					they begin. This improves accuracy and long-term results for restorations,
+					orthodontics, and implants. Personalised planning ensures your bite feels
+					natural, functions efficiently, and supports lasting oral health with
+					predictable outcomes.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- PANEL 2 -->
+<section style="background:#eaeaea;">
+	<div class="container py-5">
+		<div class="row align-items-center flex-lg-row-reverse">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5" alt="Digital bite analysis technology" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Advanced Digital Bite Analysis</h3>
+				<p>
+					Digital bite analysis allows us to measure how your teeth meet and move during
+					function. This technology detects imbalances that cannot be seen visually,
+					helping prevent uneven wear, jaw strain, and discomfort. By identifying pressure
+					points accurately, we can make precise adjustments to improve balance and
+					comfort. This approach reduces guesswork and supports long-term dental stability
+					and patient comfort.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- PANEL 3 -->
+<section style="background:#ffffff;">
+	<div class="container py-5">
+		<div class="row align-items-center">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1606813902917-dcd8f9bb9b39" alt="Jaw joint and muscle comfort" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Reducing Jaw Joint and Muscle Strain</h3>
+				<p>
+					An unbalanced bite can overload the jaw joints and muscles, leading to pain,
+					clicking, or limited movement. Correcting bite issues helps distribute forces
+					evenly, allowing muscles to relax and joints to function naturally. Patients
+					often experience reduced tension, improved jaw comfort, and better mobility.
+					This careful approach supports everyday comfort while protecting long-term jaw
+					health.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- PANEL 4 -->
+<section style="background:#eaeaea;">
+	<div class="container py-5">
+		<div class="row align-items-center flex-lg-row-reverse">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1606813902881-0f3d43d2b9a6" alt="Preventing uneven tooth wear" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Preventing Uneven Tooth Wear</h3>
+				<p>
+					When teeth do not meet evenly, certain areas experience excessive pressure,
+					causing wear, fractures, and sensitivity. Bite correction protects natural teeth
+					and restorations by ensuring forces are balanced across the bite. This reduces
+					the risk of long-term damage and helps preserve your smile. Early correction
+					also minimises the need for future dental repairs.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- PANEL 5 -->
+<section style="background:#ffffff;">
+	<div class="container py-5">
+		<div class="row align-items-center">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1588776814546-8b55b9c1d5b4" alt="Improved chewing efficiency" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Improved Chewing Efficiency</h3>
+				<p>
+					A balanced bite allows teeth to work together effectively, improving chewing
+					and digestion. Correcting bite issues reduces jaw fatigue and enhances comfort
+					when eating. Patients often notice improved function and less strain during
+					meals. Efficient chewing supports overall wellbeing by allowing proper
+					breakdown of food and better nutrient absorption.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- PANEL 6 -->
+<section style="background:#eaeaea;">
+	<div class="container py-5">
+		<div class="row align-items-center flex-lg-row-reverse">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1606813902642-9cbb18f18b16" alt="Protecting dental restorations" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Protecting Crowns, Bridges, and Implants</h3>
+				<p>
+					Dental restorations depend on a stable bite to perform correctly. An uneven bite
+					can overload crowns, bridges, and implants, leading to damage or failure. Bite
+					correction helps protect your dental work by ensuring even pressure
+					distribution. This increases longevity, reduces maintenance needs, and protects
+					your long-term dental investment.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- PANEL 7 -->
+<section style="background:#ffffff;">
+	<div class="container py-5">
+		<div class="row align-items-center">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1606813902707-2d6f9f8a45e9" alt="Long-term dental stability" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Supporting Long-Term Dental Stability</h3>
+				<p>
+					Correcting your bite supports long-term oral health by addressing the underlying
+					cause of imbalance. A stable bite helps maintain healthy tooth positions and
+					proper jaw function over time. This proactive approach reduces future
+					complications and ensures predictable outcomes. The result is a comfortable,
+					functional, and confident smile that lasts.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<?php endif; ?>
+<?php if (is_page(3520)) : ?>
+
+<!-- PANEL 1 -->
+<section style="background:#ffffff;">
+	<div class="container py-5">
+		<div class="row align-items-center">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95" alt="Personalised bite treatment planning" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Personalised Bite Treatment Planning</h3>
+				<p>
+					No two bites are the same. That is why we use advanced digital data to create
+					fully personalised bite treatment plans. By analysing jaw movement, tooth
+					contact, and pressure points, we can predict how treatments will perform before
+					they begin. This improves accuracy and long-term results for restorations,
+					orthodontics, and implants. Personalised planning ensures your bite feels
+					natural, functions efficiently, and supports lasting oral health with
+					predictable outcomes.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- PANEL 2 -->
+<section style="background:#eaeaea;">
+	<div class="container py-5">
+		<div class="row align-items-center flex-lg-row-reverse">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5" alt="Digital bite analysis technology" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Advanced Digital Bite Analysis</h3>
+				<p>
+					Digital bite analysis allows us to measure how your teeth meet and move during
+					function. This technology detects imbalances that cannot be seen visually,
+					helping prevent uneven wear, jaw strain, and discomfort. By identifying pressure
+					points accurately, we can make precise adjustments to improve balance and
+					comfort. This approach reduces guesswork and supports long-term dental stability
+					and patient comfort.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- PANEL 3 -->
+<section style="background:#ffffff;">
+	<div class="container py-5">
+		<div class="row align-items-center">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1606813902917-dcd8f9bb9b39" alt="Jaw joint and muscle comfort" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Reducing Jaw Joint and Muscle Strain</h3>
+				<p>
+					An unbalanced bite can overload the jaw joints and muscles, leading to pain,
+					clicking, or limited movement. Correcting bite issues helps distribute forces
+					evenly, allowing muscles to relax and joints to function naturally. Patients
+					often experience reduced tension, improved jaw comfort, and better mobility.
+					This careful approach supports everyday comfort while protecting long-term jaw
+					health.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- PANEL 4 -->
+<section style="background:#eaeaea;">
+	<div class="container py-5">
+		<div class="row align-items-center flex-lg-row-reverse">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1606813902881-0f3d43d2b9a6" alt="Preventing uneven tooth wear" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Preventing Uneven Tooth Wear</h3>
+				<p>
+					When teeth do not meet evenly, certain areas experience excessive pressure,
+					causing wear, fractures, and sensitivity. Bite correction protects natural teeth
+					and restorations by ensuring forces are balanced across the bite. This reduces
+					the risk of long-term damage and helps preserve your smile. Early correction
+					also minimises the need for future dental repairs.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- PANEL 5 -->
+<section style="background:#ffffff;">
+	<div class="container py-5">
+		<div class="row align-items-center">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1588776814546-8b55b9c1d5b4" alt="Improved chewing efficiency" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Improved Chewing Efficiency</h3>
+				<p>
+					A balanced bite allows teeth to work together effectively, improving chewing
+					and digestion. Correcting bite issues reduces jaw fatigue and enhances comfort
+					when eating. Patients often notice improved function and less strain during
+					meals. Efficient chewing supports overall wellbeing by allowing proper
+					breakdown of food and better nutrient absorption.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- PANEL 6 -->
+<section style="background:#eaeaea;">
+	<div class="container py-5">
+		<div class="row align-items-center flex-lg-row-reverse">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1606813902642-9cbb18f18b16" alt="Protecting dental restorations" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Protecting Crowns, Bridges, and Implants</h3>
+				<p>
+					Dental restorations depend on a stable bite to perform correctly. An uneven bite
+					can overload crowns, bridges, and implants, leading to damage or failure. Bite
+					correction helps protect your dental work by ensuring even pressure
+					distribution. This increases longevity, reduces maintenance needs, and protects
+					your long-term dental investment.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- PANEL 7 -->
+<section style="background:#ffffff;">
+	<div class="container py-5">
+		<div class="row align-items-center">
+			<div class="col-12 col-lg-5 mb-4 mb-lg-0">
+				<img class="bite-img" src="https://images.unsplash.com/photo-1606813902707-2d6f9f8a45e9" alt="Long-term dental stability" style="width:100%;border-radius:8px;">
+			</div>
+			<div class="col-12 col-lg-7">
+				<h3>Supporting Long-Term Dental Stability</h3>
+				<p>
+					Correcting your bite supports long-term oral health by addressing the underlying
+					cause of imbalance. A stable bite helps maintain healthy tooth positions and
+					proper jaw function over time. This proactive approach reduces future
+					complications and ensures predictable outcomes. The result is a comfortable,
+					functional, and confident smile that lasts.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<?php endif; ?>
+
+
 <?php if (is_page(3775)) : ?>
 <section class="special_panel_1 content-left-media-right standard">
 	<div class="container py-5">
@@ -2822,7 +3945,104 @@ if (is_page(4679)) {
 
 </section>
 <?php endif; ?>
+<?php if (is_page(3475)) : ?>
 
+<<<<<<< HEAD
+=======
+<section class="unique-slider-section">
+  <h2>More Reasons Patients Choose Lifestyle Dental</h2>
+
+  <div class="slider-wrapper">
+    <div class="slider-track">
+
+      <!-- Panel 1 -->
+      <div class="slidewing trust-panel">
+        <h4>Why Patients Trust Us</h4>
+        <h5>Care built on honesty & experience</h5>
+        <p>
+          Our patients choose Lifestyle Dental because we combine advanced
+          clinical expertise with a genuinely caring approach. From your first
+          consultation, we take time to listen, explain every option clearly,
+          and recommend only what is right for you. Transparency, consistency,
+          and long-term results are at the heart of everything we do.
+        </p>
+      </div>
+
+      <!-- Panel 2 -->
+      <div class="slidewing smile-panel">
+        <h4>Real Smiles, Real Results</h4>
+        <h5>Transformations that speak for themselves</h5>
+        <p>
+          Seeing real patient results builds confidence. Our smile
+          transformations are designed to look natural, feel comfortable, and
+          last for years. Whether it’s whitening, implants, or full smile
+          makeovers, every treatment plan is personalised to enhance your
+          natural smile without over-treatment.
+        </p>
+      </div>
+
+      <!-- Panel 3 -->
+      <div class="slidewing comfort-panel">
+        <h4>Comfort & Anxiety-Free Dentistry</h4>
+        <h5>We care for nervous patients</h5>
+        <p>
+          Dental anxiety is common, and we take it seriously. Our calm
+          environment, gentle techniques, and supportive team help even the
+          most nervous patients feel relaxed. Many patients tell us their fear
+          of dentists disappeared after just one visit.
+        </p>
+      </div>
+
+      <!-- Panel 4 -->
+      <div class="slidewing finance-panel">
+        <h4>Flexible Payment & Finance Options</h4>
+        <h5>Quality care made affordable</h5>
+        <p>
+          We believe finances should never delay essential dental care.
+          Lifestyle Dental offers clear pricing, flexible payment plans, and
+          dental finance options to spread the cost comfortably. Everything is
+          explained upfront so you can proceed with confidence and peace of
+          mind.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <div class="slider-controls">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</section>
+<?php endif; ?>
+<script>
+  const track = document.querySelector('.slider-track');
+  const dots = document.querySelectorAll('.dot');
+  let index = 0;
+
+  function showSlide(i) {
+    track.style.transform = `translateX(-${i * 100}%)`;
+    dots.forEach(dot => dot.classList.remove('active'));
+    dots[i].classList.add('active');
+  }
+
+  dots.forEach((dot, i) => {
+    dot.addEventListener('click', () => {
+      index = i;
+      showSlide(index);
+    });
+  });
+
+  setInterval(() => {
+    index = (index + 1) % dots.length;
+    showSlide(index);
+  }, 5000);
+</script>
+
+>>>>>>> 6e52a1f7018c9fad7ae8eb66063a7fddaf876394
 			<section class="guarantee-banner <?php echo ($image == '') ? '' : 'plain-background'; ?>" style="<?php echo (!empty($image)) ? 'background-color:' . esc_html($bg_color) . ';' : 'background-image: url(' . esc_url($bg_image['url']) . ');'; ?>">
 				<div class="container py-5">
 					<div class="row <?php echo ($image == '') ? 'centered-content' : ''; ?>">
@@ -3175,7 +4395,7 @@ if (is_page(4679)) {
 			<section class="accordion-section pb-5" style="background-color: <?php echo esc_html($bg_color); ?>;">
 				<div class="container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
 				   <?php if ($header) : ?>
-					   <h2>
+					   <h2 style="text-align: center; margin-top: 2rem; margin-bottom: 2rem;">
 						   <?php echo esc_html($header); ?>
 				   </h2>
 				   <?php endif; ?>
@@ -3582,21 +4802,7 @@ if (is_page(4679)) {
 <?php endif; ?>
 <?php if (is_page(3414)) : ?>
 	
-<section class="gtc-panel panel-story gtc-animate">
 
-  <div class="story-text">
-    <h3>Redefining the Balance of Your Smile</h3>
-    <p>
-      Gum and teeth contouring focuses on subtle refinements that make a powerful
-      difference. By carefully reshaping uneven gums or smoothing irregular tooth
-      edges, we help restore natural balance and proportion to your smile.
-      Using digital smile planning, every adjustment is guided by precision,
-      ensuring results that look harmonious, confident, and completely natural.
-      The procedure is minimally invasive, comfortable, and often completed in a
-      single visit with visible improvements straight away.
-    </p>
-  </div>
-</section>
 <section class="gtc-impact-panel gtc-animate">
 	<div class="container">
   <div class="impact-wrapper">
@@ -3780,6 +4986,370 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 	<?php endif; ?>
+<?php if (is_page(4528)) : ?>
+
+<section class="smile-day-wrapper">
+	
+  <h2 class="section-title">What is the Benefit of Smile in a Day?</h2>
+<div class="container">
+  <div class="js-slider">
+
+    <div class="js-slider-viewport">
+      <div class="js-slider-track">
+
+        <div class="js-slide">
+          <h4>Immediate Function</h4>
+          <p>
+            The process of dental implants can take weeks. Eating, speaking, or even just laughing with friends can become a challenge, you just want your smile back without any delay.
+          </p>
+        </div>
+
+        <div class="js-slide">
+          <h4>Cost-Effective Solution</h4>
+          <p>
+          You will no longer have to sacrifice your dental health because of prohibitive costs. Because the procedure uses fewer implants and can often avoid the need for bone grafting, it can be more affordable for many patients.
+          </p>
+        </div>
+
+        <div class="js-slide">
+          <h4>Full-Arch Rehabilitation</h4>
+          <p>
+           It’s frustrating to feel limited by something that should be simple and natural, like smiling or enjoying your favourite foods.
+
+We provide a comprehensive solution designed specifically for people like you, who have lost most or all of their teeth. With our Full-Arch Rehabilitation, you’ll regain your confidence, reclaim your smile, and return to a life unhindered by tooth loss.
+          </p>
+        </div>
+
+        <div class="js-slide">
+          <h4>Preserves Jawbone Structure</h4>
+          <p>
+           With each lost tooth, the bone that once supported it begins to erode, affecting your overall oral health and changing the shape of your face.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Dots -->
+    <div class="js-slider-dots"></div>
+
+  </div>
+</div>
+</section>
+
+<?php endif; ?>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const track = document.querySelector(".js-slider-track");
+  const slides = document.querySelectorAll(".js-slide");
+  const dotsContainer = document.querySelector(".js-slider-dots");
+
+  let index = 0;
+  const total = slides.length;
+  const intervalTime = 4000;
+
+  // Create dots
+  slides.forEach((_, i) => {
+    const dot = document.createElement("button");
+    if (i === 0) dot.classList.add("active");
+
+    dot.addEventListener("click", () => {
+      index = i;
+      updateSlider();
+      resetInterval();
+    });
+
+    dotsContainer.appendChild(dot);
+  });
+
+  const dots = dotsContainer.querySelectorAll("button");
+
+  function updateSlider() {
+    track.style.transform = `translateX(-${index * 100}%)`;
+    dots.forEach(dot => dot.classList.remove("active"));
+    dots[index].classList.add("active");
+  }
+
+  function nextSlide() {
+    index = (index + 1) % total;
+    updateSlider();
+  }
+
+  let sliderInterval = setInterval(nextSlide, intervalTime);
+
+  function resetInterval() {
+    clearInterval(sliderInterval);
+    sliderInterval = setInterval(nextSlide, intervalTime);
+  }
+});
+</script>
+<?php if (is_page(3641)) : ?>
+	
+<section class="crown-panel">
+
+  <h2 class="panel-title">Dental Crowns – Benefits & Risks</h2>
+
+  <div class="panel-grid">
+
+    <!-- BENEFITS -->
+    <div class="panel-card benefit">
+      <div class="panel-header">
+        <span class="badge badge-success">✔ Benefits</span>
+      </div>
+
+      <ul class="panel-list">
+        <li>
+          <span class="icon">🦷</span>
+          <span>Treat worn, broken or decayed teeth</span>
+        </li>
+        <li>
+          <span class="icon">🛡</span>
+          <span>Protect teeth from erosion and wear</span>
+        </li>
+        <li>
+          <span class="icon">🍽</span>
+          <span>Improve chewing function</span>
+        </li>
+        <li>
+          <span class="icon">✨</span>
+          <span>Enhance your smile and appearance</span>
+        </li>
+        <li>
+          <span class="icon">⏳</span>
+          <span>Last 5–15 years with proper care</span>
+        </li>
+		       <li>
+          <span class="icon">🛡️</span>
+          <span>Restore proper bite alignment</span>
+        </li>
+		       <li>
+          <span class="icon">🧠</span>
+          <span>Prevent further tooth damage</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- RISKS -->
+    <div class="panel-card risk">
+      <div class="panel-header">
+        <span class="badge badge-warning">⚠ Risks</span>
+      </div>
+
+      <ul class="panel-list">
+        <li>
+          <span class="icon">❗</span>
+          <span>Requires removal of natural tooth enamel</span>
+        </li>
+        <li>
+          <span class="icon">❄</span>
+          <span>May cause sensitivity after placement</span>
+        </li>
+        <li>
+          <span class="icon">💥</span>
+          <span>Can fracture or break over time</span>
+        </li>
+        <li>
+          <span class="icon">🦠</span>
+          <span>Poor fit may trap bacteria and cause decay</span>
+        </li>
+        <li>
+          <span class="icon">💰</span>
+          <span>Can be expensive for some patients</span>
+        </li>
+		   <li>
+          <span class="icon">📅</span>
+          <span>Crown may loosen over time</span>
+        </li>
+		   <li>
+          <span class="icon">🔩</span>
+          <span>Not reversible procedure</span>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+<style>
+.crown-content-section {
+  padding: 80px 20px;
+  background: #f9fafb;
+  font-family: "Poppins", sans-serif;
+}
+
+.crown-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.crown-flex {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.crown-image {
+  flex: 1;
+}
+
+.crown-image img {
+  width: 100%;
+  border-radius: 14px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+  object-fit: cover;
+}
+
+.crown-content {
+  flex: 1.2;
+}
+
+.crown-subtitle {
+  color: #1d9bf0;
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.crown-title {
+ 
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.crown-description {
+ 
+  line-height: 1.8;
+  color: #4b5563;
+  margin-bottom: 35px;
+}
+
+.crown-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.crown-grid ul {
+  list-style: none;
+  padding: 0;
+}
+
+.crown-grid li {
+  background: #ffffff;
+  padding: 14px 20px 14px 40px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  font-size: 15px;
+  color: #374151;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+  position: relative;
+}
+
+.crown-grid li::before {
+  content: "✔";
+  position: absolute;
+  left: 15px;
+  top: 14px;
+  color: #1d9bf0;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .crown-flex {
+    flex-direction: column;
+  }
+
+  
+
+  .crown-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+</style>
+<section class="crown-content-section">
+  <div class="crown-container">
+    <div class="crown-flex">
+
+      <!-- Left Image -->
+      <div class="crown-image">
+        <img src="/image/about/crownimage.jpg" alt="Dental Crown Treatment">
+      </div>
+
+      <!-- Right Content -->
+      <div class="crown-content">
+        <h5 class="crown-subtitle">Dental Crown Solutions</h5>
+        <h3 class="crown-title">Dental Crowns That Restore Strength & Beauty</h3>
+
+        <p class="crown-description">
+          Dental crowns are custom-made caps designed to restore damaged, weakened, or discoloured teeth.
+          They improve strength, function, and appearance while blending seamlessly with your natural smile.
+        </p>
+
+        <div class="crown-grid">
+          <ul>
+            <li>Porcelain & Ceramic Crowns</li>
+            <li>Zirconia & Metal-Free Crowns</li>
+            <li>Same-Day Crown Solutions</li>
+            <li>Crown Replacement & Repairs</li>
+          </ul>
+          <ul>
+            <li>Cosmetic Smile Enhancement</li>
+            <li>Bite & Tooth Structure Restoration</li>
+            <li>Digital Smile Preview & Planning</li>
+            <li>Natural-Looking, Long-Lasting</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<?php endif; ?>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const track = document.querySelector('.slider-trackss');
+  let cards = document.querySelectorAll('.crown-card');
+  const gap = 25;
+  let index = 0;
+
+  // Clone first slide for infinite loop
+  const firstClone = cards[0].cloneNode(true);
+  track.appendChild(firstClone);
+
+  // Update cards NodeList
+  cards = document.querySelectorAll('.crown-card');
+
+  function slideCards() {
+    const cardWidth = cards[0].offsetWidth + gap;
+    index++;
+
+    track.style.transition = "transform 0.6s ease";
+    track.style.transform = `translateX(-${index * cardWidth}px)`;
+
+    // When reaching clone, reset smoothly
+    if (index === cards.length - 1) {
+      setTimeout(() => {
+        track.style.transition = "none";
+        index = 0;
+        track.style.transform = "translateX(0)";
+      }, 700);
+    }
+  }
+
+  setInterval(slideCards, 3000);
+});
+</script>
+
+
+
 
 		<?php elseif (get_row_layout() == 'team_block') :
 			$members  	= get_sub_field('team_blocks'); ?>
@@ -4236,29 +5806,47 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <?php get_footer(); ?>
 
-
 <script>
-	// Script to change Google Reviews stats on hero widget
+document.addEventListener("DOMContentLoaded", function () {
 
-	var rawRating = Array.from(document.querySelectorAll('.ti-rating-text .nowrap'))
+  function updateGoogleReviews() {
+    const rawRating = document.querySelectorAll('.ti-rating-text .nowrap');
 
-	var reviewCount = rawRating[2]['children'][0]['childNodes'][0]['data']
-	var avgScore = rawRating[1]['children'][0]['childNodes'][0]['data']
+    // Ensure required elements exist
+    if (rawRating.length < 3) {
+      return;
+    }
 
-	var elementReviewsCount = document.querySelectorAll('#hero-google-reviews_reviews-count')
-	var elementAverageScore = document.querySelectorAll('#hero-google-reviews_average-score')
+    const reviewCountNode = rawRating[2]?.children?.[0]?.childNodes?.[0];
+    const avgScoreNode = rawRating[1]?.children?.[0]?.childNodes?.[0];
 
-	if (reviewCount.length > 0) {
+    if (!reviewCountNode || !avgScoreNode) {
+      return;
+    }
 
-		elementReviewsCount.forEach(function(i) {
-			i.innerHTML = reviewCount
-		})
-	}
+    const reviewCount = reviewCountNode.data;
+    const avgScore = avgScoreNode.data;
 
-	if (avgScore.length > 0) {
+    document.querySelectorAll('#hero-google-reviews_reviews-count')
+      .forEach(el => el.textContent = reviewCount);
 
-		elementAverageScore.forEach(function(i) {
-			i.innerHTML = avgScore
-		})
-	}
+    document.querySelectorAll('#hero-google-reviews_average-score')
+      .forEach(el => el.textContent = avgScore);
+  }
+
+  // Run once
+  updateGoogleReviews();
+
+  // Retry in case Google Reviews loads late
+  let retryCount = 0;
+  const interval = setInterval(() => {
+    updateGoogleReviews();
+    retryCount++;
+
+    if (retryCount > 10) {
+      clearInterval(interval);
+    }
+  }, 500);
+
+});
 </script>
