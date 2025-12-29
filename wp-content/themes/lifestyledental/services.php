@@ -1891,14 +1891,13 @@ if (is_page(4679)) {
 	<div class="home_hero_inner">
 		<div class="home_hero_content_col">
 			<?php if ($header) : ?>
-												<h1>
-													Dental Implants 
+												<h1 class="">													Dental Implants 
 
 												</h1>
 											<?php endif; ?>
 							<?php if ($sub_header) : ?>
 
-												<h4>
+												<h4 class="" style="color:#ffffff;" >
 													Eat, smile, and live with confidence again – with affordable dental implants.
 							</h4>
 											<?php endif; ?>
@@ -3548,7 +3547,7 @@ if (is_page(4679)) {
 	</style>
 
 	<div class="wrapper">
-		<h2>Why Choose Porcelain Veneers?</h2>
+		<h3>Why Choose Porcelain Veneers?</h3>
 
 		<p class="intro">
 			Porcelain veneers are one of the most advanced cosmetic dental treatments available today.
