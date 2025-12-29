@@ -56,7 +56,7 @@ if (is_page(4679)) {
 		position: absolute;
 		top: 60px;
 		height: 520px;
-		right: 305px;
+		right: 335px;
 	}
 
 	.layer .slides .slide.services {
@@ -64,12 +64,13 @@ if (is_page(4679)) {
 	}
 
 	.core__slider .wrapper .gradient-form {
-		margin: -100px;
-		right: 2rem !important;
+		right: 0rem !important;
+		margin-top: 60px;
 	}
 
 	.core__slider .wrapper {
 		background-color: #eaeaea;
+		padding: 0;
 	}
 
 	.core__slider.big .wrapper .slide {
@@ -91,6 +92,211 @@ if (is_page(4679)) {
 		color: #434343;
 		font-weight: 300;
 	}
+
+	.smile-day-wrapper {
+
+  margin: 60px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.section-title {
+  font-size: 30px;
+  color: #1a3c5b;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+/* =====Slider Panel ===== */
+
+
+/* Section */
+.unique-slider-section {
+  background: #ffffff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+/* Heading */
+.unique-slider-section h2 {
+  color: #b0005a;
+  margin-bottom: 35px;
+}
+
+/* Wrapper */
+.slider-wrapper {
+  max-width: 1180px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  padding: 0 1px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Track */
+.slider-track {
+  display: flex;
+  width: 100%;
+  transition: transform 0.6s ease-in-out;
+}
+
+/* Slide */
+.slidewing {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 50px 60px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+/* Headings inside slide */
+.slidewing h4 {
+  color:#fff;
+  margin-bottom: 10px;
+}
+
+.slidewing h5 {
+  color:#000;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+/* Text */
+.slidewing p {
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.7;
+  
+}
+
+/* Backgrounds */
+.trust-panel {
+  background: linear-gradient(135deg, #a80055, #e94a8a);
+}
+
+.smile-panel {
+  background: linear-gradient(135deg, #5a2d82, #8e44ad);
+}
+
+.comfort-panel {
+  background: linear-gradient(135deg, #007c91, #00a8a8);
+}
+
+.finance-panel {
+  background: linear-gradient(135deg, #d35400, #f39c12);
+}
+
+/* Dots */
+.slider-controls {
+  margin-top: 25px;
+}
+
+.slider-controls .dot {
+  width: 12px;
+  height: 12px;
+  background: #d6d6d6;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 6px;
+  cursor: pointer;
+}
+
+.slider-controls .dot.active {
+  background: #b0005a;
+}
+
+/* Mobile Fix */
+@media (max-width: 768px) {
+  .slidewing {
+    padding: 35px 25px;
+  }
+
+}
+
+/* testimonial slider */
+
+
+.smile-day-wrapper {
+  padding: 60px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Slider */
+.js-slider {
+ 
+  margin: 0 auto;
+}
+
+/* Viewport */
+.js-slider-viewport {
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Track */
+.js-slider-track {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+/* Slide */
+.js-slide {
+  min-width: 100%;
+  padding: 60px;
+  background: linear-gradient(135deg, #e9e2c7, #e94a8a);
+  border-radius: 20px;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.js-slide h3 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.js-slide p {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* Dots */
+.js-slider-dots {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.js-slider-dots button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background: #ccc;
+  margin: 0 6px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.js-slider-dots button.active {
+  background: #b0005a;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .js-slide {
+    padding: 35px 25px;
+  }
+
+  .js-slide h3 {
+    font-size: 22px;
+  }
+}
+
 
 	.icon-links {
 		display: flex;
@@ -163,6 +369,306 @@ if (is_page(4679)) {
 		color: #ffffff;
 	}
 
+
+	.dental-bridge-types {
+  padding: 70px 20px;
+  background: #f9f9f9;
+}
+
+.dental-bridge-typesss {
+  padding: 70px 20px;
+  background: #fff;
+}
+
+
+.bridge-types-container {
+    max-width: 1180px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.bridge-types-content {
+  flex: 1;
+}
+
+.bridge-types-content h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #bb005e;
+}
+
+.bridge-types-content p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.bridge-types-content ul {
+  padding-left: 20px;
+}
+
+.bridge-types-content li {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.bridge-types-image {
+  flex: 1;
+  text-align: right;
+}
+
+.bridge-types-image img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.bridge-process-image {
+  flex: 1;
+  text-align: right;
+}
+
+.bridge-process-image img {
+  width: 550px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+.bridge-process-images {
+  flex: 1;
+  text-align: right;
+}
+.bridge-process-images img {
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .bridge-types-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .bridge-types-content ul {
+    text-align: left;
+  }
+
+  .bridge-types-image {
+    text-align: center;
+  }
+   .bridge-process-image {
+    text-align: center;
+  }
+   .bridge-process-images {
+    text-align: center;
+  }
+}
+
+.quick-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.quick-card {
+  background: #ffffff;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.quick-card h4 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #1e293b;
+}
+
+.quick-card p {
+  font-size: 14px;
+  color: #475569;
+  line-height: 1.6;
+}
+
+.quick-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+
+	/* =====  patient story Panel ===== */
+
+	.gtc-panel {
+ width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1180px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.gtc-panel h2 {
+  color: #c2186b;
+  
+  margin-bottom: 20px;
+}
+
+.gtc-panel p {
+  
+  line-height: 1.7;
+  color: #444;
+}
+
+
+/* Panel Wrapper */
+.gtc-enhanced-panel {
+  background: linear-gradient(180deg, #fff7fb, #ffffff);
+  border-radius: 40px;
+  max-width: 1200px;
+  margin: 90px auto;
+}
+
+/* Title */
+.panel-title {
+  text-align: center;
+  font-size: 36px;
+  color: #c2186b;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.panel-title::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: #e91e63;
+  display: block;
+  margin: 18px auto 0;
+  border-radius: 5px;
+}
+
+/* Timeline Grid */
+.enhanced-timeline {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 35px;
+}
+
+/* Card */
+.timeline-card {
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 25px;
+  position: relative;
+  box-shadow: 0 25px 45px rgba(194, 24, 107, 0.08);
+  transition: all 0.4s ease;
+}
+
+/* Hover lift */
+.timeline-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 35px 60px rgba(194, 24, 107, 0.15);
+}
+
+/* Step number */
+.step-no {
+  position: absolute;
+  top: -18px;
+  right: 25px;
+  background: linear-gradient(135deg, #c2186b, #e91e63);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+/* Card text */
+.timeline-card h4 {
+  color: #c2186b;
+ 
+  margin-bottom: 10px;
+}
+
+.timeline-card p {
+  color: #555;
+  
+  line-height: 1.6;
+}
+
+
+	.panel-benefit {
+  background: linear-gradient(135deg, #c2186b, #e91e63);
+  padding: 90px 20px;
+  border-radius: 35px;
+}
+
+.panel-benefit .benefit-card {
+  background: #ffffff;
+  max-width: 850px;
+  margin: auto;
+  padding: 55px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.panel-benefit h2 {
+  margin-bottom: 15px;
+}
+
+
+	@media (max-width: 768px) {
+  .panel-story,
+  .panel-timeline {
+    padding: 45px 25px;
+  }
+
+  .panel-benefit .benefit-card {
+    padding: 35px 25px;
+  }
+ .timeline-card {
+    padding: 35px 25px;
+  }
+
+}
+
+
+	/* Base animation state */
+.gtc-animate {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+/* When visible */
+.gtc-animate.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stagger support */
+.gtc-delay-1 { transition-delay: 0.2s; }
+.gtc-delay-2 { transition-delay: 0.4s; }
+.gtc-delay-3 { transition-delay: 0.6s; }
+
+
 	.panel-icons {
   background: #fde8f1;
   padding: 70px 8%;
@@ -224,7 +730,6 @@ if (is_page(4679)) {
 }
 
 .panel-container {
-  
   margin: 0 auto;
   background: #ffffff;
   padding: 40px;
@@ -234,12 +739,14 @@ if (is_page(4679)) {
 }
 
 .panel-container h4 {
+  font-size: 26px;
   color: #c73779;
   margin-bottom: 20px;
   font-weight: 700;
 }
 
 .panel-container p {
+  font-size: 16px;
   line-height: 1.8;
   color: #444;
   margin: 0;
@@ -250,9 +757,122 @@ if (is_page(4679)) {
     padding: 25px;
   }
 
+  .panel-container h4 {
+    font-size: 22px;
+  }
 
+  .panel-container p {
+    font-size: 15px;
+  }
+}
+/* ==== root canal panel3 === */
+.root-canal-comfort {
+    background: linear-gradient(135deg, #f9f6f8, #ffffff);
+    padding: 80px 0;
+}
+.root-canal-comfort img {
+    width: 100%;
+    border-radius: 18px;
+    box-shadow: 0 18px 40px rgba(0,0,0,0.08);
+}
+.root-canal-comfort .features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    margin-top: 30px;
 }
 
+.root-canal-comfort .features div {
+    background: #ffffff;
+    border-left: 4px solid #d48cb6;
+    padding: 14px 16px;
+    font-size: 15px;
+    color: #444;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+@media (max-width: 768px) {
+    .root-canal-comfort .features {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ===== ROOT CANAL CARE PANEL – STYLE ===== */
+
+.root-canal-care-style-panel {
+	background: #f4f8fb;
+}
+
+/* Main unified card */
+.root-canal-unified-card {
+	background: #ffffff;
+	padding: 36px;
+	border-radius: 14px;
+	border: 1px solid #dbe6ee;
+	border-top: 6px solid #2f8fbf;
+	box-shadow: 0 12px 32px rgba(0, 0, 0, 0.06);
+	font-size: 18px;
+	font-weight: 400;
+}
+
+/* Image frame (encircled look) */
+.root-canal-image-frame {
+	padding: 10px;
+	border-radius: 14px;
+	border: 1px solid #dbe6ee;
+	background: #f9fcff;
+	box-shadow: inset 0 0 0 2px rgba(47, 143, 191, 0.08);
+}
+
+.root-canal-image-frame img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	display: block;
+}
+
+/* Heading */
+.root-canal-unified-card h3 {
+	color: #2f8fbf;
+	font-weight: 400;
+	margin-bottom: 18px;
+}
+
+/* Benefits list */
+.root-canal-benefits {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 18px;
+}
+
+.root-canal-benefits li {
+	position: relative;
+	padding-left: 22px;
+	margin-bottom: 10px;
+}
+
+.root-canal-benefits li::before {
+	content: "✓";
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #2f8fbf;
+	font-weight: 600;
+}
+
+/* Paragraph */
+.root-canal-unified-card p {
+	margin: 0;
+	line-height: 1.6;
+	color: #333;
+}
+
+/* Mobile spacing */
+@media (max-width: 991px) {
+	.root-canal-unified-card {
+		padding: 28px;
+	}
+}
 
 	/* =====  Finance Experience Panel ===== */
 
@@ -504,6 +1124,202 @@ if (is_page(4679)) {
   }
 }
 
+.gtc-impact-panel {
+  padding: 100px 20px;
+  background: #752f2f29;
+}
+
+.impact-wrapper {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 70px;
+  align-items: center;
+}
+
+/* Text side */
+.impact-label {
+  display: inline-block;
+  color: #c2186b;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.impact-text h2 {
+  
+  color: #c2186b;
+  margin-bottom: 25px;
+}
+
+.impact-text p {
+  ;
+  line-height: 1.8;
+  color: #444;
+}
+
+.impact-points {
+  margin-top: 25px;
+  padding: 0;
+  list-style: none;
+}
+
+.impact-points li {
+  margin-bottom: 10px;
+  font-size: 15.5px;
+}
+
+/* Visual side */
+
+
+.impact-visual div {
+  position: relative;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.12);
+}
+
+.impact-visual img {
+  width: 100%;
+  display: block;
+}
+
+
+
+@media (max-width: 768px) {
+  .impact-wrapper {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+ 
+}
+
+
+	/* ===== White Filling Experience Panel ===== */
+.white-filling-mindmap {
+  padding: 90px 20px;
+  background: #fff5fa;
+  text-align: center;
+}
+
+.white-filling-mindmap h2 {
+  font-size: 34px;
+  color: #b0005c;
+  margin-bottom: 60px;
+}
+
+.mindmap-container {
+  position: relative;
+  max-width: 900px;
+  margin: auto;
+  height: 400px;
+}
+
+/* Center */
+.mindmap-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+  background: #b0005c;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+  z-index: 2;
+}
+
+/* Nodes */
+.mindmap-node {
+  position: absolute;
+  width: 260px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.mindmap-node h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.mindmap-node p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Positioning */
+.node-left {
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.node-top {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.node-right {
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.mindmap-node h3 i {
+  color: #b0005c;
+  margin-right: 8px;
+}
+
+.mindmap-center i {
+  font-size: 28px;
+  margin-bottom: 6px;
+}
+
+.mindmap-note {
+  margin-top: 40px;
+  font-size: 15px;
+  color: #444;
+}
+
+.mindmap-note i {
+  color: #b0005c;
+  margin-right: 6px;
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+  .mindmap-container {
+    height: auto;
+  }
+
+  .mindmap-center {
+    position: static;
+    transform: none;
+    margin: 0 auto 30px;
+  }
+
+  .mindmap-node {
+    position: static;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 320px;
+  }
+}
 
 
 
@@ -836,6 +1652,97 @@ if (is_page(4679)) {
 
 .finance-content {
 	flex: 1;
+}
+
+
+/* SECTION */
+.crown-panel {
+  background: var(--bg);
+  padding: 40px 20px;
+  font-family: "Segoe UI", sans-serif;
+  color: var(--text);
+}
+
+
+
+/* GRID */
+.panel-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  max-width: 1180px;
+  margin: auto;
+}
+
+/* CARD */
+.panel-card {
+  background: var(--card);
+  border-radius: 18px;
+  padding: 25px;
+  box-shadow:
+    inset 6px 6px 12px #d1d9e6,
+    inset -6px -6px 12px #ffffff;
+}
+
+/* HEADER */
+.panel-header {
+  margin-bottom: 20px;
+}
+
+/* BADGES */
+.badge {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.badge-success {
+  background: rgba(46, 204, 113, 0.15);
+  color: var(--success);
+}
+
+.badge-warning {
+  background: rgba(243, 156, 18, 0.15);
+  color: var(--warning);
+}
+
+/* LIST */
+.panel-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.panel-list li {
+  display: flex;
+  align-items: center;
+  padding: 12px 14px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  background: #f8fafc;
+  box-shadow:
+    4px 4px 10px #dbe2ea,
+    -4px -4px 10px #ffffff;
+}
+
+.panel-list li:last-child {
+  margin-bottom: 0;
+}
+
+/* ICON */
+.icon {
+  font-size: 20px;
+  margin-right: 12px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .panel-grid {
+    grid-template-columns: 1fr;
+  }
+
 }
 
 
@@ -1239,6 +2146,72 @@ if (is_page(4679)) {
 	#lightbox .lightbox-container p {
 		margin-top: 5px;
 	}
+
+/* ===== Crown Slider Section ===== */	
+.crown-slider-section {
+  background: var(--bg);
+  padding: 50px 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.slider-titless {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.slider-wrapperss {
+  overflow: hidden;
+  max-width: 1180px;
+  margin: auto;
+}
+
+.slider-trackss {
+  display: flex;
+  gap: 25px;
+  transition: transform 0.6s ease;
+}
+
+.crown-card {
+  min-width: 300px;
+  background: var(--card);
+  border-radius: 20px;
+  padding: 18px;
+  box-shadow:
+    inset 6px 6px 12px #d1d9e6,
+    inset -6px -6px 12px #ffffff;
+}
+
+.crown-card img {
+  width: 100%;
+  border-radius: 14px;
+  margin-bottom: 15px;
+}
+
+.crown-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: 600;
+  color: #555;
+}
+
+.crown-card .desc {
+  font-size: 14px;
+  color: #555;
+  margin: 6px 0 10px;
+  line-height: 1.4;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .crown-card {
+    min-width: 85%;
+  }
+}
+
 
 	.service-cards {
 		background-repeat: no-repeat;
@@ -1688,7 +2661,7 @@ if (is_page(4679)) {
 	@media (min-width: 992px) {
 		.core__slider .wrapper .gradient-form {
 			position: absolute;
-			top: 10rem;
+			top: 0rem;
 			right: 1rem;
 		}
 	}
@@ -1897,9 +2870,13 @@ if (is_page(4679)) {
 											<?php endif; ?>
 							<?php if ($sub_header) : ?>
 
+<<<<<<< HEAD
 												<h4 class="" style="color:#ffffff;" >
+=======
+												<p class="subheadline">
+>>>>>>> e87b4e28c536800ab4f7828b989bfbac380ceb8b
 													Eat, smile, and live with confidence again – with affordable dental implants.
-							</h4>
+												</p>
 											<?php endif; ?>
 			<p>Struggling with missing teeth or loose dentures? At Lifestyle Dental in Preston, our dental implants provide a permanent solution that looks, feels, and works just like real teeth. With flexible monthly payment plans starting from only £77, you can restore your bite and smile without compromise.</p>
 			<!-- <a href="tel:01772717316" class="btn btn-dark-pink">Secure Your No Obligation Consultation by Calling 01772 717316</a> -->
@@ -1997,8 +2974,7 @@ if (is_page(4679)) {
 
 				</div>
 			<?php endif; ?>
-
-
+			
 			<?php if (is_page(4679)) : ?>
 				<div class="core__slider big mb-0 dental-emergancy_hero">
 					<div class="container">
@@ -2139,8 +3115,7 @@ if (is_page(4679)) {
 				</div>
 			<?php endif; ?>
 
-		
-
+	
 
 		<?php elseif (get_row_layout() == 'content_left_media_right') :
 			$header        		= get_sub_field('header');
@@ -2340,32 +3315,465 @@ if (is_page(4679)) {
 					content: none;
 				}
 			</style>
+			<?php if (is_page(3727)) : ?>
+				<style>
+					.dental-impact-section {
+  background: #b10f0f36; /* red background like image */
+  padding: 80px 20px;
+}
+
+.impact-container {
+  max-width: 1180px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.impact-header {
+  text-align: center;
+  margin-bottom: 50px;
+  color: #d73737;
+}
+
+.impact-subtitle {
+  
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+
+.impact-header h2 {
+ 
+  margin-top: 10px;
+}
+
+.impact-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.impact-card {
+  background: #1a1a1a;
+  border-radius: 12px;
+  padding: 35px 30px;
+  color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.impact-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+}
+
+.impact-icon {
+  font-size: 34px;
+  margin-bottom: 15px;
+}
+
+.impact-card h3 {
+ 
+  margin-bottom: 12px;
+}
+
+.impact-card p {
+ 
+  line-height: 1.6;
+  color: #d1d1d1;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .impact-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+					.dental-bridge-panel {
+  padding: 60px 20px;
+  background: #f9f9f9;
+}
+
+.bridge-container {
+  max-width: 1180px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.bridge-image img {
+  width: 500px;
+ 
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.bridge-content h2 {
+  
+  margin-bottom: 15px;
+  color: #1a1a1a;
+}
+
+.bridge-content p {
+  
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .bridge-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+				</style>
+			<section class="dental-bridge-panel">
+  <div class="bridge-container">
+
+    <!-- Left Image -->
+    <div class="bridge-image">
+      <img src="/image/about/dental-brid.jpeg" alt="Dental Bridge Treatment">
+    </div>
+
+    <!-- Right Content -->
+    <div class="bridge-content">
+      <h2>Dental Bridges – Restore Your Smile</h2>
+      <p class="bridge-intro">
+        Dental bridges replace missing teeth to restore function and appearance.
+        They improve chewing, speech, and prevent surrounding teeth from shifting.
+        Custom-made for a natural look, dental bridges offer durability, comfort,
+        and renewed confidence in your everyday smile.
+
+		In addition to enhancing aesthetics, dental bridges help maintain proper bite alignment and support facial structure. With proper care, they provide a long-lasting solution that blends seamlessly with your natural teeth, allowing you to eat, speak, and smile comfortably every day.
+      </p>
+
+      <ul class="bridge-points">
+        <li>
+          <span class="icon">✔</span>
+          Natural-looking tooth replacement
+        </li>
+        <li>
+          <span class="icon">✔</span>
+          Improves chewing and speech
+        </li>
+        <li>
+          <span class="icon">✔</span>
+          Prevents teeth shifting
+        </li>
+        <li>
+          <span class="icon">✔</span>
+          Durable and comfortable solution
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+<section class="dental-impact-section">
+  <div class="impact-container">
+
+    <div class="impact-header">
+      <span class="impact-subtitle">Smile Restoration Solutions</span>
+      <h2>Why Choose Dental Bridges</h2>
+    </div>
+
+    <div class="impact-cards">
+
+      <div class="impact-card">
+        <div class="impact-icon">🦷</div>
+        <h3>Natural Appearance</h3>
+        <p>
+		   Dental bridges are custom-designed to match your natural teeth,
+      restoring your smile seamlessly, enhancing facial aesthetics,
+      and boosting everyday confidence.
+        </p>
+      </div>
+
+      <div class="impact-card">
+        <div class="impact-icon">✔</div>
+        <h3>Improved Function</h3>
+        <p>
+        Bridges restore proper chewing and speech while evenly distributing
+      bite pressure, improving comfort, stability, and daily oral function.
+        </p>
+      </div>
+
+      <div class="impact-card">
+        <div class="impact-icon">🔒</div>
+        <h3>Long-Lasting Solution</h3>
+        <p>
+         With proper care, dental bridges provide a durable and secure tooth
+      replacement that supports long-term oral health and reliability.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="dental-bridge-types">
+  <div class="bridge-types-container">
+  <!-- Right Image -->
+    <div class="bridge-types-image">
+      <img src="/image/about/dental-bridge-type.jpg" alt="Types of Dental Bridges">
+    </div>
+    <!-- Left Content -->
+    <div class="bridge-types-content">
+      <h2>Types of Dental Bridges</h2>
+      <p>
+        Dentists recommend different dental bridges based on oral health needs.
+        The four main types include:
+      </p>
+      <ul>
+        <li><strong>Traditional Bridge:</strong> The most common type, using crowns on both sides with artificial teeth in between.</li>
+        <li><strong>Cantilever Bridge:</strong> Supported by a crown on one side only, suitable when teeth exist on one side.</li>
+        <li><strong>Maryland Bridge:</strong> Uses metal wings bonded to nearby teeth, mainly for front teeth.</li>
+        <li><strong>Implant-Supported Bridge:</strong> Anchored to dental implants, ideal for replacing multiple missing teeth.</li>
+      </ul>
+    </div>
+
+  
+
+  </div>
+</section>
+<section class="dental-bridge-typesss">
+  <div class="bridge-types-container">
+
+    <!-- Left Content -->
+    <div class="bridge-types-content">
+      <h2>How Dental Bridges Work</h2>
+      <p>
+       Dental bridges replace missing teeth by anchoring artificial teeth to nearby natural teeth or dental implants. The supporting teeth are carefully prepared to hold crowns, while the bridge fills the gap securely and comfortably.
+
+During the procedure, your dentist takes precise measurements to ensure a proper fit and natural appearance. The bridge is custom-crafted to match the color, shape, and size of your surrounding teeth. Once placed, it restores normal chewing function, improves speech clarity, and helps maintain facial structure. Dental bridges also prevent neighboring teeth from shifting, protecting long-term oral health and ensuring a stable, confident smile.
+      </p>
+
+      <ul>
+        <li>Prepares supporting teeth for stability</li>
+        <li>Fills gaps with natural-looking teeth</li>
+        <li>Restores bite balance and comfort</li>
+        <li>Improves speech and chewing ability</li>
+      </ul>
+    </div>
+
+    <!-- Right Image -->
+    <div class="bridge-process-image">
+      <img src="/image/about/dental-work.jpg" alt="How Dental Bridges Work">
+    </div>
+
+  </div>
+</section>
+
+
+<?php endif; ?>
+				<?php if (is_page(3641)) : ?>
+<section class="crown-slider-section">
+  <h3 class="slider-titless">Types of Dental Crowns</h3>
+
+  <div class="slider-wrapperss">
+    <div class="slider-trackss">
+
+      <!-- CARD 1 -->
+      <div class="crown-card">
+        <img src="/image/about/metal_crowns.jpg" alt="Metal Crown">
+        <h4>Metal Crown</h4>
+        <p class="desc">Strong and durable option ideal for back teeth and heavy chewing areas.</p>
+        <p class="price">Starting at Rs. 3,490</p>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="crown-card">
+        <img src="/image/about/pfm_crowns.jpg" alt="PFM Crown">
+        <h4>PFM Crowns (General)</h4>
+        <p class="desc">Combines metal strength with tooth coloured porcelain for a natural look.</p>
+        <p class="price">Starting at Rs. 4,690</p>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="crown-card">
+        <img src="/image/about/pfm_crowns_implants.jpg" alt="PFM Implant Crown">
+        <h4>PFM Crowns (For Implant Prosthesis)</h4>
+        <p class="desc">Designed specifically for implants, offering stability, function, and durability.</p>
+        <p class="price">Starting at Rs. 8,190</p>
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="crown-card">
+        <img src="/image/about/crowns_zirconia.jpg" alt="Zirconia Crown">
+        <h4>Zirconia (Metal Free)</h4>
+        <p class="desc">Highly aesthetic, metal free crowns that closely resemble natural teeth.</p>
+        <p class="price">Starting at Rs. 9,490</p>
+      </div>
+
+      <!-- CARD 5 -->
+      <div class="crown-card">
+        <img src="/image/about/crowns_zirconia_implants.jpg" alt="Zirconia Implant">
+        <h4>Zirconia (Implant Prosthesis)</h4>
+        <p class="desc">Premium implant crowns offering superior strength, aesthetics, and longevity.</p>
+        <p class="price">Starting at Rs. 10,800</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<?php endif; ?>
+<?php if ( is_page(3756) ) : ?>
+<section class="white-filling-mindmap">
+  <h2>White Fillings at a Glance</h2>
+
+  <div class="mindmap-container">
+
+    <!-- Center Node -->
+    <div class="mindmap-center">
+      <i class="fas fa-tooth"></i>
+      <span>White<br>Fillings</span>
+    </div>
+
+   
+
+    <!-- Panel 2 -->
+    <div class="mindmap-node node-left">
+      <h3><i class="fas fa-shield-heart"></i> Safe & Mercury-Free</h3>
+      <p>
+       Made without mercury, these fillings offer a safer, biocompatible option suitable for adults and children alike and healthier alternative for modern dental care. 
+      </p>
+    </div>
+
+	 <!-- Panel 1 -->
+    <div class="mindmap-node node-top">
+      <h3><i class="fas fa-smile"></i> Natural Aesthetics</h3>
+      <p>
+        Tooth-coloured fillings blend seamlessly with natural teeth for a
+        confident, natural-looking smile.
+      </p>
+    </div>
+
+    <!-- Panel 3 -->
+    <div class="mindmap-node node-right">
+      <h3><i class="fas fa-gem"></i> Strong & Long-Lasting</h3>
+      <p>
+        Durable materials restore strength,reinforce tooth structure,helping prevent further decay while withstanding everyday chewing forces.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- Extra content (short & impactful) -->
+  <p class="mindmap-note">
+    <i class="fas fa-check-circle"></i>
+    A discreet, durable solution designed to protect your teeth and enhance your smile.
+  </p>
+</section>
+<section class="dental-bridge-typesss">
+  <div class="bridge-types-container">
+
+    <!-- Left Content -->
+    <div class="bridge-types-content">
+      <h3>Thermal Comfort</h3>
+      <p>
+      White fillings help minimise sensitivity to hot and cold foods by providing effective insulation within the tooth. Unlike metal fillings, which conduct temperature changes quickly, tooth-coloured materials reduce sudden thermal shocks that can cause discomfort or pain. This allows you to enjoy hot drinks, cold desserts, and everyday meals with greater confidence and comfort. By sealing the tooth securely, white fillings also help protect the inner nerve from temperature fluctuations. The result is a more comfortable eating experience, fewer sensitivity issues over time, and improved overall oral comfort, making white fillings an ideal choice for patients seeking both function and long-term comfort.  
+      </p>
+   
+    </div>
+
+    <!-- Right Image -->
+    <div class="bridge-process-images">
+      <img src="/image/about/thermal.avif" alt="How Dental Bridges Work">
+    </div>
+
+  </div>
+</section>
+
+<section class="dental-bridge-types">
+  <div class="bridge-types-container">
+
+    <!-- Right Image -->
+    <div class="bridge-process-image">
+      <img src="/image/about/quick.webp" alt="How Dental Bridges Work">
+    </div>
+
+    <!-- Left Content -->
+    <div class="bridge-types-content">
+      <h3>Quick & Efficient</h3>
+
+      <p>
+        White fillings offer a fast and convenient solution for repairing decayed or damaged teeth,
+        with most treatments completed in a single visit. The procedure is straightforward and
+        minimally disruptive, allowing patients to return to their normal routine the same day.
+		Modern techniques enable precise placement and immediate bonding to the tooth, reducing chair time while ensuring reliable results. There is no need for temporary fillings or multiple appointments in most cases.
+      </p>
+
+      <!-- Cards Section -->
+      <div class="quick-cards">
+        <div class="quick-card">
+          <h4>⏱ Single Visit</h4>
+          <p>Most treatments are completed in just one appointment.</p>
+        </div>
+
+        <div class="quick-card">
+          <h4>😌 Comfortable</h4>
+          <p>Minimally invasive procedure with little to no discomfort.</p>
+        </div>
+
+        <div class="quick-card">
+          <h4>🦷 Natural Look</h4>
+          <p>Tooth-colored material blends perfectly with natural teeth.</p>
+        </div>
+
+        <div class="quick-card">
+          <h4>⚡ Immediate Results</h4>
+          <p>Instant bonding allows you to resume daily activities quickly.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+	<?php endif; ?>
 <?php if (is_page(3775)) : ?>
 <section class="special_panel_1 content-left-media-right standard">
 	<div class="container py-5">
-		<div class="row">
+		<div class="row align-items-center">
+
+			<div class="col-12 col-lg-4 d-flex mb-4 mb-lg-0">
+				<img
+					src="/image/about/removing_barriers.jpg"
+					alt="Removing barriers to achieving a healthy smile"
+					style="width:100%; height:auto;">
+			</div>
+
 			<div class="col-12 col-lg-8">
 
 				<h3>Removing Barriers to Achieving a Healthy Smile</h3>
 
 				<p>
 					At Lifestyle Dental, we believe that cost, time, or uncertainty should never
-					be a barrier to achieving a healthy and confident smile. Our special offers
-					are designed to support patients at different stages of their dental journey,
-					while maintaining the same high clinical standards and personalised care.
+					stand in the way of achieving a healthy and confident smile. Our special offers
+					are thoughtfully designed to support patients at different stages of their
+					dental journey, while maintaining the same high clinical standards and
+					personalised care.
 				</p>
 
 				<p>
 					From preventive and cosmetic treatments to restorative and orthodontic care,
 					our approach focuses on providing clear guidance and practical options that
 					align with your individual needs. Every recommendation is made with long-term
-					oral health, comfort, and predictable outcomes in mind.
+					oral health, comfort, and predictable results in mind.
 				</p>
 
-			</div>
-			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
-				<img
-					src="http://lifestyledental.localhost/wp-content/uploads/2025/12/removing_barriers.jpg">
 			</div>
 
 		</div>
@@ -2406,84 +3814,9 @@ if (is_page(4679)) {
 				</p>
 
 			</div>
-		</div>
-	</div>
-</section>
-
-<section class="special_panel_3 content-left-media-right standard"
-	style="background-color:#ffffff;">
-	<div class="container py-5">
-		<div class="row">
-			<div class="col-12 col-lg-8"
-				style="padding-left:25px;">
-
-				<h3 style="color: #683fa1";>
-					Guidance and Support You Can Rely On
-				</h3>
-
-				<p>
-					Choosing the right dental treatment is not always straightforward. Our team
-					takes the time to understand your concerns, explain available options clearly,
-					and guide you through each step of your care with honesty and professionalism.
-				</p>
-
-				<ul style="padding-left:18px; margin-top:15px;">
-					<li style="margin-bottom:10px;">
-						Clear treatment explanations with realistic expectations
-					</li>
-					<li style="margin-bottom:10px;">
-						Supportive planning tailored to your lifestyle and priorities
-					</li>
-					<li style="margin-bottom:10px;">
-						Consistent clinical care from consultation to completion
-					</li>
-				</ul>
-
-				<p style="margin-top:15px;">
-					<span style="color:#683fa1; font-weight:600;">
-						Our friendly team is always happy to answer your questions and help you
-						take the next step with confidence.
-					</span>
-				</p>
-
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="special_panel_4 content-left-media-right standard"
-		style="background-color:#efefef;">
->
-	<div class="container py-5">
-		<div class="row">
-			<div class="col-12 col-lg-8">
-
-				<h3 style="color: #0096ad">A Patient-First Approach to Special Care</h3>
-
-				<p>
-					Every patient’s needs are different, which is why our special offers are
-					designed to complement personalised treatment planning rather than replace it.
-					We focus on providing options that enhance your care while maintaining clinical
-					quality, safety, and transparency at every stage.
-				</p>
-
-				<p>
-					Our team takes time to ensure you understand the purpose and benefits of each
-					option available, allowing you to move forward feeling informed and confident
-					in your decisions.
-				</p>
-
-				<p style="margin-top:15px;">
-					<span style="color: #0096ad; font-weight:600;">
-						If you have any questions or would like guidance on suitability, our team
-						is always happy to help.
-					</span>
-				</p>
-
-			</div>
 			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
 				<img
-					src="http://lifestyledental.localhost/wp-content/uploads/2025/12/first_approach.jpg">
+					src="/image/about/dental_support.jpg">
 			</div>
 
 		</div>
@@ -2491,180 +3824,151 @@ if (is_page(4679)) {
 </section>
 <?php endif; ?>
 
-<?php if (is_page(3632)) : ?>
-	<section class="sedation_panel_1 content-left-media-right standard aos-init aos-animate" style="background-color: #efefef;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-	<div class="container py-5">
-		<div class="row">
-			<div class="col-12 col-lg-8 col-lg-12">
-
-				<h3>
-					Support for Nervous and Anxious Patients
-				</h3>
-
-				<p>
-					We understand that dental anxiety can prevent many people from seeking the care
-					they need. At Lifestyle Dental, our sedation service is designed to help nervous
-					patients feel calm, supported, and in control throughout their treatment.
-				</p>
-
-				<p>
-					By allowing extra appointment time, using proven relaxation techniques, and
-					offering intravenous sedation where appropriate, we create an environment where
-					you can feel reassured and comfortable. Sedation helps reduce anxiety and makes
-					longer or more complex treatments easier to manage.
-				</p>
-
-				<p>
-					<span style="color:#683fa1; font-weight:600;">
-						Our experienced team will guide you through every step, ensuring your safety,
-						comfort, and peace of mind at all times.
-					</span>
-				</p>
-
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="sedation_panel2" style="background-color:#ffffff;">
-	<div class="container py-5">
-		<div class="row align-items-center">
-
-			<div class="col-12 col-lg-8" style="font-size:18px; font-weight:400; text-align:left; border:1px solid #cfd8dc; border-top:5px solid #2b7a78; padding:30px;">
-
-				<h3 style="font-weight:400; color:#2b7a78; margin-bottom:15px;">
-					A Reassuring Approach for Anxious Dental Patients
-				</h3>
-
-				<p style="margin-bottom:15px;">
-					Feeling nervous about dental treatment is completely understandable.
-					At Lifestyle Dental, we offer sedation options that help patients remain calm
-					and comfortable while receiving the care they need.
-				</p>
-
-				<ul style="list-style:none; padding-left:0; margin-bottom:15px;">
-					<li style="margin-bottom:8px;">
-						<span style="color:#2b7a78; font-weight:500;">✔</span>
-						Gentle sedation options tailored for nervous patients
-					</li>
-					<li style="margin-bottom:8px;">
-						<span style="color:#2b7a78; font-weight:500;">✔</span>
-						Carefully monitored conscious sedation for safety and comfort
-					</li>
-					<li style="margin-bottom:8px;">
-						<span style="color:#2b7a78; font-weight:500;">✔</span>
-						Ideal support for longer or more complex dental procedures
-					</li>
-				</ul>
-
-				<p>
-					<span style="color:#2b7a78;">
-						Sedation dentistry supports a relaxed treatment experience,
-					</span>
-					helping you regain confidence and move forward with your dental care.
-				</p>
-
-			</div>
-			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
-				<img
-					src="http://lifestyledental.localhost/wp-content/uploads/2025/12/dental-anxiety.jpg"
-					alt="Dental anxiety and sedation care"
-					style="width:100%; height:auto; border-radius:6px;">
-			</div>
-
-		</div>
-	</div>
-</section>
-
-<?php endif; ?>
 <?php if (is_page(3614)) : ?>
-<section class="root_canal_panel2 content-left-media-right standard aos-init aos-animate" style="background-color: #efefef;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-				<div class="container py-5">
-					<div class="row">
-						<div class="col-12 col-lg-8 ">
+<section class="root_canal_panel1 content-left-media-right standard aos-init aos-animate"
+    style="background-color:#efefef;"
+    data-aos="fade-up"
+    data-aos-delay="100"
+    data-aos-duration="800">
 
+    <div class="container py-5">
+        <div class="row align-items-center">
 
-				<h3>
-					Protecting Your Natural Tooth and Relieving Pain
-				</h3>
+            <div class="col-12 col-lg-4 d-flex mb-4 mb-lg-0">
+                <img
+                    src="/image/about/dental-anxiety.jpg"
+                    alt="Root canal pain relief and tooth preservation"
+                    style="width:100%; height:auto; border-radius:6px;">
+            </div>
 
-				<p>
-					Root canal treatment is often the most effective way to relieve pain while
-					preserving your natural tooth. Instead of removing the tooth, treatment focuses
-					on eliminating infection from within and restoring the tooth’s strength and
-					function.
-				</p>
+            <div class="col-12 col-lg-8">
 
-				<p>
-					At Lifestyle Dental, we use modern techniques and careful planning to ensure
-					root canal treatment is carried out with precision and patient comfort in mind.
-					This approach helps reduce discomfort during treatment and supports long-term
-					success.
-				</p>
+                <h3>
+                    Protecting Your Natural Tooth and Relieving Pain
+                </h3>
 
-				<p>
-					<span style="color:#683fa1; font-weight:600;">
-						Early treatment can prevent further infection and help you return to everyday
-						comfort with confidence.
-					</span>
-				</p>
+                <p>
+                    Root canal treatment is often the most effective way to relieve pain while
+                    preserving your natural tooth. Instead of removing the tooth, treatment focuses
+                    on eliminating infection from within and restoring the tooth’s strength and
+                    function.
+                </p>
 
-			</div>
-			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
-				<img
-					src="http://lifestyledental.localhost/wp-content/uploads/2025/12/dental-anxiety.jpg">
-			</div>
+                <p>
+                    At Lifestyle Dental, we use modern techniques and careful planning to ensure
+                    root canal treatment is carried out with precision and patient comfort in mind.
+                    This approach helps reduce discomfort during treatment and supports long-term
+                    success.
+                </p>
 
-		</div>
-	</div>
+                <p>
+                    <span style="color:#bb005e; font-weight:600;">
+                        Early treatment can prevent further infection and help you return to everyday
+                        comfort with confidence.
+                    </span>
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+
 </section>
-<section class="content-left-media-right standard aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-
-	<div class="container py-5">
-		<div class="row">
-
-			<!-- CONTENT PANEL -->
-			<div class="col-12 col-lg-8">
-
-				<h3>
-					Why early treatment is important
-				</h3>
-
-				<p>
-					Root canal problems do not resolve on their own and can worsen quickly
-					if left untreated. When infection spreads inside the tooth, it can lead
-					to severe pain, swelling, and damage to surrounding bone and tissue.
-				</p>
-
-				<ul>
-					<li>Relieves persistent tooth pain and pressure</li>
-					<li>Prevents infection from spreading further</li>
-					<li>Helps save your natural tooth structure</li>
-					<li>Reduces the risk of abscess and facial swelling</li>
-					<li>Restores normal function for biting and chewing</li>
-				</ul>
-
-				<p>
-					Seeking timely root canal treatment can protect your oral health,
-					relieve discomfort, and help you avoid more complex dental procedures
-					in the future.
-				</p>
-
-			</div>
-
-			<!-- IMAGE PANEL -->
-			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
-				<img
-					src="http://lifestyledental.localhost/wp-content/uploads/2025/12/root_canal.jpg"
-					alt="Root canal pain symptoms">
-			</div>
-
-		</div>
-	</div>
-</section>
-
 <?php endif; ?>
+<?php if (is_page(3475)) : ?>
 
+<section class="unique-slider-section">
+  <h2>More Reasons Patients Choose Lifestyle Dental</h2>
+
+  <div class="slider-wrapper">
+    <div class="slider-track">
+
+      <!-- Panel 1 -->
+      <div class="slidewing trust-panel">
+        <h4>Why Patients Trust Us</h4>
+        <h5>Care built on honesty & experience</h5>
+        <p>
+          Our patients choose Lifestyle Dental because we combine advanced
+          clinical expertise with a genuinely caring approach. From your first
+          consultation, we take time to listen, explain every option clearly,
+          and recommend only what is right for you. Transparency, consistency,
+          and long-term results are at the heart of everything we do.
+        </p>
+      </div>
+
+      <!-- Panel 2 -->
+      <div class="slidewing smile-panel">
+        <h4>Real Smiles, Real Results</h4>
+        <h5>Transformations that speak for themselves</h5>
+        <p>
+          Seeing real patient results builds confidence. Our smile
+          transformations are designed to look natural, feel comfortable, and
+          last for years. Whether it’s whitening, implants, or full smile
+          makeovers, every treatment plan is personalised to enhance your
+          natural smile without over-treatment.
+        </p>
+      </div>
+
+      <!-- Panel 3 -->
+      <div class="slidewing comfort-panel">
+        <h4>Comfort & Anxiety-Free Dentistry</h4>
+        <h5>We care for nervous patients</h5>
+        <p>
+          Dental anxiety is common, and we take it seriously. Our calm
+          environment, gentle techniques, and supportive team help even the
+          most nervous patients feel relaxed. Many patients tell us their fear
+          of dentists disappeared after just one visit.
+        </p>
+      </div>
+
+      <!-- Panel 4 -->
+      <div class="slidewing finance-panel">
+        <h4>Flexible Payment & Finance Options</h4>
+        <h5>Quality care made affordable</h5>
+        <p>
+          We believe finances should never delay essential dental care.
+          Lifestyle Dental offers clear pricing, flexible payment plans, and
+          dental finance options to spread the cost comfortably. Everything is
+          explained upfront so you can proceed with confidence and peace of
+          mind.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <div class="slider-controls">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</section>
+<?php endif; ?>
+<script>
+  const track = document.querySelector('.slider-track');
+  const dots = document.querySelectorAll('.dot');
+  let index = 0;
+
+  function showSlide(i) {
+    track.style.transform = `translateX(-${i * 100}%)`;
+    dots.forEach(dot => dot.classList.remove('active'));
+    dots[i].classList.add('active');
+  }
+
+  dots.forEach((dot, i) => {
+    dot.addEventListener('click', () => {
+      index = i;
+      showSlide(index);
+    });
+  });
+
+  setInterval(() => {
+    index = (index + 1) % dots.length;
+    showSlide(index);
+  }, 5000);
+</script>
 
 			<section class="guarantee-banner <?php echo ($image == '') ? '' : 'plain-background'; ?>" style="<?php echo (!empty($image)) ? 'background-color:' . esc_html($bg_color) . ';' : 'background-image: url(' . esc_url($bg_image['url']) . ');'; ?>">
 				<div class="container py-5">
@@ -2698,6 +4002,317 @@ if (is_page(4679)) {
 					</div>
 				</div>
 			</section>
+<?php if (is_page(3775)) : ?>
+<section class="special_panel_3 content-left-media-right standard"
+	style="background-color:#ffffff;">
+	<div class="container py-5">
+		<div class="row align-items-center">
+
+
+			<div class="col-12 col-lg-4 d-flex mb-4 mb-lg-0">
+				<img
+					src="/image/about/guidance.jpg"
+					alt="Dental guidance and treatment support"
+					style="width:100%; height:auto;">
+			</div>
+			
+			<div class="col-12 col-lg-8"
+				style="padding-left:25px;">
+
+				<h3 style="color:#683fa1;">
+					Guidance and Support You Can Rely On
+				</h3>
+
+				<p>
+					Choosing the right dental treatment is not always straightforward. Our team
+					takes the time to understand your concerns, explain the available options
+					clearly, and guide you through each step of your care with honesty and
+					professionalism.
+				</p>
+
+				<ul style="padding-left:18px; margin-top:15px;">
+					<li style="margin-bottom:10px;">
+						Clear treatment explanations with realistic expectations
+					</li>
+					<li style="margin-bottom:10px;">
+						Supportive planning tailored to your lifestyle and priorities
+					</li>
+					<li style="margin-bottom:10px;">
+						Consistent clinical care from consultation through to completion
+					</li>
+				</ul>
+
+				<p style="margin-top:15px;">
+					<span style="color:#683fa1; font-weight:600;">
+						Our friendly team is always happy to answer your questions and help you
+						take the next step with confidence.
+					</span>
+				</p>
+
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<section class="special_panel_4 content-left-media-right standard"
+		style="background-color:#efefef;">
+	<div class="container py-5">
+		<div class="row">
+			<div class="col-12 col-lg-8">
+
+				<h3 style="color: #0096ad">A Patient-First Approach to Special Care</h3>
+
+				<p>
+					Every patient’s needs are different, which is why our special offers are
+					designed to complement personalised treatment planning rather than replace it.
+					We focus on providing options that enhance your care while maintaining clinical
+					quality, safety, and transparency at every stage.
+				</p>
+
+				<p>
+					Our team takes time to ensure you understand the purpose and benefits of each
+					option available, allowing you to move forward feeling informed and confident
+					in your decisions.
+				</p>
+
+				<p style="margin-top:15px;">
+					<span style="color: #0096ad; font-weight:600;">
+						If you have any questions or would like guidance on suitability, our team
+						is always happy to help.
+					</span>
+				</p>
+
+			</div>
+			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
+				<img
+					src="/image/about/first_approach.jpg">
+			</div>
+
+		</div>
+	</div>
+</section>
+<?php endif; ?>
+
+<?php if (is_page(3632)) : ?>
+	<section class="sedation_panel_1 content-left-media-right standard aos-init aos-animate"
+	style="background-color: #efefef;"	data-aos="fade-up" data-aos-delay="100"	data-aos-duration="800">
+	<div class="container py-5">
+		<div class="row align-items-center">
+
+			<div class="col-12 col-lg-8"
+				style="font-size:18px; font-weight:400; text-align:left;">
+
+				<h3 style="color:#683fa1; font-weight:400; margin-bottom:15px;">
+					Support for Nervous and Anxious Patients
+				</h3>
+
+				<p style="margin-bottom:15px;">
+					We understand that dental anxiety can prevent many people from seeking the care
+					they need. At Lifestyle Dental, our sedation service is designed to help nervous
+					patients feel calm, supported, and in control throughout their treatment.
+				</p>
+
+				<p style="margin-bottom:15px;">
+					By allowing extra appointment time, using proven relaxation techniques, and
+					offering intravenous sedation where appropriate, we create an environment where
+					you can feel reassured and comfortable. Sedation helps reduce anxiety and makes
+					longer or more complex treatments easier to manage.
+				</p>
+
+				<p>
+					<span style="color:#683fa1; font-weight:400;">
+						Our experienced team will guide you through every step, ensuring your safety,
+						comfort, and peace of mind at all times.
+					</span>
+				</p>
+
+			</div>
+
+			<div class="col-12 col-lg-4 d-flex mt-4 mt-lg-0">
+				<img
+					src="/image/about/dental-anxiety.jpg"
+					alt="Support for dental_anxiety"
+					style="width:100%; height:auto; border-radius:6px;">
+			</div>
+
+		</div>
+	</div>
+</section>
+
+	<section class="sedation_panel2" style="background-color:#ffffff;">
+	<div class="container py-5">
+
+		<div style="border:1px solid #e0e0e0; border-top:5px solid #1e88e5; padding:32px; border-radius:6px; background:#ffffff;">
+			
+			<div class="row align-items-center">
+
+					<div class="col-12 col-lg-4 d-flex mb-4 mb-lg-0">
+					<img
+						src="/image/about/support.jpg"
+						alt="Dental support"
+						style="width:100%; height:auto; border-radius:12px;">
+				</div>
+
+				<div class="col-12 col-lg-8"
+					style="font-size:18px; font-weight:400; text-align:left;">
+
+					<h3 style="font-weight:400; color:#1e88e5; margin-bottom:18px;">
+						A Reassuring Approach for Anxious Dental Patients
+					</h3>
+
+					<p style="margin-bottom:18px;">
+						Feeling nervous about dental treatment is completely understandable.
+						At Lifestyle Dental, we offer sedation options that help patients remain calm
+						and comfortable while receiving the care they need.
+					</p>
+
+					<ul style="list-style:none; padding-left:0; margin-bottom:18px;">
+
+						<li style="display:flex; gap:12px; margin-bottom:12px;">
+							<span style="width:28px; height:28px; background:#1e88e5; color:#ffffff;
+								border-radius:50%; display:flex; align-items:center; justify-content:center;
+								font-size:14px; flex-shrink:0;
+							">✓</span>
+							<span>Gentle sedation options tailored for nervous patients</span>
+						</li>
+
+						<li style="display:flex; gap:12px; margin-bottom:12px;">
+							<span style="width:28px; height:28px; background:#1e88e5; color:#ffffff;
+								border-radius:50%; display:flex; align-items:center; justify-content:center;
+								font-size:14px; flex-shrink:0;
+							">✓</span>
+							<span>Carefully monitored conscious sedation for safety and comfort</span>
+						</li>
+
+						<li style="display:flex; gap:12px;">
+							<span style="width:28px; height:28px; background:#1e88e5; color:#ffffff;
+								border-radius:50%; display:flex; align-items:center; justify-content:center;
+								font-size:14px;	flex-shrink:0;
+							">✓</span>
+							<span>Ideal support for longer or more complex dental procedures</span>
+						</li>
+
+					</ul>
+
+					<p>
+						<span style="color:#1e88e5;">
+							Sedation dentistry supports a relaxed treatment experience,
+						</span>
+						helping you regain confidence and move forward with your dental care.
+					</p>
+
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+</section>
+
+
+<?php endif; ?>
+<?php if (is_page(3614)) : ?>
+<section class="root_canal_panel2" style="background-color:#f5f7f8;">
+	<div class="container py-5">
+		<div class="row align-items-center">
+
+			<div class="col-12 col-lg-8"
+				style="font-size:18px; font-weight:400; text-align:left;
+				border:1px solid #e0e0e0; border-top:5px solid #683fa1;
+				padding:30px; background-color:#ffffff;">
+
+				<h3 style="font-weight:400; color:#683fa1; margin-bottom:15px;">
+					Why Early Root Canal Treatment Is Important
+				</h3>
+
+				<p style="margin-bottom:15px;">
+					Root canal problems do not resolve on their own and can worsen quickly
+					if left untreated. When infection spreads inside the tooth, it can lead
+					to severe pain, swelling, and damage to surrounding bone and tissue.
+				</p>
+
+				<ul style="list-style:none; padding-left:0; margin-bottom:15px;">
+					<li style="margin-bottom:8px;">
+						<span style="color:#683fa1; font-weight:500;">✔</span>
+						Relieves persistent tooth pain and pressure
+					</li>
+					<li style="margin-bottom:8px;">
+						<span style="color:#683fa1; font-weight:500;">✔</span>
+						Prevents infection from spreading further
+					</li>
+					<li style="margin-bottom:8px;">
+						<span style="color:#683fa1; font-weight:500;">✔</span>
+						Helps save your natural tooth structure
+					</li>
+					<li style="margin-bottom:8px;">
+						<span style="color:#683fa1; font-weight:500;">✔</span>
+						Reduces the risk of abscess and facial swelling
+					</li>
+					<li>
+						<span style="color:#683fa1; font-weight:500;">✔</span>
+						Restores normal function for biting and chewing
+					</li>
+				</ul>
+
+				<p>
+					<span style="color:#683fa1;">
+						Seeking timely root canal treatment can protect your oral health,
+					</span>
+					relieve discomfort, and help you avoid more complex dental procedures in the future.
+				</p>
+
+			</div>
+
+			<div class="col-12 col-lg-4 d-flex mt-5 mt-lg-0">
+				<img
+					src="/image/about/root_canal.jpg"
+					alt="Importance of early root canal treatment"
+					style="width:100%; height:auto; border-radius:6px;">
+			</div>
+
+		</div>
+	</div>
+</section>
+<section class="root_canal_panel3 root-canal-comfort">
+	<div class="container">
+		<div class="row align-items-center">
+
+			<div class="col-12 col-lg-6">
+				<img src="/image/about/root_canal_comfort.jpg" alt="Comfortable root canal treatment" style="width:100%; border-radius:12px;">
+			</div>
+
+			<div class="col-12 col-lg-6">
+
+				<h3  style="font-weight:400; color:#683fa1; margin-bottom:15px;">Root Canal Treatment with Comfort in Mind</h3>
+
+				<p>
+					At Lifestyle Dental, root canal treatment is delivered with a strong focus on
+					patient comfort, precision, and long-term success. Our experienced clinicians
+					use modern techniques to remove infection while preserving your natural tooth
+					structure wherever possible.
+				</p>
+
+				<p>
+					We understand that root canal treatment can feel daunting, which is why we take
+					time to explain every step, manage discomfort carefully, and create a calm,
+					reassuring experience from start to finish.
+				</p>
+
+				<div class="features">
+					<div>Advanced pain-controlled techniques</div>
+					<div>Experienced clinical team</div>
+					<div>Focus on saving natural teeth</div>
+					<div>Clear guidance throughout treatment</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+</section>
+<?php endif; ?>
+
 
 		<?php elseif (get_row_layout() == 'accordion_section') :
 			$header  	= get_sub_field('header');
@@ -2707,7 +4322,7 @@ if (is_page(4679)) {
 			<section class="accordion-section pb-5" style="background-color: <?php echo esc_html($bg_color); ?>;">
 				<div class="container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
 				   <?php if ($header) : ?>
-					   <h2>
+					   <h2 style="text-align: center; margin-top: 2rem; margin-bottom: 2rem;">
 						   <?php echo esc_html($header); ?>
 				   </h2>
 				   <?php endif; ?>
@@ -2738,6 +4353,7 @@ if (is_page(4679)) {
 					<?php endif; ?>
 				</div>
 			</section>
+
 <?php if (is_page(3536)) : ?>
 <section class="custom_page_section">
 	<div class="container">
@@ -2825,10 +4441,10 @@ if (is_page(4679)) {
 			</ul>
 
 			<p class="finance-description">
-				At Lifestyle Dental, we believe financial concerns should never prevent you from
-				receiving the care you deserve. Our dental finance solutions allow you to spread
-				the cost comfortably, with full clarity and no obligation to proceed.
-			</p>
+	At Lifestyle Dental, we believe financial concerns should never prevent you from
+	receiving the care you deserve. Our dental finance solutions allow you to spread
+	the cost comfortably, with full clarity and no obligation to proceed. Our friendly team is always available to explain options, answer questions, and support you in choosing a plan that fits your lifestyle.
+</p>
 
 			<a href="https://onlineappointment.carestack.uk/?dn=lifestyledental&ln=1#/home" class="finance-cta">
 				Book Your Appointments
@@ -2916,6 +4532,62 @@ if (is_page(4679)) {
 				</div>
 
 			<?php endif; ?>
+<?php if (is_page(3614)) : ?>
+<section class="root_canal_panel4 root-canal-care-style-panel">
+
+	<div class="container py-5">
+		<div class="row justify-content-center">
+
+			<div class="col-12 col-lg-10">
+
+				<div class="root-canal-unified-card">
+
+					<div class="row align-items-center">
+
+						<!-- IMAGE (LEFT, INSIDE CARD) -->
+						<div class="col-12 col-lg-4 mb-4 mb-lg-0">
+							<div class="root-canal-image-frame">
+								<img
+									src="/image/about/root_canal_care.jpg"
+									alt="Comfort-focused root canal treatment">
+							</div>
+						</div>
+
+						<!-- CONTENT (RIGHT, SAME CARD) -->
+						<div class="col-12 col-lg-8">
+
+							<h3>
+								Calm, Root Canal Treatment You Can Trust
+							</h3>
+
+							<ul class="root-canal-benefits">
+								<li>Advanced techniques focused on comfort and precision</li>
+								<li>Efficient treatment with no unnecessary delays</li>
+								<li>Honest guidance and clear explanations at every stage</li>
+								<li>Treatment aimed at preserving your natural tooth</li>
+							</ul>
+
+							<p>
+								At Lifestyle Dental, root canal care is delivered with clarity and confidence.
+								Using modern equipment and a gentle approach, we remove infection effectively
+								while minimising discomfort. Our focus is long-term tooth health, predictable
+								results, and a reassuring experience from start to finish.
+							</p>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+</section>
+<?php endif; ?>
+
 
 			<?php if ($reviews_option == 'custom') : ?>
 
@@ -3058,6 +4730,90 @@ if (is_page(4679)) {
 <?php if (is_page(3414)) : ?>
 	
 
+<section class="gtc-impact-panel gtc-animate">
+	<div class="container">
+  <div class="impact-wrapper">
+   <div class="impact-visual">
+     
+       
+        <img src="/image/about/OIP.jpg" alt="Before Smile">
+      
+    </div>
+    <div class="impact-text">
+      <span class="impact-label">The Difference That Matters</span>
+      <h3>From Subtle Imperfections to Confident Smiles</h3>
+      <p>
+        Even minor irregularities in gum lines or tooth edges can affect how you
+        feel about your smile. Precision gum and teeth contouring focuses on small,
+        controlled refinements that create balance, harmony, and natural symmetry.
+        The result isn’t an artificial change, but a confident smile that feels
+        effortless, proportionate, and authentically yours.
+      </p>
+
+      <ul class="impact-points">
+        <li>✔ Natural-looking improvements</li>
+        <li>✔ Immediate visible enhancement</li>
+        <li>✔ Confidence in photos and conversations</li>
+      </ul>
+    </div>
+
+ 
+ </div>
+  </div>
+</section>
+
+<section class="gtc-enhanced-panel gtc-animate">
+    <div class="container">
+  <h3 class="panel-title">How Your Treatment Works</h3>
+
+  <div class="enhanced-timeline">
+
+    <div class="timeline-card">
+      <span class="step-no">01</span>
+      <h4>Consultation</h4>
+      <p>We assess your gum line, tooth shape, and aesthetic goals.</p>
+    </div>
+
+    <div class="timeline-card">
+      <span class="step-no">02</span>
+      <h4>Smile Planning</h4>
+      <p>Advanced digital tools preview your enhanced smile.</p>
+    </div>
+
+    <div class="timeline-card">
+      <span class="step-no">03</span>
+      <h4>Contouring</h4>
+      <p>Gentle sculpting creates symmetry, balance, and flow.</p>
+    </div>
+
+    <div class="timeline-card">
+      <span class="step-no">04</span>
+      <h4>Aftercare</h4>
+      <p>Clear guidance ensures fast, smooth recovery.</p>
+    </div>
+</div>
+  </div>
+</section>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const elements = document.querySelectorAll(".gtc-animate");
+
+  const observer = new IntersectionObserver(
+    entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+        }
+      });
+    },
+    { threshold: 0.15 }
+  );
+
+  elements.forEach(el => observer.observe(el));
+});
+</script>
 	<section class="unique-smile-panel">
 		<div class="container">
   <div class="panel-container">
@@ -3075,12 +4831,12 @@ if (is_page(4679)) {
   </div>
 </div>
 </section>
-<section class="gtc-panel panel-split">
+<section class="panel-split">
   <div class="panel-image">
     <img src="/image/about/dental-implants.jpg" alt="Gum Contouring Results">
   </div>
   <div class="panel-content">
-    <h2>Precision Gum & Teeth Sculpting</h2>
+    <h3>Precision Gum & Teeth Sculpting</h3>
     <p>
       Gum and teeth contouring is a minimally invasive cosmetic treatment designed to
       refine the shape of your gums and teeth for a more balanced, confident smile.
@@ -3099,7 +4855,7 @@ if (is_page(4679)) {
   </div>
  
 </section>
-<section class="gtc-panel panel-icons">
+<section class="panel-icons">
 	<div class="container">
   <h2>Your Smile Journey Explained</h2>
   <div class="icon-grid">
@@ -3157,6 +4913,370 @@ if (is_page(4679)) {
 
 
 	<?php endif; ?>
+<?php if (is_page(4528)) : ?>
+
+<section class="smile-day-wrapper">
+	
+  <h2 class="section-title">What is the Benefit of Smile in a Day?</h2>
+<div class="container">
+  <div class="js-slider">
+
+    <div class="js-slider-viewport">
+      <div class="js-slider-track">
+
+        <div class="js-slide">
+          <h4>Immediate Function</h4>
+          <p>
+            The process of dental implants can take weeks. Eating, speaking, or even just laughing with friends can become a challenge, you just want your smile back without any delay.
+          </p>
+        </div>
+
+        <div class="js-slide">
+          <h4>Cost-Effective Solution</h4>
+          <p>
+          You will no longer have to sacrifice your dental health because of prohibitive costs. Because the procedure uses fewer implants and can often avoid the need for bone grafting, it can be more affordable for many patients.
+          </p>
+        </div>
+
+        <div class="js-slide">
+          <h4>Full-Arch Rehabilitation</h4>
+          <p>
+           It’s frustrating to feel limited by something that should be simple and natural, like smiling or enjoying your favourite foods.
+
+We provide a comprehensive solution designed specifically for people like you, who have lost most or all of their teeth. With our Full-Arch Rehabilitation, you’ll regain your confidence, reclaim your smile, and return to a life unhindered by tooth loss.
+          </p>
+        </div>
+
+        <div class="js-slide">
+          <h4>Preserves Jawbone Structure</h4>
+          <p>
+           With each lost tooth, the bone that once supported it begins to erode, affecting your overall oral health and changing the shape of your face.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Dots -->
+    <div class="js-slider-dots"></div>
+
+  </div>
+</div>
+</section>
+
+<?php endif; ?>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const track = document.querySelector(".js-slider-track");
+  const slides = document.querySelectorAll(".js-slide");
+  const dotsContainer = document.querySelector(".js-slider-dots");
+
+  let index = 0;
+  const total = slides.length;
+  const intervalTime = 4000;
+
+  // Create dots
+  slides.forEach((_, i) => {
+    const dot = document.createElement("button");
+    if (i === 0) dot.classList.add("active");
+
+    dot.addEventListener("click", () => {
+      index = i;
+      updateSlider();
+      resetInterval();
+    });
+
+    dotsContainer.appendChild(dot);
+  });
+
+  const dots = dotsContainer.querySelectorAll("button");
+
+  function updateSlider() {
+    track.style.transform = `translateX(-${index * 100}%)`;
+    dots.forEach(dot => dot.classList.remove("active"));
+    dots[index].classList.add("active");
+  }
+
+  function nextSlide() {
+    index = (index + 1) % total;
+    updateSlider();
+  }
+
+  let sliderInterval = setInterval(nextSlide, intervalTime);
+
+  function resetInterval() {
+    clearInterval(sliderInterval);
+    sliderInterval = setInterval(nextSlide, intervalTime);
+  }
+});
+</script>
+<?php if (is_page(3641)) : ?>
+	
+<section class="crown-panel">
+
+  <h2 class="panel-title">Dental Crowns – Benefits & Risks</h2>
+
+  <div class="panel-grid">
+
+    <!-- BENEFITS -->
+    <div class="panel-card benefit">
+      <div class="panel-header">
+        <span class="badge badge-success">✔ Benefits</span>
+      </div>
+
+      <ul class="panel-list">
+        <li>
+          <span class="icon">🦷</span>
+          <span>Treat worn, broken or decayed teeth</span>
+        </li>
+        <li>
+          <span class="icon">🛡</span>
+          <span>Protect teeth from erosion and wear</span>
+        </li>
+        <li>
+          <span class="icon">🍽</span>
+          <span>Improve chewing function</span>
+        </li>
+        <li>
+          <span class="icon">✨</span>
+          <span>Enhance your smile and appearance</span>
+        </li>
+        <li>
+          <span class="icon">⏳</span>
+          <span>Last 5–15 years with proper care</span>
+        </li>
+		       <li>
+          <span class="icon">🛡️</span>
+          <span>Restore proper bite alignment</span>
+        </li>
+		       <li>
+          <span class="icon">🧠</span>
+          <span>Prevent further tooth damage</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- RISKS -->
+    <div class="panel-card risk">
+      <div class="panel-header">
+        <span class="badge badge-warning">⚠ Risks</span>
+      </div>
+
+      <ul class="panel-list">
+        <li>
+          <span class="icon">❗</span>
+          <span>Requires removal of natural tooth enamel</span>
+        </li>
+        <li>
+          <span class="icon">❄</span>
+          <span>May cause sensitivity after placement</span>
+        </li>
+        <li>
+          <span class="icon">💥</span>
+          <span>Can fracture or break over time</span>
+        </li>
+        <li>
+          <span class="icon">🦠</span>
+          <span>Poor fit may trap bacteria and cause decay</span>
+        </li>
+        <li>
+          <span class="icon">💰</span>
+          <span>Can be expensive for some patients</span>
+        </li>
+		   <li>
+          <span class="icon">📅</span>
+          <span>Crown may loosen over time</span>
+        </li>
+		   <li>
+          <span class="icon">🔩</span>
+          <span>Not reversible procedure</span>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+<style>
+.crown-content-section {
+  padding: 80px 20px;
+  background: #f9fafb;
+  font-family: "Poppins", sans-serif;
+}
+
+.crown-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.crown-flex {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.crown-image {
+  flex: 1;
+}
+
+.crown-image img {
+  width: 100%;
+  border-radius: 14px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+  object-fit: cover;
+}
+
+.crown-content {
+  flex: 1.2;
+}
+
+.crown-subtitle {
+  color: #1d9bf0;
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.crown-title {
+ 
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.crown-description {
+ 
+  line-height: 1.8;
+  color: #4b5563;
+  margin-bottom: 35px;
+}
+
+.crown-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.crown-grid ul {
+  list-style: none;
+  padding: 0;
+}
+
+.crown-grid li {
+  background: #ffffff;
+  padding: 14px 20px 14px 40px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  font-size: 15px;
+  color: #374151;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+  position: relative;
+}
+
+.crown-grid li::before {
+  content: "✔";
+  position: absolute;
+  left: 15px;
+  top: 14px;
+  color: #1d9bf0;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .crown-flex {
+    flex-direction: column;
+  }
+
+  
+
+  .crown-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+</style>
+<section class="crown-content-section">
+  <div class="crown-container">
+    <div class="crown-flex">
+
+      <!-- Left Image -->
+      <div class="crown-image">
+        <img src="/image/about/crownimage.jpg" alt="Dental Crown Treatment">
+      </div>
+
+      <!-- Right Content -->
+      <div class="crown-content">
+        <h5 class="crown-subtitle">Dental Crown Solutions</h5>
+        <h3 class="crown-title">Dental Crowns That Restore Strength & Beauty</h3>
+
+        <p class="crown-description">
+          Dental crowns are custom-made caps designed to restore damaged, weakened, or discoloured teeth.
+          They improve strength, function, and appearance while blending seamlessly with your natural smile.
+        </p>
+
+        <div class="crown-grid">
+          <ul>
+            <li>Porcelain & Ceramic Crowns</li>
+            <li>Zirconia & Metal-Free Crowns</li>
+            <li>Same-Day Crown Solutions</li>
+            <li>Crown Replacement & Repairs</li>
+          </ul>
+          <ul>
+            <li>Cosmetic Smile Enhancement</li>
+            <li>Bite & Tooth Structure Restoration</li>
+            <li>Digital Smile Preview & Planning</li>
+            <li>Natural-Looking, Long-Lasting</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<?php endif; ?>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const track = document.querySelector('.slider-trackss');
+  let cards = document.querySelectorAll('.crown-card');
+  const gap = 25;
+  let index = 0;
+
+  // Clone first slide for infinite loop
+  const firstClone = cards[0].cloneNode(true);
+  track.appendChild(firstClone);
+
+  // Update cards NodeList
+  cards = document.querySelectorAll('.crown-card');
+
+  function slideCards() {
+    const cardWidth = cards[0].offsetWidth + gap;
+    index++;
+
+    track.style.transition = "transform 0.6s ease";
+    track.style.transform = `translateX(-${index * cardWidth}px)`;
+
+    // When reaching clone, reset smoothly
+    if (index === cards.length - 1) {
+      setTimeout(() => {
+        track.style.transition = "none";
+        index = 0;
+        track.style.transform = "translateX(0)";
+      }, 700);
+    }
+  }
+
+  setInterval(slideCards, 3000);
+});
+</script>
+
+
+
 
 		<?php elseif (get_row_layout() == 'team_block') :
 			$members  	= get_sub_field('team_blocks'); ?>
@@ -3613,29 +5733,47 @@ if (is_page(4679)) {
 
 <?php get_footer(); ?>
 
-
 <script>
-	// Script to change Google Reviews stats on hero widget
+document.addEventListener("DOMContentLoaded", function () {
 
-	var rawRating = Array.from(document.querySelectorAll('.ti-rating-text .nowrap'))
+  function updateGoogleReviews() {
+    const rawRating = document.querySelectorAll('.ti-rating-text .nowrap');
 
-	var reviewCount = rawRating[2]['children'][0]['childNodes'][0]['data']
-	var avgScore = rawRating[1]['children'][0]['childNodes'][0]['data']
+    // Ensure required elements exist
+    if (rawRating.length < 3) {
+      return;
+    }
 
-	var elementReviewsCount = document.querySelectorAll('#hero-google-reviews_reviews-count')
-	var elementAverageScore = document.querySelectorAll('#hero-google-reviews_average-score')
+    const reviewCountNode = rawRating[2]?.children?.[0]?.childNodes?.[0];
+    const avgScoreNode = rawRating[1]?.children?.[0]?.childNodes?.[0];
 
-	if (reviewCount.length > 0) {
+    if (!reviewCountNode || !avgScoreNode) {
+      return;
+    }
 
-		elementReviewsCount.forEach(function(i) {
-			i.innerHTML = reviewCount
-		})
-	}
+    const reviewCount = reviewCountNode.data;
+    const avgScore = avgScoreNode.data;
 
-	if (avgScore.length > 0) {
+    document.querySelectorAll('#hero-google-reviews_reviews-count')
+      .forEach(el => el.textContent = reviewCount);
 
-		elementAverageScore.forEach(function(i) {
-			i.innerHTML = avgScore
-		})
-	}
+    document.querySelectorAll('#hero-google-reviews_average-score')
+      .forEach(el => el.textContent = avgScore);
+  }
+
+  // Run once
+  updateGoogleReviews();
+
+  // Retry in case Google Reviews loads late
+  let retryCount = 0;
+  const interval = setInterval(() => {
+    updateGoogleReviews();
+    retryCount++;
+
+    if (retryCount > 10) {
+      clearInterval(interval);
+    }
+  }, 500);
+
+});
 </script>
