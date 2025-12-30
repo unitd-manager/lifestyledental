@@ -784,7 +784,7 @@ if (is_page(4679)) {
 
 .root-canal-comfort .features div {
     background: #ffffff;
-    border-left: 4px solid #d48cb6;
+    border-left: 4px solid #ea1993ff;
     padding: 14px 16px;
     font-size: 15px;
     color: #444;
@@ -4344,7 +4344,7 @@ in your oral health.
 
             <div class="col-12 col-lg-8">
 
-                <h3>
+                <h3 style="color: #24710aff;">
                     Protecting Your Natural Tooth and Relieving Pain
                 </h3>
 
@@ -4363,7 +4363,7 @@ in your oral health.
                 </p>
 
                 <p>
-                    <span style="color:#bb005e; font-weight:600;">
+                    <span style="color:#24710aff; font-weight:600;">
                         Early treatment can prevent further infection and help you return to everyday
                         comfort with confidence.
                     </span>
@@ -4785,7 +4785,7 @@ in your oral health.
 
 			<div class="col-12 col-lg-6">
 
-				<h3  style="font-weight:400; color:#683fa1; margin-bottom:15px;">Root Canal Treatment with Comfort in Mind</h3>
+				<h3  style="font-weight:400; color:#ea1993ff; margin-bottom:15px;">Root Canal Treatment with Comfort in Mind</h3>
 
 				<p>
 					At Lifestyle Dental, root canal treatment is delivered with a strong focus on
@@ -5036,55 +5036,55 @@ in your oral health.
 <?php if (is_page(3614)) : ?>
 <section class="root_canal_panel4 root-canal-care-style-panel">
 
-	<div class="container py-5">
-		<div class="row justify-content-center">
+    <div class="container py-5">
 
-			<div class="col-12 col-lg-10">
+        <div class="row">
 
-				<div class="root-canal-unified-card">
+            <div class="col-12">
 
-					<div class="row align-items-center">
+                <div class="root-canal-unified-card">
 
-						<!-- IMAGE (LEFT, INSIDE CARD) -->
-						<div class="col-12 col-lg-4 mb-4 mb-lg-0">
-							<div class="root-canal-image-frame">
-								<img
-									src="/image/about/root_canal_care.jpg"
-									alt="Comfort-focused root canal treatment">
-							</div>
-						</div>
+                    <div class="row align-items-center">
 
-						<!-- CONTENT (RIGHT, SAME CARD) -->
-						<div class="col-12 col-lg-8">
+                        <!-- IMAGE (LEFT) -->
+                        <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+                            <div class="root-canal-image-frame">
+                                <img
+                                    src="/image/about/root_canal_care.jpg"
+                                    alt="Comfort-focused root canal treatment">
+                            </div>
+                        </div>
 
-							<h3>
-								Calm, Root Canal Treatment You Can Trust
-							</h3>
+                        <!-- CONTENT (RIGHT) -->
+                        <div class="col-12 col-lg-8">
 
-							<ul class="root-canal-benefits">
-								<li>Advanced techniques focused on comfort and precision</li>
-								<li>Efficient treatment with no unnecessary delays</li>
-								<li>Honest guidance and clear explanations at every stage</li>
-								<li>Treatment aimed at preserving your natural tooth</li>
-							</ul>
+                            <h3>Calm, Root Canal Treatment You Can Trust</h3>
 
-							<p>
-								At Lifestyle Dental, root canal care is delivered with clarity and confidence.
-								Using modern equipment and a gentle approach, we remove infection effectively
-								while minimising discomfort. Our focus is long-term tooth health, predictable
-								results, and a reassuring experience from start to finish.
-							</p>
+                            <ul class="root-canal-benefits">
+                                <li>Advanced techniques focused on comfort and precision</li>
+                                <li>Efficient treatment with no unnecessary delays</li>
+                                <li>Honest guidance and clear explanations at every stage</li>
+                                <li>Treatment aimed at preserving your natural tooth</li>
+                            </ul>
 
-						</div>
+                            <p>
+                                At Lifestyle Dental, root canal care is delivered with clarity and confidence.
+                                Using modern equipment and a gentle approach, we remove infection effectively
+                                while minimising discomfort. Our focus is long-term tooth health, predictable
+                                results, and a reassuring experience from start to finish.
+                            </p>
 
-					</div>
+                        </div>
 
-				</div>
+                    </div>
 
-			</div>
+                </div>
 
-		</div>
-	</div>
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
 <?php endif; ?>
