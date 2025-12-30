@@ -25,7 +25,6 @@
 	text-align: center;
   color: #b1005d;
   margin-bottom: 30px;
-  font-size:2rem;
 }
 
 .benefits-grid {
@@ -116,7 +115,7 @@
 			<?php if (is_page(2664)) : ?>
 <section class="referral-benefits-panel">
   <div class="container">
-    <div class="benefithead">Referral Process & Key Benefits</div>
+    <h3 class="benefithead">Referral Process & Key Benefits</h3>
 
     <div class="benefits-grid">
       <div class="benefit-box">
