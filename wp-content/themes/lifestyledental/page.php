@@ -11,7 +11,7 @@
                     <?php while (have_rows('page_slider')): the_row() ?>
                             <div class="slide">
                                 <div class="text no-img pt-lg-5">
-                                <h2 class="h1 plain mb-4" <?php echo $fontwhite ?>><?php the_sub_field('title') ?></h2>
+                                <h1 class="h1 plain mb-4" <?php echo $fontwhite ?>><?php the_sub_field('title') ?></h1>
 
                                 <?php the_sub_field('text') ?>
                                 <?php get_template_part('_misc/_usp-banner-points') ?>
