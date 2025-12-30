@@ -2889,18 +2889,14 @@ if (is_page(4679)) {
 				<section class="home_hero_sec">
 	<div class="home_hero_inner">
 		<div class="home_hero_content_col">
-			<?php if ($header) : ?>
-												<h1 class="">													Dental Implants 
+			<?php if ($header) : ?>	<h1>
+													Dental Implants 
 
 												</h1>
 											<?php endif; ?>
 							<?php if ($sub_header) : ?>
 
-<<<<<<< HEAD
-												<h4 class="" style="color:#ffffff;" >
-=======
 												<p class="subheadline">
->>>>>>> e87b4e28c536800ab4f7828b989bfbac380ceb8b
 													Eat, smile, and live with confidence again – with affordable dental implants.
 												</p>
 											<?php endif; ?>
