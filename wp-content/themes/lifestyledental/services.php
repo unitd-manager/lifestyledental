@@ -93,6 +93,32 @@ if (is_page(4679)) {
 		font-weight: 300;
 	}
 
+
+		.home_hero_icon_links>div>h5 {
+	    display: flex;
+	    align-items: center;
+	    color: #434343;
+	    line-height: 28px;
+	    font-weight: 600;
+	    letter-spacing: 1px;
+	    background: #ffffff;
+	    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+	    padding: 20px 40px 20px 20px;
+	    margin-bottom: 0;
+	    gap: 20px;
+	    transition: .3s;
+	}
+
+	.home_hero_icon_links>div>h5 i {
+    	color: #17a2b8;
+    	font-size: 40px;
+	}
+
+	.home_hero_icon_links>div>h5 img {
+	    width: 48px;
+	    min-width: 48px;
+	}
+
 	.smile-day-wrapper {
 
   margin: 60px auto;
@@ -2827,7 +2853,7 @@ if (is_page(4679)) {
 	}
 
 	.mobile-google-reviews .score {
-		display: flex;
+		display: flex;.treatment-match-panel .container
 	}
 
 	.mobile-google-reviews p {
@@ -2887,16 +2913,16 @@ if (is_page(4679)) {
 	</div>
 	<div class="home_hero_icon_links">
 		<div>
-			<p><i class="far fa-star"></i>Google 5★ Rated</p>
+			<h5><i class="far fa-star"></i>Google 5★ Rated</h5>
 		</div>
 		<div>
-			<p><i class="far fa-credit-card"></i>Affordable Payment Plans</p>
+			<h5><i class="far fa-credit-card"></i>Affordable Payment Plans</h5>
 		</div>
 		<div>
-			<p><i class="far fa-clock"></i>Same-Day Appointments</p>
+			<h5><i class="far fa-clock"></i>Same-Day Appointments</h5>
 		</div>
 		<div>
-			<p><img src="/wp-content/uploads/2025/09/face-smile-beam-solid-full.svg">Gentle, Pain-Free Care</p>
+			<h5><img src="/wp-content/uploads/2025/09/face-smile-beam-solid-full.svg">Gentle, Pain-Free Care</h5>
 		</div>
 	</div>
 </section>
@@ -3312,6 +3338,631 @@ if (is_page(4679)) {
 					content: none;
 				}
 			</style>
+		
+			<?php if (is_page(4714)) : ?>
+				<style>
+					.treatment-match-panel {
+  background: #fde9f1;
+  padding: 80px 20px;
+}
+
+
+.treatment-match-panel h4 {
+  text-align: center;
+  
+  color: #b0005a;
+  margin-bottom: 15px;
+}
+
+.panel-intro {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 50px;
+  color: #555;
+  font-size: 16px;
+}
+
+.panel-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+}
+
+.match-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.match-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+}
+
+.match-card h3 {
+  color: #b0005a;
+ 
+  margin-bottom: 10px;
+}
+
+.match-card p {
+ 
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.match-card ul {
+  padding-left: 18px;
+  margin-bottom: 15px;
+}
+
+.match-card ul li {
+  font-size: 14px;
+  color: #444;
+}
+
+.match-card .price {
+  display: inline-block;
+  font-weight: bold;
+  color: #222;
+}
+
+.cost-confidence {
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.cost-confidence h3 {
+  color: #222;
+  
+  margin-bottom: 20px;
+}
+
+.confidence-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.confidence-list li {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.confidence-note {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.confidence-btn {
+  display: block;
+  text-align: center;
+  background: #e1006a;
+  color: #fff;
+  padding: 14px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.confidence-btn:hover {
+  background: #c4005c;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .panel-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .match-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+.price-value-panel {
+  background: #fff;
+  padding: 80px 20px;
+}
+
+
+.price-value-panel h2 {
+  text-align: center;
+  color: #b0005a;
+  margin-bottom: 10px;
+}
+
+.value-intro {
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto 50px;
+  color: #555;
+}
+
+.value-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.value-box {
+  background: #f9f9f9;
+  padding: 35px;
+  border-radius: 14px;
+}
+
+.value-box h3 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.value-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.value-box ul li {
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.value-box.highlight {
+  background: #fde9f1;
+}
+
+.value-box table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.value-box table th,
+.value-box table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.value-box table th {
+  background: #fff;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .value-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.treatment-longevity {
+  background: #f7f7f7;
+  padding: 80px 20px;
+}
+
+
+
+.treatment-longevity h4 {
+  text-align: center;
+  color: #b0005a;
+  margin-bottom: 10px;
+}
+
+.longevity-intro {
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto 50px;
+  color: #555;
+}
+
+.longevity-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.longevity-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+.longevity-card h3 {
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.lifespan {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: bold;
+  color: #b0005a;
+  margin-bottom: 15px;
+}
+
+.longevity-card p {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.longevity-card .ideal {
+  font-style: italic;
+  font-size: 13px;
+}
+
+.longevity-card.highlight {
+  border: 2px solid #b0005a;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .longevity-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .longevity-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+.investment-timeline {
+  background: #fff;
+  padding: 80px 20px;
+}
+
+.investment-timeline h3 {
+  text-align: center;
+  color: #b0005a;
+}
+
+.investment-intro {
+  text-align: center;
+  max-width: 750px;
+  margin: 15px auto 50px;
+  color: #555;
+}
+
+.investment-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.investment-box {
+  padding: 35px;
+  border-radius: 16px;
+}
+
+.investment-box h4 {
+  margin-bottom: 20px;
+}
+
+.investment-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.investment-box ul li {
+  margin-bottom: 12px;
+}
+
+.investment-box.before {
+  background: #f5f5f5;
+}
+
+.investment-box.after {
+  background: #fde9f1;
+}
+
+@media (max-width: 768px) {
+  .investment-grid { grid-template-columns: 1fr; }
+}
+.treatment-delay {
+  background: #f7f7f7;
+  padding: 80px 20px;
+}
+
+.treatment-delay h3 {
+  text-align: center;
+  color: #b0005a;
+}
+
+.delay-intro {
+  text-align: center;
+  max-width: 700px;
+  margin: 10px auto 50px;
+  color: #555;
+}
+
+.delay-timeline {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.delay-step {
+  background: #fff;
+  padding: 30px;
+  border-radius: 14px;
+  text-align: center;
+}
+
+.delay-step .time {
+  display: block;
+  font-weight: bold;
+  color: #b0005a;
+  margin-bottom: 10px;
+}
+
+.delay-step small {
+  color: #777;
+}
+
+.delay-step.highlight {
+  border: 2px solid #b0005a;
+}
+
+@media (max-width: 768px) {
+  .delay-timeline { grid-template-columns: 1fr; }
+}
+
+				</style>
+				
+			<section class="treatment-match-panel">
+  <div class="container">
+
+    <h4>Find the Right Treatment for Your Smile</h4>
+    <p class="panel-intro">
+      Not sure which treatment suits your needs? Explore common concerns and see the most suitable
+      options with transparent starting prices.
+    </p>
+
+    <div class="panel-grid">
+
+      <!-- Left: Treatment Match Cards -->
+      <div class="match-cards">
+
+        <div class="match-card">
+          <h5>😬 Gaps or Crooked Teeth</h5>
+          <p>Discreet solutions to straighten your smile comfortably.</p>
+          <ul>
+            <li>Clear Aligners</li>
+            <li>Fixed Retainers</li>
+          </ul>
+          <span class="price">From £249</span>
+        </div>
+
+        <div class="match-card">
+          <h5>☕ Stained or Dull Teeth</h5>
+          <p>Professional whitening for a brighter, fresher smile.</p>
+          <ul>
+            <li>Home Whitening</li>
+            <li>Lifestyle Boost</li>
+          </ul>
+          <span class="price">From £99</span>
+        </div>
+
+        <div class="match-card">
+          <h5>🦷 Missing or Broken Tooth</h5>
+          <p>Restore function and confidence with natural-looking solutions.</p>
+          <ul>
+            <li>Dental Implants</li>
+            <li>Crowns or Bridges</li>
+          </ul>
+          <span class="price">From £2,200</span>
+        </div>
+
+        <div class="match-card">
+          <h5>😖 Pain or Dental Emergency</h5>
+          <p>Fast assessment and relief when you need it most.</p>
+          <ul>
+            <li>Emergency Exam</li>
+            <li>Immediate Care</li>
+          </ul>
+          <span class="price">£99</span>
+        </div>
+
+      </div>
+
+      <!-- Right: Cost Confidence Panel -->
+      <div class="cost-confidence">
+        <h5>What Determines Your Final Cost?</h5>
+
+        <ul class="confidence-list">
+          <li>🔍 Complexity of your individual case</li>
+          <li>📸 X-rays, scans & diagnostic needs</li>
+          <li>⏱ Length and stages of treatment</li>
+          <li>🧪 Materials and technology used</li>
+          <li>💳 Choice of payment plan</li>
+        </ul>
+
+        <p class="confidence-note">
+          Your dentist will always confirm your personalised treatment plan and total cost
+          after your consultation — no hidden surprises.
+        </p>
+
+        <a href="#enquiry-form" class="confidence-btn">
+          Get My Personal Treatment Plan
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section class="price-value-panel">
+  <div class="container">
+
+    <h2>More Than Just a Price Tag</h2>
+    <p class="value-intro">
+      When choosing dental care, the lowest price doesn’t always mean the best value.
+      Here’s what’s included when you choose Lifestyle Dental.
+    </p>
+
+    <div class="value-grid">
+
+      <!-- Included Column -->
+      <div class="value-box">
+        <h4>Included With Your Treatment</h4>
+        <ul>
+          <li>✔ Detailed consultation & assessment</li>
+          <li>✔ Digital X-rays & advanced imaging</li>
+          <li>✔ Highly experienced dental team</li>
+          <li>✔ Premium, long-lasting materials</li>
+          <li>✔ Clear aftercare & follow-up support</li>
+        </ul>
+      </div>
+
+      <!-- Comparison Column -->
+      <div class="value-box highlight">
+        <h3>Price vs Value</h3>
+        <table>
+          <tr>
+            <th>Basic Clinics</th>
+            <th>Lifestyle Dental</th>
+          </tr>
+          <tr>
+            <td>Basic checks</td>
+            <td>Comprehensive assessment</td>
+          </tr>
+          <tr>
+            <td>Standard materials</td>
+            <td>High-quality materials</td>
+          </tr>
+          <tr>
+            <td>Limited aftercare</td>
+            <td>Ongoing support</td>
+          </tr>
+          <tr>
+            <td>Unexpected add-ons</td>
+            <td>Transparent pricing</td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<section class="treatment-longevity">
+  <div class="container">
+
+    <h4>How Long Do Dental Treatments Last?</h4>
+    <p class="longevity-intro">
+      Understanding the lifespan and maintenance of treatments helps you get the best long-term value.
+    </p>
+
+    <div class="longevity-cards">
+
+      <div class="longevity-card">
+        <h3>White Fillings</h3>
+        <span class="lifespan">5–7 Years</span>
+        <p><strong>Maintenance:</strong> Regular check-ups & good oral hygiene</p>
+        <p class="ideal">Ideal for minor to moderate tooth damage</p>
+      </div>
+
+      <div class="longevity-card">
+        <h3>Crowns & Bridges</h3>
+        <span class="lifespan">10–15 Years</span>
+        <p><strong>Maintenance:</strong> Routine hygiene visits</p>
+        <p class="ideal">Ideal for restoring damaged or weakened teeth</p>
+      </div>
+
+      <div class="longevity-card highlight">
+        <h3>Dental Implants</h3>
+        <span class="lifespan">15–25+ Years</span>
+        <p><strong>Maintenance:</strong> Excellent oral care & annual reviews</p>
+        <p class="ideal">Ideal for permanent tooth replacement</p>
+      </div>
+
+      <div class="longevity-card">
+        <h3>Teeth Whitening</h3>
+        <span class="lifespan">6–18 Months</span>
+        <p><strong>Maintenance:</strong> Top-up treatments</p>
+        <p class="ideal">Ideal for enhancing smile brightness</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<section class="investment-timeline">
+  <div class="container">
+
+    <h3>Before vs After: Your Smile Investment</h3>
+    <p class="investment-intro">
+      Dental treatment isn’t just about fixing teeth — it’s an investment in comfort, confidence,
+      and long-term oral health.
+    </p>
+
+    <div class="investment-grid">
+
+      <div class="investment-box before">
+        <h4>Before Treatment</h4>
+        <ul>
+          <li>❌ Ongoing discomfort or pain</li>
+          <li>❌ Avoiding smiling or photos</li>
+          <li>❌ Worry about worsening issues</li>
+          <li>❌ Repeated temporary fixes</li>
+        </ul>
+      </div>
+
+      <div class="investment-box after">
+        <h4>After Treatment</h4>
+        <ul>
+          <li>✔ Comfortable eating & speaking</li>
+          <li>✔ Confidence in your smile</li>
+          <li>✔ Long-term oral stability</li>
+          <li>✔ Fewer future dental costs</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<section class="treatment-delay">
+  <div class="container">
+
+    <h3>What Happens If Treatment Is Delayed?</h3>
+    <p class="delay-intro">
+      Delaying dental treatment can increase complexity, cost, and discomfort over time.
+    </p>
+
+    <div class="delay-timeline">
+
+      <div class="delay-step">
+        <span class="time">Now</span>
+        <p>Minor issue detected</p>
+        <small>Simple, affordable treatment</small>
+      </div>
+
+      <div class="delay-step">
+        <span class="time">6–12 Months</span>
+        <p>Problem worsens</p>
+        <small>More invasive treatment required</small>
+      </div>
+
+      <div class="delay-step highlight">
+        <span class="time">1–2 Years</span>
+        <p>Tooth damage or loss</p>
+        <small>Higher cost & longer recovery</small>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<?php endif; ?>
 			<?php if (is_page(3727)) : ?>
 				<style>
 					.dental-impact-section {
@@ -4631,7 +5282,130 @@ During the procedure, your dentist takes precise measurements to ensure a proper
 				</section>
 
 			<?php endif; ?>
+	<?php if (is_page(3269)) : ?>
+				<style>
+					.smile-investment-panel {
+  background: #f7f9fb;
+  padding: 60px 20px;
+  text-align: center;
+}
 
+.smile-investment-panel h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.smile-investment-panel .intro {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  color: #555;
+}
+
+.investment-timeline {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.timeline-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.timeline-step {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #0073aa;
+  margin-bottom: 10px;
+}
+
+.timeline-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.timeline-card p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.investment-cta {
+  margin-top: 50px;
+}
+
+.investment-cta p {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background: #0073aa;
+  color: #fff;
+  padding: 14px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background: #005f8a;
+}
+
+				</style>
+			<section class="smile-investment-panel">
+  <h2>Your Smile Is an Investment — Not Just a Treatment</h2>
+  <p class="intro">
+    Orthodontic treatment doesn’t just straighten teeth. It improves confidence,
+    oral health, and long-term wellbeing. Here’s how that investment pays off.
+  </p>
+
+  <div class="investment-timeline">
+
+    <div class="timeline-card">
+      <span class="timeline-step">Today</span>
+      <h3>The Decision</h3>
+      <p>
+        You choose discreet adult braces with flexible monthly payments,
+        avoiding future dental complications and rising treatment costs.
+      </p>
+    </div>
+
+    <div class="timeline-card">
+      <span class="timeline-step">3–6 Months</span>
+      <h3>Visible Confidence Boost</h3>
+      <p>
+        Teeth alignment improves quickly. Most patients notice a
+        more confident smile early in treatment — often sooner than expected.
+      </p>
+    </div>
+
+    <div class="timeline-card">
+      <span class="timeline-step">A Lifetime</span>
+      <h3>Lasting Benefits</h3>
+      <p>
+        Enjoy easier cleaning, healthier gums, improved bite function,
+        and a smile that supports confidence for years to come.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="investment-cta">
+    <p>
+      Spread the cost with our flexible payment plans and start your smile journey today.
+    </p>
+    <a href="#consultation-form" class="btn-primary">
+      Book Your Free Consultation
+    </a>
+  </div>
+</section>
+<?php endif; ?>
 		<?php elseif (get_row_layout() == 'info_links') :
 			$display_links  = get_sub_field('display_links'); ?>
 
