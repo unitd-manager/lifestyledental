@@ -4761,7 +4761,7 @@ in your oral health.
 
 <?php endif; ?>
 <?php if (is_page(3614)) : ?>
-<section class="root_canal_panel2" style="background-color: #cde6fcff;">
+<section class="root_canal_panel2" style="background-color:#cce2f6ff;">
     <div class="container py-5">
 
         <div class="root-canal-combined-panel">
