@@ -93,6 +93,32 @@ if (is_page(4679)) {
 		font-weight: 300;
 	}
 
+
+		.home_hero_icon_links>div>h5 {
+	    display: flex;
+	    align-items: center;
+	    color: #434343;
+	    line-height: 28px;
+	    font-weight: 600;
+	    letter-spacing: 1px;
+	    background: #ffffff;
+	    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+	    padding: 20px 40px 20px 20px;
+	    margin-bottom: 0;
+	    gap: 20px;
+	    transition: .3s;
+	}
+
+	.home_hero_icon_links>div>h5 i {
+    	color: #17a2b8;
+    	font-size: 40px;
+	}
+
+	.home_hero_icon_links>div>h5 img {
+	    width: 48px;
+	    min-width: 48px;
+	}
+
 	.smile-day-wrapper {
 
   margin: 60px auto;
@@ -2874,7 +2900,7 @@ if (is_page(4679)) {
 	}
 
 	.mobile-google-reviews .score {
-		display: flex;
+		display: flex;.treatment-match-panel .container
 	}
 
 	.mobile-google-reviews p {
@@ -2910,8 +2936,12 @@ if (is_page(4679)) {
 				<section class="home_hero_sec">
 	<div class="home_hero_inner">
 		<div class="home_hero_content_col">
+<<<<<<< HEAD
 			<?php if ($header) : ?>
 												<h1>
+=======
+			<?php if ($header) : ?>	<h1>
+>>>>>>> 51f31065caa266e098a510dbe87f93e6c53a0e5d
 													Dental Implants 
 
 												</h1>
@@ -2934,16 +2964,16 @@ if (is_page(4679)) {
 	</div>
 	<div class="home_hero_icon_links">
 		<div>
-			<p><i class="far fa-star"></i>Google 5★ Rated</p>
+			<h5><i class="far fa-star"></i>Google 5★ Rated</h5>
 		</div>
 		<div>
-			<p><i class="far fa-credit-card"></i>Affordable Payment Plans</p>
+			<h5><i class="far fa-credit-card"></i>Affordable Payment Plans</h5>
 		</div>
 		<div>
-			<p><i class="far fa-clock"></i>Same-Day Appointments</p>
+			<h5><i class="far fa-clock"></i>Same-Day Appointments</h5>
 		</div>
 		<div>
-			<p><img src="/wp-content/uploads/2025/09/face-smile-beam-solid-full.svg">Gentle, Pain-Free Care</p>
+			<h5><img src="/wp-content/uploads/2025/09/face-smile-beam-solid-full.svg">Gentle, Pain-Free Care</h5>
 		</div>
 	</div>
 </section>
@@ -3359,6 +3389,631 @@ if (is_page(4679)) {
 					content: none;
 				}
 			</style>
+		
+			<?php if (is_page(4714)) : ?>
+				<style>
+					.treatment-match-panel {
+  background: #fde9f1;
+  padding: 80px 20px;
+}
+
+
+.treatment-match-panel h4 {
+  text-align: center;
+  
+  color: #b0005a;
+  margin-bottom: 15px;
+}
+
+.panel-intro {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 50px;
+  color: #555;
+  font-size: 16px;
+}
+
+.panel-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+}
+
+.match-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.match-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+}
+
+.match-card h3 {
+  color: #b0005a;
+ 
+  margin-bottom: 10px;
+}
+
+.match-card p {
+ 
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.match-card ul {
+  padding-left: 18px;
+  margin-bottom: 15px;
+}
+
+.match-card ul li {
+  font-size: 14px;
+  color: #444;
+}
+
+.match-card .price {
+  display: inline-block;
+  font-weight: bold;
+  color: #222;
+}
+
+.cost-confidence {
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.cost-confidence h3 {
+  color: #222;
+  
+  margin-bottom: 20px;
+}
+
+.confidence-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.confidence-list li {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.confidence-note {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.confidence-btn {
+  display: block;
+  text-align: center;
+  background: #e1006a;
+  color: #fff;
+  padding: 14px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.confidence-btn:hover {
+  background: #c4005c;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .panel-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .match-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+.price-value-panel {
+  background: #fff;
+  padding: 80px 20px;
+}
+
+
+.price-value-panel h2 {
+  text-align: center;
+  color: #b0005a;
+  margin-bottom: 10px;
+}
+
+.value-intro {
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto 50px;
+  color: #555;
+}
+
+.value-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.value-box {
+  background: #f9f9f9;
+  padding: 35px;
+  border-radius: 14px;
+}
+
+.value-box h3 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.value-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.value-box ul li {
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.value-box.highlight {
+  background: #fde9f1;
+}
+
+.value-box table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.value-box table th,
+.value-box table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.value-box table th {
+  background: #fff;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .value-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.treatment-longevity {
+  background: #f7f7f7;
+  padding: 80px 20px;
+}
+
+
+
+.treatment-longevity h4 {
+  text-align: center;
+  color: #b0005a;
+  margin-bottom: 10px;
+}
+
+.longevity-intro {
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto 50px;
+  color: #555;
+}
+
+.longevity-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.longevity-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+.longevity-card h3 {
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.lifespan {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: bold;
+  color: #b0005a;
+  margin-bottom: 15px;
+}
+
+.longevity-card p {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.longevity-card .ideal {
+  font-style: italic;
+  font-size: 13px;
+}
+
+.longevity-card.highlight {
+  border: 2px solid #b0005a;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .longevity-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .longevity-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+.investment-timeline {
+  background: #fff;
+  padding: 80px 20px;
+}
+
+.investment-timeline h3 {
+  text-align: center;
+  color: #b0005a;
+}
+
+.investment-intro {
+  text-align: center;
+  max-width: 750px;
+  margin: 15px auto 50px;
+  color: #555;
+}
+
+.investment-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.investment-box {
+  padding: 35px;
+  border-radius: 16px;
+}
+
+.investment-box h4 {
+  margin-bottom: 20px;
+}
+
+.investment-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.investment-box ul li {
+  margin-bottom: 12px;
+}
+
+.investment-box.before {
+  background: #f5f5f5;
+}
+
+.investment-box.after {
+  background: #fde9f1;
+}
+
+@media (max-width: 768px) {
+  .investment-grid { grid-template-columns: 1fr; }
+}
+.treatment-delay {
+  background: #f7f7f7;
+  padding: 80px 20px;
+}
+
+.treatment-delay h3 {
+  text-align: center;
+  color: #b0005a;
+}
+
+.delay-intro {
+  text-align: center;
+  max-width: 700px;
+  margin: 10px auto 50px;
+  color: #555;
+}
+
+.delay-timeline {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.delay-step {
+  background: #fff;
+  padding: 30px;
+  border-radius: 14px;
+  text-align: center;
+}
+
+.delay-step .time {
+  display: block;
+  font-weight: bold;
+  color: #b0005a;
+  margin-bottom: 10px;
+}
+
+.delay-step small {
+  color: #777;
+}
+
+.delay-step.highlight {
+  border: 2px solid #b0005a;
+}
+
+@media (max-width: 768px) {
+  .delay-timeline { grid-template-columns: 1fr; }
+}
+
+				</style>
+				
+			<section class="treatment-match-panel">
+  <div class="container">
+
+    <h4>Find the Right Treatment for Your Smile</h4>
+    <p class="panel-intro">
+      Not sure which treatment suits your needs? Explore common concerns and see the most suitable
+      options with transparent starting prices.
+    </p>
+
+    <div class="panel-grid">
+
+      <!-- Left: Treatment Match Cards -->
+      <div class="match-cards">
+
+        <div class="match-card">
+          <h5>😬 Gaps or Crooked Teeth</h5>
+          <p>Discreet solutions to straighten your smile comfortably.</p>
+          <ul>
+            <li>Clear Aligners</li>
+            <li>Fixed Retainers</li>
+          </ul>
+          <span class="price">From £249</span>
+        </div>
+
+        <div class="match-card">
+          <h5>☕ Stained or Dull Teeth</h5>
+          <p>Professional whitening for a brighter, fresher smile.</p>
+          <ul>
+            <li>Home Whitening</li>
+            <li>Lifestyle Boost</li>
+          </ul>
+          <span class="price">From £99</span>
+        </div>
+
+        <div class="match-card">
+          <h5>🦷 Missing or Broken Tooth</h5>
+          <p>Restore function and confidence with natural-looking solutions.</p>
+          <ul>
+            <li>Dental Implants</li>
+            <li>Crowns or Bridges</li>
+          </ul>
+          <span class="price">From £2,200</span>
+        </div>
+
+        <div class="match-card">
+          <h5>😖 Pain or Dental Emergency</h5>
+          <p>Fast assessment and relief when you need it most.</p>
+          <ul>
+            <li>Emergency Exam</li>
+            <li>Immediate Care</li>
+          </ul>
+          <span class="price">£99</span>
+        </div>
+
+      </div>
+
+      <!-- Right: Cost Confidence Panel -->
+      <div class="cost-confidence">
+        <h5>What Determines Your Final Cost?</h5>
+
+        <ul class="confidence-list">
+          <li>🔍 Complexity of your individual case</li>
+          <li>📸 X-rays, scans & diagnostic needs</li>
+          <li>⏱ Length and stages of treatment</li>
+          <li>🧪 Materials and technology used</li>
+          <li>💳 Choice of payment plan</li>
+        </ul>
+
+        <p class="confidence-note">
+          Your dentist will always confirm your personalised treatment plan and total cost
+          after your consultation — no hidden surprises.
+        </p>
+
+        <a href="#enquiry-form" class="confidence-btn">
+          Get My Personal Treatment Plan
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section class="price-value-panel">
+  <div class="container">
+
+    <h2>More Than Just a Price Tag</h2>
+    <p class="value-intro">
+      When choosing dental care, the lowest price doesn’t always mean the best value.
+      Here’s what’s included when you choose Lifestyle Dental.
+    </p>
+
+    <div class="value-grid">
+
+      <!-- Included Column -->
+      <div class="value-box">
+        <h4>Included With Your Treatment</h4>
+        <ul>
+          <li>✔ Detailed consultation & assessment</li>
+          <li>✔ Digital X-rays & advanced imaging</li>
+          <li>✔ Highly experienced dental team</li>
+          <li>✔ Premium, long-lasting materials</li>
+          <li>✔ Clear aftercare & follow-up support</li>
+        </ul>
+      </div>
+
+      <!-- Comparison Column -->
+      <div class="value-box highlight">
+        <h3>Price vs Value</h3>
+        <table>
+          <tr>
+            <th>Basic Clinics</th>
+            <th>Lifestyle Dental</th>
+          </tr>
+          <tr>
+            <td>Basic checks</td>
+            <td>Comprehensive assessment</td>
+          </tr>
+          <tr>
+            <td>Standard materials</td>
+            <td>High-quality materials</td>
+          </tr>
+          <tr>
+            <td>Limited aftercare</td>
+            <td>Ongoing support</td>
+          </tr>
+          <tr>
+            <td>Unexpected add-ons</td>
+            <td>Transparent pricing</td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<section class="treatment-longevity">
+  <div class="container">
+
+    <h4>How Long Do Dental Treatments Last?</h4>
+    <p class="longevity-intro">
+      Understanding the lifespan and maintenance of treatments helps you get the best long-term value.
+    </p>
+
+    <div class="longevity-cards">
+
+      <div class="longevity-card">
+        <h3>White Fillings</h3>
+        <span class="lifespan">5–7 Years</span>
+        <p><strong>Maintenance:</strong> Regular check-ups & good oral hygiene</p>
+        <p class="ideal">Ideal for minor to moderate tooth damage</p>
+      </div>
+
+      <div class="longevity-card">
+        <h3>Crowns & Bridges</h3>
+        <span class="lifespan">10–15 Years</span>
+        <p><strong>Maintenance:</strong> Routine hygiene visits</p>
+        <p class="ideal">Ideal for restoring damaged or weakened teeth</p>
+      </div>
+
+      <div class="longevity-card highlight">
+        <h3>Dental Implants</h3>
+        <span class="lifespan">15–25+ Years</span>
+        <p><strong>Maintenance:</strong> Excellent oral care & annual reviews</p>
+        <p class="ideal">Ideal for permanent tooth replacement</p>
+      </div>
+
+      <div class="longevity-card">
+        <h3>Teeth Whitening</h3>
+        <span class="lifespan">6–18 Months</span>
+        <p><strong>Maintenance:</strong> Top-up treatments</p>
+        <p class="ideal">Ideal for enhancing smile brightness</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<section class="investment-timeline">
+  <div class="container">
+
+    <h3>Before vs After: Your Smile Investment</h3>
+    <p class="investment-intro">
+      Dental treatment isn’t just about fixing teeth — it’s an investment in comfort, confidence,
+      and long-term oral health.
+    </p>
+
+    <div class="investment-grid">
+
+      <div class="investment-box before">
+        <h4>Before Treatment</h4>
+        <ul>
+          <li>❌ Ongoing discomfort or pain</li>
+          <li>❌ Avoiding smiling or photos</li>
+          <li>❌ Worry about worsening issues</li>
+          <li>❌ Repeated temporary fixes</li>
+        </ul>
+      </div>
+
+      <div class="investment-box after">
+        <h4>After Treatment</h4>
+        <ul>
+          <li>✔ Comfortable eating & speaking</li>
+          <li>✔ Confidence in your smile</li>
+          <li>✔ Long-term oral stability</li>
+          <li>✔ Fewer future dental costs</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<section class="treatment-delay">
+  <div class="container">
+
+    <h3>What Happens If Treatment Is Delayed?</h3>
+    <p class="delay-intro">
+      Delaying dental treatment can increase complexity, cost, and discomfort over time.
+    </p>
+
+    <div class="delay-timeline">
+
+      <div class="delay-step">
+        <span class="time">Now</span>
+        <p>Minor issue detected</p>
+        <small>Simple, affordable treatment</small>
+      </div>
+
+      <div class="delay-step">
+        <span class="time">6–12 Months</span>
+        <p>Problem worsens</p>
+        <small>More invasive treatment required</small>
+      </div>
+
+      <div class="delay-step highlight">
+        <span class="time">1–2 Years</span>
+        <p>Tooth damage or loss</p>
+        <small>Higher cost & longer recovery</small>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<?php endif; ?>
 			<?php if (is_page(3727)) : ?>
 				<style>
 					.dental-impact-section {
@@ -5170,7 +5825,130 @@ in your oral health.
 				</section>
 
 			<?php endif; ?>
+	<?php if (is_page(3269)) : ?>
+				<style>
+					.smile-investment-panel {
+  background: #f7f9fb;
+  padding: 60px 20px;
+  text-align: center;
+}
 
+.smile-investment-panel h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.smile-investment-panel .intro {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  color: #555;
+}
+
+.investment-timeline {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.timeline-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.timeline-step {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #0073aa;
+  margin-bottom: 10px;
+}
+
+.timeline-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.timeline-card p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.investment-cta {
+  margin-top: 50px;
+}
+
+.investment-cta p {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background: #0073aa;
+  color: #fff;
+  padding: 14px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background: #005f8a;
+}
+
+				</style>
+			<section class="smile-investment-panel">
+  <h2>Your Smile Is an Investment — Not Just a Treatment</h2>
+  <p class="intro">
+    Orthodontic treatment doesn’t just straighten teeth. It improves confidence,
+    oral health, and long-term wellbeing. Here’s how that investment pays off.
+  </p>
+
+  <div class="investment-timeline">
+
+    <div class="timeline-card">
+      <span class="timeline-step">Today</span>
+      <h3>The Decision</h3>
+      <p>
+        You choose discreet adult braces with flexible monthly payments,
+        avoiding future dental complications and rising treatment costs.
+      </p>
+    </div>
+
+    <div class="timeline-card">
+      <span class="timeline-step">3–6 Months</span>
+      <h3>Visible Confidence Boost</h3>
+      <p>
+        Teeth alignment improves quickly. Most patients notice a
+        more confident smile early in treatment — often sooner than expected.
+      </p>
+    </div>
+
+    <div class="timeline-card">
+      <span class="timeline-step">A Lifetime</span>
+      <h3>Lasting Benefits</h3>
+      <p>
+        Enjoy easier cleaning, healthier gums, improved bite function,
+        and a smile that supports confidence for years to come.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="investment-cta">
+    <p>
+      Spread the cost with our flexible payment plans and start your smile journey today.
+    </p>
+    <a href="#consultation-form" class="btn-primary">
+      Book Your Free Consultation
+    </a>
+  </div>
+</section>
+<?php endif; ?>
 		<?php elseif (get_row_layout() == 'info_links') :
 			$display_links  = get_sub_field('display_links'); ?>
 
@@ -6254,6 +7032,404 @@ document.addEventListener("DOMContentLoaded", function () {
 <?php endif; ?>
 
 <?php endif; ?>
+
+<?php endif; ?>
+<?php if (is_page(3715)) : ?>
+<!-- PANEL 3: TIMELINE / PROCESS PANEL -->
+<section class="timeline-panel-3715">
+  <style>
+    .timeline-panel-3715 {
+      padding: 80px 20px;
+      background: #f9f9f9;
+    }
+    .timeline-panel-3715 h2{
+      text-align: center;
+      color: #2A579A;
+      margin-bottom: 55px;
+      font-size: 34px;
+    }
+    .timeline-panel-3715 .step {
+      max-width: 950px;
+      margin: auto;
+      padding-left: 35px;
+      border-left: 4px solid #2A579A;
+      margin-bottom: 35px;
+    }
+    .timeline-panel-3715 .step h4 {
+      margin-bottom: 10px;
+      font-size: 22px;
+      color: #222;
+    }
+    .timeline-panel-3715 .step p {
+      font-size: 16px;
+      line-height: 1.8;
+      color: #444;
+    }
+  </style>
+
+  <h2>Your Dental Care Journey</h2>
+
+  <div class="step">
+    <h4>Step 1: Comprehensive Examination</h4>
+    <p>
+      Each visit begins with a detailed examination of your teeth, gums, and
+      surrounding tissues to assess your oral health and detect early warning
+      signs of dental issues.
+    </p>
+  </div>
+
+  <div class="step">
+    <h4>Step 2: Early Diagnosis & Prevention</h4>
+    <p>
+      Identifying problems early allows preventive care and timely treatment,
+      helping avoid complex procedures and maintain long-term oral health.
+    </p>
+  </div>
+
+  <div class="step">
+    <h4>Step 3: Comfortable Ongoing Care</h4>
+    <p>
+      All treatments are delivered in a safe, hygienic environment with a strong
+      focus on comfort, education, and patient confidence at every visit.
+    </p>
+  </div>
+</section>
+
+<!-- PANEL 1: ICON + CONTENT STRIP -->
+<section class="strip-panel-3715">
+  <style>
+    .strip-panel-3715 {
+      background: linear-gradient(135deg, #2A579A, #1d3f73);
+      padding: 80px 0;
+      color: #fff;
+    }
+    .strip-panel-3715 .wrap {
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      gap: 40px;
+      align-items: flex-start;
+      padding: 0 20px;
+    }
+    .strip-panel-3715 .icon {
+      font-size: 48px;
+      background: #ffffff;
+      color: #2A579A;
+      width: 90px;
+      height: 90px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      font-weight: bold;
+      flex-shrink: 0;
+    }
+    .strip-panel-3715 h3 {
+      margin: 0 0 18px;
+      font-size: 32px;
+    }
+    .strip-panel-3715 p {
+      font-size: 16px;
+      line-height: 1.9;
+    }
+    @media (max-width: 900px) {
+      .strip-panel-3715 .wrap {
+        flex-direction: column;
+      }
+    }
+  </style>
+
+  <div class="wrap">
+    <div class="icon">✓</div>
+    <div>
+      <h3>Why Regular Dental Check-ups Matter</h3>
+      <p>
+        Attending a dental check-up every six months is essential for maintaining
+        long-term oral health. During your visit, the dentist carefully examines
+        your teeth, gums, and soft tissues to detect early signs of decay, gum
+        disease, or other oral conditions. Early diagnosis allows treatment to be
+        simpler, quicker, and more affordable while helping prevent discomfort
+        and future complications. Regular check-ups also provide personalised
+        advice to support a healthy, confident smile.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="panel-boxed-3715">
+  <style>
+    .panel-boxed-3715 {
+      padding: 80px 20px;
+      background: #eef3f8;
+    }
+
+    .panel-boxed-3715 .wrap {
+      max-width: 1100px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      align-items: center;
+    }
+
+    .panel-boxed-3715 img {
+      width: 100%;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    }
+
+    .panel-boxed-3715 .content {
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 20px 45px rgba(0,0,0,0.08);
+    }
+
+    .panel-boxed-3715 h2 {
+      color: #2A579A;
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .panel-boxed-3715 p {
+      font-size: 16px;
+      line-height: 1.9;
+      color: #333;
+    }
+
+    @media (max-width: 900px) {
+      .panel-boxed-3715 .wrap {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+
+  <div class="wrap">
+    <img src="https://images.unsplash.com/photo-1600959907703-125ba1374a12" alt="Comfortable Dental Care">
+
+    <div class="content">
+      <h3>Comfort-Focused Preventive Care</h3>
+      <p>
+        Preventive dental care is essential for protecting your teeth and gums
+        from future problems. Our approach focuses on early diagnosis, personalised
+        guidance, and gentle treatments delivered in a clean and hygienic
+        environment. By addressing concerns early, we help reduce the need for
+        complex procedures while ensuring your comfort at every visit. Our goal
+        is to provide stress-free dental care that supports long-term oral health
+        and patient confidence.
+      </p>
+    </div>
+  </div>
+</section>
+<!-- PANEL 4: FEATURE GRID -->
+<section class="feature-grid-3715">
+  <style>
+    .feature-grid-3715 {
+      padding: 80px 20px;
+      background: #ffffff;
+    }
+
+    .feature-grid-3715 .wrap {
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .feature-grid-3715 h3 {
+      text-align: center;
+      color: #2A579A;
+      font-size: 34px;
+      margin-bottom: 40px;
+    }
+
+    .feature-grid-3715 .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 35px;
+    }
+
+    .feature-grid-3715 .item {
+      padding: 30px;
+      border-radius: 18px;
+      background: #f6f9fc;
+    }
+
+    .feature-grid-3715 .icon {
+      font-size: 36px;
+      color: #2A579A;
+      margin-bottom: 15px;
+    }
+
+    .feature-grid-3715 h4 {
+      font-size: 20px;
+      margin-bottom: 12px;
+      color: #222;
+    }
+
+    .feature-grid-3715 p {
+      font-size: 15px;
+      line-height: 1.8;
+      color: #444;
+    }
+  </style>
+
+  <div class="wrap">
+    <h3>Our Approach to Quality Dental Care</h3>
+
+    <div class="grid">
+      <div class="item">
+        <div class="icon">🦷</div>
+        <h4>Comprehensive Assessment</h4>
+        <p>
+          Each appointment begins with a detailed examination of your teeth,
+          gums, and soft tissues. This allows us to assess your oral health
+          thoroughly and identify early signs of potential issues before they
+          develop into serious problems.
+        </p>
+      </div>
+
+      <div class="item">
+        <div class="icon">🛡️</div>
+        <h4>Preventive Focus</h4>
+        <p>
+          Preventive care helps protect your smile long term. By detecting
+          problems early, we reduce the need for complex treatments and help
+          patients maintain healthy teeth and gums with confidence.
+        </p>
+      </div>
+
+      <div class="item">
+        <div class="icon">🤝</div>
+        <h4>Patient-Centered Care</h4>
+        <p>
+          We take time to explain findings, answer questions, and provide
+          personalised advice so patients feel informed, comfortable, and
+          confident about their dental care decisions.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- PANEL 6: MODERN FEATURE PANEL -->
+<!-- PANEL 6: MODERN FEATURE PANEL WITH VIBRANT BACKGROUND -->
+<section class="feature-panel-3715">
+  <style>
+    .feature-panel-3715 {
+      position: relative;
+      padding: 80px 20px;
+      background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+      overflow: hidden;
+      color: #fff;
+    }
+
+    /* Decorative shapes */
+    .feature-panel-3715::before {
+      content: "";
+      position: absolute;
+      top: -50px;
+      left: -50px;
+      width: 200px;
+      height: 200px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      z-index: 1;
+    }
+
+    .feature-panel-3715::after {
+      content: "";
+      position: absolute;
+      bottom: -60px;
+      right: -60px;
+      width: 250px;
+      height: 250px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 50%;
+      z-index: 1;
+    }
+
+    .feature-panel-3715 .content {
+      position: relative;
+      max-width: 1000px;
+      margin: auto;
+      z-index: 2;
+      text-align: center;
+    }
+
+    .feature-panel-3715 h3 {
+      font-size: 20px;
+      color: #fff;
+      margin-bottom: 30px;
+      font-weight: 700;
+      animation: fadeInUp 1s ease forwards;
+    }
+
+    .feature-panel-3715 p {
+      font-size: 18px;
+      line-height: 1.8;
+      color: #f0f0f0;
+      margin-bottom: 20px;
+      animation: fadeInUp 1.2s ease forwards;
+    }
+
+    .feature-panel-3715 p strong {
+      color: #ffd700;
+    }
+
+    /* Button */
+    .feature-panel-3715 .btn-learn-more {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 30px;
+      background: #ffd700;
+      color: #2a2a2a;
+      font-weight: 600;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .feature-panel-3715 .btn-learn-more:hover {
+      background: #e6c200;
+      transform: translateY(-3px);
+    }
+
+    /* Animations */
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 768px) {
+      .feature-panel-3715 h2 {
+        font-size: 32px;
+      }
+
+      .feature-panel-3715 p {
+        font-size: 16px;
+      }
+    }
+  </style>
+
+  <div class="content">
+    <h3>Your Smile, Our Priority</h3>
+
+    <p>
+      At our clinic, we focus on <strong>comprehensive dental care</strong> that ensures
+      your oral health remains strong and vibrant. Our team combines expertise,
+      compassion, and the latest technology to provide services that are both
+      effective and comfortable.
+    </p>
+
+    <p>
+      From preventive checkups to advanced treatments, we aim to <strong>protect and enhance
+      your smile</strong> for years to come. Every patient is guided with personalized
+      advice and a clear plan for maintaining optimal oral health.
+    </p>
+
+    <a href="#contact" class="btn-learn-more">Learn More</a>
+  </div>
+</section>
+
+
 
 <?php endif; ?>
 
