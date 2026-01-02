@@ -2121,6 +2121,10 @@ if (is_page(4679)) {
 		max-width: 75%;
 	}
 
+	.scrolling-gallery h3 {
+		padding: 20px;
+	}
+
 	.guarantee-banner .row.centered-content {
 		width: fit-content;
 		margin: 0 auto;
@@ -3303,9 +3307,9 @@ if (is_page(4679)) {
 
 			<section class="scrolling-gallery text-center pb-5" style="background-color: #efefef;">
 				<?php if ($header) : ?>
-					<h4>
+					<h3>
 						<?php echo esc_html($header); ?>
-					</h4>
+					</h3>
 				<?php endif; ?>
 
 				<div class="container">
