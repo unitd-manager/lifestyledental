@@ -2936,12 +2936,8 @@ if (is_page(4679)) {
 				<section class="home_hero_sec">
 	<div class="home_hero_inner">
 		<div class="home_hero_content_col">
-<<<<<<< HEAD
 			<?php if ($header) : ?>
 												<h1>
-=======
-			<?php if ($header) : ?>	<h1>
->>>>>>> 51f31065caa266e098a510dbe87f93e6c53a0e5d
 													Dental Implants 
 
 												</h1>
@@ -6553,6 +6549,404 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 <?php endif; ?>
+<?php if (is_page(3715)) : ?>
+<!-- PANEL 3: TIMELINE / PROCESS PANEL -->
+<section class="timeline-panel-3715">
+  <style>
+    .timeline-panel-3715 {
+      padding: 80px 20px;
+      background: #f9f9f9;
+    }
+    .timeline-panel-3715 h2{
+      text-align: center;
+      color: #2A579A;
+      margin-bottom: 55px;
+      font-size: 34px;
+    }
+    .timeline-panel-3715 .step {
+      max-width: 950px;
+      margin: auto;
+      padding-left: 35px;
+      border-left: 4px solid #2A579A;
+      margin-bottom: 35px;
+    }
+    .timeline-panel-3715 .step h4 {
+      margin-bottom: 10px;
+      font-size: 22px;
+      color: #222;
+    }
+    .timeline-panel-3715 .step p {
+      font-size: 16px;
+      line-height: 1.8;
+      color: #444;
+    }
+  </style>
+
+  <h2>Your Dental Care Journey</h2>
+
+  <div class="step">
+    <h4>Step 1: Comprehensive Examination</h4>
+    <p>
+      Each visit begins with a detailed examination of your teeth, gums, and
+      surrounding tissues to assess your oral health and detect early warning
+      signs of dental issues.
+    </p>
+  </div>
+
+  <div class="step">
+    <h4>Step 2: Early Diagnosis & Prevention</h4>
+    <p>
+      Identifying problems early allows preventive care and timely treatment,
+      helping avoid complex procedures and maintain long-term oral health.
+    </p>
+  </div>
+
+  <div class="step">
+    <h4>Step 3: Comfortable Ongoing Care</h4>
+    <p>
+      All treatments are delivered in a safe, hygienic environment with a strong
+      focus on comfort, education, and patient confidence at every visit.
+    </p>
+  </div>
+</section>
+
+<!-- PANEL 1: ICON + CONTENT STRIP -->
+<section class="strip-panel-3715">
+  <style>
+    .strip-panel-3715 {
+      background: linear-gradient(135deg, #2A579A, #1d3f73);
+      padding: 80px 0;
+      color: #fff;
+    }
+    .strip-panel-3715 .wrap {
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      gap: 40px;
+      align-items: flex-start;
+      padding: 0 20px;
+    }
+    .strip-panel-3715 .icon {
+      font-size: 48px;
+      background: #ffffff;
+      color: #2A579A;
+      width: 90px;
+      height: 90px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      font-weight: bold;
+      flex-shrink: 0;
+    }
+    .strip-panel-3715 h3 {
+      margin: 0 0 18px;
+      font-size: 32px;
+    }
+    .strip-panel-3715 p {
+      font-size: 16px;
+      line-height: 1.9;
+    }
+    @media (max-width: 900px) {
+      .strip-panel-3715 .wrap {
+        flex-direction: column;
+      }
+    }
+  </style>
+
+  <div class="wrap">
+    <div class="icon">✓</div>
+    <div>
+      <h3>Why Regular Dental Check-ups Matter</h3>
+      <p>
+        Attending a dental check-up every six months is essential for maintaining
+        long-term oral health. During your visit, the dentist carefully examines
+        your teeth, gums, and soft tissues to detect early signs of decay, gum
+        disease, or other oral conditions. Early diagnosis allows treatment to be
+        simpler, quicker, and more affordable while helping prevent discomfort
+        and future complications. Regular check-ups also provide personalised
+        advice to support a healthy, confident smile.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="panel-boxed-3715">
+  <style>
+    .panel-boxed-3715 {
+      padding: 80px 20px;
+      background: #eef3f8;
+    }
+
+    .panel-boxed-3715 .wrap {
+      max-width: 1100px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      align-items: center;
+    }
+
+    .panel-boxed-3715 img {
+      width: 100%;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    }
+
+    .panel-boxed-3715 .content {
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 20px 45px rgba(0,0,0,0.08);
+    }
+
+    .panel-boxed-3715 h2 {
+      color: #2A579A;
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .panel-boxed-3715 p {
+      font-size: 16px;
+      line-height: 1.9;
+      color: #333;
+    }
+
+    @media (max-width: 900px) {
+      .panel-boxed-3715 .wrap {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+
+  <div class="wrap">
+    <img src="https://images.unsplash.com/photo-1600959907703-125ba1374a12" alt="Comfortable Dental Care">
+
+    <div class="content">
+      <h3>Comfort-Focused Preventive Care</h3>
+      <p>
+        Preventive dental care is essential for protecting your teeth and gums
+        from future problems. Our approach focuses on early diagnosis, personalised
+        guidance, and gentle treatments delivered in a clean and hygienic
+        environment. By addressing concerns early, we help reduce the need for
+        complex procedures while ensuring your comfort at every visit. Our goal
+        is to provide stress-free dental care that supports long-term oral health
+        and patient confidence.
+      </p>
+    </div>
+  </div>
+</section>
+<!-- PANEL 4: FEATURE GRID -->
+<section class="feature-grid-3715">
+  <style>
+    .feature-grid-3715 {
+      padding: 80px 20px;
+      background: #ffffff;
+    }
+
+    .feature-grid-3715 .wrap {
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .feature-grid-3715 h3 {
+      text-align: center;
+      color: #2A579A;
+      font-size: 34px;
+      margin-bottom: 40px;
+    }
+
+    .feature-grid-3715 .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 35px;
+    }
+
+    .feature-grid-3715 .item {
+      padding: 30px;
+      border-radius: 18px;
+      background: #f6f9fc;
+    }
+
+    .feature-grid-3715 .icon {
+      font-size: 36px;
+      color: #2A579A;
+      margin-bottom: 15px;
+    }
+
+    .feature-grid-3715 h4 {
+      font-size: 20px;
+      margin-bottom: 12px;
+      color: #222;
+    }
+
+    .feature-grid-3715 p {
+      font-size: 15px;
+      line-height: 1.8;
+      color: #444;
+    }
+  </style>
+
+  <div class="wrap">
+    <h3>Our Approach to Quality Dental Care</h3>
+
+    <div class="grid">
+      <div class="item">
+        <div class="icon">🦷</div>
+        <h4>Comprehensive Assessment</h4>
+        <p>
+          Each appointment begins with a detailed examination of your teeth,
+          gums, and soft tissues. This allows us to assess your oral health
+          thoroughly and identify early signs of potential issues before they
+          develop into serious problems.
+        </p>
+      </div>
+
+      <div class="item">
+        <div class="icon">🛡️</div>
+        <h4>Preventive Focus</h4>
+        <p>
+          Preventive care helps protect your smile long term. By detecting
+          problems early, we reduce the need for complex treatments and help
+          patients maintain healthy teeth and gums with confidence.
+        </p>
+      </div>
+
+      <div class="item">
+        <div class="icon">🤝</div>
+        <h4>Patient-Centered Care</h4>
+        <p>
+          We take time to explain findings, answer questions, and provide
+          personalised advice so patients feel informed, comfortable, and
+          confident about their dental care decisions.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- PANEL 6: MODERN FEATURE PANEL -->
+<!-- PANEL 6: MODERN FEATURE PANEL WITH VIBRANT BACKGROUND -->
+<section class="feature-panel-3715">
+  <style>
+    .feature-panel-3715 {
+      position: relative;
+      padding: 80px 20px;
+      background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+      overflow: hidden;
+      color: #fff;
+    }
+
+    /* Decorative shapes */
+    .feature-panel-3715::before {
+      content: "";
+      position: absolute;
+      top: -50px;
+      left: -50px;
+      width: 200px;
+      height: 200px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      z-index: 1;
+    }
+
+    .feature-panel-3715::after {
+      content: "";
+      position: absolute;
+      bottom: -60px;
+      right: -60px;
+      width: 250px;
+      height: 250px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 50%;
+      z-index: 1;
+    }
+
+    .feature-panel-3715 .content {
+      position: relative;
+      max-width: 1000px;
+      margin: auto;
+      z-index: 2;
+      text-align: center;
+    }
+
+    .feature-panel-3715 h3 {
+      font-size: 20px;
+      color: #fff;
+      margin-bottom: 30px;
+      font-weight: 700;
+      animation: fadeInUp 1s ease forwards;
+    }
+
+    .feature-panel-3715 p {
+      font-size: 18px;
+      line-height: 1.8;
+      color: #f0f0f0;
+      margin-bottom: 20px;
+      animation: fadeInUp 1.2s ease forwards;
+    }
+
+    .feature-panel-3715 p strong {
+      color: #ffd700;
+    }
+
+    /* Button */
+    .feature-panel-3715 .btn-learn-more {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 30px;
+      background: #ffd700;
+      color: #2a2a2a;
+      font-weight: 600;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .feature-panel-3715 .btn-learn-more:hover {
+      background: #e6c200;
+      transform: translateY(-3px);
+    }
+
+    /* Animations */
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 768px) {
+      .feature-panel-3715 h2 {
+        font-size: 32px;
+      }
+
+      .feature-panel-3715 p {
+        font-size: 16px;
+      }
+    }
+  </style>
+
+  <div class="content">
+    <h3>Your Smile, Our Priority</h3>
+
+    <p>
+      At our clinic, we focus on <strong>comprehensive dental care</strong> that ensures
+      your oral health remains strong and vibrant. Our team combines expertise,
+      compassion, and the latest technology to provide services that are both
+      effective and comfortable.
+    </p>
+
+    <p>
+      From preventive checkups to advanced treatments, we aim to <strong>protect and enhance
+      your smile</strong> for years to come. Every patient is guided with personalized
+      advice and a clear plan for maintaining optimal oral health.
+    </p>
+
+    <a href="#contact" class="btn-learn-more">Learn More</a>
+  </div>
+</section>
+
+
+
+<?php endif; ?>
 <script>
 document.addEventListener("DOMContentLoaded", function () {
 
@@ -7034,404 +7428,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <?php endif; ?>
 
 <?php endif; ?>
-<?php if (is_page(3715)) : ?>
-<!-- PANEL 3: TIMELINE / PROCESS PANEL -->
-<section class="timeline-panel-3715">
-  <style>
-    .timeline-panel-3715 {
-      padding: 80px 20px;
-      background: #f9f9f9;
-    }
-    .timeline-panel-3715 h2{
-      text-align: center;
-      color: #2A579A;
-      margin-bottom: 55px;
-      font-size: 34px;
-    }
-    .timeline-panel-3715 .step {
-      max-width: 950px;
-      margin: auto;
-      padding-left: 35px;
-      border-left: 4px solid #2A579A;
-      margin-bottom: 35px;
-    }
-    .timeline-panel-3715 .step h4 {
-      margin-bottom: 10px;
-      font-size: 22px;
-      color: #222;
-    }
-    .timeline-panel-3715 .step p {
-      font-size: 16px;
-      line-height: 1.8;
-      color: #444;
-    }
-  </style>
 
-  <h2>Your Dental Care Journey</h2>
-
-  <div class="step">
-    <h4>Step 1: Comprehensive Examination</h4>
-    <p>
-      Each visit begins with a detailed examination of your teeth, gums, and
-      surrounding tissues to assess your oral health and detect early warning
-      signs of dental issues.
-    </p>
-  </div>
-
-  <div class="step">
-    <h4>Step 2: Early Diagnosis & Prevention</h4>
-    <p>
-      Identifying problems early allows preventive care and timely treatment,
-      helping avoid complex procedures and maintain long-term oral health.
-    </p>
-  </div>
-
-  <div class="step">
-    <h4>Step 3: Comfortable Ongoing Care</h4>
-    <p>
-      All treatments are delivered in a safe, hygienic environment with a strong
-      focus on comfort, education, and patient confidence at every visit.
-    </p>
-  </div>
-</section>
-
-<!-- PANEL 1: ICON + CONTENT STRIP -->
-<section class="strip-panel-3715">
-  <style>
-    .strip-panel-3715 {
-      background: linear-gradient(135deg, #2A579A, #1d3f73);
-      padding: 80px 0;
-      color: #fff;
-    }
-    .strip-panel-3715 .wrap {
-      max-width: 1100px;
-      margin: auto;
-      display: flex;
-      gap: 40px;
-      align-items: flex-start;
-      padding: 0 20px;
-    }
-    .strip-panel-3715 .icon {
-      font-size: 48px;
-      background: #ffffff;
-      color: #2A579A;
-      width: 90px;
-      height: 90px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 50%;
-      font-weight: bold;
-      flex-shrink: 0;
-    }
-    .strip-panel-3715 h3 {
-      margin: 0 0 18px;
-      font-size: 32px;
-    }
-    .strip-panel-3715 p {
-      font-size: 16px;
-      line-height: 1.9;
-    }
-    @media (max-width: 900px) {
-      .strip-panel-3715 .wrap {
-        flex-direction: column;
-      }
-    }
-  </style>
-
-  <div class="wrap">
-    <div class="icon">✓</div>
-    <div>
-      <h3>Why Regular Dental Check-ups Matter</h3>
-      <p>
-        Attending a dental check-up every six months is essential for maintaining
-        long-term oral health. During your visit, the dentist carefully examines
-        your teeth, gums, and soft tissues to detect early signs of decay, gum
-        disease, or other oral conditions. Early diagnosis allows treatment to be
-        simpler, quicker, and more affordable while helping prevent discomfort
-        and future complications. Regular check-ups also provide personalised
-        advice to support a healthy, confident smile.
-      </p>
-    </div>
-  </div>
-</section>
-
-<section class="panel-boxed-3715">
-  <style>
-    .panel-boxed-3715 {
-      padding: 80px 20px;
-      background: #eef3f8;
-    }
-
-    .panel-boxed-3715 .wrap {
-      max-width: 1100px;
-      margin: auto;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 50px;
-      align-items: center;
-    }
-
-    .panel-boxed-3715 img {
-      width: 100%;
-      border-radius: 20px;
-      box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-    }
-
-    .panel-boxed-3715 .content {
-      background: #ffffff;
-      padding: 40px;
-      border-radius: 20px;
-      box-shadow: 0 20px 45px rgba(0,0,0,0.08);
-    }
-
-    .panel-boxed-3715 h2 {
-      color: #2A579A;
-      font-size: 32px;
-      margin-bottom: 20px;
-    }
-
-    .panel-boxed-3715 p {
-      font-size: 16px;
-      line-height: 1.9;
-      color: #333;
-    }
-
-    @media (max-width: 900px) {
-      .panel-boxed-3715 .wrap {
-        grid-template-columns: 1fr;
-      }
-    }
-  </style>
-
-  <div class="wrap">
-    <img src="https://images.unsplash.com/photo-1600959907703-125ba1374a12" alt="Comfortable Dental Care">
-
-    <div class="content">
-      <h3>Comfort-Focused Preventive Care</h3>
-      <p>
-        Preventive dental care is essential for protecting your teeth and gums
-        from future problems. Our approach focuses on early diagnosis, personalised
-        guidance, and gentle treatments delivered in a clean and hygienic
-        environment. By addressing concerns early, we help reduce the need for
-        complex procedures while ensuring your comfort at every visit. Our goal
-        is to provide stress-free dental care that supports long-term oral health
-        and patient confidence.
-      </p>
-    </div>
-  </div>
-</section>
-<!-- PANEL 4: FEATURE GRID -->
-<section class="feature-grid-3715">
-  <style>
-    .feature-grid-3715 {
-      padding: 80px 20px;
-      background: #ffffff;
-    }
-
-    .feature-grid-3715 .wrap {
-      max-width: 1100px;
-      margin: auto;
-    }
-
-    .feature-grid-3715 h3 {
-      text-align: center;
-      color: #2A579A;
-      font-size: 34px;
-      margin-bottom: 40px;
-    }
-
-    .feature-grid-3715 .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 35px;
-    }
-
-    .feature-grid-3715 .item {
-      padding: 30px;
-      border-radius: 18px;
-      background: #f6f9fc;
-    }
-
-    .feature-grid-3715 .icon {
-      font-size: 36px;
-      color: #2A579A;
-      margin-bottom: 15px;
-    }
-
-    .feature-grid-3715 h4 {
-      font-size: 20px;
-      margin-bottom: 12px;
-      color: #222;
-    }
-
-    .feature-grid-3715 p {
-      font-size: 15px;
-      line-height: 1.8;
-      color: #444;
-    }
-  </style>
-
-  <div class="wrap">
-    <h3>Our Approach to Quality Dental Care</h3>
-
-    <div class="grid">
-      <div class="item">
-        <div class="icon">🦷</div>
-        <h4>Comprehensive Assessment</h4>
-        <p>
-          Each appointment begins with a detailed examination of your teeth,
-          gums, and soft tissues. This allows us to assess your oral health
-          thoroughly and identify early signs of potential issues before they
-          develop into serious problems.
-        </p>
-      </div>
-
-      <div class="item">
-        <div class="icon">🛡️</div>
-        <h4>Preventive Focus</h4>
-        <p>
-          Preventive care helps protect your smile long term. By detecting
-          problems early, we reduce the need for complex treatments and help
-          patients maintain healthy teeth and gums with confidence.
-        </p>
-      </div>
-
-      <div class="item">
-        <div class="icon">🤝</div>
-        <h4>Patient-Centered Care</h4>
-        <p>
-          We take time to explain findings, answer questions, and provide
-          personalised advice so patients feel informed, comfortable, and
-          confident about their dental care decisions.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- PANEL 6: MODERN FEATURE PANEL -->
-<!-- PANEL 6: MODERN FEATURE PANEL WITH VIBRANT BACKGROUND -->
-<section class="feature-panel-3715">
-  <style>
-    .feature-panel-3715 {
-      position: relative;
-      padding: 80px 20px;
-      background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
-      overflow: hidden;
-      color: #fff;
-    }
-
-    /* Decorative shapes */
-    .feature-panel-3715::before {
-      content: "";
-      position: absolute;
-      top: -50px;
-      left: -50px;
-      width: 200px;
-      height: 200px;
-      background: rgba(255, 255, 255, 0.1);
-      border-radius: 50%;
-      z-index: 1;
-    }
-
-    .feature-panel-3715::after {
-      content: "";
-      position: absolute;
-      bottom: -60px;
-      right: -60px;
-      width: 250px;
-      height: 250px;
-      background: rgba(255, 255, 255, 0.08);
-      border-radius: 50%;
-      z-index: 1;
-    }
-
-    .feature-panel-3715 .content {
-      position: relative;
-      max-width: 1000px;
-      margin: auto;
-      z-index: 2;
-      text-align: center;
-    }
-
-    .feature-panel-3715 h3 {
-      font-size: 20px;
-      color: #fff;
-      margin-bottom: 30px;
-      font-weight: 700;
-      animation: fadeInUp 1s ease forwards;
-    }
-
-    .feature-panel-3715 p {
-      font-size: 18px;
-      line-height: 1.8;
-      color: #f0f0f0;
-      margin-bottom: 20px;
-      animation: fadeInUp 1.2s ease forwards;
-    }
-
-    .feature-panel-3715 p strong {
-      color: #ffd700;
-    }
-
-    /* Button */
-    .feature-panel-3715 .btn-learn-more {
-      display: inline-block;
-      margin-top: 25px;
-      padding: 12px 30px;
-      background: #ffd700;
-      color: #2a2a2a;
-      font-weight: 600;
-      border-radius: 30px;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-
-    .feature-panel-3715 .btn-learn-more:hover {
-      background: #e6c200;
-      transform: translateY(-3px);
-    }
-
-    /* Animations */
-    @keyframes fadeInUp {
-      0% { opacity: 0; transform: translateY(20px); }
-      100% { opacity: 1; transform: translateY(0); }
-    }
-
-    @media (max-width: 768px) {
-      .feature-panel-3715 h2 {
-        font-size: 32px;
-      }
-
-      .feature-panel-3715 p {
-        font-size: 16px;
-      }
-    }
-  </style>
-
-  <div class="content">
-    <h3>Your Smile, Our Priority</h3>
-
-    <p>
-      At our clinic, we focus on <strong>comprehensive dental care</strong> that ensures
-      your oral health remains strong and vibrant. Our team combines expertise,
-      compassion, and the latest technology to provide services that are both
-      effective and comfortable.
-    </p>
-
-    <p>
-      From preventive checkups to advanced treatments, we aim to <strong>protect and enhance
-      your smile</strong> for years to come. Every patient is guided with personalized
-      advice and a clear plan for maintaining optimal oral health.
-    </p>
-
-    <a href="#contact" class="btn-learn-more">Learn More</a>
-  </div>
-</section>
-
-
-
-<?php endif; ?>
 
 
 <script src="https://unpkg.com/scrollreveal"></script>
