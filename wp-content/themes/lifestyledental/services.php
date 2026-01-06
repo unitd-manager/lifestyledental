@@ -282,12 +282,12 @@ if (is_page(4679)) {
 }
 
 .js-slide h3 {
-  font-size: 26px;
+ 
   margin-bottom: 15px;
 }
 
 .js-slide p {
-  font-size: 16px;
+ 
   line-height: 1.7;
 }
 
@@ -318,9 +318,7 @@ if (is_page(4679)) {
     padding: 35px 25px;
   }
 
-  .js-slide h3 {
-    font-size: 22px;
-  }
+  
 }
 
 
@@ -424,13 +422,13 @@ if (is_page(4679)) {
 }
 
 .bridge-types-content h2 {
-  font-size: 30px;
+ 
   margin-bottom: 15px;
   color: #bb005e;
 }
 
 .bridge-types-content p {
-  font-size: 16px;
+  
   color: #555;
   margin-bottom: 20px;
 }
@@ -516,13 +514,13 @@ if (is_page(4679)) {
 }
 
 .quick-card h4 {
-  font-size: 16px;
+ 
   margin-bottom: 8px;
   color: #1e293b;
 }
 
 .quick-card p {
-  font-size: 14px;
+ 
   color: #475569;
   line-height: 1.6;
 }
@@ -570,7 +568,7 @@ if (is_page(4679)) {
 /* Title */
 .panel-title {
   text-align: center;
-  font-size: 36px;
+ 
   color: #c2186b;
   margin-bottom: 60px;
   position: relative;
@@ -1035,7 +1033,7 @@ if (is_page(4679)) {
 }
 
 .embossed-header h4 {
-  font-size: 28px;
+ 
   color: #6a3d1c;
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -1064,14 +1062,14 @@ if (is_page(4679)) {
 }
 
 .feature-item h5 {
-  font-size: 18px;
+ 
   color: #a1457b;
   margin-bottom: 10px;
   font-weight: 600;
 }
 
 .feature-item p {
-  font-size: 14.5px;
+  
   color: #333;
   line-height: 1.6;
 }
@@ -1082,7 +1080,7 @@ if (is_page(4679)) {
 }
 
 .embossed-footer p {
-  font-size: 15px;
+  
   color: #333;
   margin-bottom: 18px;
 }
@@ -1228,7 +1226,7 @@ if (is_page(4679)) {
 }
 
 .impact-text p {
-  ;
+  
   line-height: 1.8;
   color: #444;
 }
@@ -1279,7 +1277,7 @@ if (is_page(4679)) {
 }
 
 .white-filling-mindmap h2 {
-  font-size: 34px;
+ 
   color: #b0005c;
   margin-bottom: 60px;
 }
@@ -1294,7 +1292,7 @@ if (is_page(4679)) {
 /* Center */
 .mindmap-center {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 150px;
@@ -1322,13 +1320,13 @@ if (is_page(4679)) {
 }
 
 .mindmap-node h3 {
-  font-size: 18px;
+  
   margin-bottom: 8px;
   color: #333;
 }
 
 .mindmap-node p {
-  font-size: 14px;
+ 
   color: #555;
   line-height: 1.6;
 }
@@ -1585,14 +1583,14 @@ if (is_page(4679)) {
 }
 
 .team-glass-inner h4 {
-  font-size: clamp(22px, 2.2vw, 28px);
+ 
   font-weight: 700;
   color: #b01257;
   margin-bottom: 20px;
 }
 
 .team-glass-inner p {
-  font-size: clamp(15px, 1.1vw, 16px);
+  
   line-height: 1.75;
   color: #333;
   margin-bottom: 14px;
@@ -1955,7 +1953,7 @@ if (is_page(4679)) {
 
 	.contact-form-banner p {
 		max-width: 650px;
-		font-size: 18px;
+	
 		line-height: 1.39;
 		margin-bottom: 32px;
 	}
@@ -2266,7 +2264,7 @@ if (is_page(4679)) {
 }
 
 .crown-card h3 {
-  font-size: 18px;
+  
   margin-bottom: 10px;
 }
 
@@ -4253,7 +4251,7 @@ if (is_page(4679)) {
       <p>
        Dental bridges replace missing teeth by anchoring artificial teeth to nearby natural teeth or dental implants. The supporting teeth are carefully prepared to hold crowns, while the bridge fills the gap securely and comfortably.
 
-During the procedure, your dentist takes precise measurements to ensure a proper fit and natural appearance. The bridge is custom-crafted to match the color, shape, and size of your surrounding teeth. Once placed, it restores normal chewing function, improves speech clarity, and helps maintain facial structure. Dental bridges also prevent neighboring teeth from shifting, protecting long-term oral health and ensuring a stable, confident smile.
+During the procedure, your dentist takes precise measurements to ensure a proper fit and natural appearance. The bridge is custom-crafted to match the color, shape, and size of your surrounding teeth. Once placed, it restores normal chewing function, improves speech clarity, and helps maintain facial structure.
       </p>
 
       <ul>
@@ -4342,7 +4340,7 @@ During the procedure, your dentist takes precise measurements to ensure a proper
 
     <!-- Panel 2 -->
     <div class="mindmap-node node-left">
-      <h3><i class="fas fa-shield-heart"></i> Safe & Mercury-Free</h3>
+      <h3><i class="fas fa-heart"></i> Safe & Mercury-Free</h3>
       <p>
        Made without mercury, these fillings offer a safer, biocompatible option suitable for adults and children alike and healthier alternative for modern dental care. 
       </p>
@@ -5549,7 +5547,7 @@ During the procedure, your dentist takes precise measurements to ensure a proper
    <div class="impact-visual">
      
        
-        <img src="/image/about/OIP.jpg" alt="Before Smile">
+        <img src="/image/about/teeth-whitening-scaled.jpg" alt="Before Smile">
       
     </div>
     <div class="impact-text">
@@ -5754,11 +5752,24 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="js-slide">
           <h4>Full-Arch Rehabilitation</h4>
           <p>
-           It’s frustrating to feel limited by something that should be simple and natural, like smiling or enjoying your favourite foods.
-
-We provide a comprehensive solution designed specifically for people like you, who have lost most or all of their teeth. With our Full-Arch Rehabilitation, you’ll regain your confidence, reclaim your smile, and return to a life unhindered by tooth loss.
+         Missing teeth can make smiling and eating difficult. Our Full-Arch Rehabilitation offers a complete solution for replacing most or all teeth, restoring your confidence, comfort, and natural smile so you can enjoy life again.
           </p>
         </div>
+        
+         <div class="js-slide">
+            <h4>Faster Recovery</h4>
+            <p>
+              Smile in a Day allows you to leave with fixed teeth the same day, reducing downtime and healing stress.
+            </p>
+          </div>
+
+          <!-- NEW SLIDE 2 -->
+          <div class="js-slide">
+            <h4>Natural Look & Comfort</h4>
+            <p>
+              Designed to look, feel, and function like natural teeth for everyday comfort and confidence.
+            </p>
+          </div>
 
         <div class="js-slide">
           <h4>Preserves Jawbone Structure</h4>
